@@ -1,4 +1,5 @@
 
+
 import os
 
 # ===============================
@@ -40,12 +41,13 @@ HOTSPOT_HUNTER_INTERVAL = 30
 # ===============================
 # LLM 客户端配置
 # ===============================
-# 支持统一配置 API KEY、模型名和基础 URL
+# 支持统一配置 API KEY、模型名和基础URL
+
 LLM_CONFIG = {
-    "api_key": os.getenv("LLM_API_KEY", "your-api-key-here"),
-    "model_name": os.getenv("LLM_MODEL", "gpt-4"),
-    "base_url": os.getenv("LLM_BASE_URL", None),  # 可选，支持 Gemini 或其他
-    "timeout": float(os.getenv("LLM_TIMEOUT", 1800.0)),  # 请求超时时间
+    "api_key": "your api key",  # <<-- 直接赋值密钥
+    "model_name": "deepseek-ai/DeepSeek-V3",  # <<-- 直接赋值模型名称
+    "base_url": "https://api.siliconflow.cn/v1",
+    "timeout": float(os.getenv("LLM_TIMEOUT", 1800.0)),
 }
 
 # ===============================

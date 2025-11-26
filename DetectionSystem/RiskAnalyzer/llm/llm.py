@@ -21,6 +21,7 @@ except ImportError:
 def with_retry(config=None):
     def decorator(func):
         return func
+
     return decorator
 
 
@@ -34,7 +35,8 @@ class LLMClient:
     Response parsing is fully automated.
     """
 
-    def __init__(self, api_key: Optional[str] = None, model_name: Optional[str] = None, base_url: Optional[str] = None, **kwargs):
+    def __init__(self, api_key: Optional[str] = None, model_name: Optional[str] = None, base_url: Optional[str] = None,
+                 **kwargs):
         self.api_key = api_key or LLM_CONFIG.get("api_key") or os.getenv("LLM_API_KEY")
         self.model_name = model_name or LLM_CONFIG.get("model_name") or os.getenv("LLM_MODEL_NAME")
         self.base_url = base_url or LLM_CONFIG.get("base_url") or os.getenv("LLM_API_BASE")
@@ -74,7 +76,7 @@ class LLMClient:
 
         allowed_keys = {"temperature", "top_p", "presence_penalty", "frequency_penalty", "stream"}
         extra_params = {k: v for k, v in kwargs.items() if k in allowed_keys and v is not None}
-        
+
         # 处理json_mode参数
         json_mode = kwargs.pop("json_mode", False)
         if json_mode:
@@ -107,7 +109,8 @@ class LLMClient:
             {"role": "user", "content": user_prompt},
         ]
 
-        extra_params = {k: v for k, v in kwargs.items() if k in {"temperature", "top_p", "presence_penalty", "frequency_penalty"}}
+        extra_params = {k: v for k, v in kwargs.items() if
+                        k in {"temperature", "top_p", "presence_penalty", "frequency_penalty"}}
         extra_params["stream"] = True
 
         timeout = kwargs.pop("timeout", self.timeout)

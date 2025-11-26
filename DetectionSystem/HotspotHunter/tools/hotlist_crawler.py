@@ -10,10 +10,23 @@ from datetime import datetime
 import sys
 from pathlib import Path
 
-root_dir = Path(__file__).parent.parent.parent  # 当前文件 → tools → HotspotHunter → DetectionSystem（根目录）
-sys.path.append(str(root_dir))
-# 导入配置
-from HotspotHunter.utils.config import TOPHUB_URLS,REQUEST_HEADERS, TITLE_LINK_SELECTOR, HOTNESS_SELECTOR
+# 导入项目配置 - 支持相对和绝对导入
+import sys
+from pathlib import Path
+
+# 添加项目根目录到Python路径
+current_dir = Path(__file__).parent
+project_root = current_dir.parent
+if str(project_root) not in sys.path:
+    sys.path.insert(0, str(project_root))
+
+try:
+    # 尝试相对导入
+    from ..utils.config import TOPHUB_URLS, REQUEST_HEADERS, TITLE_LINK_SELECTOR, HOTNESS_SELECTOR
+except ImportError:
+    # 回退到绝对导入
+    from utils.config import TOPHUB_URLS, REQUEST_HEADERS, TITLE_LINK_SELECTOR, HOTNESS_SELECTOR
+
 
 def hotlist_crawler(
         url: str,

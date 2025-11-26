@@ -1,0 +1,1164 @@
+[
+  "summary",
+  "items",
+  "summary",
+  "items",
+  "summary",
+  "items",
+  "summary",
+  "items",
+  "summary",
+  "items",
+  {
+    "summary": "本次热点榜单中涉及国际关系、社会事件和公众人物的负面话题较多，其中中日关系、官员违纪等话题具有较高敏感性。同时榜单中也存在一些潜在的舆论争议点，如综艺节目违规行为和网络热门挑战的模仿风险。",
+    "items": [
+      {
+        "topic": "已有12条中日航线取消所有航班",
+        "platform": "抖音",
+        "hotness": "1211.1万",
+        "risk_level": 8,
+        "category": "国际关系",
+        "reason": "大规模航线取消可能反映中日关系紧张，容易引发民族情绪对立",
+        "further_investigate": true
+      },
+      {
+        "topic": "日媒称中方拒绝1月中日韩首脑会谈",
+        "platform": "抖音",
+        "hotness": "1055.1万",
+        "risk_level": 7,
+        "category": "国际关系",
+        "reason": "涉及外交敏感信息，可能影响区域合作氛围",
+        "further_investigate": true
+      },
+      {
+        "topic": "叶寒冰被双开",
+        "platform": "抖音",
+        "hotness": "1160.8万",
+        "risk_level": 6,
+        "category": "政治敏感",
+        "reason": "高级官员违纪案件容易引发公众对政府形象的讨论",
+        "further_investigate": true
+      },
+      {
+        "topic": "荒野求生老中医鞋底藏物被退赛",
+        "platform": "抖音",
+        "hotness": "911.6万",
+        "risk_level": 5,
+        "category": "舆论争议",
+        "reason": "综艺节目违规行为可能引发关于节目真实性和道德标准的讨论",
+        "further_investigate": true
+      },
+      {
+        "topic": "刷到了好多"
+      }
+    ]
+  },
+  {
+    "summary": "当前热点榜单中涉及中日韩外交关系的议题占据榜首，显示出较高的国际政治敏感性。同时，消费品质量问题和娱乐行业争议也引发了公众关注，需警惕潜在的社会情绪波动。",
+    "items": [
+      {
+        "topic": "日媒称中方拒绝明年1月中日韩首脑会谈",
+        "platform": "微博",
+        "hotness": "118万",
+        "risk_level": 9,
+        "category": "国际关系",
+        "reason": "涉及中日韩三国高层外交，可能引发区域政治紧张和国际舆论关注",
+        "further_investigate": true
+      },
+      {
+        "topic": "知名婴童品牌被检出菌落超标48倍",
+        "platform": "微博",
+        "hotness": "20万",
+        "risk_level": 8,
+        "category": "消费品安全",
+        "reason": "婴幼儿产品质量问题极易引发家长群体愤怒和广泛社会关注",
+        "further_investigate": true
+      },
+      {
+        "topic": "台湾没什么事日本真有事了",
+        "platform": "微博",
+        "hotness": "31万",
+        "risk_level": 7,
+        "category": "两岸关系",
+        "reason": "涉及台湾问题的敏感性表述，可能引发两岸舆论争议",
+        "further_investigate": true
+      },
+      {
+        "topic": "女子斐乐购鞋遭备注买双鞋子都嫌贵",
+        "platform": "微博",
+        "hotness": "19万",
+        "risk_level": 5,
+        "category": "消费者权益",
+        "reason": "反映商家服务态度问题，可能引发消费者共鸣和品牌形象受损",
+        "further_investigate": true
+      },
+      {
+        "topic": "高市65%支持率传递危险信号",
+        "platform": "微博",
+        "hotness": "16万",
+        "risk_level": 6,
+        "category": "政治敏感",
+        "reason": "涉及日本政治人物支持率变化，可能影响中日关系舆论走向",
+        "further_investigate": true
+      },
+      {
+        "topic": "中国44项世界非遗位居第一",
+        "platform": "微博",
+        "hotness": "35万",
+        "risk_level": 3,
+        "category": "潜在风险",
+        "reason": "正面新闻但可能引发国际比较和争议，值得关注后续舆论反应",
+        "further_investigate": false
+      }
+    ]
+  },
+  {
+    "summary": "当前热点榜单涉及国际关系、社会事件和企业舆情等多个领域，其中部分话题具有较高的敏感性和潜在风险。特别是涉及国际冲突和企业内部管理的话题，容易引发公众广泛讨论和情绪波动。",
+    "items": [
+      {
+        "topic": "美结束俄乌冲突28点计划曝光",
+        "platform": "知乎",
+        "hotness": "1",
+        "risk_level": 8,
+        "category": "国际关系",
+        "reason": "涉及国际冲突的敏感信息，可能引发公众对国际局势的担忧和讨论。",
+        "further_investigate": true
+      },
+      {
+        "topic": "中方:如日方武力介入将行使自卫权",
+        "platform": "知乎",
+        "hotness": "4",
+        "risk_level": 7,
+        "category": "国际关系",
+        "reason": "涉及中日关系的敏感话题，可能引发民族情绪和国际舆论关注。",
+        "further_investigate": true
+      },
+      {
+        "topic": "俞敏洪深夜再发全员信向员工道歉",
+        "platform": "知乎",
+        "hotness": "8",
+        "risk_level": 5,
+        "category": "企业舆情",
+        "reason": "企业高管的公开道歉可能涉及内部管理问题，容易引发公众对企业形象的讨论。",
+        "further_investigate": true
+      },
+      {
+        "topic": "小鹏脚夹门事件员工被顶格处理",
+        "platform": "知乎",
+        "hotness": "9",
+        "risk_level": 6,
+        "category": "企业舆情",
+        "reason": "涉及企业员工处理事件，可能引发公众对企业的管理方式和员工权益的关注。",
+        "further_investigate": true
+      },
+      {
+        "topic": "男孩发烧十几个小时退烧后脸变黑",
+        "platform": "知乎",
+        "hotness": "11",
+        "risk_level": 4,
+        "category": "社会事件",
+        "reason": "涉及健康问题的社会事件，可能引发公众对医疗安全和健康风险的担忧。",
+        "further_investigate": true
+      }
+    ]
+  },
+  {
+    "summary": "当前热点榜单中涉及中日关系的议题占据主导，显示出两国关系的紧张态势。同时，社会安全和企业事故等话题也引发公众关注。",
+    "items": [
+      {
+        "topic": "中方回应日本将在台湾附近部署导弹",
+        "platform": "头条",
+        "hotness": "2475.2万",
+        "risk_level": 9,
+        "category": "群体冲突",
+        "reason": "涉及敏感的中日关系和台湾问题，可能引发民族情绪和国际争议。",
+        "further_investigate": true
+      },
+      {
+        "topic": "12条中日航线取消全部航班",
+        "platform": "头条",
+        "hotness": "1833.7万",
+        "risk_level": 7,
+        "category": "潜在风险",
+        "reason": "航班取消可能影响两国人员往来和经济交流，需关注后续发展。",
+        "further_investigate": true
+      },
+      {
+        "topic": "正泰集团义乌工厂发生火灾",
+        "platform": "头条",
+        "hotness": "1358.4万",
+        "risk_level": 6,
+        "category": "社会安全",
+        "reason": "企业安全事故可能引发对生产安全的广泛讨论和监管关注。",
+        "further_investigate": true
+      },
+      {
+        "topic": "廉价首饰致癌物超标9000多倍",
+        "platform": "头条",
+        "hotness": "274.3万",
+        "risk_level": 5,
+        "category": "舆论争议",
+        "reason": "产品质量问题可能引发消费者恐慌和对监管的质疑。",
+        "further_investigate": true
+      },
+      {
+        "topic": "中国民间的“手搓飞行梦”有多狂野",
+        "platform": "头条",
+        "hotness": "67.6万",
+        "risk_level": 3,
+        "category": "潜在风险",
+        "reason": "民间自制飞行器可能涉及安全隐患，值得关注其社会影响。",
+        "further_investigate": false
+      }
+    ]
+  },
+  {
+    "summary": "当前热点榜单中涉及国际关系、航班取消等敏感话题，同时存在反腐新闻和娱乐争议内容。榜单整体呈现多元化趋势，但部分话题可能引发舆论争议或外交关注。",
+    "items": [
+      {
+        "topic": "美乌联合声明",
+        "platform": "抖音",
+        "hotness": "1212.2万",
+        "risk_level": 8,
+        "category": "国际关系",
+        "reason": "涉及中美关系和乌克兰问题，可能引发舆论争议和国际关注",
+        "further_investigate": true
+      },
+      {
+        "topic": "已有12条中日航线取消所有航班",
+        "platform": "抖音",
+        "hotness": "1211.1万",
+        "risk_level": 7,
+        "category": "国际关系",
+        "reason": "大规模航班取消可能反映中日关系紧张，需要关注后续发展",
+        "further_investigate": true
+      },
+      {
+        "topic": "日媒称中方拒绝1月中日韩首脑会谈",
+        "platform": "抖音",
+        "hotness": "1055.1万",
+        "risk_level": 6,
+        "category": "国际关系",
+        "reason": "涉及中日韩三国高层外交，可能引发区域关系讨论",
+        "further_investigate": true
+      },
+      {
+        "topic": "叶寒冰被双开",
+        "platform": "抖音",
+        "hotness": "1160.8万",
+        "risk_level": 5,
+        "category": "反腐新闻",
+        "reason": "高级官员违纪处理可能引发公众对反腐工作的讨论",
+        "further_investigate": true
+      },
+      {
+        "topic": "荒野求生老中医鞋底藏物被退赛",
+        "platform": "抖音",
+        "hotness": "911.6万",
+        "risk_level": 4,
+        "category": "舆论争议",
+        "reason": "综艺节目争议事件可能引发关于节目规则和公平性的讨论",
+        "further_investigate": false
+      }
+    ]
+  },
+  {
+    "summary": "本次热点榜中涉及中日韩外交关系的议题热度较高，且多个话题带有负面情绪，需重点关注。此外，消费品安全和品牌负面新闻也值得警惕。",
+    "items": [
+      {
+        "topic": "日媒称中方拒绝明年1月中日韩首脑会谈",
+        "platform": "微博",
+        "hotness": "118万",
+        "risk_level": 8,
+        "category": "舆论争议",
+        "reason": "涉及中日韩三国高层外交关系，可能引发民族情绪和国际舆论关注。",
+        "further_investigate": true
+      },
+      {
+        "topic": "中方用胆敢二字警告日本",
+        "platform": "微博",
+        "hotness": "35万",
+        "risk_level": 7,
+        "category": "舆论争议",
+        "reason": "措辞强硬，可能激化中日民间对立情绪。",
+        "further_investigate": true
+      },
+      {
+        "topic": "知名婴童品牌被检出菌落超标48倍",
+        "platform": "微博",
+        "hotness": "20万",
+        "risk_level": 6,
+        "category": "消费品安全",
+        "reason": "涉及婴幼儿产品安全问题，容易引发家长群体恐慌和品牌信任危机。",
+        "further_investigate": true
+      },
+      {
+        "topic": "女子斐乐购鞋遭备注买双鞋子都嫌贵",
+        "platform": "微博",
+        "hotness": "19万",
+        "risk_level": 5,
+        "category": "潜在风险",
+        "reason": "反映消费者权益问题，可能引发对品牌服务态度的集体讨论。",
+        "further_investigate": true
+      },
+      {
+        "topic": "中国44项世界非遗位居第一",
+        "platform": "微博",
+        "hotness": "35万",
+        "risk_level": 3,
+        "category": "潜在风险",
+        "reason": "虽然正面，但可能引发与其他国家的文化保护比较争议。",
+        "further_investigate": false
+      }
+    ]
+  },
+  {
+    "summary": "当前热点榜单涉及国际关系、社会事件和企业管理等多个领域，其中多个话题具有潜在的敏感性和争议性。特别是涉及国际冲突和企业内部管理的话题，可能引发广泛的舆论关注和讨论。",
+    "items": [
+      {
+        "topic": "美结束俄乌冲突28点计划曝光",
+        "platform": "知乎",
+        "hotness": "1",
+        "risk_level": 8,
+        "category": "国际关系",
+        "reason": "涉及国际冲突，可能引发对国际关系和外交政策的广泛讨论和争议。",
+        "further_investigate": true
+      },
+      {
+        "topic": "中方:如日方武力介入将行使自卫权",
+        "platform": "知乎",
+        "hotness": "4",
+        "risk_level": 7,
+        "category": "国际关系",
+        "reason": "涉及中日关系，可能引发民族情绪和国际舆论的关注。",
+        "further_investigate": true
+      },
+      {
+        "topic": "俞敏洪深夜再发全员信向员工道歉",
+        "platform": "知乎",
+        "hotness": "8",
+        "risk_level": 5,
+        "category": "企业管理",
+        "reason": "涉及企业内部管理和员工关系，可能引发对企业文化和领导力的讨论。",
+        "further_investigate": true
+      },
+      {
+        "topic": "小鹏脚夹门事件员工被顶格处理",
+        "platform": "知乎",
+        "hotness": "9",
+        "risk_level": 6,
+        "category": "企业管理",
+        "reason": "涉及员工权益和企业处理方式，可能引发对劳动法和企业责任的讨论。",
+        "further_investigate": true
+      },
+      {
+        "topic": "男孩发烧十几个小时退烧后脸变黑",
+        "platform": "知乎",
+        "hotness": "11",
+        "risk_level": 4,
+        "category": "公共卫生",
+        "reason": "涉及健康问题，可能引发对医疗服务和公共卫生安全的关注。",
+        "further_investigate": true
+      }
+    ]
+  },
+  {
+    "summary": "本次热点榜中涉及中日关系的议题占据主导地位，多个话题围绕台湾问题、军事部署和经济制裁展开，显示出当前中日关系的紧张态势。同时，榜单中也出现了社会安全问题和公共卫生谣言，这些都可能引发公众关注和讨论。",
+    "items": [
+      {
+        "topic": "中方回应日本将在台湾附近部署导弹",
+        "platform": "头条",
+        "hotness": "2475.2万",
+        "risk_level": 9,
+        "category": "社会安全",
+        "reason": "涉及国家主权和领土完整，可能引发中日关系的进一步紧张和国际社会的关注。",
+        "further_investigate": true
+      },
+      {
+        "topic": "12条中日航线取消全部航班",
+        "platform": "头条",
+        "hotness": "1833.7万",
+        "risk_level": 7,
+        "category": "潜在风险",
+        "reason": "航班取消可能影响两国人员往来和经济交流，反映出双边关系的紧张。",
+        "further_investigate": true
+      },
+      {
+        "topic": "正泰集团义乌工厂发生火灾",
+        "platform": "头条",
+        "hotness": "1358.4万",
+        "risk_level": 5,
+        "category": "社会安全",
+        "reason": "工厂火灾可能涉及安全生产问题，引发公众对工业安全的关注。",
+        "further_investigate": true
+      },
+      {
+        "topic": "廉价首饰致癌物超标9000多倍",
+        "platform": "头条",
+        "hotness": "274.3万",
+        "risk_level": 6,
+        "category": "公共卫生",
+        "reason": "涉及消费者健康和产品质量问题，可能引发公众对商品安全的担忧。",
+        "further_investigate": true
+      },
+      {
+        "topic": "山东调查面条厂手搓“三无飞机”",
+        "platform": "头条",
+        "hotness": "674.6万",
+        "risk_level": 4,
+        "category": "潜在风险",
+        "reason": "涉及民间创新与监管的冲突，可能引发对创新与安全平衡的讨论。",
+        "further_investigate": true
+      }
+    ]
+  },
+  {
+    "summary": "本次热点榜单中涉及多个国际关系和国内政治敏感话题，如美乌联合声明、中日航线取消等，显示出当前国际形势的紧张。同时，榜单中也包含了一些社会争议话题和潜在风险事件，如荒野求生节目中的违规行为和网络热门挑战，需要密切关注其后续发展。",
+    "items": [
+      {
+        "topic": "美乌联合声明",
+        "platform": "抖音",
+        "hotness": "1212.3万",
+        "risk_level": 8,
+        "category": "国际关系",
+        "reason": "涉及中美关系及乌克兰问题，可能引发国内舆论对国际立场的讨论和争议。",
+        "further_investigate": true
+      },
+      {
+        "topic": "已有12条中日航线取消所有航班",
+        "platform": "抖音",
+        "hotness": "1211.2万",
+        "risk_level": 7,
+        "category": "国际关系",
+        "reason": "中日关系敏感，航班取消可能引发民众对两国关系的担忧和讨论。",
+        "further_investigate": true
+      },
+      {
+        "topic": "日媒称中方拒绝1月中日韩首脑会谈",
+        "platform": "抖音",
+        "hotness": "1038.6万",
+        "risk_level": 7,
+        "category": "国际关系",
+        "reason": "涉及中日韩三国高层互动，可能引发对区域合作和政治立场的讨论。",
+        "further_investigate": true
+      },
+      {
+        "topic": "荒野求生老中医鞋底藏物被退赛",
+        "platform": "抖音",
+        "hotness": "910.5万",
+        "risk_level": 5,
+        "category": "舆论争议",
+        "reason": "节目中的违规行为可能引发观众对节目公平性和道德标准的质疑。",
+        "further_investigate": true
+      },
+      {
+        "topic": "刷到了好多“偷甘蔗”第一视角",
+        "platform": "抖音",
+        "hotness": "900.9万",
+        "risk_level": 4,
+        "category": "潜在风险",
+        "reason": "此类内容可能引发模仿行为，对社会秩序和青少年教育产生不良影响。",
+        "further_investigate": true
+      }
+    ]
+  },
+  {
+    "summary": "当前热点榜单中涉及中日韩外交关系的议题热度较高，显示出一定的国际政治敏感性；同时，消费品质量和品牌负面新闻也引发公众关注。",
+    "items": [
+      {
+        "topic": "日媒称中方拒绝明年1月中日韩首脑会谈",
+        "platform": "微博",
+        "hotness": "118万",
+        "risk_level": 8,
+        "category": "国际关系",
+        "reason": "涉及中日韩三国高层外交互动，可能引发国际舆论关注和解读。",
+        "further_investigate": true
+      },
+      {
+        "topic": "知名婴童品牌被检出菌落超标48倍",
+        "platform": "微博",
+        "hotness": "20万",
+        "risk_level": 7,
+        "category": "消费品安全",
+        "reason": "涉及婴幼儿产品安全问题，容易引发家长群体焦虑和品牌信任危机。",
+        "further_investigate": true
+      },
+      {
+        "topic": "女子斐乐购鞋遭备注买双鞋子都嫌贵",
+        "platform": "微博",
+        "hotness": "19万",
+        "risk_level": 5,
+        "category": "消费者权益",
+        "reason": "涉及品牌服务态度问题，可能引发消费者共鸣和品牌形象受损。",
+        "further_investigate": true
+      },
+      {
+        "topic": "中国44项世界非遗位居第一",
+        "platform": "微博",
+        "hotness": "35万",
+        "risk_level": 3,
+        "category": "潜在风险",
+        "reason": "虽然正面新闻，但可能引发国际比较和文化自豪感的讨论，值得关注后续舆论走向。",
+        "further_investigate": false
+      }
+    ]
+  },
+  {
+    "summary": "本次热点榜单涉及国际关系、社会事件和企业舆情等多个领域。其中俄乌冲突计划、中日关系等国际话题具有较高敏感性，企业舆情如三只松鼠员工命名也值得关注。",
+    "items": [
+      {
+        "topic": "美结束俄乌冲突28点计划曝光",
+        "platform": "知乎",
+        "hotness": "1",
+        "risk_level": 8,
+        "category": "国际关系",
+        "reason": "涉及大国博弈敏感信息，可能引发国际舆论关注和争议",
+        "further_investigate": true
+      },
+      {
+        "topic": "中方:如日方武力介入将行使自卫权",
+        "platform": "知乎",
+        "hotness": "4",
+        "risk_level": 7,
+        "category": "国际关系",
+        "reason": "涉及中日敏感关系表态，可能引发民族情绪波动",
+        "further_investigate": true
+      },
+      {
+        "topic": "三只松鼠员工的鼠名让网友上头",
+        "platform": "知乎",
+        "hotness": "3",
+        "risk_level": 5,
+        "category": "企业舆情",
+        "reason": "企业员工命名方式引发争议，可能影响品牌形象",
+        "further_investigate": true
+      },
+      {
+        "topic": "男孩发烧十几个小时退烧后脸变黑",
+        "platform": "知乎",
+        "hotness": "11",
+        "risk_level": 4,
+        "category": "公共卫生",
+        "reason": "异常医疗案例可能引发公众对医疗安全的担忧",
+        "further_investigate": true
+      }
+    ]
+  },
+  {
+    "summary": "本次热点榜中，中日关系相关话题占据主导，涉及军事、外交和经济多个层面，显示出当前中日关系的紧张态势。同时，国内社会议题如工厂火灾、食品安全等也引发广泛关注，需警惕潜在的社会不满情绪。",
+    "items": [
+      {
+        "topic": "中方回应日本将在台湾附近部署导弹",
+        "platform": "头条",
+        "hotness": "2486.9万",
+        "risk_level": 9,
+        "category": "社会安全",
+        "reason": "涉及敏感的台湾问题和中日军事对峙，可能引发民族情绪和国际关系紧张。",
+        "further_investigate": true
+      },
+      {
+        "topic": "12条中日航线取消全部航班",
+        "platform": "头条",
+        "hotness": "1842.4万",
+        "risk_level": 7,
+        "category": "潜在风险",
+        "reason": "大规模航班取消可能影响两国人员往来和经济交流，需关注后续影响。",
+        "further_investigate": true
+      },
+      {
+        "topic": "正泰集团义乌工厂发生火灾",
+        "platform": "头条",
+        "hotness": "1364.9万",
+        "risk_level": 6,
+        "category": "社会安全",
+        "reason": "工厂火灾可能引发对安全生产管理的质疑，需关注事故原因和伤亡情况。",
+        "further_investigate": true
+      },
+      {
+        "topic": "廉价首饰致癌物超标9000多倍",
+        "platform": "头条",
+        "hotness": "275.6万",
+        "risk_level": 5,
+        "category": "舆论争议",
+        "reason": "涉及消费品安全和健康问题，可能引发公众恐慌和对监管的质疑。",
+        "further_investigate": true
+      },
+      {
+        "topic": "七星山荒野求生决赛开启",
+        "platform": "头条",
+        "hotness": "1011.1万",
+        "risk_level": 3,
+        "category": "潜在风险",
+        "reason": "户外真人秀节目可能存在安全隐患，需关注活动组织和参与者安全。",
+        "further_investigate": false
+      }
+    ]
+  },
+  {
+    "topic": "美乌联合声明",
+    "platform": "抖音",
+    "hotness": "1212.3万",
+    "risk_level": 8,
+    "category": "舆论争议",
+    "reason": "涉及国际政治敏感话题，可能引发网民对中美关系的讨论和争议。",
+    "further_investigate": true
+  },
+  {
+    "topic": "已有12条中日航线取消所有航班",
+    "platform": "抖音",
+    "hotness": "1211.2万",
+    "risk_level": 7,
+    "category": "国际关系",
+    "reason": "涉及中日关系，可能引发网民对两国关系的负面情绪和讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "叶寒冰被双开",
+    "platform": "抖音",
+    "hotness": "1161.7万",
+    "risk_level": 6,
+    "category": "社会安全",
+    "reason": "涉及官员违纪问题，可能引发公众对政府反腐工作的关注和讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "日媒称中方拒绝1月中日韩首脑会谈",
+    "platform": "抖音",
+    "hotness": "1038.6万",
+    "risk_level": 7,
+    "category": "国际关系",
+    "reason": "涉及中日韩三国关系，可能引发网民对东亚地区政治局势的讨论和争议。",
+    "further_investigate": true
+  },
+  {
+    "topic": "中国对日本的最新警告很不一般",
+    "platform": "抖音",
+    "hotness": "781.6万",
+    "risk_level": 6,
+    "category": "国际关系",
+    "reason": "涉及中日关系，可能引发网民对两国关系的负面情绪和讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "王会民被开除党籍",
+    "platform": "抖音",
+    "hotness": "777.6万",
+    "risk_level": 5,
+    "category": "社会安全",
+    "reason": "涉及官员违纪问题，可能引发公众对政府反腐工作的关注和讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "刷到了好多“偷甘蔗”第一视角",
+    "platform": "抖音",
+    "hotness": "900.9万",
+    "risk_level": 4,
+    "category": "潜在风险",
+    "reason": "可能引发对农村治安问题的讨论，甚至模仿行为，值得关注。",
+    "further_investigate": true
+  },
+  {
+    "topic": "日媒称中方拒绝明年1月中日韩首脑会谈",
+    "platform": "微博",
+    "hotness": "117万",
+    "risk_level": 8,
+    "category": "群体冲突",
+    "reason": "涉及中日韩三国关系，可能引发民族情绪和国际舆论争议。",
+    "further_investigate": true
+  },
+  {
+    "topic": "中方回应日本部署中程导弹",
+    "platform": "微博",
+    "hotness": "41万",
+    "risk_level": 7,
+    "category": "社会安全",
+    "reason": "涉及国家安全和地区稳定，可能引发公众关注和讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "知名婴童品牌被检出菌落超标48倍",
+    "platform": "微博",
+    "hotness": "29万",
+    "risk_level": 6,
+    "category": "舆论争议",
+    "reason": "涉及产品质量和儿童健康，可能引发消费者不满和品牌危机。",
+    "further_investigate": true
+  },
+  {
+    "topic": "女子租房第4天被陌生人开门闯入",
+    "platform": "微博",
+    "hotness": "11万",
+    "risk_level": 5,
+    "category": "社会安全",
+    "reason": "涉及个人隐私和安全问题，可能引发公众对租房安全的担忧。",
+    "further_investigate": true
+  },
+  {
+    "topic": "洗浴中心辟谣因接待印度人濒临倒闭",
+    "platform": "微博",
+    "hotness": "11万",
+    "risk_level": 4,
+    "category": "潜在风险",
+    "reason": "涉及种族和文化敏感话题，可能引发不必要的争议和误解。",
+    "further_investigate": true
+  },
+  {
+    "topic": "美结束俄乌冲突28点计划曝光",
+    "platform": "知乎",
+    "hotness": "1",
+    "risk_level": 8,
+    "category": "国际关系",
+    "reason": "涉及国际冲突和外交政策，可能引发敏感讨论和国际反响。",
+    "further_investigate": true
+  },
+  {
+    "topic": "中方:如日方武力介入将行使自卫权",
+    "platform": "知乎",
+    "hotness": "4",
+    "risk_level": 7,
+    "category": "国际关系",
+    "reason": "涉及中日关系和军事行动，可能引发民族情绪和国际关注。",
+    "further_investigate": true
+  },
+  {
+    "topic": "俞敏洪深夜再发全员信向员工道歉",
+    "platform": "知乎",
+    "hotness": "8",
+    "risk_level": 5,
+    "category": "企业舆情",
+    "reason": "涉及知名企业家和员工关系，可能引发对企业管理的讨论和质疑。",
+    "further_investigate": true
+  },
+  {
+    "topic": "小鹏脚夹门事件员工被顶格处理",
+    "platform": "知乎",
+    "hotness": "9",
+    "risk_level": 6,
+    "category": "企业舆情",
+    "reason": "涉及企业员工管理和公众形象，可能引发对企业的负面评价。",
+    "further_investigate": true
+  },
+  {
+    "topic": "男孩发烧十几个小时退烧后脸变黑",
+    "platform": "知乎",
+    "hotness": "11",
+    "risk_level": 4,
+    "category": "社会安全",
+    "reason": "涉及公共卫生和医疗安全，可能引发公众对健康问题的担忧。",
+    "further_investigate": true
+  },
+  {
+    "topic": "中方回应日本将在台湾附近部署导弹",
+    "platform": "头条",
+    "hotness": "2497.2万",
+    "risk_level": 9,
+    "category": "社会安全",
+    "reason": "涉及中日关系和台湾问题，可能引发国际关系和地区安全的紧张。",
+    "further_investigate": true
+  },
+  {
+    "topic": "12条中日航线取消全部航班",
+    "platform": "头条",
+    "hotness": "1850.0万",
+    "risk_level": 7,
+    "category": "潜在风险",
+    "reason": "航班取消可能影响两国人员往来和经济交流，需关注后续影响。",
+    "further_investigate": true
+  },
+  {
+    "topic": "正泰集团义乌工厂发生火灾",
+    "platform": "头条",
+    "hotness": "1240.1万",
+    "risk_level": 5,
+    "category": "社会安全",
+    "reason": "工厂火灾可能引发对安全生产的关注和讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "如何看待大医院“瘦身”现象",
+    "platform": "头条",
+    "hotness": "831.2万",
+    "risk_level": 4,
+    "category": "舆论争议",
+    "reason": "涉及医疗资源分配和社会公平问题，可能引发公众讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "廉价首饰致癌物超标9000多倍",
+    "platform": "头条",
+    "hotness": "276.7万",
+    "risk_level": 6,
+    "category": "社会安全",
+    "reason": "涉及产品质量和消费者健康，可能引发公众恐慌和监管关注。",
+    "further_investigate": true
+  },
+  {
+    "topic": "日本将在台湾附近岛屿部署导弹",
+    "platform": "抖音",
+    "hotness": "1205.4万",
+    "risk_level": 9,
+    "category": "社会安全",
+    "reason": "涉及敏感的地缘政治问题，可能引发民众情绪波动和国际关系紧张。",
+    "further_investigate": true
+  },
+  {
+    "topic": "已有12条中日航线取消所有航班",
+    "platform": "抖音",
+    "hotness": "1181.8万",
+    "risk_level": 7,
+    "category": "群体冲突",
+    "reason": "航线取消可能反映两国关系的紧张，容易引发民众对中日关系的负面情绪。",
+    "further_investigate": true
+  },
+  {
+    "topic": "日媒称中方拒绝1月中日韩首脑会谈",
+    "platform": "抖音",
+    "hotness": "1086.2万",
+    "risk_level": 6,
+    "category": "舆论争议",
+    "reason": "外交会谈的拒绝可能被解读为两国关系进一步恶化，引发公众讨论和猜测。",
+    "further_investigate": true
+  },
+  {
+    "topic": "刷到了好多“偷甘蔗”第一视角",
+    "platform": "抖音",
+    "hotness": "1100.4万",
+    "risk_level": 4,
+    "category": "潜在风险",
+    "reason": "内容可能涉及不良行为的模仿或美化，对青少年价值观产生负面影响。",
+    "further_investigate": true
+  },
+  {
+    "topic": "中国对日本的最新警告很不一般",
+    "platform": "抖音",
+    "hotness": "781.4万",
+    "risk_level": 8,
+    "category": "社会安全",
+    "reason": "涉及国家间的严肃警告，可能引发公众对中日关系未来走向的担忧和讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "中方回应日本部署中程导弹",
+    "platform": "微博",
+    "hotness": "114万",
+    "risk_level": 9,
+    "category": "社会安全",
+    "reason": "涉及国家间的军事部署和外交回应，容易引发民族情绪和国际关系紧张。",
+    "further_investigate": true
+  },
+  {
+    "topic": "日媒称中方拒绝明年1月中日韩首脑会谈",
+    "platform": "微博",
+    "hotness": "50万",
+    "risk_level": 8,
+    "category": "群体冲突",
+    "reason": "涉及中日韩三国高层外交关系，可能引发舆论争议和国际关注。",
+    "further_investigate": true
+  },
+  {
+    "topic": "知名婴童品牌被检出菌落超标48倍",
+    "platform": "微博",
+    "hotness": "29万",
+    "risk_level": 7,
+    "category": "社会安全",
+    "reason": "涉及婴幼儿健康安全问题，容易引发家长群体的恐慌和不满。",
+    "further_investigate": true
+  },
+  {
+    "topic": "女子斐乐购鞋遭备注买双鞋子都嫌贵",
+    "platform": "微博",
+    "hotness": "20万",
+    "risk_level": 5,
+    "category": "舆论争议",
+    "reason": "涉及消费者权益和商家服务态度，可能引发公众对品牌的不满和抵制。",
+    "further_investigate": true
+  },
+  {
+    "topic": "我自愿加入地枭组织",
+    "platform": "微博",
+    "hotness": "19万",
+    "risk_level": 6,
+    "category": "潜在风险",
+    "reason": "标题模糊且带有组织性质，可能存在非法或极端组织的宣传风险。",
+    "further_investigate": true
+  },
+  {
+    "topic": "美结束俄乌冲突28点计划曝光",
+    "platform": "知乎",
+    "hotness": "1",
+    "risk_level": 8,
+    "category": "国际关系",
+    "reason": "涉及国际冲突和外交政策，可能引发舆论争议和国际关注。",
+    "further_investigate": true
+  },
+  {
+    "topic": "抛售日本开始了",
+    "platform": "知乎",
+    "hotness": "2",
+    "risk_level": 7,
+    "category": "国际关系",
+    "reason": "标题具有煽动性，可能引发中日关系的负面讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "中方:如日方武力介入将行使自卫权",
+    "platform": "知乎",
+    "hotness": "5",
+    "risk_level": 9,
+    "category": "国际关系",
+    "reason": "涉及国家主权和安全，可能引发激烈的舆论反应和国际关注。",
+    "further_investigate": true
+  },
+  {
+    "topic": "俞敏洪深夜再发全员信向员工道歉",
+    "platform": "知乎",
+    "hotness": "7",
+    "risk_level": 6,
+    "category": "企业舆情",
+    "reason": "涉及知名企业家和公司内部管理，可能引发对企业文化和管理的讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "小鹏脚夹门事件员工被顶格处理",
+    "platform": "知乎",
+    "hotness": "9",
+    "risk_level": 5,
+    "category": "企业舆情",
+    "reason": "涉及企业员工管理和公众形象，可能引发对员工权益和企业责任的讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "男孩发烧十几个小时退烧后脸变黑",
+    "platform": "知乎",
+    "hotness": "11",
+    "risk_level": 4,
+    "category": "社会安全",
+    "reason": "涉及公共卫生和医疗安全，可能引发公众对医疗体系的担忧。",
+    "further_investigate": true
+  },
+  {
+    "topic": "中方回应日本将在台湾附近部署导弹",
+    "platform": "头条",
+    "hotness": "2284.0万",
+    "risk_level": 9,
+    "category": "社会安全",
+    "reason": "涉及国家主权和领土完整，可能引发国际关系和民族情绪的紧张。",
+    "further_investigate": true
+  },
+  {
+    "topic": "12条中日航线取消全部航班",
+    "platform": "头条",
+    "hotness": "1692.0万",
+    "risk_level": 7,
+    "category": "潜在风险",
+    "reason": "航班取消可能影响两国人员往来和经济交流，需关注后续发展。",
+    "further_investigate": true
+  },
+  {
+    "topic": "廉价首饰致癌物超标9000多倍",
+    "platform": "头条",
+    "hotness": "253.1万",
+    "risk_level": 6,
+    "category": "舆论争议",
+    "reason": "涉及消费者健康和产品质量问题，可能引发公众对市场监管的质疑。",
+    "further_investigate": true
+  },
+  {
+    "topic": "正泰集团义乌工厂发生火灾",
+    "platform": "头条",
+    "hotness": "622.5万",
+    "risk_level": 5,
+    "category": "社会安全",
+    "reason": "工厂火灾可能涉及安全生产问题，需关注事故原因和后续处理。",
+    "further_investigate": true
+  },
+  {
+    "topic": "为什么大家都跑去买二手房了",
+    "platform": "头条",
+    "hotness": "1026.3万",
+    "risk_level": 4,
+    "category": "潜在风险",
+    "reason": "反映房地产市场的新动向，可能涉及经济和社会稳定问题。",
+    "further_investigate": true
+  },
+  {
+    "topic": "国台办回应2名台胞在日遇袭",
+    "platform": "抖音",
+    "hotness": "1117.7万",
+    "risk_level": 8,
+    "category": "社会安全",
+    "reason": "涉及两岸关系，可能引发民族情绪和对立言论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "特朗普想把特赦火鸡命名为佩洛西",
+    "platform": "抖音",
+    "hotness": "1075.2万",
+    "risk_level": 6,
+    "category": "舆论争议",
+    "reason": "涉及美国政治人物，可能引发国际舆论争议。",
+    "further_investigate": true
+  },
+  {
+    "topic": "乌克兰否认同意美方和平计划",
+    "platform": "抖音",
+    "hotness": "783.4万",
+    "risk_level": 7,
+    "category": "国际冲突",
+    "reason": "涉及国际冲突，可能引发对国际局势的关注和讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "疯狂动物城配音争议",
+    "platform": "抖音",
+    "hotness": "776.6万",
+    "risk_level": 5,
+    "category": "舆论争议",
+    "reason": "涉及电影配音争议，可能引发粉丝和观众的对立情绪。",
+    "further_investigate": true
+  },
+  {
+    "topic": "王嘉尔自曝做医美",
+    "platform": "抖音",
+    "hotness": "776.2万",
+    "risk_level": 4,
+    "category": "潜在风险",
+    "reason": "涉及名人隐私和医美话题，可能引发公众对名人形象的讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "婚前同居认定属于家庭成员",
+    "platform": "微博",
+    "hotness": "112万",
+    "risk_level": 7,
+    "category": "舆论争议",
+    "reason": "涉及婚姻家庭法律认定的敏感话题，可能引发社会价值观的争议。",
+    "further_investigate": true
+  },
+  {
+    "topic": "日本的战争准备正全面铺开",
+    "platform": "微博",
+    "hotness": "50万",
+    "risk_level": 8,
+    "category": "国际关系",
+    "reason": "涉及中日关系的敏感话题，可能引发民族情绪和国际关注。",
+    "further_investigate": true
+  },
+  {
+    "topic": "36岁王俊凯涉嫌非法吸收公众存款被立案侦查",
+    "platform": "微博",
+    "hotness": "22万",
+    "risk_level": 6,
+    "category": "明星负面",
+    "reason": "明星涉嫌违法犯罪，可能引发粉丝和公众的广泛讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "岳云鹏夫妇公司欠税14万被公告",
+    "platform": "微博",
+    "hotness": "24万",
+    "risk_level": 5,
+    "category": "明星负面",
+    "reason": "明星涉及税务问题，可能引发公众对明星税务合规性的关注。",
+    "further_investigate": true
+  },
+  {
+    "topic": "2名台胞在日本街头被打成重伤",
+    "platform": "微博",
+    "hotness": "21万",
+    "risk_level": 7,
+    "category": "社会安全",
+    "reason": "涉及海外华人安全和国际关系，可能引发公众情绪和国际关注。",
+    "further_investigate": true
+  },
+  {
+    "topic": "婚前同居认定属于家庭成员",
+    "platform": "知乎",
+    "hotness": "1",
+    "risk_level": 7,
+    "category": "舆论争议",
+    "reason": "该话题涉及传统家庭观念与现代生活方式的冲突，可能引发社会各界的激烈讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "史上最严充电宝新规将落地",
+    "platform": "知乎",
+    "hotness": "2",
+    "risk_level": 5,
+    "category": "潜在风险",
+    "reason": "新规可能影响大量消费者的日常使用习惯，引发不满情绪。",
+    "further_investigate": true
+  },
+  {
+    "topic": "美结束俄乌冲突28点计划曝光",
+    "platform": "知乎",
+    "hotness": "3",
+    "risk_level": 8,
+    "category": "国际关系",
+    "reason": "涉及敏感的国际政治话题，可能引发国内外舆论关注。",
+    "further_investigate": true
+  },
+  {
+    "topic": "救命药滞留前台5小时致男子身亡",
+    "platform": "知乎",
+    "hotness": "12",
+    "risk_level": 9,
+    "category": "社会安全",
+    "reason": "事件涉及医疗救助不及时导致死亡，可能引发公众对医疗机构责任的质疑。",
+    "further_investigate": true
+  },
+  {
+    "topic": "小米汽车未交车催收尾款案一审宣判",
+    "platform": "知乎",
+    "hotness": "10",
+    "risk_level": 6,
+    "category": "商业纠纷",
+    "reason": "涉及知名企业的商业纠纷，可能影响品牌形象和消费者信任。",
+    "further_investigate": true
+  },
+  {
+    "topic": "2名台胞在日本被打成重伤 国台办回应",
+    "platform": "头条",
+    "hotness": "3624.2万",
+    "risk_level": 8,
+    "category": "群体冲突",
+    "reason": "涉及台胞在国外遭遇暴力事件，可能引发两岸民众情绪对立和国际关注。",
+    "further_investigate": true
+  },
+  {
+    "topic": "男子抛妻弃子20年欠40万 儿子拒还",
+    "platform": "头条",
+    "hotness": "2967.2万",
+    "risk_level": 6,
+    "category": "社会安全",
+    "reason": "涉及家庭伦理和债务纠纷，可能引发社会对法律和道德问题的讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "净网：网民编造民宿现不明病毒感染者被查",
+    "platform": "头条",
+    "hotness": "2429.3万",
+    "risk_level": 5,
+    "category": "舆论争议",
+    "reason": "涉及虚假信息和网络谣言，可能引发公众对网络监管和信息真实性的讨论。",
+    "further_investigate": true
+  },
+  {
+    "topic": "国台办回应沈伯洋跑荷兰“反击通缉”",
+    "platform": "头条",
+    "hotness": "987.7万",
+    "risk_level": 7,
+    "category": "群体冲突",
+    "reason": "涉及两岸政治敏感话题，可能引发舆论争议和国际关注。",
+    "further_investigate": true
+  },
+  {
+    "topic": "日本在华青年：绝对反对战争",
+    "platform": "头条",
+    "hotness": "1091.6万",
+    "risk_level": 4,
+    "category": "潜在风险",
+    "reason": "涉及中日关系和国际和平话题，可能引发舆论争议和情绪对立。",
+    "further_investigate": true
+  }
+]
