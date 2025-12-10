@@ -1,0 +1,237 @@
+{
+  "summary": "本次热点榜主要涵盖了社会热点、娱乐、体育和国际新闻等多个领域。大部分话题为普通热点，无明显负面倾向。少数话题涉及国际冲突和谣言道歉，需要关注其发展。\n本次热点榜主要涵盖了娱乐、社会新闻和国际事件等多个领域。娱乐类话题如星光大赏阵容官宣、淘宝双12活动等占据了榜单前列，显示出较高的公众关注度。社会新闻和国际事件中出现了几个具有潜在风险的话题，需要特别关注。\n本次热点榜涵盖了多个领域的热点话题，包括社会事件、经济政策、娱乐新闻和国际关系等。其中，部分话题涉及负面事件和争议，需要特别关注。整体来看，热点分布较为广泛，热度较高的主要集中在社会事件和娱乐新闻上。",
+  "topics": [
+    {
+      "topic": "泰柬边境再发冲突",
+      "platform": "抖音",
+      "hotness": "835.5万",
+      "risk_level": 7,
+      "category": "国际冲突",
+      "reason": "标题明确提到泰柬边境发生冲突，涉及国际关系紧张，具有潜在的负面舆情风险。",
+      "further_investigate": true,
+      "title": "泰柬边境再发冲突"
+    },
+    {
+      "topic": "榕江荒野求生选手就谣言道歉",
+      "platform": "抖音",
+      "hotness": "834.3万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "标题提到选手因谣言道歉，涉及舆论争议，可能引发公众讨论。",
+      "further_investigate": true,
+      "title": "榕江荒野求生选手就谣言道歉"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "776.4万",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "标题提到活动被叫停，可能涉及管理问题或舆论压力，需要关注后续发展。",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "780.9万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "标题涉及国防部回应日本战机被雷达照射，可能引发国际关系紧张。",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "美防长不点名“警告”日本",
+      "platform": "抖音",
+      "hotness": "782.3万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "标题提到美防长警告日本，涉及国际关系，可能引发舆论关注。",
+      "further_investigate": true,
+      "title": "美防长不点名“警告”日本"
+    },
+    {
+      "topic": "日军被爆引导美军轰炸平民",
+      "platform": "微博",
+      "hotness": "70万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "话题涉及历史敏感事件，可能引发公众情绪波动和国际争议。",
+      "further_investigate": true,
+      "title": "日军被爆引导美军轰炸平民"
+    },
+    {
+      "topic": "泰国对柬埔寨发动空袭",
+      "platform": "微博",
+      "hotness": "67万",
+      "risk_level": 7,
+      "category": "国际冲突",
+      "reason": "涉及国际军事行动，可能引发地区紧张和国际关注。",
+      "further_investigate": true,
+      "title": "泰国对柬埔寨发动空袭"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "45万",
+      "risk_level": 9,
+      "category": "社会安全",
+      "reason": "话题涉及极端暴力事件，可能引发公众恐慌和道德谴责。",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "日本婴儿残尸有刀具切割痕迹",
+      "platform": "微博",
+      "hotness": "41万",
+      "risk_level": 9,
+      "category": "社会安全",
+      "reason": "话题涉及极端暴力事件，可能引发公众恐慌和道德谴责。",
+      "further_investigate": true,
+      "title": "日本婴儿残尸有刀具切割痕迹"
+    },
+    {
+      "topic": "郭德纲相声被举报内容低俗",
+      "platform": "微博",
+      "hotness": "28万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及公众人物和内容审查，可能引发文化价值观的讨论。",
+      "further_investigate": true,
+      "title": "郭德纲相声被举报内容低俗"
+    },
+    {
+      "topic": "1818名包括明星网红在内双高人员被查",
+      "platform": "微博",
+      "hotness": "15万",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "涉及公众人物和法律法规，可能引发社会对高收入群体监管的关注。",
+      "further_investigate": true,
+      "title": "1818名包括明星网红在内双高人员被查"
+    },
+    {
+      "topic": "朋友送的护身符核辐射超标1686倍",
+      "platform": "微博",
+      "hotness": "10万",
+      "risk_level": 7,
+      "category": "潜在风险",
+      "reason": "涉及核辐射安全问题，可能引发公众对物品安全的担忧。",
+      "further_investigate": true,
+      "title": "朋友送的护身符核辐射超标1686倍"
+    },
+    {
+      "topic": "1818名包括明星网红在内双高人员被查",
+      "platform": "头条",
+      "hotness": "3131.2万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "该话题涉及大量公众人物被调查，可能引发社会广泛关注和讨论，存在潜在的负面舆情风险。",
+      "further_investigate": true,
+      "title": "1818名包括明星网红在内双高人员被查"
+    },
+    {
+      "topic": "工资必须发钱没有“平替”",
+      "platform": "头条",
+      "hotness": "2833.2万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "该话题涉及工资发放问题，可能引发劳动者和企业的争议，需要关注后续发展。",
+      "further_investigate": true,
+      "title": "工资必须发钱没有“平替”"
+    },
+    {
+      "topic": "安徽一新能源车突然起火伴有爆炸声",
+      "platform": "头条",
+      "hotness": "2098.9万",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "新能源车起火事件可能引发公众对新能源汽车安全性的担忧，存在潜在的负面舆情风险。",
+      "further_investigate": true,
+      "title": "安徽一新能源车突然起火伴有爆炸声"
+    },
+    {
+      "topic": "台湾当局被曝妄图与日军事勾连",
+      "platform": "头条",
+      "hotness": "1151.9万",
+      "risk_level": 8,
+      "category": "国际关系",
+      "reason": "该话题涉及敏感的国际关系和领土问题，可能引发强烈的舆论反应和国际关注。",
+      "further_investigate": true,
+      "title": "台湾当局被曝妄图与日军事勾连"
+    },
+    {
+      "topic": "4500万养牛场立项两年多未见一头牛",
+      "platform": "头条",
+      "hotness": "423.8万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "该话题涉及资金使用和项目进展问题，可能引发公众对政府或企业管理的质疑。",
+      "further_investigate": true,
+      "title": "4500万养牛场立项两年多未见一头牛"
+    },
+    {
+      "topic": "男子在公园搂抱女童被刑拘",
+      "platform": "头条",
+      "hotness": "141.1万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "该话题涉及儿童安全和犯罪行为，可能引发公众的强烈关注和愤怒情绪。",
+      "further_investigate": true,
+      "title": "男子在公园搂抱女童被刑拘"
+    },
+    {
+      "topic": "女子遭75岁丈夫殴打 村民发声",
+      "platform": "头条",
+      "hotness": "57.3万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "该话题涉及家庭暴力和性别问题，可能引发公众对家庭暴力问题的关注和讨论。",
+      "further_investigate": true,
+      "title": "女子遭75岁丈夫殴打 村民发声"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 19,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜内容多样，涵盖社会热点、娱乐、体育和国际新闻等多个领域。大部分话题为普通热点，无明显负面倾向。少数话题涉及国际冲突和舆论争议，需要进一步关注。",
+    "content_summary": "侦察到的主要话题包括环卫爷爷扫落叶成打卡点、加快发展新质生产力、泰柬边境冲突、榕江荒野求生选手道歉、国防部回应日本战机被雷达照射等。",
+    "content_analysis": "热点趋势显示，社会正能量和娱乐内容占据主导，但国际新闻和舆论争议话题也有较高热度。情绪倾向以正面和中性为主，少数话题涉及负面情绪。",
+    "potential_risks": [
+      "关注泰柬边境冲突的后续发展",
+      "监控榕江荒野求生相关话题的舆论反应",
+      "留意国际关系话题的舆论走向"
+    ],
+    "trend_prediction": "未来24-48小时内，社会正能量和娱乐话题可能继续保持热度，国际冲突和舆论争议话题可能引发更多讨论。",
+    "recommendations": [
+      "加强对国际冲突话题的监控",
+      "关注舆论争议话题的公众反应",
+      "持续跟踪热点话题的发展趋势"
+    ],
+    "risk_overview": {
+      "high_risk_count": 3,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 19,
+    "risk_overview": {
+      "high_risk_count": 3,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "summary": "本次热点榜以娱乐、体育和生活类话题为主，整体舆情较为正面。榜单中出现了少量涉及国际关系和争议性事件的话题，但大多数内容为普通热点。需要关注的是泰柬边境冲突和荒野求生节目被叫停等事件可能引发的后续讨论。\n本次热点榜主要涵盖了娱乐、社会新闻和国际事件等多个领域。娱乐类话题如星光大赏阵容官宣、痞幼自曝曾被两个恋综拒绝等占据了榜单前列。社会新闻和国际事件如泰国对柬埔寨发动空袭、日军被爆引导美军轰炸平民等也引起了较高关注。整体来看，榜单中大部分话题为普通热点，但存在少数具有潜在风险的话题。\n本次热点榜主要涉及国际访问、科技应用限制、企业招聘、军事事件、体育赛事等多个领域。榜单中没有明显的负面舆情风险话题，大多数内容为中性或正面报道。需要关注的是科技应用限制相关话题可能引发的行业讨论。\n本次热点榜涵盖了多个领域的热点话题，包括社会事件、经济政策、娱乐新闻和国际关系等。其中，部分话题涉及负面事件和争议，需要特别关注。整体来看，热点分布较为广泛，热度较高的主要集中在社会事件和娱乐新闻上。",
+  "topics": [
+    {
+      "topic": "泰柬边境再发冲突",
+      "platform": "抖音",
+      "hotness": "835.5万",
+      "risk_level": 7,
+      "category": "国际冲突",
+      "reason": "标题明确提及边境冲突，可能涉及国家安全和国际关系敏感话题",
+      "further_investigate": true,
+      "title": "泰柬边境再发冲突"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "776.4万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "节目被叫停可能引发公众对节目内容和监管的讨论",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "榕江荒野求生选手就谣言道歉",
+      "platform": "抖音",
+      "hotness": "834.3万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "涉及谣言传播和公开道歉，可能引发公众讨论",
+      "further_investigate": true,
+      "title": "榕江荒野求生选手就谣言道歉"
+    },
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "780.9万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及国防部和日本战机的敏感话题，可能引发国际关注",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "泰国对柬埔寨发动空袭",
+      "platform": "微博",
+      "hotness": "65万",
+      "risk_level": 8,
+      "category": "国际冲突",
+      "reason": "该话题涉及国家间的军事冲突，可能引发国际关注和舆论争议。",
+      "further_investigate": true,
+      "title": "泰国对柬埔寨发动空袭"
+    },
+    {
+      "topic": "日军被爆引导美军轰炸平民",
+      "platform": "微博",
+      "hotness": "65万",
+      "risk_level": 9,
+      "category": "历史争议",
+      "reason": "该话题涉及历史敏感事件，可能引发民族情绪和国际舆论争议。",
+      "further_investigate": true,
+      "title": "日军被爆引导美军轰炸平民"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "43万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "该话题涉及恶性犯罪事件，可能引发社会关注和舆论争议。",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "日本婴儿残尸有刀具切割痕迹",
+      "platform": "微博",
+      "hotness": "30万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "该话题涉及恶性犯罪事件，可能引发社会关注和舆论争议。",
+      "further_investigate": true,
+      "title": "日本婴儿残尸有刀具切割痕迹"
+    },
+    {
+      "topic": "郭德纲相声被举报内容低俗",
+      "platform": "微博",
+      "hotness": "47万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "该话题涉及公众人物的争议行为，可能引发舆论讨论。",
+      "further_investigate": true,
+      "title": "郭德纲相声被举报内容低俗"
+    },
+    {
+      "topic": "3人疑在鄱阳湖湿地投毒被抓",
+      "platform": "微博",
+      "hotness": "11万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "该话题涉及环境破坏和犯罪行为，可能引发社会关注。",
+      "further_investigate": true,
+      "title": "3人疑在鄱阳湖湿地投毒被抓"
+    },
+    {
+      "topic": "任前公示中县委副书记年龄打架",
+      "platform": "微博",
+      "hotness": "11万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "该话题涉及政府官员的公示信息不一致，可能引发公众质疑。",
+      "further_investigate": true,
+      "title": "任前公示中县委副书记年龄打架"
+    },
+    {
+      "topic": "商家故意不打包让骑手干等",
+      "platform": "微博",
+      "hotness": "11万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "该话题涉及商家与骑手之间的矛盾，可能引发公众讨论。",
+      "further_investigate": true,
+      "title": "商家故意不打包让骑手干等"
+    },
+    {
+      "topic": "1818名包括明星网红在内双高人员被查",
+      "platform": "头条",
+      "hotness": "3153.8万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及大量公众人物被查，可能引发社会广泛关注和讨论，存在一定的负面舆情风险。",
+      "further_investigate": true,
+      "title": "1818名包括明星网红在内双高人员被查"
+    },
+    {
+      "topic": "工资必须发钱没有“平替”",
+      "platform": "头条",
+      "hotness": "2853.7万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及工资发放问题，可能引发劳动者权益讨论，存在一定的争议性。",
+      "further_investigate": true,
+      "title": "工资必须发钱没有“平替”"
+    },
+    {
+      "topic": "净网|网警查处编造汽车造成8杀谣言案",
+      "platform": "头条",
+      "hotness": "2582.1万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "涉及网络谣言和公共安全，可能引发社会恐慌，存在一定的负面舆情风险。",
+      "further_investigate": true,
+      "title": "净网|网警查处编造汽车造成8杀谣言案"
+    },
+    {
+      "topic": "郭德纲被约谈？文旅局回应",
+      "platform": "头条",
+      "hotness": "3852.1万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "涉及公众人物被约谈，可能引发公众对文化行业监管的讨论，存在一定的争议性。",
+      "further_investigate": true,
+      "title": "郭德纲被约谈？文旅局回应"
+    },
+    {
+      "topic": "安徽一新能源车突然起火伴有爆炸声",
+      "platform": "头条",
+      "hotness": "2114.1万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及新能源汽车安全问题，可能引发公众对新能源车安全性的担忧，存在一定的负面舆情风险。",
+      "further_investigate": true,
+      "title": "安徽一新能源车突然起火伴有爆炸声"
+    },
+    {
+      "topic": "台湾当局被曝妄图与日军事勾连",
+      "platform": "头条",
+      "hotness": "1282.2万",
+      "risk_level": 8,
+      "category": "国际关系",
+      "reason": "涉及台湾问题和中日关系，可能引发国际舆论关注和国内民众情绪波动，存在较高的负面舆情风险。",
+      "further_investigate": true,
+      "title": "台湾当局被曝妄图与日军事勾连"
+    },
+    {
+      "topic": "父亲工资打孩子账户致儿子无法考公",
+      "platform": "头条",
+      "hotness": "1160.2万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及公务员考试和家庭财务问题，可能引发公众对考试公平性和家庭财务管理的讨论，存在一定的争议性。",
+      "further_investigate": true,
+      "title": "父亲工资打孩子账户致儿子无法考公"
+    },
+    {
+      "topic": "护士患癌请病假遭拒？卫健委介入调查",
+      "platform": "头条",
+      "hotness": "258.9万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "涉及医护人员权益和医疗系统问题，可能引发公众对医疗行业工作环境的关注，存在一定的负面舆情风险。",
+      "further_investigate": true,
+      "title": "护士患癌请病假遭拒？卫健委介入调查"
+    },
+    {
+      "topic": "男子在公园搂抱女童被刑拘",
+      "platform": "头条",
+      "hotness": "212.0万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "涉及儿童安全和公共治安问题，可能引发公众对儿童保护的强烈关注，存在较高的负面舆情风险。",
+      "further_investigate": true,
+      "title": "男子在公园搂抱女童被刑拘"
+    },
+    {
+      "topic": "4500万养牛场立项两年多未见一头牛",
+      "platform": "头条",
+      "hotness": "316.2万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及项目管理和资金使用问题，可能引发公众对政府或企业项目执行的质疑，存在一定的争议性。",
+      "further_investigate": true,
+      "title": "4500万养牛场立项两年多未见一头牛"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 22,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "热点榜以娱乐、体育和生活类内容为主，国际关系和争议性事件话题占比较少但热度较高。",
+    "content_summary": "侦察到的主要内容包括：环卫爷爷创意扫落叶、体育赛事结果（湖人险胜76人、国乒战胜日本）、娱乐话题（刘亦菲观赛F1）、生活趣事（糖葫芦树、水煮蛋漫画蛋）以及国际关系话题（泰柬边境冲突、国防部回应）。",
+    "content_analysis": "娱乐和生活类话题占据榜单大部分位置，整体情绪倾向正面。国际关系和争议性事件话题虽然数量少但热度较高，需要持续关注。体育赛事结果引发球迷讨论，但无明显负面情绪。",
+    "potential_risks": [
+      "泰柬边境冲突可能引发更多国际关注",
+      "荒野求生节目被叫停原因值得关注",
+      "国防部回应可能涉及敏感军事话题"
+    ],
+    "trend_prediction": "未来24-48小时内，娱乐和生活类话题可能继续保持热度，国际关系话题可能随着事件发展产生更多讨论。",
+    "recommendations": [
+      "持续监控泰柬边境冲突相关讨论",
+      "关注荒野求生节目被叫停的后续报道",
+      "留意国防部回应话题的舆情发展"
+    ],
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 4
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 22,
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 4
+    }
+  }
+}

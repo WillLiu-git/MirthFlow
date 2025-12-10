@@ -1,0 +1,227 @@
+{
+  "summary": "本次热点榜单以社会正能量、娱乐文化和国际关系为主要内容。榜单中出现了多个高热度话题，如环卫爷爷的创意行为、我国外汇储备创新高以及国际关系相关话题。整体风险较低，但仍需关注部分涉及国际关系和公共安全的潜在风险。\n本次热点榜主要涵盖了娱乐、社会新闻、体育和国际关系等多个领域。娱乐类话题如星光大赏名单、明星互动等占据较高热度，社会新闻中涉及谣言查处、健康警示等内容也受到关注。整体风险较低，但存在个别敏感话题需要留意。\n当前热点榜单主要涉及国际访问、科技公司动态、体育赛事和社会事件。马克龙访问四川大学和中法联合声明显示了国际外交活动的热度，而多家APP对豆包手机的禁用则反映了科技行业的竞争和潜在争议。整体风险较低，但科技公司的动态值得关注。\n本次热点榜涵盖了多个领域的热点话题，包括历史教材争议、体育赛事、国际关系、社会事件等。其中，历史教材换图和日美关系等话题存在一定的舆情风险。整体来看，热点分布较为均匀，既有高热度话题，也有较低热度但值得关注的事件。",
+  "topics": [
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "891.2万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及中日两国军事互动，可能引发舆论争议和国际关系紧张。",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "美防长不点名“警告”日本",
+      "platform": "抖音",
+      "hotness": "803.0万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及美日关系，可能引发国际舆论关注和讨论。",
+      "further_investigate": true,
+      "title": "美防长不点名“警告”日本"
+    },
+    {
+      "topic": "洪秀柱警告日本别惹事",
+      "platform": "抖音",
+      "hotness": "773.6万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "涉及两岸关系和日本，可能引发敏感讨论。",
+      "further_investigate": true,
+      "title": "洪秀柱警告日本别惹事"
+    },
+    {
+      "topic": "美国将调整与中国经济关系",
+      "platform": "抖音",
+      "hotness": "772.6万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及中美经济关系，可能引发舆论关注和讨论。",
+      "further_investigate": true,
+      "title": "美国将调整与中国经济关系"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "772.2万",
+      "risk_level": 4,
+      "category": "公共安全",
+      "reason": "涉及公共安全事件，可能引发对活动安全管理的讨论。",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "网警查处编造汽车造成8杀网络谣言案",
+      "platform": "微博",
+      "hotness": "27万",
+      "risk_level": 5,
+      "category": "社会安全",
+      "reason": "涉及网络谣言传播，可能引发公众恐慌或对网络环境的不信任。",
+      "further_investigate": true,
+      "title": "网警查处编造汽车造成8杀网络谣言案"
+    },
+    {
+      "topic": "台日竟然还想夹击解放军",
+      "platform": "微博",
+      "hotness": "21万",
+      "risk_level": 7,
+      "category": "舆论争议",
+      "reason": "涉及敏感的国际关系和军事话题，可能引发民族情绪和舆论争议。",
+      "further_investigate": true,
+      "title": "台日竟然还想夹击解放军"
+    },
+    {
+      "topic": "中方不接受日方所谓交涉",
+      "platform": "微博",
+      "hotness": "16万",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "涉及中日关系，可能引发民族情绪和国际舆论关注。",
+      "further_investigate": true,
+      "title": "中方不接受日方所谓交涉"
+    },
+    {
+      "topic": "51岁男子不会打字遭电诈园区转卖",
+      "platform": "微博",
+      "hotness": "9万",
+      "risk_level": 4,
+      "category": "社会安全",
+      "reason": "涉及电信诈骗和人口贩卖，可能引发公众对安全问题的关注。",
+      "further_investigate": true,
+      "title": "51岁男子不会打字遭电诈园区转卖"
+    },
+    {
+      "topic": "人民日报评免密支付开通易关闭难",
+      "platform": "微博",
+      "hotness": "7万",
+      "risk_level": 3,
+      "category": "潜在风险",
+      "reason": "涉及消费者权益和支付安全问题，可能引发公众对金融安全的讨论。",
+      "further_investigate": true,
+      "title": "人民日报评免密支付开通易关闭难"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "多家APP对豆包手机的禁用可能引发用户不满和市场竞争争议，需要关注后续用户反馈和行业反应。",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "阿里系APP禁止豆包手机登陆可能涉及市场竞争和技术壁垒，可能引发用户和行业的广泛讨论。",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "美军承认击落自家战机可能引发国际关注和军事讨论，需要关注后续官方解释和国际反应。",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "朱元璋“鞋拔子脸”教材换图",
+      "platform": "头条",
+      "hotness": "3747.0万",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "历史教材的修改可能引发公众对历史真实性和教育内容的争议，尤其是在涉及历史人物形象时，容易引发民族情感和文化认同的讨论。",
+      "further_investigate": true,
+      "title": "朱元璋“鞋拔子脸”教材换图"
+    },
+    {
+      "topic": "日方表示对美国的“冷漠”感到沮丧",
+      "platform": "头条",
+      "hotness": "2272.7万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "涉及日美关系的敏感话题，可能引发国际舆论关注，尤其是在当前国际形势下，此类话题容易引发民族情绪和外交争议。",
+      "further_investigate": true,
+      "title": "日方表示对美国的“冷漠”感到沮丧"
+    },
+    {
+      "topic": "净网|网警查处编造汽车造成8杀谣言案",
+      "platform": "头条",
+      "hotness": "2511.7万",
+      "risk_level": 4,
+      "category": "社会安全",
+      "reason": "涉及网络谣言和公共安全，此类话题容易引发公众对网络环境和信息真实性的关注，需要警惕谣言的扩散和社会恐慌。",
+      "further_investigate": true,
+      "title": "净网|网警查处编造汽车造成8杀谣言案"
+    },
+    {
+      "topic": "孩子被褥印不雅英文字母",
+      "platform": "头条",
+      "hotness": "1021.2万",
+      "risk_level": 3,
+      "category": "潜在风险",
+      "reason": "涉及儿童用品的安全和质量问题，可能引发家长和公众对产品质量和监管的关注，需要警惕负面情绪的扩散。",
+      "further_investigate": true,
+      "title": "孩子被褥印不雅英文字母"
+    },
+    {
+      "topic": "人贩子扬言出狱报复能否加刑",
+      "platform": "头条",
+      "hotness": "2056.4万",
+      "risk_level": 4,
+      "category": "社会安全",
+      "reason": "涉及犯罪分子的威胁言论，可能引发公众对司法系统和犯罪预防的关注，需要警惕社会情绪的激化。",
+      "further_investigate": true,
+      "title": "人贩子扬言出狱报复能否加刑"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 18,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜单内容多样，涵盖了社会正能量、娱乐文化和国际关系等多个领域。社会正能量和娱乐文化类话题占据主导，但国际关系类话题也具有一定热度。",
+    "content_summary": "侦察到的主要内容包括环卫爷爷的创意行为、我国外汇储备创新高、娱乐明星动态、国际关系讨论等。其中，国际关系类话题涉及中日、中美关系，具有一定的敏感性和潜在风险。",
+    "content_analysis": "热点榜单中社会正能量和娱乐文化类话题热度较高，反映了公众对积极向上内容和娱乐资讯的关注。国际关系类话题虽然数量不多，但热度不低，可能引发舆论关注和讨论。整体情绪倾向以正面为主，但国际关系类话题可能存在一定争议。",
+    "potential_risks": [
+      "关注国际关系类话题的舆论走向",
+      "监控公共安全事件的后续发展",
+      "留意娱乐明星动态可能引发的粉丝争议"
+    ],
+    "trend_prediction": "未来24-48小时内，社会正能量和娱乐文化类话题可能继续保持热度，国际关系类话题的讨论可能会有所增加。",
+    "recommendations": [
+      "加强对国际关系类话题的监控",
+      "关注公共安全事件的后续报道",
+      "留意娱乐明星动态的舆论反应"
+    ],
+    "risk_overview": {
+      "high_risk_count": 3,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 18,
+    "risk_overview": {
+      "high_risk_count": 3,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  }
+}

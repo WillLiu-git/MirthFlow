@@ -1,0 +1,227 @@
+{
+  "summary": "本次热点榜整体以娱乐、体育和生活类话题为主，涉及少量国际政治和社会事件。榜单中大部分内容为普通热点，无明显负面舆情风险。少数涉及国际冲突和谣言的话题需要关注，但整体风险较低。\n本次热点榜主要涵盖了娱乐、社会新闻和国际事件等多个领域。娱乐类话题占据主导，如星光大赏阵容官宣、王一博大魔王品牌全球代言人等。同时，也存在一些涉及国际冲突和社会负面事件的敏感话题。\n本次热点榜主要涉及科技、国际关系、体育和娱乐等多个领域。其中，多家APP对豆包手机禁用、美军承认击落美军战机等话题可能引发关注。整体来看，榜单中没有明显的负面舆情风险话题。\n本次热点榜涵盖了社会、经济、娱乐等多个领域的热点话题。其中，社会类话题如父亲工资打孩子账户致儿子无法考公、1818名包括明星网红在内双高人员被查等引发了广泛关注。经济类话题如确保我国经济航船乘风破浪行稳致远、工资必须发钱没有“平替”等也占据了重要位置。娱乐类话题如郭德纲被约谈、老戏骨金士杰近60岁生了龙凤胎等吸引了大量关注。整体来看，热点榜内容丰富，涉及面广，但部分话题存在一定的负面舆情风险。",
+  "topics": [
+    {
+      "topic": "榕江荒野求生选手就谣言道歉",
+      "platform": "抖音",
+      "hotness": "836.2万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "标题明确提及'谣言'和'道歉'，表明存在不实信息传播的情况",
+      "further_investigate": true,
+      "title": "榕江荒野求生选手就谣言道歉"
+    },
+    {
+      "topic": "泰柬边境再发冲突",
+      "platform": "抖音",
+      "hotness": "821.0万",
+      "risk_level": 6,
+      "category": "国际冲突",
+      "reason": "标题明确提及'冲突'，涉及国际关系紧张局势",
+      "further_investigate": true,
+      "title": "泰柬边境再发冲突"
+    },
+    {
+      "topic": "美防长不点名“警告”日本",
+      "platform": "抖音",
+      "hotness": "783.7万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "标题提及'警告'，涉及国际政治敏感话题",
+      "further_investigate": true,
+      "title": "美防长不点名“警告”日本"
+    },
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "781.1万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "标题涉及国防军事和国际关系敏感话题",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "泰国军方称出动战斗机回应柬方",
+      "platform": "抖音",
+      "hotness": "765.5万",
+      "risk_level": 6,
+      "category": "国际冲突",
+      "reason": "标题明确提及军事行动和国际冲突",
+      "further_investigate": true,
+      "title": "泰国军方称出动战斗机回应柬方"
+    },
+    {
+      "topic": "泰国对柬埔寨发动空袭",
+      "platform": "微博",
+      "hotness": "65万",
+      "risk_level": 8,
+      "category": "国际冲突",
+      "reason": "涉及国家间的军事冲突，可能引发国际关注和舆论争议",
+      "further_investigate": true,
+      "title": "泰国对柬埔寨发动空袭"
+    },
+    {
+      "topic": "日军被爆引导美军轰炸平民",
+      "platform": "微博",
+      "hotness": "65万",
+      "risk_level": 9,
+      "category": "历史争议",
+      "reason": "涉及历史敏感事件，可能引发民族情绪和国际舆论争议",
+      "further_investigate": true,
+      "title": "日军被爆引导美军轰炸平民"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "43万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及恶性犯罪事件，可能引发社会恐慌和舆论谴责",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "日本婴儿残尸有刀具切割痕迹",
+      "platform": "微博",
+      "hotness": "30万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及恶性犯罪事件，可能引发社会恐慌和舆论谴责",
+      "further_investigate": true,
+      "title": "日本婴儿残尸有刀具切割痕迹"
+    },
+    {
+      "topic": "郭德纲相声被举报内容低俗",
+      "platform": "微博",
+      "hotness": "47万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及文化内容审查和道德争议，可能引发公众讨论",
+      "further_investigate": true,
+      "title": "郭德纲相声被举报内容低俗"
+    },
+    {
+      "topic": "3人疑在鄱阳湖湿地投毒被抓",
+      "platform": "微博",
+      "hotness": "11万",
+      "risk_level": 6,
+      "category": "环境安全",
+      "reason": "涉及环境破坏行为，可能引发公众关注和舆论谴责",
+      "further_investigate": true,
+      "title": "3人疑在鄱阳湖湿地投毒被抓"
+    },
+    {
+      "topic": "任前公示中县委副书记年龄打架",
+      "platform": "微博",
+      "hotness": "11万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "涉及官员公示信息不一致，可能引发公众质疑",
+      "further_investigate": true,
+      "title": "任前公示中县委副书记年龄打架"
+    },
+    {
+      "topic": "商家故意不打包让骑手干等",
+      "platform": "微博",
+      "hotness": "11万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "涉及服务行业纠纷，可能引发公众讨论",
+      "further_investigate": true,
+      "title": "商家故意不打包让骑手干等"
+    },
+    {
+      "topic": "父亲工资打孩子账户致儿子无法考公",
+      "platform": "头条",
+      "hotness": "3176.8万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "该话题涉及家庭财务管理和公务员考试资格问题，可能引发公众对公务员考试制度的讨论和质疑。",
+      "further_investigate": true,
+      "title": "父亲工资打孩子账户致儿子无法考公"
+    },
+    {
+      "topic": "1818名包括明星网红在内双高人员被查",
+      "platform": "头条",
+      "hotness": "2874.5万",
+      "risk_level": 7,
+      "category": "舆论争议",
+      "reason": "该话题涉及明星网红等高收入群体的税务问题，可能引发公众对高收入群体税务合规性的讨论和质疑。",
+      "further_investigate": true,
+      "title": "1818名包括明星网红在内双高人员被查"
+    },
+    {
+      "topic": "安徽一新能源车突然起火伴有爆炸声",
+      "platform": "头条",
+      "hotness": "1743.5万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "该话题涉及新能源汽车的安全问题，可能引发公众对新能源汽车安全性的担忧和讨论。",
+      "further_investigate": true,
+      "title": "安徽一新能源车突然起火伴有爆炸声"
+    },
+    {
+      "topic": "护士患癌请病假遭拒？卫健委介入调查",
+      "platform": "头条",
+      "hotness": "580.4万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "该话题涉及医护人员权益保障问题，可能引发公众对医护人员工作环境和权益保障的讨论和质疑。",
+      "further_investigate": true,
+      "title": "护士患癌请病假遭拒？卫健委介入调查"
+    },
+    {
+      "topic": "4500万养牛场立项两年多未见一头牛",
+      "platform": "头条",
+      "hotness": "260.8万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "该话题涉及农业项目的实施效果问题，可能引发公众对农业项目资金使用效率和透明度的讨论和质疑。",
+      "further_investigate": true,
+      "title": "4500万养牛场立项两年多未见一头牛"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 18,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜以娱乐、体育和生活类内容为主，占比超过70%。国际政治和社会事件话题热度相对较低，但需要持续关注。",
+    "content_summary": "侦察到的主要内容包括：娱乐话题如'糖葫芦树我先爬为敬'、'双12冬日氛围感穿搭大赏'；体育新闻如'国乒战胜日本夺冠'、'湖人险胜76人'；国际政治如'泰柬边境再发冲突'、'美防长不点名警告日本'；社会事件如'榕江荒野求生选手就谣言道歉'。",
+    "content_analysis": "娱乐和体育类话题占据榜单前列，热度普遍较高。国际政治类话题虽然排名靠后，但涉及敏感内容需要关注。整体情绪倾向中性偏正面，无明显负面舆情爆发点。",
+    "potential_risks": [
+      "泰柬边境冲突可能引发进一步国际关注",
+      "国防军事相关话题需要谨慎处理",
+      "谣言类内容可能引发舆论争议"
+    ],
+    "trend_prediction": "未来24-48小时内，娱乐和体育类话题可能继续保持高热，国际政治类话题热度可能随事件发展而变化。",
+    "recommendations": [
+      "持续监控国际冲突相关话题的发展",
+      "关注谣言类内容的后续影响",
+      "保持对娱乐热点话题的常规监测"
+    ],
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 3,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 18,
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 3,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "topic": "系统分析失败",
+    "platform": "未知",
+    "hotness": "0",
+    "risk_level": 1,
+    "category": "系统错误",
+    "reason": "LLM分析过程中遇到问题，但根据要求必须返回报告",
+    "further_investigate": true
+  },
+  {
+    "topic": "系统分析失败",
+    "platform": "未知",
+    "hotness": "0",
+    "risk_level": 1,
+    "category": "系统错误",
+    "reason": "LLM分析过程中遇到问题，但根据要求必须返回报告",
+    "further_investigate": true
+  },
+  {
+    "topic": "系统分析失败",
+    "platform": "未知",
+    "hotness": "0",
+    "risk_level": 1,
+    "category": "系统错误",
+    "reason": "LLM分析过程中遇到问题，但根据要求必须返回报告",
+    "further_investigate": true
+  },
+  {
+    "topic": "系统分析失败",
+    "platform": "未知",
+    "hotness": "0",
+    "risk_level": 1,
+    "category": "系统错误",
+    "reason": "LLM分析过程中遇到问题，但根据要求必须返回报告",
+    "further_investigate": true
+  }
+]

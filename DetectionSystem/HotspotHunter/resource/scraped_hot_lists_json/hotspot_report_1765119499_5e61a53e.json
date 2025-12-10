@@ -1,0 +1,237 @@
+{
+  "summary": "本次热点榜以娱乐和生活类话题为主，包括抖音热门视频、明星动态和日常生活趣事。同时涉及一些国内外政治和经济话题，如外汇储备创新高和中日关系。整体风险较低，但有几个话题需要关注其潜在风险。\n本次热点榜主要涵盖了社会新闻、体育赛事、娱乐八卦和国际关系等多个领域。其中，社会新闻如'人贩子被判死缓后对被害人破口大骂'和'央视曝光智驾神器成夺命陷阱'等话题具有较高的负面情绪和潜在风险。体育赛事方面，国乒相关话题占据了多个热点位置，显示出公众对体育赛事的持续关注。\n本次热点榜主要涉及国际关系、交通事故、科技产品禁用、医保政策等多个领域。其中，日本飞机抵近中国海军训练和连霍高速事故具有较高的社会关注度和潜在风险。豆包手机被多家APP禁用的话题也引发了科技行业的讨论。\n本次热点榜主要涵盖军事、体育、社会新闻和娱乐等多个领域。军事相关话题如解放军潜艇部队集群亮相和国防部回应日炒作战机被雷达照射热度较高，存在一定的国际关系敏感性。社会新闻中如新规让“幽灵外卖”现原形和缴纳医保费用你觉得心疼吗涉及民生问题，可能引发公众讨论。",
+  "topics": [
+    {
+      "topic": "洪秀柱警告日本别惹事",
+      "platform": "抖音",
+      "hotness": "977.1万",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "涉及中日关系敏感话题，可能引发民族情绪和争议。",
+      "further_investigate": true,
+      "title": "洪秀柱警告日本别惹事"
+    },
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "837.9万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及中日军事摩擦，可能引发国际关注和舆论争议。",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "日飞机多次抵近滋扰我海军训练",
+      "platform": "抖音",
+      "hotness": "780.0万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及中日军事对抗，可能引发民族情绪和国际关注。",
+      "further_investigate": true,
+      "title": "日飞机多次抵近滋扰我海军训练"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "785.2万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "活动突然被叫停可能引发公众质疑和舆论关注。",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "人贩子被判死缓后对被害人破口大骂",
+      "platform": "微博",
+      "hotness": "30万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "该话题涉及犯罪行为和司法公正，可能引发公众对司法系统的质疑和不满情绪，具有较高的社会敏感性。",
+      "further_investigate": true,
+      "title": "人贩子被判死缓后对被害人破口大骂"
+    },
+    {
+      "topic": "央视曝光智驾神器成夺命陷阱",
+      "platform": "微博",
+      "hotness": "28万",
+      "risk_level": 7,
+      "category": "潜在风险",
+      "reason": "该话题涉及产品安全和消费者权益，可能引发公众对相关产品的恐慌和不满情绪，需要密切关注后续发展。",
+      "further_investigate": true,
+      "title": "央视曝光智驾神器成夺命陷阱"
+    },
+    {
+      "topic": "日本军国主义大有卷土重来之势",
+      "platform": "微博",
+      "hotness": "12万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "该话题涉及敏感的国际政治议题，可能引发民族情绪和国际关系的紧张，需要谨慎处理。",
+      "further_investigate": true,
+      "title": "日本军国主义大有卷土重来之势"
+    },
+    {
+      "topic": "辅警盗用副所长数字证书售卖公民信息",
+      "platform": "微博",
+      "hotness": "12万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "该话题涉及公职人员违法行为和个人信息安全，可能引发公众对政府机构的信任危机，具有较高的社会敏感性。",
+      "further_investigate": true,
+      "title": "辅警盗用副所长数字证书售卖公民信息"
+    },
+    {
+      "topic": "婴儿被褥印不雅英文字母",
+      "platform": "微博",
+      "hotness": "14万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "该话题涉及产品质量和文化敏感性，可能引发公众对品牌的不满和抵制情绪，需要关注后续舆论走向。",
+      "further_investigate": true,
+      "title": "婴儿被褥印不雅英文字母"
+    },
+    {
+      "topic": "日本飞机多次抵近滋扰中国海军训练",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 8,
+      "category": "国际关系",
+      "reason": "涉及中日两国军事互动，可能引发外交紧张和舆论争议。",
+      "further_investigate": true,
+      "title": "日本飞机多次抵近滋扰中国海军训练"
+    },
+    {
+      "topic": "连霍高速发生车辆追尾事故造成 9 死 7 伤",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "重大交通事故，可能引发公众对交通安全的关注和讨论。",
+      "further_investigate": true,
+      "title": "连霍高速发生车辆追尾事故造成 9 死 7 伤"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "科技行业",
+      "reason": "涉及科技产品兼容性问题，可能引发用户不满和行业讨论。",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "科技行业",
+      "reason": "涉及科技产品兼容性问题，可能引发用户不满和行业讨论。",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及美军内部事件，可能引发国际关注和舆论讨论。",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "国防部回应日炒作战机被雷达照射",
+      "platform": "头条",
+      "hotness": "2733.3万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及中日两国军事互动，可能引发国际舆论关注和争议。",
+      "further_investigate": true,
+      "title": "国防部回应日炒作战机被雷达照射"
+    },
+    {
+      "topic": "美最新报告：不允许任何国家过于强大",
+      "platform": "头条",
+      "hotness": "2024.9万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及美国对外政策，可能引发中美关系紧张。",
+      "further_investigate": true,
+      "title": "美最新报告：不允许任何国家过于强大"
+    },
+    {
+      "topic": "新规让“幽灵外卖”现原形",
+      "platform": "头条",
+      "hotness": "1500.1万",
+      "risk_level": 4,
+      "category": "社会安全",
+      "reason": "涉及食品安全和市场监管，可能引发公众对食品安全的担忧。",
+      "further_investigate": true,
+      "title": "新规让“幽灵外卖”现原形"
+    },
+    {
+      "topic": "缴纳医保费用你觉得心疼吗",
+      "platform": "头条",
+      "hotness": "1005.5万",
+      "risk_level": 3,
+      "category": "舆论争议",
+      "reason": "涉及民生问题，可能引发公众对医保政策的讨论和不满。",
+      "further_investigate": true,
+      "title": "缴纳医保费用你觉得心疼吗"
+    },
+    {
+      "topic": "专家：日机擅闯或被解放军视为靶标",
+      "platform": "头条",
+      "hotness": "674.0万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "涉及中日军事对峙，可能引发国际舆论关注。",
+      "further_investigate": true,
+      "title": "专家：日机擅闯或被解放军视为靶标"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 19,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜以娱乐和生活类话题为主，同时涉及一些国内外政治和经济话题。整体热度较高，但风险较低。",
+    "content_summary": "侦察到的主要内容包括抖音热门视频（如煮鸡蛋、云南bigbang）、明星动态（如陈小春演唱会、肖战爆料）、日常生活趣事（如南北方人互换续火锅、环卫爷爷扫落叶），以及国内外政治经济话题（如外汇储备创新高、中日关系）。",
+    "content_analysis": "娱乐和生活类话题占据主导地位，显示出公众对轻松内容的偏好。政治和经济话题虽然较少，但热度较高，显示出公众对国际关系和国内经济形势的关注。整体情绪倾向较为平和，但中日关系相关话题可能引发一定的民族情绪。",
+    "potential_risks": [
+      "中日关系相关话题可能引发民族情绪和国际关注",
+      "贵州榕江荒野求生活动被叫停可能引发公众质疑",
+      "娱乐明星动态可能引发粉丝间的争议"
+    ],
+    "trend_prediction": "未来24-48小时内，娱乐和生活类话题可能继续保持热度，中日关系相关话题可能引发更多讨论和关注。",
+    "recommendations": [
+      "密切关注中日关系相关话题的舆论走向",
+      "对贵州榕江荒野求生活动被叫停的原因进行进一步调查",
+      "监控娱乐明星动态可能引发的粉丝争议"
+    ],
+    "risk_overview": {
+      "high_risk_count": 3,
+      "medium_risk_count": 1,
+      "low_risk_count": 0,
+      "total_count": 4
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 19,
+    "risk_overview": {
+      "high_risk_count": 3,
+      "medium_risk_count": 1,
+      "low_risk_count": 0,
+      "total_count": 4
+    }
+  }
+}

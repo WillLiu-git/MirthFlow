@@ -1,0 +1,247 @@
+{
+  "summary": "本次热点榜主要涵盖了军事、经济、社会、娱乐等多个领域的内容。中俄两军反导联合演习和我国外汇储备创十年来新高成为最受关注的热点。整体来看，榜单中大部分内容为普通热点，但涉及国际关系和军事的内容存在一定的潜在风险。\n本次热点榜单内容多样，涵盖了娱乐、社会新闻、国际关系等多个领域。娱乐类话题如星光大赏名单、张凌赫偷瞄白鹿等占据了较高热度，社会新闻如网警查处谣言案、上海女教师去世等也引发了广泛关注。整体来看，榜单中既有普通热点，也存在一些潜在风险话题，需要密切关注。\n本次热点榜主要关注了国际访问、科技企业竞争、体育赛事和国际军事事件。其中，马克龙访问四川大学和中法联合声明显示了中法关系的积极互动，而阿里系APP禁用豆包手机登陆可能引发科技企业间的竞争争议。美军承认击落自家战机的事件则涉及国际军事敏感话题。\n本次热点榜涵盖了体育、历史、国际关系、社会事件等多个领域的热点话题。其中，体育类话题如杨瀚森生涯首次首发和林诗栋战胜张本智和等占据了较高热度。国际关系类话题如日方对美国的‘冷漠’感到沮丧和牛弹琴警告日本三方面动作等也引起了广泛关注。整体来看，榜单中既有正面积极的体育新闻，也有涉及敏感话题的国际关系和社会事件，需要密切关注其发展态势。",
+  "topics": [
+    {
+      "topic": "中俄两军反导联合演习",
+      "platform": "抖音",
+      "hotness": "1194.1万",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "涉及国际军事合作，可能引发周边国家关注和舆论争议，需要关注国际反应。",
+      "further_investigate": true,
+      "title": "中俄两军反导联合演习"
+    },
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "885.8万",
+      "risk_level": 7,
+      "category": "舆论争议",
+      "reason": "涉及中日关系，可能引发民族情绪和国际舆论争议，需要密切关注后续发展。",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "美防长不点名“警告”日本",
+      "platform": "抖音",
+      "hotness": "778.7万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "涉及美日关系，可能影响区域稳定，需要关注国际舆论反应。",
+      "further_investigate": true,
+      "title": "美防长不点名“警告”日本"
+    },
+    {
+      "topic": "洪秀柱警告日本别惹事",
+      "platform": "抖音",
+      "hotness": "775.2万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "涉及两岸关系和日本，可能引发民族情绪和舆论争议。",
+      "further_investigate": true,
+      "title": "洪秀柱警告日本别惹事"
+    },
+    {
+      "topic": "网警查处编造汽车造成8杀网络谣言案",
+      "platform": "微博",
+      "hotness": "32万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "涉及网络谣言传播，可能引发公众恐慌和对网络安全的担忧。",
+      "further_investigate": true,
+      "title": "网警查处编造汽车造成8杀网络谣言案"
+    },
+    {
+      "topic": "印度警察为逃避工作深夜抛尸",
+      "platform": "微博",
+      "hotness": "31万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及警察不当行为，可能引发公众对执法机构的信任危机。",
+      "further_investigate": true,
+      "title": "印度警察为逃避工作深夜抛尸"
+    },
+    {
+      "topic": "台日竟然还想夹击解放军",
+      "platform": "微博",
+      "hotness": "17万",
+      "risk_level": 8,
+      "category": "国际关系",
+      "reason": "涉及敏感的国际关系和领土问题，可能引发民族情绪和国际争议。",
+      "further_investigate": true,
+      "title": "台日竟然还想夹击解放军"
+    },
+    {
+      "topic": "中方不接受日方所谓交涉",
+      "platform": "微博",
+      "hotness": "13万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及中日关系，可能引发民族情绪和国际关注。",
+      "further_investigate": true,
+      "title": "中方不接受日方所谓交涉"
+    },
+    {
+      "topic": "高市谬论释放军国主义死灰复燃信号",
+      "platform": "微博",
+      "hotness": "6万",
+      "risk_level": 8,
+      "category": "国际关系",
+      "reason": "涉及日本军国主义历史问题，可能引发强烈的民族情绪和国际争议。",
+      "further_investigate": true,
+      "title": "高市谬论释放军国主义死灰复燃信号"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "多家APP对特定手机品牌的禁用可能引发消费者权益和技术垄断的讨论，存在潜在的舆论争议。",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "大型科技企业限制特定设备访问可能被视为市场垄断行为，引发监管机构和公众的关注。",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 7,
+      "category": "国际军事",
+      "reason": "美军击落自家战机的事件可能涉及军事失误或内部问题，容易引发国际关注和舆论讨论。",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "朱元璋“鞋拔子脸”教材换图",
+      "platform": "头条",
+      "hotness": "3102.0万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及历史人物形象的修改，可能引发公众对历史教育的讨论和争议，存在一定的舆论风险。",
+      "further_investigate": true,
+      "title": "朱元璋“鞋拔子脸”教材换图"
+    },
+    {
+      "topic": "日方表示对美国的“冷漠”感到沮丧",
+      "platform": "头条",
+      "hotness": "2298.0万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及美日关系的敏感话题，可能引发国际舆论关注和国内民众的情绪反应。",
+      "further_investigate": true,
+      "title": "日方表示对美国的“冷漠”感到沮丧"
+    },
+    {
+      "topic": "净网|网警查处编造汽车造成8杀谣言案",
+      "platform": "头条",
+      "hotness": "2539.7万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "涉及网络谣言和公共安全，可能引发公众对网络信息真实性的担忧和对社会安全的关注。",
+      "further_investigate": true,
+      "title": "净网|网警查处编造汽车造成8杀谣言案"
+    },
+    {
+      "topic": "人贩子扬言出狱报复能否加刑",
+      "platform": "头条",
+      "hotness": "1261.2万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "涉及人贩子和报复言论，可能引发公众对法律制裁和社会安全的强烈关注和讨论。",
+      "further_investigate": true,
+      "title": "人贩子扬言出狱报复能否加刑"
+    },
+    {
+      "topic": "牛弹琴：要警惕日本三方面动作",
+      "platform": "头条",
+      "hotness": "1141.1万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及中日关系的敏感话题，可能引发国内民众的情绪反应和国际舆论的关注。",
+      "further_investigate": true,
+      "title": "牛弹琴：要警惕日本三方面动作"
+    },
+    {
+      "topic": "孩子被褥印不雅英文字母",
+      "platform": "头条",
+      "hotness": "1032.6万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "涉及儿童用品的不雅内容，可能引发家长和公众对产品质量和监管的关注。",
+      "further_investigate": true,
+      "title": "孩子被褥印不雅英文字母"
+    },
+    {
+      "topic": "评论员：美军坠机案没那么简单",
+      "platform": "头条",
+      "hotness": "626.3万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及美军事件的敏感话题，可能引发国际舆论关注和国内民众的情绪反应。",
+      "further_investigate": true,
+      "title": "评论员：美军坠机案没那么简单"
+    },
+    {
+      "topic": "美最新报告：不允许任何国家过于强大",
+      "platform": "头条",
+      "hotness": "93.7万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及美国对外政策的敏感话题，可能引发国际舆论关注和国内民众的情绪反应。",
+      "further_investigate": true,
+      "title": "美最新报告：不允许任何国家过于强大"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 20,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜内容多样，军事和经济类话题热度较高，娱乐和社会类话题也占据一定比例。整体热度分布较为均匀，无明显极端热点。",
+    "content_summary": "侦察到的主要内容包括中俄两军反导联合演习、我国外汇储备创十年来新高、国防部回应日称战机被雷达照射等军事和经济类话题，以及环卫爷爷把落叶扫成打卡点、糖葫芦树我先爬为敬等社会娱乐类话题。",
+    "content_analysis": "军事和经济类话题热度较高，显示出公众对国际关系和经济发展的高度关注。社会娱乐类话题则反映了公众对生活趣事的兴趣。整体情绪倾向较为平和，但涉及国际关系的话题存在一定的争议性。",
+    "potential_risks": [
+      "关注中俄军事合作的国际反应",
+      "监测中日关系的舆论动向",
+      "留意美日关系对区域稳定的影响"
+    ],
+    "trend_prediction": "未来24-48小时内，军事和经济类话题的热度可能持续，尤其是涉及国际关系的内容可能会引发更多讨论。社会娱乐类话题的热度可能会有所下降。",
+    "recommendations": [
+      "加强国际关系类话题的舆情监测",
+      "关注社会娱乐类话题的正面引导",
+      "提前准备应对可能的舆论争议"
+    ],
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 4
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 20,
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 4
+    }
+  }
+}

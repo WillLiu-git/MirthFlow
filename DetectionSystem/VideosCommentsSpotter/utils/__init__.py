@@ -1,0 +1,2 @@
+# 导出配置变量
+from .config import LLM_CONFIG, OUTPUT_DIRECTORY, CRAWLER_CONFIG, REPORT_CONFIG

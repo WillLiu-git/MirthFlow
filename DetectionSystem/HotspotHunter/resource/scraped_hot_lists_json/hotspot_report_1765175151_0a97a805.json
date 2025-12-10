@@ -1,0 +1,217 @@
+{
+  "summary": "本次热点榜以娱乐、体育和生活类内容为主，整体氛围较为轻松。榜单中出现了少量涉及国际关系和国内政策的话题，但无明显负面舆情风险。大部分话题为普通热点，无重大争议或负面事件。\n本次热点榜涵盖了娱乐、社会、国际等多个领域的热点话题。娱乐类话题如星光大赏阵容官宣、痞幼自曝曾被两个恋综拒绝等占据了榜单前列。社会和国际类话题如日军被爆引导美军轰炸平民、泰国对柬埔寨发动空袭等也引起了较高关注。整体来看，榜单中存在一些具有潜在风险的话题，需要进一步关注。\n本次热点榜主要涉及国际访问、企业动态、科技应用和国际军事等话题。榜单中没有明显的负面舆情风险话题，大多数内容为中性或正面报道。需要关注的是企业间的竞争动态和国际军事新闻可能引发的后续讨论。\n本次热点榜主要涵盖了政治经济、社会事件、国际关系和娱乐体育等多个领域。其中，政治经济类话题如中央政治局研究明年经济工作和辽宁舰动向等占据较高热度。社会事件方面，安徽新能源车起火和男子公园搂抱女童被刑拘等话题引发关注。整体来看，榜单内容多样，但大部分话题为中性或正面报道，无明显负面舆情风险。",
+  "topics": [
+    {
+      "topic": "泰柬边境再发冲突",
+      "platform": "抖音",
+      "hotness": "835.2万",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "涉及国际边境冲突，可能引发相关讨论和关注",
+      "further_investigate": true,
+      "title": "泰柬边境再发冲突"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "773.6万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "活动被叫停可能引发公众对原因的猜测和讨论",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "777.1万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "涉及国防和外交事务，可能引发公众关注和讨论",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "美防长不点名“警告”日本",
+      "platform": "抖音",
+      "hotness": "779.7万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "涉及国际关系和外交事务，可能引发关注",
+      "further_investigate": true,
+      "title": "美防长不点名“警告”日本"
+    },
+    {
+      "topic": "美国将调整与中国经济关系",
+      "platform": "抖音",
+      "hotness": "775.0万",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "涉及中美经济关系调整，可能引发公众关注和讨论",
+      "further_investigate": true,
+      "title": "美国将调整与中国经济关系"
+    },
+    {
+      "topic": "日军被爆引导美军轰炸平民",
+      "platform": "微博",
+      "hotness": "70万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "话题涉及战争罪行和伤害平民的行为，具有明确的负面倾向和国际影响",
+      "further_investigate": true,
+      "title": "日军被爆引导美军轰炸平民"
+    },
+    {
+      "topic": "泰国对柬埔寨发动空袭",
+      "platform": "微博",
+      "hotness": "67万",
+      "risk_level": 7,
+      "category": "国际冲突",
+      "reason": "话题涉及国家间的军事冲突，可能引发地区不稳定和国际关注",
+      "further_investigate": true,
+      "title": "泰国对柬埔寨发动空袭"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "45万",
+      "risk_level": 9,
+      "category": "社会安全",
+      "reason": "话题涉及极端暴力事件和未成年人受害，具有强烈的负面社会影响",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "日本婴儿残尸有刀具切割痕迹",
+      "platform": "微博",
+      "hotness": "41万",
+      "risk_level": 9,
+      "category": "社会安全",
+      "reason": "话题进一步证实了暴力行为的存在，可能引发公众愤怒和恐慌",
+      "further_investigate": true,
+      "title": "日本婴儿残尸有刀具切割痕迹"
+    },
+    {
+      "topic": "郭德纲相声被举报内容低俗",
+      "platform": "微博",
+      "hotness": "28万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "话题涉及文化内容和道德标准的争议，可能引发公众讨论",
+      "further_investigate": true,
+      "title": "郭德纲相声被举报内容低俗"
+    },
+    {
+      "topic": "退学北大考上清华小伙被白嫖家教费",
+      "platform": "微博",
+      "hotness": "21万",
+      "risk_level": 4,
+      "category": "社会争议",
+      "reason": "话题涉及教育公平和诚信问题，可能引发社会讨论",
+      "further_investigate": true,
+      "title": "退学北大考上清华小伙被白嫖家教费"
+    },
+    {
+      "topic": "朋友送的护身符核辐射超标1686倍",
+      "platform": "微博",
+      "hotness": "10万",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "话题涉及核辐射和公共安全问题，可能引发公众担忧",
+      "further_investigate": true,
+      "title": "朋友送的护身符核辐射超标1686倍"
+    },
+    {
+      "topic": "醉酒丈夫负气离家落水遭死亡缠绕",
+      "platform": "微博",
+      "hotness": "10万",
+      "risk_level": 5,
+      "category": "社会安全",
+      "reason": "话题涉及家庭冲突和人身安全，可能引发公众关注",
+      "further_investigate": true,
+      "title": "醉酒丈夫负气离家落水遭死亡缠绕"
+    },
+    {
+      "topic": "安徽一新能源车突然起火伴有爆炸声",
+      "platform": "头条",
+      "hotness": "2295.8万",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "新能源车起火事件可能引发公众对新能源汽车安全性的担忧，存在潜在的产品质量或技术安全风险",
+      "further_investigate": true,
+      "title": "安徽一新能源车突然起火伴有爆炸声"
+    },
+    {
+      "topic": "男子在公园搂抱女童被刑拘",
+      "platform": "头条",
+      "hotness": "512.3万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及儿童安全问题，容易引发公众愤怒和社会讨论，具有明确的负面性质",
+      "further_investigate": true,
+      "title": "男子在公园搂抱女童被刑拘"
+    },
+    {
+      "topic": "4500万养牛场立项两年多未见一头牛",
+      "platform": "头条",
+      "hotness": "625.7万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "可能涉及项目资金使用或管理问题，存在引发公众质疑的风险",
+      "further_investigate": true,
+      "title": "4500万养牛场立项两年多未见一头牛"
+    },
+    {
+      "topic": "台湾当局被曝妄图与日军事勾连",
+      "platform": "头条",
+      "hotness": "1260.0万",
+      "risk_level": 8,
+      "category": "国际关系",
+      "reason": "涉及敏感的国际关系和领土问题，容易引发舆论争议和民族情绪",
+      "further_investigate": true,
+      "title": "台湾当局被曝妄图与日军事勾连"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 17,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜以娱乐、体育和生活类内容为主，整体氛围较为轻松。榜单中出现了少量涉及国际关系和国内政策的话题，但无明显负面舆情风险。",
+    "content_summary": "侦察到的主要内容包括：环卫爷爷把落叶扫成打卡点、加快发展新质生产力、糖葫芦树我先爬为敬、湖人险胜76人、国乒战胜日本夺冠等。",
+    "content_analysis": "娱乐和生活类话题占据榜单大部分位置，显示出公众对这些内容的关注度较高。体育类话题如湖人和国乒的比赛结果也受到广泛关注。少量涉及国际关系和国内政策的话题热度相对较低，但需要关注其发展。",
+    "potential_risks": [
+      "关注泰柬边境冲突的后续发展",
+      "监控贵州榕江荒野求生活动被叫停的原因讨论",
+      "跟踪国防部回应日称战机被雷达照射的公众反应"
+    ],
+    "trend_prediction": "未来24-48小时内，娱乐和生活类话题可能继续保持高热度。国际关系和国内政策相关话题的热度可能会有所上升，需密切关注。",
+    "recommendations": [
+      "继续监控娱乐和生活类话题的热度变化",
+      "关注国际关系和国内政策相关话题的公众反应",
+      "准备应对可能出现的突发舆情事件"
+    ],
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 3,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 17,
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 3,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  }
+}

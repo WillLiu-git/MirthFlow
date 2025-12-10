@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>预警信息</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* 标题样式 */
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        /* 导航栏样式 */
+        .nav-bar {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .nav-bar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .nav-bar a:hover {
+            background-color: #34495e;
+        }
+        /* 预警卡片样式 */
+        .alerts-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .alert-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-left: 4px solid #3498db;
+        }
+        .alert-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .alert-card.emergency {
+            border-left-color: #c62828;
+        }
+        .alert-card.important {
+            border-left-color: #ef6c00;
+        }
+        .alert-card.info {
+            border-left-color: #2e7d32;
+        }
+        /* 预警头部样式 */
+        .alert-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .alert-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .alert-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 14px;
+            color: #555;
+        }
+        .alert-level {
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .alert-level.emergency {
+            background-color: #ffebee;
+            color: #c62828;
+        }
+        .alert-level.important {
+            background-color: #fff3e0;
+            color: #ef6c00;
+        }
+        .alert-level.info {
+            background-color: #e8f5e8;
+            color: #2e7d32;
+        }
+        /* 预警内容样式 */
+        .alert-content {
+            margin-bottom: 15px;
+        }
+        .alert-summary {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .alert-topics {
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        /* 预警详情样式 */
+        .alert-details {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        .detail-section {
+            margin-bottom: 10px;
+        }
+        .detail-section label {
+            font-weight: bold;
+            color: #555;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .detail-section .value {
+            color: #2c3e50;
+        }
+        /* 列表样式 */
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 8px;
+            padding: 8px;
+            background-color: white;
+            border-radius: 4px;
+            border-left: 3px solid #3498db;
+            font-size: 14px;
+        }
+        /* 空状态样式 */
+        .empty-state {
+            text-align: center;
+            padding: 50px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .alert-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+            .alert-meta {
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div class="nav-bar">
+        <a href="/">返回首页</a>
+        <a href="/alerts">查看预警</a>
+        <a href="/system_logs">系统日志</a>
+    </div>
+
+    <div class="container">
+        <h1>预警信息</h1>
+        
+        {% if alerts %}
+            <div class="alerts-container">
+                {% for alert in alerts %}
+                    <div class="alert-card {{ 'emergency' if alert.alert_level == '紧急' else 'important' if alert.alert_level == '重要' else 'info' }}">
+                        <div class="alert-header">
+                            <div class="alert-title">
+                                【{{ alert.alert_level }}】{{ alert.summary[:50] }}{{ '...' if alert.summary|length > 50 else '' }}
+                            </div>
+                            <div class="alert-meta">
+                                <span>ID: {{ alert.alert_id }}</span>
+                                <span>时间: {{ alert.timestamp }}</span>
+                                <span class="alert-level {{ 'emergency' if alert.alert_level == '紧急' else 'important' if alert.alert_level == '重要' else 'info' }}">{{ alert.alert_level }}</span>
+                                <span>风险等级: {{ alert.risk_level }}</span>
+                            </div>
+                        </div>
+                        
+                        <div class="alert-content">
+                            <div class="alert-summary">{{ alert.summary }}</div>
+                            <div class="alert-topics">
+                                涉及话题: {{ alert.target_topics|join(', ') if 'target_topics' in alert and alert.target_topics else '无' }}
+                            </div>
+                        </div>
+                        
+                        <div class="alert-details">
+                            <div class="detail-section">
+                                <label>风险因素</label>
+                                <ul>
+                                    {% for factor in alert.risk_factors %}
+                                        <li>{{ factor }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            
+                            {% if 'recommendations' in alert %}
+                            <div class="detail-section">
+                                <label>建议措施</label>
+                                <ul>
+                                    {% for recommendation in alert.recommendations %}
+                                        <li>{{ recommendation }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            {% endif %}
+                            
+                            {% if 'source_info' in alert %}
+                            <div class="detail-section">
+                                <label>信息来源</label>
+                                <div class="value">
+                                    热点报告: {{ alert.source_info.hotspot_report.scan_summary if 'hotspot_report' in alert.source_info else '无' }}
+                                    {% if 'vcs_research' in alert.source_info %}
+                                    <br>视频调研: 共 {{ alert.source_info.vcs_research.total_data_count }} 条内容，{{ alert.source_info.vcs_research.total_comment_count }} 条评论
+                                    {% endif %}
+                                </div>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <div class="empty-state">
+                <h2>暂无预警信息</h2>
+                <p>系统运行正常，未检测到需要预警的风险</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

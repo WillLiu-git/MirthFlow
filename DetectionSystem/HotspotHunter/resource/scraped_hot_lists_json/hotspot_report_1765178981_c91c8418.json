@@ -1,0 +1,136 @@
+{
+  "summary": "从爬取数据中提取到风险项目",
+  "topics": [
+    {
+      "title": "父亲工资打孩子账户致儿子无法考公",
+      "platform": "未知",
+      "hotness": "3976.4万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "确保我国经济航船乘风破浪行稳致远",
+      "platform": "未知",
+      "hotness": "3598.0万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "1818名明星网红等人查补税款15.23亿",
+      "platform": "未知",
+      "hotness": "3255.6万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "马克龙：中国应伸出援手投资欧洲",
+      "platform": "未知",
+      "hotness": "2945.8万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "净网|网警查处编造汽车造成8杀谣言案",
+      "platform": "未知",
+      "hotness": "2665.5万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "护士患癌请病假遭拒？卫健委介入调查",
+      "platform": "未知",
+      "hotness": "2411.8万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "家人刷视频才知13岁孩子救了人",
+      "platform": "未知",
+      "hotness": "2182.3万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "“雪假”带动冬季出游",
+      "platform": "未知",
+      "hotness": "1974.6万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "安徽一新能源车突然起火伴有爆炸声",
+      "platform": "未知",
+      "hotness": "1786.7万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "打HPV疫苗会导致绝育？假的",
+      "platform": "未知",
+      "hotness": "1616.7万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    }
+  ],
+  "report_count": 1,
+  "total_risk_items": 10,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "LLM分析失败，从爬取数据中提取风险项目",
+    "content_summary": "从爬取数据中提取了 10 个风险项目",
+    "content_analysis": "LLM分析失败，无法进行深入分析",
+    "potential_risks": [
+      "LLM分析失败，从爬取数据中提取风险",
+      "建议检查LLM配置"
+    ],
+    "trend_prediction": "无法预测",
+    "recommendations": [
+      "建议检查LLM配置",
+      "确保API密钥有效",
+      "检查网络连接"
+    ],
+    "risk_overview": {
+      "high_risk_count": 0,
+      "medium_risk_count": 10,
+      "low_risk_count": 0,
+      "total_count": 10
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 10,
+    "risk_overview": {
+      "high_risk_count": 0,
+      "medium_risk_count": 10,
+      "low_risk_count": 0,
+      "total_count": 10
+    }
+  }
+}

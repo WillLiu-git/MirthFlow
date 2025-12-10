@@ -1,0 +1,237 @@
+{
+  "summary": "本次热点榜以娱乐、社会正能量和国际关系为主要内容，涵盖了从国内环卫工人的创意行为到国际政治经济关系的广泛话题。榜单中大部分内容为普通热点，但涉及国际关系和敏感话题的内容需要特别关注。整体风险较低，但仍需对部分话题保持警惕。\n本次热点榜以娱乐和社会新闻为主，涉及明星活动、社会事件和国际关系等多个领域。其中，社会安全类话题如网络谣言和警察不当行为引发关注，国际关系类话题如中日交涉和台日关系也具有一定敏感性。整体来看，风险点分散但部分话题可能引发舆论争议。\n本次热点榜主要涉及国际访问、科技争议、体育赛事和社会事件等多个领域。其中，马克龙访问四川大学和中法联合声明属于国际关系热点，而多家APP对豆包手机禁用和阿里系APP禁止豆包手机登陆则涉及科技领域的争议。此外，美军承认击落美军战机的事件可能引发国际安全关注。\n本次热点榜涵盖了多个领域的热点话题，包括教育、体育、社会事件和国际关系等。其中，朱元璋教材换图和净网行动等话题具有较高的社会关注度。整体来看，热点榜中的话题类型多样，部分话题存在一定的舆情风险。",
+  "topics": [
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "887.6万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及中日两国军事互动，可能引发国际舆论关注和争议。",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "美防长不点名“警告”日本",
+      "platform": "抖音",
+      "hotness": "777.2万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及美日关系和中国利益，可能引发外交层面的讨论和关注。",
+      "further_investigate": true,
+      "title": "美防长不点名“警告”日本"
+    },
+    {
+      "topic": "洪秀柱警告日本别惹事",
+      "platform": "抖音",
+      "hotness": "773.4万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "涉及中日关系和台湾地区政治人物的表态，可能引发两岸关系讨论。",
+      "further_investigate": true,
+      "title": "洪秀柱警告日本别惹事"
+    },
+    {
+      "topic": "美国将调整与中国经济关系",
+      "platform": "抖音",
+      "hotness": "772.3万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及中美经济关系调整，可能对两国经贸往来产生影响并引发舆论关注。",
+      "further_investigate": true,
+      "title": "美国将调整与中国经济关系"
+    },
+    {
+      "topic": "松原辟谣一只松鼠致半城停电",
+      "platform": "抖音",
+      "hotness": "885.8万",
+      "risk_level": 3,
+      "category": "社会安全",
+      "reason": "涉及城市基础设施安全问题，虽然已辟谣但仍可能引发公众对电力系统安全的讨论。",
+      "further_investigate": false,
+      "title": "松原辟谣一只松鼠致半城停电"
+    },
+    {
+      "topic": "网警查处编造汽车造成8杀网络谣言案",
+      "platform": "微博",
+      "hotness": "32万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及网络谣言传播，可能引发公众恐慌和对网络环境的不信任，需要警惕类似谣言的扩散。",
+      "further_investigate": true,
+      "title": "网警查处编造汽车造成8杀网络谣言案"
+    },
+    {
+      "topic": "印度警察为逃避工作深夜抛尸",
+      "platform": "微博",
+      "hotness": "31万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "涉及公职人员不当行为，可能引发公众对执法机构的质疑和国际舆论关注。",
+      "further_investigate": true,
+      "title": "印度警察为逃避工作深夜抛尸"
+    },
+    {
+      "topic": "台日竟然还想夹击解放军",
+      "platform": "微博",
+      "hotness": "17万",
+      "risk_level": 8,
+      "category": "国际关系",
+      "reason": "涉及敏感的国际关系和领土问题，可能引发民族情绪和外交争议。",
+      "further_investigate": true,
+      "title": "台日竟然还想夹击解放军"
+    },
+    {
+      "topic": "中方不接受日方所谓交涉",
+      "platform": "微博",
+      "hotness": "13万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及中日外交关系，可能引发公众情绪波动和国际舆论关注。",
+      "further_investigate": true,
+      "title": "中方不接受日方所谓交涉"
+    },
+    {
+      "topic": "高市谬论释放军国主义死灰复燃信号",
+      "platform": "微博",
+      "hotness": "6万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及历史问题和国际关系，可能引发公众情绪和外交争议。",
+      "further_investigate": true,
+      "title": "高市谬论释放军国主义死灰复燃信号"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "多家APP对豆包手机禁用可能引发用户不满和舆论争议，涉及平台竞争和用户权益问题。",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "阿里系APP禁止豆包手机登陆可能引发更大范围的舆论争议，涉及平台垄断和用户选择权问题。",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "美军承认击落美军战机的事件可能引发国际安全关注和舆论热议，涉及军事冲突和国家安全问题。",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "王传福坦言技术领先度不及以往",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "王传福的言论可能引发对企业技术发展和市场竞争力的讨论，涉及企业形象和市场信心问题。",
+      "further_investigate": true,
+      "title": "王传福坦言技术领先度不及以往"
+    },
+    {
+      "topic": "朱元璋“鞋拔子脸”教材换图",
+      "platform": "头条",
+      "hotness": "3767.6万",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "涉及历史人物形象的教育内容调整，可能引发公众对历史教育真实性和权威性的讨论和争议。",
+      "further_investigate": true,
+      "title": "朱元璋“鞋拔子脸”教材换图"
+    },
+    {
+      "topic": "净网|网警查处编造汽车造成8杀谣言案",
+      "platform": "头条",
+      "hotness": "2525.5万",
+      "risk_level": 5,
+      "category": "社会安全",
+      "reason": "涉及网络谣言和公共安全，可能引发公众对网络信息真实性和网络管理的关注和讨论。",
+      "further_investigate": true,
+      "title": "净网|网警查处编造汽车造成8杀谣言案"
+    },
+    {
+      "topic": "孩子被褥印不雅英文字母",
+      "platform": "头条",
+      "hotness": "1026.8万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "涉及儿童用品安全问题，可能引发家长和公众对产品质量和监管的关注和担忧。",
+      "further_investigate": true,
+      "title": "孩子被褥印不雅英文字母"
+    },
+    {
+      "topic": "人贩子扬言出狱报复能否加刑",
+      "platform": "头条",
+      "hotness": "1692.9万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及犯罪分子的威胁言论，可能引发公众对法律制裁和社会安全的关注和讨论。",
+      "further_investigate": true,
+      "title": "人贩子扬言出狱报复能否加刑"
+    },
+    {
+      "topic": "“偷懒式造假”何以轻松通过审核",
+      "platform": "头条",
+      "hotness": "461.4万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及审核机制和造假问题，可能引发公众对监管和诚信问题的关注和讨论。",
+      "further_investigate": true,
+      "title": "“偷懒式造假”何以轻松通过审核"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 19,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜内容丰富，涵盖了社会正能量、国际关系、娱乐等多个领域，热度分布均匀。",
+    "content_summary": "侦察到的主要内容包括：社会正能量（环卫爷爷创意行为）、国际关系（中日、中美关系）、娱乐（明星动态、综艺内容）以及体育赛事等。",
+    "content_analysis": "热点趋势显示社会正能量内容受欢迎，国际关系话题热度稳定，娱乐内容持续吸引关注。话题关联性不强，情绪倾向以正面和中立为主。",
+    "potential_risks": [
+      "需要密切关注国际关系相关话题的发展态势",
+      "注意社会正能量内容可能引发的模仿行为",
+      "警惕娱乐内容中可能存在的版权争议"
+    ],
+    "trend_prediction": "预计未来24-48小时内，社会正能量内容热度可能持续，国际关系话题可能因新事件而升温，娱乐内容将保持稳定热度。",
+    "recommendations": [
+      "加强对国际关系话题的监测",
+      "关注社会正能量内容的后续发展",
+      "准备应对可能的娱乐版权争议"
+    ],
+    "risk_overview": {
+      "high_risk_count": 3,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 19,
+    "risk_overview": {
+      "high_risk_count": 3,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  }
+}

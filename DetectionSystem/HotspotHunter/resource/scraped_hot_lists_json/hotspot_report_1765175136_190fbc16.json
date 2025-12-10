@@ -1,0 +1,247 @@
+{
+  "summary": "本次热点榜主要涵盖了娱乐、体育、社会和国际新闻等多个领域的热点话题。大部分内容为娱乐和生活类话题，如抖音上的创意视频、体育赛事结果和明星动态。榜单中出现了少量涉及国际关系和国内社会事件的话题，但整体负面舆情风险较低。\n本次热点榜主要涵盖了娱乐、社会新闻、国际事件等多个领域。娱乐类话题如星光大赏阵容官宣、痞幼自曝曾被两个恋综拒绝等占据了榜单前列。社会新闻和国际事件如日军被爆引导美军轰炸平民、泰国对柬埔寨发动空袭等也引起了较高关注。整体来看，榜单中大部分为普通热点，但存在少量具有潜在风险的话题。\n本次热点榜主要涉及国际访问、企业动态、科技争议和体育赛事等多个领域。榜单中出现了多个与豆包手机相关的禁用话题，可能涉及商业竞争或技术兼容性问题。整体来看，大部分话题属于中性或正面内容，无明显负面舆情风险。\n本次热点榜涵盖了政治、经济、社会、娱乐等多个领域的热点话题。主要内容包括中央政治局研究明年经济工作、辽宁舰动向、新能源车起火事件、郭德纲被约谈传闻等。整体来看，大部分话题为中性或正面报道，少数话题存在一定的负面或争议性内容。",
+  "topics": [
+    {
+      "topic": "泰柬边境再发冲突",
+      "platform": "抖音",
+      "hotness": "835.2万",
+      "risk_level": 6,
+      "category": "国际冲突",
+      "reason": "涉及国家边境冲突，可能引发国际关注和讨论",
+      "further_investigate": true,
+      "title": "泰柬边境再发冲突"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "773.6万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "活动被叫停可能引发公众对活动安全性和组织能力的质疑",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "榕江荒野求生选手就谣言道歉",
+      "platform": "抖音",
+      "hotness": "820.0万",
+      "risk_level": 3,
+      "category": "舆论争议",
+      "reason": "涉及选手道歉，可能存在前期负面舆论",
+      "further_investigate": false,
+      "title": "榕江荒野求生选手就谣言道歉"
+    },
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "777.1万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "涉及中日军事关系，可能引发国际关注",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "美防长不点名“警告”日本",
+      "platform": "抖音",
+      "hotness": "779.7万",
+      "risk_level": 4,
+      "category": "国际关系",
+      "reason": "涉及美日关系，可能引发国际关注",
+      "further_investigate": true,
+      "title": "美防长不点名“警告”日本"
+    },
+    {
+      "topic": "日军被爆引导美军轰炸平民",
+      "platform": "微博",
+      "hotness": "70万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "话题涉及战争罪行和军事冲突，具有明确的负面倾向和潜在的国际影响。",
+      "further_investigate": true,
+      "title": "日军被爆引导美军轰炸平民"
+    },
+    {
+      "topic": "泰国对柬埔寨发动空袭",
+      "platform": "微博",
+      "hotness": "67万",
+      "risk_level": 7,
+      "category": "国际冲突",
+      "reason": "话题涉及国家间的军事冲突，可能引发国际关注和争议。",
+      "further_investigate": true,
+      "title": "泰国对柬埔寨发动空袭"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "45万",
+      "risk_level": 9,
+      "category": "社会安全",
+      "reason": "话题涉及严重的刑事案件，具有强烈的负面倾向和社会影响。",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "日本婴儿残尸有刀具切割痕迹",
+      "platform": "微博",
+      "hotness": "41万",
+      "risk_level": 9,
+      "category": "社会安全",
+      "reason": "话题涉及严重的刑事案件，具有强烈的负面倾向和社会影响。",
+      "further_investigate": true,
+      "title": "日本婴儿残尸有刀具切割痕迹"
+    },
+    {
+      "topic": "郭德纲相声被举报内容低俗",
+      "platform": "微博",
+      "hotness": "28万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "话题涉及公众人物的争议行为，可能引发公众讨论和争议。",
+      "further_investigate": true,
+      "title": "郭德纲相声被举报内容低俗"
+    },
+    {
+      "topic": "退学北大考上清华小伙被白嫖家教费",
+      "platform": "微博",
+      "hotness": "21万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "话题涉及教育和社会公平问题，可能引发公众讨论和争议。",
+      "further_investigate": true,
+      "title": "退学北大考上清华小伙被白嫖家教费"
+    },
+    {
+      "topic": "朋友送的护身符核辐射超标1686倍",
+      "platform": "微博",
+      "hotness": "10万",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "话题涉及核辐射安全问题，可能引发公众恐慌和关注。",
+      "further_investigate": true,
+      "title": "朋友送的护身符核辐射超标1686倍"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "多家APP对豆包手机禁用可能涉及商业竞争或技术兼容性问题，可能引发用户不满或争议",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "阿里系APP禁止豆包手机登陆可能涉及商业竞争或技术兼容性问题，可能引发用户不满或争议",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "iRobot 欠中国代工厂 25 亿元",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "iRobot欠中国代工厂巨额款项可能引发关于外资企业信用和国际商业纠纷的讨论",
+      "further_investigate": true,
+      "title": "iRobot 欠中国代工厂 25 亿元"
+    },
+    {
+      "topic": "安徽一新能源车突然起火伴有爆炸声",
+      "platform": "头条",
+      "hotness": "2295.8万",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "新能源车起火事件可能引发公众对新能源汽车安全性的担忧，存在一定的负面舆情风险",
+      "further_investigate": true,
+      "title": "安徽一新能源车突然起火伴有爆炸声"
+    },
+    {
+      "topic": "郭德纲被约谈？文旅局回应",
+      "platform": "头条",
+      "hotness": "4183.2万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及公众人物被约谈的传闻，可能引发舆论讨论和猜测，存在一定的争议性",
+      "further_investigate": true,
+      "title": "郭德纲被约谈？文旅局回应"
+    },
+    {
+      "topic": "台湾当局被曝妄图与日军事勾连",
+      "platform": "头条",
+      "hotness": "1260.0万",
+      "risk_level": 7,
+      "category": "政治敏感",
+      "reason": "涉及台湾与日本的军事联系，属于敏感政治话题，可能引发舆论关注和讨论",
+      "further_investigate": true,
+      "title": "台湾当局被曝妄图与日军事勾连"
+    },
+    {
+      "topic": "4500万养牛场立项两年多未见一头牛",
+      "platform": "头条",
+      "hotness": "625.7万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "涉及项目资金使用问题，可能引发公众对资金管理和项目执行的质疑",
+      "further_investigate": true,
+      "title": "4500万养牛场立项两年多未见一头牛"
+    },
+    {
+      "topic": "男子在公园搂抱女童被刑拘",
+      "platform": "头条",
+      "hotness": "512.3万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "涉及儿童安全问题，可能引发公众对社会治安和儿童保护的关注",
+      "further_investigate": true,
+      "title": "男子在公园搂抱女童被刑拘"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 20,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜内容多样，以娱乐和生活类话题为主，国际和社会新闻话题占比相对较小。热度分布较为均匀，最高热度话题超过1100万。",
+    "content_summary": "侦察到的主要内容包括：抖音上的创意视频（如环卫爷爷把落叶扫成打卡点）、体育赛事（如湖人险胜76人、国乒战胜日本夺冠）、明星动态（如刘亦菲阿布扎比观赛F1）以及国际新闻（如泰柬边境冲突、美防长警告日本）。",
+    "content_analysis": "娱乐和生活类话题占据榜单大部分位置，显示出用户对这些内容的强烈兴趣。国际和社会新闻话题虽然数量不多，但热度较高，显示出公众对国际关系和国内社会事件的关注。整体情绪倾向以正面和中立为主，负面情绪较少。",
+    "potential_risks": [
+      "国际冲突话题可能引发公众情绪波动",
+      "活动被叫停可能引发对组织能力的质疑",
+      "军事和国际关系话题需要关注后续发展"
+    ],
+    "trend_prediction": "未来24-48小时内，娱乐和生活类话题可能继续保持热度，国际和社会新闻话题的热度可能会有所波动，取决于事件的发展情况。",
+    "recommendations": [
+      "持续关注国际冲突话题的后续发展",
+      "监控活动被叫停话题的公众反应",
+      "留意军事和国际关系话题的新动态"
+    ],
+    "risk_overview": {
+      "high_risk_count": 1,
+      "medium_risk_count": 4,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 20,
+    "risk_overview": {
+      "high_risk_count": 1,
+      "medium_risk_count": 4,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  }
+}

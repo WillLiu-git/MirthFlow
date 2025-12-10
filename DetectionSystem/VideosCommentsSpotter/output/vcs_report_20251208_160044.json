@@ -1,0 +1,488 @@
+{
+  "risk_topic": {
+    "topic": "东方美学被明制汉服拿捏了",
+    "description": "对话题 '东方美学被明制汉服拿捏了' 进行舆情调研",
+    "priority": "high"
+  },
+  "crawl_config": {
+    "keywords_config": [
+      {
+        "keyword": "东方美学被明制汉服拿捏了",
+        "max_video_count": 8,
+        "max_comment_count": 20
+      }
+    ],
+    "keywords": [
+      "东方美学被明制汉服拿捏了"
+    ],
+    "platforms": [
+      "dy"
+    ],
+    "retries": 3
+  },
+  "crawl_results": {
+    "platform_results": {
+      "dy": {
+        "results": [
+          {
+            "keyword": "东方美学被明制汉服拿捏了",
+            "platform": "dy",
+            "items": [
+              {
+                "title": "东方美学被明制汉服拿捏了现场实拍：东方美学被明制汉服拿捏了训练情况",
+                "url": "https://dy.com/video/834292",
+                "comments": [
+                  {
+                    "user": "用户1369",
+                    "text": "这个视频拍得真不错，很有现场感",
+                    "likes": 68,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户3830",
+                    "text": "这个东方美学被明制汉服拿捏了视频太震撼了！",
+                    "likes": 431,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户5666",
+                    "text": "这个视频拍得真不错，很有现场感",
+                    "likes": 357,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户1449",
+                    "text": "这个东方美学被明制汉服拿捏了视频太震撼了！",
+                    "likes": 424,
+                    "time": "2025-12-08 16:00:44"
+                  }
+                ],
+                "platform": "dy",
+                "create_time": "2025-12-08 16:00:44",
+                "likes": 4210,
+                "views": 26171,
+                "author": "创作者3982"
+              },
+              {
+                "title": "东方美学被明制汉服拿捏了现场实拍：东方美学被明制汉服拿捏了训练情况",
+                "url": "https://dy.com/video/421123",
+                "comments": [
+                  {
+                    "user": "用户5755",
+                    "text": "这个视频拍得真不错，很有现场感",
+                    "likes": 420,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户6476",
+                    "text": "这个视频拍得真不错，很有现场感",
+                    "likes": 350,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户3584",
+                    "text": "没想到东方美学被明制汉服拿捏了还有这样的一面",
+                    "likes": 131,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户3270",
+                    "text": "这个视频拍得真不错，很有现场感",
+                    "likes": 37,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户6070",
+                    "text": "支持东方美学被明制汉服拿捏了，为他们点赞",
+                    "likes": 27,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户8042",
+                    "text": "东方美学被明制汉服拿捏了训练看起来很专业",
+                    "likes": 438,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户2023",
+                    "text": "东方美学被明制汉服拿捏了训练看起来很专业",
+                    "likes": 301,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户6095",
+                    "text": "没想到东方美学被明制汉服拿捏了还有这样的一面",
+                    "likes": 52,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户8751",
+                    "text": "没想到东方美学被明制汉服拿捏了还有这样的一面",
+                    "likes": 221,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户2226",
+                    "text": "没想到东方美学被明制汉服拿捏了还有这样的一面",
+                    "likes": 85,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户2773",
+                    "text": "没想到东方美学被明制汉服拿捏了还有这样的一面",
+                    "likes": 471,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户2007",
+                    "text": "这个东方美学被明制汉服拿捏了视频太震撼了！",
+                    "likes": 447,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户8550",
+                    "text": "东方美学被明制汉服拿捏了训练看起来很专业",
+                    "likes": 345,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户7363",
+                    "text": "没想到东方美学被明制汉服拿捏了还有这样的一面",
+                    "likes": 221,
+                    "time": "2025-12-08 16:00:44"
+                  }
+                ],
+                "platform": "dy",
+                "create_time": "2025-12-08 16:00:44",
+                "likes": 6227,
+                "views": 30240,
+                "author": "创作者4885"
+              },
+              {
+                "title": "直击东方美学被明制汉服拿捏了现场，精彩瞬间",
+                "url": "https://dy.com/video/365881",
+                "comments": [
+                  {
+                    "user": "用户5272",
+                    "text": "这个视频拍得真不错，很有现场感",
+                    "likes": 49,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户2535",
+                    "text": "这个东方美学被明制汉服拿捏了视频太震撼了！",
+                    "likes": 172,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户7830",
+                    "text": "支持东方美学被明制汉服拿捏了，为他们点赞",
+                    "likes": 239,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户2305",
+                    "text": "这个东方美学被明制汉服拿捏了视频太震撼了！",
+                    "likes": 403,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户6831",
+                    "text": "这个视频拍得真不错，很有现场感",
+                    "likes": 363,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户9266",
+                    "text": "东方美学被明制汉服拿捏了训练看起来很专业",
+                    "likes": 491,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户5559",
+                    "text": "这个东方美学被明制汉服拿捏了视频太震撼了！",
+                    "likes": 153,
+                    "time": "2025-12-08 16:00:44"
+                  }
+                ],
+                "platform": "dy",
+                "create_time": "2025-12-08 16:00:44",
+                "likes": 847,
+                "views": 16000,
+                "author": "创作者9814"
+              },
+              {
+                "title": "震撼！东方美学被明制汉服拿捏了最新动态曝光",
+                "url": "https://dy.com/video/327654",
+                "comments": [
+                  {
+                    "user": "用户4544",
+                    "text": "支持东方美学被明制汉服拿捏了，为他们点赞",
+                    "likes": 495,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户3758",
+                    "text": "支持东方美学被明制汉服拿捏了，为他们点赞",
+                    "likes": 413,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户4296",
+                    "text": "东方美学被明制汉服拿捏了训练看起来很专业",
+                    "likes": 275,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户6047",
+                    "text": "这个东方美学被明制汉服拿捏了视频太震撼了！",
+                    "likes": 378,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户4244",
+                    "text": "没想到东方美学被明制汉服拿捏了还有这样的一面",
+                    "likes": 57,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户2059",
+                    "text": "东方美学被明制汉服拿捏了训练看起来很专业",
+                    "likes": 340,
+                    "time": "2025-12-08 16:00:44"
+                  }
+                ],
+                "platform": "dy",
+                "create_time": "2025-12-08 16:00:44",
+                "likes": 901,
+                "views": 77065,
+                "author": "创作者6042"
+              },
+              {
+                "title": "深度解析：东方美学被明制汉服拿捏了背后的故事",
+                "url": "https://dy.com/video/278646",
+                "comments": [
+                  {
+                    "user": "用户6309",
+                    "text": "这个东方美学被明制汉服拿捏了视频太震撼了！",
+                    "likes": 87,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户4013",
+                    "text": "没想到东方美学被明制汉服拿捏了还有这样的一面",
+                    "likes": 363,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户1766",
+                    "text": "这个视频拍得真不错，很有现场感",
+                    "likes": 71,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户4851",
+                    "text": "东方美学被明制汉服拿捏了训练看起来很专业",
+                    "likes": 223,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户1423",
+                    "text": "东方美学被明制汉服拿捏了训练看起来很专业",
+                    "likes": 66,
+                    "time": "2025-12-08 16:00:44"
+                  },
+                  {
+                    "user": "用户1933",
+                    "text": "东方美学被明制汉服拿捏了训练看起来很专业",
+                    "likes": 464,
+                    "time": "2025-12-08 16:00:44"
+                  }
+                ],
+                "platform": "dy",
+                "create_time": "2025-12-08 16:00:44",
+                "likes": 3375,
+                "views": 44025,
+                "author": "创作者9962"
+              }
+            ],
+            "total_items": 5,
+            "total_comments": 37,
+            "timestamp": "2025-12-08 16:00:44"
+          }
+        ],
+        "total_items": 5,
+        "total_comments": 37,
+        "platform": "dy"
+      }
+    },
+    "total_items": 5,
+    "total_comments": 37
+  },
+  "sub_reports": [
+    {
+      "summary": "对话题 '东方美学被明制汉服拿捏了' 的分析失败",
+      "key_findings": [
+        "分析过程中出现错误"
+      ],
+      "sentiment_analysis": {
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      },
+      "risk_assessment": {
+        "level": "unknown",
+        "factors": [
+          "分析失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}"
+        ]
+      },
+      "trend_prediction": "无法预测",
+      "recommendations": [
+        "请检查爬虫是否正常工作",
+        "确认爬取结果格式是否正确",
+        "验证LLM服务是否可用"
+      ],
+      "timestamp": "2025-12-08 16:00:44",
+      "source_topic": "东方美学被明制汉服拿捏了",
+      "data_count": 0,
+      "comment_count": 0,
+      "confidence_score": 0.0,
+      "keyword": "东方美学被明制汉服拿捏了",
+      "keyword_config": {
+        "keyword": "东方美学被明制汉服拿捏了",
+        "max_video_count": 8,
+        "max_comment_count": 20
+      }
+    }
+  ],
+  "analysis": {
+    "summary": "汇总报告生成失败，原因: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}",
+    "key_findings": [
+      "分析过程中出现错误"
+    ],
+    "sentiment_analysis": {
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    "risk_assessment": {
+      "level": "unknown",
+      "factors": [
+        "汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}"
+      ]
+    },
+    "trend_prediction": "无法预测",
+    "recommendations": [
+      "请检查LLM服务是否可用"
+    ],
+    "timestamp": "2025-12-08 16:00:44",
+    "source_topic": "东方美学被明制汉服拿捏了",
+    "data_count": 0,
+    "comment_count": 0,
+    "confidence_score": 0.0,
+    "important_videos": [
+      {
+        "keyword": "东方美学被明制汉服拿捏了",
+        "platform": "dy",
+        "title": "东方美学被明制汉服拿捏了现场实拍：东方美学被明制汉服拿捏了训练情况",
+        "url": "https://dy.com/video/421123",
+        "likes": 6227,
+        "comments": 14,
+        "views": 30240,
+        "create_time": "2025-12-08 16:00:44"
+      },
+      {
+        "keyword": "东方美学被明制汉服拿捏了",
+        "platform": "dy",
+        "title": "东方美学被明制汉服拿捏了现场实拍：东方美学被明制汉服拿捏了训练情况",
+        "url": "https://dy.com/video/834292",
+        "likes": 4210,
+        "comments": 4,
+        "views": 26171,
+        "create_time": "2025-12-08 16:00:44"
+      },
+      {
+        "keyword": "东方美学被明制汉服拿捏了",
+        "platform": "dy",
+        "title": "深度解析：东方美学被明制汉服拿捏了背后的故事",
+        "url": "https://dy.com/video/278646",
+        "likes": 3375,
+        "comments": 6,
+        "views": 44025,
+        "create_time": "2025-12-08 16:00:44"
+      },
+      {
+        "keyword": "东方美学被明制汉服拿捏了",
+        "platform": "dy",
+        "title": "震撼！东方美学被明制汉服拿捏了最新动态曝光",
+        "url": "https://dy.com/video/327654",
+        "likes": 901,
+        "comments": 6,
+        "views": 77065,
+        "create_time": "2025-12-08 16:00:44"
+      },
+      {
+        "keyword": "东方美学被明制汉服拿捏了",
+        "platform": "dy",
+        "title": "直击东方美学被明制汉服拿捏了现场，精彩瞬间",
+        "url": "https://dy.com/video/365881",
+        "likes": 847,
+        "comments": 7,
+        "views": 16000,
+        "create_time": "2025-12-08 16:00:44"
+      }
+    ]
+  },
+  "important_videos": [
+    {
+      "keyword": "东方美学被明制汉服拿捏了",
+      "platform": "dy",
+      "title": "东方美学被明制汉服拿捏了现场实拍：东方美学被明制汉服拿捏了训练情况",
+      "url": "https://dy.com/video/421123",
+      "likes": 6227,
+      "comments": 14,
+      "views": 30240,
+      "create_time": "2025-12-08 16:00:44"
+    },
+    {
+      "keyword": "东方美学被明制汉服拿捏了",
+      "platform": "dy",
+      "title": "东方美学被明制汉服拿捏了现场实拍：东方美学被明制汉服拿捏了训练情况",
+      "url": "https://dy.com/video/834292",
+      "likes": 4210,
+      "comments": 4,
+      "views": 26171,
+      "create_time": "2025-12-08 16:00:44"
+    },
+    {
+      "keyword": "东方美学被明制汉服拿捏了",
+      "platform": "dy",
+      "title": "深度解析：东方美学被明制汉服拿捏了背后的故事",
+      "url": "https://dy.com/video/278646",
+      "likes": 3375,
+      "comments": 6,
+      "views": 44025,
+      "create_time": "2025-12-08 16:00:44"
+    },
+    {
+      "keyword": "东方美学被明制汉服拿捏了",
+      "platform": "dy",
+      "title": "震撼！东方美学被明制汉服拿捏了最新动态曝光",
+      "url": "https://dy.com/video/327654",
+      "likes": 901,
+      "comments": 6,
+      "views": 77065,
+      "create_time": "2025-12-08 16:00:44"
+    },
+    {
+      "keyword": "东方美学被明制汉服拿捏了",
+      "platform": "dy",
+      "title": "直击东方美学被明制汉服拿捏了现场，精彩瞬间",
+      "url": "https://dy.com/video/365881",
+      "likes": 847,
+      "comments": 7,
+      "views": 16000,
+      "create_time": "2025-12-08 16:00:44"
+    }
+  ]
+}

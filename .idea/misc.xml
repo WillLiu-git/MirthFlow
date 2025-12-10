@@ -3,4 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="mirthflow" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="mirthflow" project-jdk-type="Python SDK" />
 </project>

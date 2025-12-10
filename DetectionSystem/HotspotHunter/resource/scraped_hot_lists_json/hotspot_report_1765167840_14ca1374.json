@@ -1,0 +1,187 @@
+{
+  "summary": "本次热点榜主要涵盖了体育赛事、社会新闻、娱乐内容等多个领域。体育类话题如'湖人险胜76人'和'国乒战胜日本夺冠'热度较高，社会新闻如'环卫爷爷把落叶扫成打卡点了'和'宁夏冰窟救童小姑娘找到了'展现了正能量。娱乐内容如'更符合国人口味的圣诞老人'和'漂亮内搭让我赢在了穿搭起跑线'也吸引了大量关注。整体来看，榜单内容以正面和中性的热点为主，无明显负面舆情风险。\n本次热点榜整体以娱乐、社会新闻和生活话题为主，其中包含少量涉及社会安全和舆论争议的内容。热点分布较为均匀，热度集中在40万至45万之间。需要关注的是个别话题可能引发的社会讨论和潜在风险。\n本次热点榜主要涉及国际访问、体育赛事、科技争议和设计讨论等内容。榜单中出现了多个关于APP禁用的话题，可能涉及商业竞争或技术争议。整体来看，大部分话题属于普通热点，无明显负面舆情风险。\n本次热点榜主要涵盖了国际政治、经济、社会事件和娱乐等多个领域。国际政治话题占据主导，涉及中美关系、中日关系等敏感议题。整体风险水平中等，部分话题具有潜在争议性。",
+  "topics": [
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "44万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "话题涉及严重的刑事案件，可能引发公众恐慌和社会讨论。",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "中学教师被指当学生面踩死流浪猫",
+      "platform": "微博",
+      "hotness": "13万",
+      "risk_level": 7,
+      "category": "舆论争议",
+      "reason": "话题涉及动物保护和教师行为，可能引发公众争议和道德讨论。",
+      "further_investigate": true,
+      "title": "中学教师被指当学生面踩死流浪猫"
+    },
+    {
+      "topic": "警方通报44岁男子公园搂抱女童",
+      "platform": "微博",
+      "hotness": "20万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "话题涉及儿童安全和公共安全，可能引发公众关注和讨论。",
+      "further_investigate": true,
+      "title": "警方通报44岁男子公园搂抱女童"
+    },
+    {
+      "topic": "退学北大考上清华小伙被白嫖家教费",
+      "platform": "微博",
+      "hotness": "35万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "话题涉及教育公平和劳动权益，可能引发公众讨论。",
+      "further_investigate": true,
+      "title": "退学北大考上清华小伙被白嫖家教费"
+    },
+    {
+      "topic": "美国没支持日本慌了",
+      "platform": "微博",
+      "hotness": "44万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "话题涉及国际关系，可能引发舆论关注和讨论。",
+      "further_investigate": true,
+      "title": "美国没支持日本慌了"
+    },
+    {
+      "topic": "红楼梦 悼明",
+      "platform": "微博",
+      "hotness": "44万",
+      "risk_level": 3,
+      "category": "潜在风险",
+      "reason": "话题涉及历史和文化，可能引发一定的舆论讨论。",
+      "further_investigate": true,
+      "title": "红楼梦 悼明"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "话题涉及多家APP对特定手机的禁用，可能引发用户不满或商业竞争争议",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "话题涉及大型科技公司对特定手机的登陆限制，可能引发用户权益讨论",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "话题涉及军事事件，可能引发国际关系或军事安全方面的讨论",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "特朗普长子：特朗普或退出乌和平进程",
+      "platform": "头条",
+      "hotness": "4111.5万",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "涉及国际政治敏感议题，可能引发对美乌关系的讨论和争议",
+      "further_investigate": true,
+      "title": "特朗普长子：特朗普或退出乌和平进程"
+    },
+    {
+      "topic": "中方不接受日方交涉已当场驳回",
+      "platform": "头条",
+      "hotness": "3366.2万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "涉及中日外交关系，可能引发民族情绪和讨论",
+      "further_investigate": true,
+      "title": "中方不接受日方交涉已当场驳回"
+    },
+    {
+      "topic": "台湾当局被曝妄图与日军事勾连",
+      "platform": "头条",
+      "hotness": "615.0万",
+      "risk_level": 7,
+      "category": "群体冲突",
+      "reason": "涉及台湾问题，可能引发两岸关系紧张和舆论争议",
+      "further_investigate": true,
+      "title": "台湾当局被曝妄图与日军事勾连"
+    },
+    {
+      "topic": "滋扰中国海军训练 日本“贼喊捉贼”",
+      "platform": "头条",
+      "hotness": "68.1万",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "涉及中日军事关系，可能引发民族情绪和讨论",
+      "further_investigate": true,
+      "title": "滋扰中国海军训练 日本“贼喊捉贼”"
+    },
+    {
+      "topic": "孩子被褥印不雅英文字母",
+      "platform": "头条",
+      "hotness": "41.3万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "涉及儿童用品质量问题，可能引发家长关注和讨论",
+      "further_investigate": true,
+      "title": "孩子被褥印不雅英文字母"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 14,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜的内容分布较为均衡，体育、社会、娱乐等领域均有涉及。体育类话题占据了榜单的前列，社会新闻和娱乐内容紧随其后。整体热度较高，但无明显负面或争议性内容。",
+    "content_summary": "侦察到的内容主要包括体育赛事（如湖人险胜76人、国乒战胜日本夺冠）、社会新闻（如环卫爷爷把落叶扫成打卡点了、宁夏冰窟救童小姑娘找到了）和娱乐内容（如更符合国人口味的圣诞老人、漂亮内搭让我赢在了穿搭起跑线）。这些话题涵盖了多个领域，且以正面和中性的内容为主。",
+    "content_analysis": "热点趋势显示，体育类话题和社会新闻的热度较高，娱乐内容也吸引了大量关注。话题关联性不强，各领域内容相对独立。情绪倾向以正面和中性的为主，无明显负面情绪。",
+    "potential_risks": [
+      "监控体育赛事中的争议性判罚或言论",
+      "关注社会新闻中的突发事件或负面报道",
+      "留意娱乐内容中的不当言论或行为"
+    ],
+    "trend_prediction": "未来24-48小时内，体育类话题和社会新闻可能会继续保持较高的热度。娱乐内容的热度可能会有所波动，但整体舆情趋势预计将保持稳定。",
+    "recommendations": [
+      "继续监控体育赛事中的争议性内容",
+      "关注社会新闻中的突发事件",
+      "留意娱乐内容中的潜在风险"
+    ],
+    "risk_overview": {
+      "high_risk_count": 0,
+      "medium_risk_count": 0,
+      "low_risk_count": 0,
+      "total_count": 0
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 14,
+    "risk_overview": {
+      "high_risk_count": 0,
+      "medium_risk_count": 0,
+      "low_risk_count": 0,
+      "total_count": 0
+    }
+  }
+}

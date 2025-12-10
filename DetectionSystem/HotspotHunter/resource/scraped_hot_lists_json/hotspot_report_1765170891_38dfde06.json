@@ -1,0 +1,276 @@
+{
+  "summary": "从爬取数据中提取到风险项目\n本次热点榜涵盖了教育、娱乐、经济、社会等多个领域的热点话题。其中，'退学北大考上清华小伙被白嫖家教费'和'1818名包括明星网红在内双高人员被查'等话题具有较高的负面舆情风险。整体来看，榜单中大部分话题为娱乐和社会新闻，风险话题占比较低。\n本次热点榜主要涉及国际访问、科技应用限制、体育赛事、企业动态等多个领域。榜单中大部分话题热度较低，无明显负面舆情风险。需要关注的是多家APP对豆包手机的禁用情况，可能存在商业竞争或技术兼容性问题。\n本次热点榜主要涵盖了国际关系、经济、社会事件、体育等多个领域的热点话题。其中，国际关系类话题热度较高，涉及中日、中美、台海等敏感议题。整体来看，榜单中存在少量具有潜在风险的话题，主要集中在国际关系和部分社会事件上。",
+  "topics": [
+    {
+      "title": "环卫爷爷把落叶扫成打卡点了",
+      "platform": "未知",
+      "hotness": "1194.0万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "加快发展新质生产力",
+      "platform": "未知",
+      "hotness": "1165.4万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "谁来看下这女生什么球风",
+      "platform": "未知",
+      "hotness": "1154.4万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "糖葫芦树我先爬为敬",
+      "platform": "未知",
+      "hotness": "1045.8万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "吃完水煮蛋接着吃漫画蛋",
+      "platform": "未知",
+      "hotness": "1028.7万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "都是黄色小车带来的天意",
+      "platform": "未知",
+      "hotness": "913.2万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "难道不是想要爆米花吗",
+      "platform": "未知",
+      "hotness": "911.2万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "你的尔滨冰雪季冰块正在开采",
+      "platform": "未知",
+      "hotness": "901.4万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "90人当选香港新一届立法会议员",
+      "platform": "未知",
+      "hotness": "899.8万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "泰柬边境再发冲突",
+      "platform": "未知",
+      "hotness": "838.4万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "topic": "退学北大考上清华小伙被白嫖家教费",
+      "platform": "微博",
+      "hotness": "80万",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "标题中提及'被白嫖家教费'，暗示可能存在教育服务纠纷或权益侵害问题，容易引发公众对教育公平和诚信问题的讨论",
+      "further_investigate": true,
+      "title": "退学北大考上清华小伙被白嫖家教费"
+    },
+    {
+      "topic": "1818名包括明星网红在内双高人员被查",
+      "platform": "微博",
+      "hotness": "77万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及大量公众人物被调查，可能引发对社会治理和公众人物行为的广泛讨论，具有较高的社会关注度和潜在争议",
+      "further_investigate": true,
+      "title": "1818名包括明星网红在内双高人员被查"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "61万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "涉及严重的刑事案件和未成年人受害，具有强烈的负面性和社会冲击力，容易引发公众愤怒和国际关注",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "日军被爆引导美军轰炸平民",
+      "platform": "微博",
+      "hotness": "27万",
+      "risk_level": 7,
+      "category": "历史争议",
+      "reason": "涉及战争历史和战争罪行，可能引发民族情绪和历史争议，具有较高的敏感性和潜在的国际影响",
+      "further_investigate": true,
+      "title": "日军被爆引导美军轰炸平民"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "多家APP对豆包手机禁用可能涉及商业竞争或技术兼容性问题，可能引发用户不满或争议",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "阿里系APP禁止豆包手机登陆可能与商业竞争或技术问题相关，可能引发用户讨论或不满",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "美军承认击落美军战机可能引发军事安全或国际关系的讨论，具有一定敏感性",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "比亚迪的护城河还在吗",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "对比亚迪竞争力的质疑可能引发企业形象或市场信心的讨论",
+      "further_investigate": true,
+      "title": "比亚迪的护城河还在吗"
+    },
+    {
+      "topic": "iRobot 欠中国代工厂 25 亿元",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "国际企业欠款问题可能引发商业纠纷或国际合作的讨论",
+      "further_investigate": true,
+      "title": "iRobot 欠中国代工厂 25 亿元"
+    },
+    {
+      "topic": "中方不接受日方交涉已当场驳回",
+      "platform": "头条",
+      "hotness": "3500.0万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及中日外交交涉，可能引发两国舆论争议",
+      "further_investigate": true,
+      "title": "中方不接受日方交涉已当场驳回"
+    },
+    {
+      "topic": "台湾当局被曝妄图与日军事勾连",
+      "platform": "头条",
+      "hotness": "1165.1万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及台海敏感议题和日本军事合作，具有较高敏感性",
+      "further_investigate": true,
+      "title": "台湾当局被曝妄图与日军事勾连"
+    },
+    {
+      "topic": "净网|网警查处编造汽车造成8杀谣言案",
+      "platform": "头条",
+      "hotness": "2346.1万",
+      "risk_level": 5,
+      "category": "社会安全",
+      "reason": "涉及网络谣言传播，可能引发公众恐慌",
+      "further_investigate": true,
+      "title": "净网|网警查处编造汽车造成8杀谣言案"
+    },
+    {
+      "topic": "杨瀚森被打中面部重重倒地遭裁判无视",
+      "platform": "头条",
+      "hotness": "1920.9万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "涉及体育赛事裁判争议，可能引发球迷讨论",
+      "further_investigate": true,
+      "title": "杨瀚森被打中面部重重倒地遭裁判无视"
+    },
+    {
+      "topic": "人贩子扬言出狱报复能否加刑",
+      "platform": "头条",
+      "hotness": "287.3万",
+      "risk_level": 5,
+      "category": "社会安全",
+      "reason": "涉及犯罪人员威胁言论，可能引发公众担忧",
+      "further_investigate": true,
+      "title": "人贩子扬言出狱报复能否加刑"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 24,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "LLM分析失败，从爬取数据中提取风险项目",
+    "content_summary": "从爬取数据中提取了 10 个风险项目",
+    "content_analysis": "LLM分析失败，无法进行深入分析",
+    "potential_risks": [
+      "LLM分析失败，从爬取数据中提取风险",
+      "建议检查LLM配置"
+    ],
+    "trend_prediction": "无法预测",
+    "recommendations": [
+      "建议检查LLM配置",
+      "确保API密钥有效",
+      "检查网络连接"
+    ],
+    "risk_overview": {
+      "high_risk_count": 0,
+      "medium_risk_count": 10,
+      "low_risk_count": 0,
+      "total_count": 10
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 24,
+    "risk_overview": {
+      "high_risk_count": 0,
+      "medium_risk_count": 10,
+      "low_risk_count": 0,
+      "total_count": 10
+    }
+  }
+}

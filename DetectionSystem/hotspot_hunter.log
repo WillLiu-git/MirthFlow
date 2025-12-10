@@ -1,0 +1,1784 @@
+2025-12-06 18:16:00,193 - __main__ - INFO - Hotspot Hunter 初始化完成
+2025-12-06 18:16:00,194 - __main__ - INFO - 执行单次热点爬取
+2025-12-06 18:16:00,195 - __main__ - INFO - 成功爬取 dy 平台 5 个热点
+2025-12-06 18:16:00,195 - __main__ - INFO - 开始分析 5 个热点话题
+2025-12-06 18:16:00,195 - __main__ - INFO - 热点分析完成，生成 5 个热点的报告
+2025-12-06 18:16:00,196 - __main__ - INFO - 热点报告已保存到: E:\mirthflow\detectionsystem\hotspot_hunter_output\hotspot_report_hotspot_report1765016160195_P5lPWZ7P.json
+2025-12-06 18:16:00,200 - __main__ - ERROR - 发送报告给Risk Analyzer失败: No module named 'videoscommentsspotter'
+Traceback (most recent call last):
+  File "E:\mirthflow\detectionsystem\hotspot_hunter.py", line 238, in _send_report_to_risk_analyzer
+    from risk_analyzer import RiskAnalyzer
+  File "E:\mirthflow\detectionsystem\risk_analyzer.py", line 38, in <module>
+    from videoscommentsspotter.agent import VideosCommentsSpotterAgent
+ModuleNotFoundError: No module named 'videoscommentsspotter'
+2025-12-06 18:16:25,543 - __main__ - INFO - Hotspot Hunter 初始化完成
+2025-12-06 18:16:25,543 - __main__ - INFO - 执行单次热点爬取
+2025-12-06 18:16:25,543 - __main__ - INFO - 成功爬取 dy 平台 5 个热点
+2025-12-06 18:16:25,545 - __main__ - INFO - 开始分析 5 个热点话题
+2025-12-06 18:16:25,545 - __main__ - INFO - 热点分析完成，生成 5 个热点的报告
+2025-12-06 18:16:25,546 - __main__ - INFO - 热点报告已保存到: E:\mirthflow\detectionsystem\hotspot_hunter_output\hotspot_report_hotspot_report1765016185545_5BtDAX9E.json
+2025-12-06 18:16:25,551 - __main__ - ERROR - 发送报告给Risk Analyzer失败: No module named 'agent'
+Traceback (most recent call last):
+  File "E:\mirthflow\detectionsystem\hotspot_hunter.py", line 238, in _send_report_to_risk_analyzer
+    from risk_analyzer import RiskAnalyzer
+  File "E:\mirthflow\detectionsystem\risk_analyzer.py", line 43, in <module>
+    from agent import VideosCommentsSpotterAgent
+ModuleNotFoundError: No module named 'agent'
+2025-12-06 18:17:03,546 - __main__ - INFO - Hotspot Hunter 初始化完成
+2025-12-06 18:17:03,547 - __main__ - INFO - 执行单次热点爬取
+2025-12-06 18:17:03,547 - __main__ - INFO - 成功爬取 dy 平台 5 个热点
+2025-12-06 18:17:03,547 - __main__ - INFO - 开始分析 5 个热点话题
+2025-12-06 18:17:03,547 - __main__ - INFO - 热点分析完成，生成 5 个热点的报告
+2025-12-06 18:17:03,548 - __main__ - INFO - 热点报告已保存到: E:\mirthflow\detectionsystem\hotspot_hunter_output\hotspot_report_hotspot_report1765016223547_k8qdAKdS.json
+2025-12-06 18:17:03,553 - __main__ - ERROR - 发送报告给Risk Analyzer失败: No module named 'agent'
+Traceback (most recent call last):
+  File "E:\mirthflow\detectionsystem\hotspot_hunter.py", line 238, in _send_report_to_risk_analyzer
+    from risk_analyzer import RiskAnalyzer
+  File "E:\mirthflow\detectionsystem\risk_analyzer.py", line 43, in <module>
+    from agent import VideosCommentsSpotterAgent
+ModuleNotFoundError: No module named 'agent'
+2025-12-06 18:17:30,630 - __main__ - INFO - Hotspot Hunter 初始化完成
+2025-12-06 18:17:30,630 - __main__ - INFO - 执行单次热点爬取
+2025-12-06 18:17:30,630 - __main__ - INFO - 成功爬取 dy 平台 5 个热点
+2025-12-06 18:17:30,631 - __main__ - INFO - 开始分析 5 个热点话题
+2025-12-06 18:17:30,631 - __main__ - INFO - 热点分析完成，生成 5 个热点的报告
+2025-12-06 18:17:30,636 - __main__ - INFO - 热点报告已保存到: E:\mirthflow\detectionsystem\hotspot_hunter_output\hotspot_report_hotspot_report1765016250631_6wsBizPd.json
+2025-12-06 18:17:32,004 - risk_analyzer - INFO - Risk Analyzer 初始化完成
+2025-12-06 18:17:32,004 - risk_analyzer - INFO - 收到Hotspot Hunter的热点报告，包含 5 个热点
+2025-12-06 18:17:32,004 - risk_analyzer - INFO - 调度VCS分析话题: 产品质量问题，任务ID: vcs_task1765016252004_L1w4ezGR
+2025-12-06 18:17:32,004 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始处理话题: 产品质量问题
+2025-12-06 18:17:32,004 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-06 18:18:13,394 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:18:13,401 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 成功生成 12 个关键词: 质量问题, 产品缺陷, 产品召回, 质量投诉, 产品安全...
+2025-12-06 18:18:13,401 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-06 18:18:13,401 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-06 18:18:13,401 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量问题，计划爬取 50 个视频/帖子，每条内容 100 条评论
+2025-12-06 18:18:59,078 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:18:59,078 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量问题 的爬取结果
+2025-12-06 18:18:59,078 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:18:59,078 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:18:59,080 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:19:29,159 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:19:29,159 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 30.08 秒
+2025-12-06 18:19:29,160 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:19:29,160 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量问题 分析完成，风险等级: 低
+2025-12-06 18:19:29,161 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品缺陷，计划爬取 40 个视频/帖子，每条内容 80 条评论
+2025-12-06 18:20:13,468 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品缺陷 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:20:13,468 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品缺陷 的爬取结果
+2025-12-06 18:20:13,468 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:20:13,468 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:20:13,468 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:20:23,206 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:20:23,206 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 9.74 秒
+2025-12-06 18:20:23,206 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:20:23,208 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品缺陷 分析完成，风险等级: 低
+2025-12-06 18:20:23,208 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品召回，计划爬取 30 个视频/帖子，每条内容 60 条评论
+2025-12-06 18:21:07,534 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品召回 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:21:07,534 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品召回 的爬取结果
+2025-12-06 18:21:07,534 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:21:07,534 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:21:07,535 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:21:35,450 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:21:35,451 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 27.92 秒
+2025-12-06 18:21:35,451 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:21:35,452 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品召回 分析完成，风险等级: 低
+2025-12-06 18:21:35,452 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量投诉，计划爬取 35 个视频/帖子，每条内容 70 条评论
+2025-12-06 18:22:19,829 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量投诉 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:22:19,829 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量投诉 的爬取结果
+2025-12-06 18:22:19,829 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:22:19,829 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:22:19,830 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:22:30,148 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:22:30,148 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.32 秒
+2025-12-06 18:22:30,149 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:22:30,149 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量投诉 分析完成，风险等级: 低
+2025-12-06 18:22:30,149 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品安全，计划爬取 25 个视频/帖子，每条内容 50 条评论
+2025-12-06 18:23:13,018 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品安全 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:23:13,019 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品安全 的爬取结果
+2025-12-06 18:23:13,019 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:23:13,019 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:23:13,019 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:23:40,219 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:23:40,220 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 27.20 秒
+2025-12-06 18:23:40,220 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:23:40,221 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品安全 分析完成，风险等级: 低
+2025-12-06 18:23:40,222 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量门，计划爬取 20 个视频/帖子，每条内容 40 条评论
+2025-12-06 18:24:24,561 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量门 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:24:24,561 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量门 的爬取结果
+2025-12-06 18:24:24,561 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:24:24,562 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:24:24,562 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:24:35,958 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:24:35,959 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.40 秒
+2025-12-06 18:24:35,959 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:24:35,959 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量门 分析完成，风险等级: 低
+2025-12-06 18:24:35,960 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品问题，计划爬取 45 个视频/帖子，每条内容 90 条评论
+2025-12-06 18:25:20,362 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:25:20,362 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品问题 的爬取结果
+2025-12-06 18:25:20,362 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:25:20,363 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:25:20,363 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:25:47,669 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:25:47,670 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 27.31 秒
+2025-12-06 18:25:47,671 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:25:47,671 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品问题 分析完成，风险等级: 低
+2025-12-06 18:25:47,671 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量曝光，计划爬取 30 个视频/帖子，每条内容 60 条评论
+2025-12-06 18:26:32,054 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量曝光 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:26:32,055 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量曝光 的爬取结果
+2025-12-06 18:26:32,055 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:26:32,055 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:26:32,055 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:26:42,195 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:26:42,196 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.14 秒
+2025-12-06 18:26:42,196 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:26:42,197 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量曝光 分析完成，风险等级: 低
+2025-12-06 18:26:42,197 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品故障，计划爬取 25 个视频/帖子，每条内容 50 条评论
+2025-12-06 18:27:26,522 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品故障 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:27:26,522 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品故障 的爬取结果
+2025-12-06 18:27:26,522 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:27:26,522 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:27:26,522 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:27:37,446 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:27:37,446 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.92 秒
+2025-12-06 18:27:37,447 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:27:37,448 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品故障 分析完成，风险等级: 低
+2025-12-06 18:27:37,448 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量隐患，计划爬取 20 个视频/帖子，每条内容 40 条评论
+2025-12-06 18:28:20,266 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量隐患 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:28:20,266 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量隐患 的爬取结果
+2025-12-06 18:28:20,266 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:28:20,267 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:28:20,267 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:28:31,942 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:28:31,942 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.67 秒
+2025-12-06 18:28:31,942 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:28:31,943 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量隐患 分析完成，风险等级: 低
+2025-12-06 18:28:31,943 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品风险，计划爬取 15 个视频/帖子，每条内容 30 条评论
+2025-12-06 18:29:16,296 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品风险 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:29:16,296 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品风险 的爬取结果
+2025-12-06 18:29:16,297 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:29:16,297 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:29:16,297 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:29:47,997 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:29:47,997 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 31.70 秒
+2025-12-06 18:29:47,998 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:29:47,999 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品风险 分析完成，风险等级: 低
+2025-12-06 18:29:47,999 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量事件，计划爬取 10 个视频/帖子，每条内容 20 条评论
+2025-12-06 18:30:32,262 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量事件 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:30:32,262 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量事件 的爬取结果
+2025-12-06 18:30:32,262 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:30:32,262 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:30:32,263 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:30:59,361 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:30:59,361 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 27.10 秒
+2025-12-06 18:30:59,361 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:30:59,362 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量事件 分析完成，风险等级: 低
+2025-12-06 18:30:59,362 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 765.96 秒，总计 1560 条内容，0 条评论
+2025-12-06 18:30:59,362 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-06 18:30:59,362 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始汇总 12 个小报告
+2025-12-06 18:31:13,782 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:31:13,783 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: 低
+2025-12-06 18:31:13,784 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-06 18:31:13,785 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-06 18:31:13,802 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251206_183113.json
+2025-12-06 18:31:13,802 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 话题 '产品质量问题' 处理完成，总耗时 821.8 秒
+2025-12-06 18:31:13,804 - risk_analyzer - INFO - 安排再次调研话题: 产品质量问题
+2025-12-06 18:31:23,804 - risk_analyzer - INFO - 调度VCS分析话题: 产品质量问题，任务ID: vcs_task1765017083804_pZmzWTG1
+2025-12-06 18:31:23,804 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始处理话题: 产品质量问题
+2025-12-06 18:31:23,804 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-06 18:31:35,317 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:31:35,318 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 成功生成 13 个关键词: 质量问题, 产品缺陷, 产品召回, 投诉产品, 产品安全...
+2025-12-06 18:31:35,318 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-06 18:31:35,318 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-06 18:31:35,318 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量问题，计划爬取 50 个视频/帖子，每条内容 100 条评论
+2025-12-06 18:32:19,806 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:32:19,806 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量问题 的爬取结果
+2025-12-06 18:32:19,806 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:32:19,808 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:32:19,808 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:32:42,005 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:32:42,005 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 22.20 秒
+2025-12-06 18:32:42,005 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:32:42,005 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量问题 分析完成，风险等级: 低
+2025-12-06 18:32:42,006 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品缺陷，计划爬取 40 个视频/帖子，每条内容 80 条评论
+2025-12-06 18:33:26,688 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品缺陷 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:33:26,688 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品缺陷 的爬取结果
+2025-12-06 18:33:26,689 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:33:26,689 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:33:26,689 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:33:55,590 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:33:55,591 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 28.90 秒
+2025-12-06 18:33:55,591 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:33:55,592 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品缺陷 分析完成，风险等级: 低
+2025-12-06 18:33:55,592 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品召回，计划爬取 35 个视频/帖子，每条内容 70 条评论
+2025-12-06 18:34:40,191 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品召回 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:34:40,191 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品召回 的爬取结果
+2025-12-06 18:34:40,191 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:34:40,192 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:34:40,192 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:35:11,294 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:35:11,295 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 31.10 秒
+2025-12-06 18:35:11,295 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:35:11,295 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品召回 分析完成，风险等级: 低
+2025-12-06 18:35:11,295 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 投诉产品，计划爬取 30 个视频/帖子，每条内容 60 条评论
+2025-12-06 18:35:55,818 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 投诉产品 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:35:55,818 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 投诉产品 的爬取结果
+2025-12-06 18:35:55,818 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:35:55,818 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:35:55,818 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:36:05,119 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:36:05,120 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 9.30 秒
+2025-12-06 18:36:05,120 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:36:05,121 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 投诉产品 分析完成，风险等级: 低
+2025-12-06 18:36:05,121 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品安全，计划爬取 30 个视频/帖子，每条内容 60 条评论
+2025-12-06 18:36:49,664 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品安全 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:36:49,664 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品安全 的爬取结果
+2025-12-06 18:36:49,664 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:36:49,664 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:36:49,664 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:37:15,239 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:37:15,240 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 25.58 秒
+2025-12-06 18:37:15,240 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:37:15,241 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品安全 分析完成，风险等级: 低
+2025-12-06 18:37:15,241 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量门，计划爬取 25 个视频/帖子，每条内容 50 条评论
+2025-12-06 18:37:59,711 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量门 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:37:59,712 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量门 的爬取结果
+2025-12-06 18:37:59,712 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:37:59,712 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:37:59,712 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:38:10,740 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:38:10,741 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.03 秒
+2025-12-06 18:38:10,741 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:38:10,741 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量门 分析完成，风险等级: 低
+2025-12-06 18:38:10,742 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品翻车，计划爬取 25 个视频/帖子，每条内容 50 条评论
+2025-12-06 18:38:55,412 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品翻车 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:38:55,412 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品翻车 的爬取结果
+2025-12-06 18:38:55,412 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:38:55,412 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:38:55,412 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:39:24,435 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:39:24,435 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 29.02 秒
+2025-12-06 18:39:24,435 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:39:24,435 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品翻车 分析完成，风险等级: 低
+2025-12-06 18:39:24,435 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量曝光，计划爬取 20 个视频/帖子，每条内容 40 条评论
+2025-12-06 18:40:09,117 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量曝光 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:40:09,117 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量曝光 的爬取结果
+2025-12-06 18:40:09,117 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:40:09,119 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:40:09,119 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:41:06,270 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:41:06,270 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 57.15 秒
+2025-12-06 18:41:06,270 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:41:06,271 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量曝光 分析完成，风险等级: 低
+2025-12-06 18:41:06,271 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品测评，计划爬取 20 个视频/帖子，每条内容 40 条评论
+2025-12-06 18:41:50,722 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品测评 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:41:50,722 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品测评 的爬取结果
+2025-12-06 18:41:50,722 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:41:50,723 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:41:50,723 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:42:19,605 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:42:19,605 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 28.88 秒
+2025-12-06 18:42:19,605 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:42:19,606 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品测评 分析完成，风险等级: 低
+2025-12-06 18:42:19,606 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量投诉，计划爬取 20 个视频/帖子，每条内容 40 条评论
+2025-12-06 18:43:04,043 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量投诉 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:43:04,043 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量投诉 的爬取结果
+2025-12-06 18:43:04,043 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:43:04,044 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:43:04,044 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:43:14,722 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:43:14,722 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.68 秒
+2025-12-06 18:43:14,722 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:43:14,723 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量投诉 分析完成，风险等级: 低
+2025-12-06 18:43:14,723 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品问题，计划爬取 15 个视频/帖子，每条内容 30 条评论
+2025-12-06 18:43:59,058 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:43:59,058 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品问题 的爬取结果
+2025-12-06 18:43:59,058 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:43:59,058 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:43:59,060 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:44:36,898 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:44:36,898 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 37.84 秒
+2025-12-06 18:44:36,900 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:44:36,901 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品问题 分析完成，风险等级: 低
+2025-12-06 18:44:36,901 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量反馈，计划爬取 15 个视频/帖子，每条内容 30 条评论
+2025-12-06 18:45:21,215 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量反馈 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:45:21,215 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量反馈 的爬取结果
+2025-12-06 18:45:21,215 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:45:21,215 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:45:21,215 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:45:49,112 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:45:49,112 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 27.90 秒
+2025-12-06 18:45:49,112 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:45:49,113 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量反馈 分析完成，风险等级: 低
+2025-12-06 18:45:49,113 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品差评，计划爬取 15 个视频/帖子，每条内容 30 条评论
+2025-12-06 18:46:33,703 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品差评 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:46:33,703 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品差评 的爬取结果
+2025-12-06 18:46:33,703 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:46:33,703 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:46:33,704 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:46:43,658 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:46:43,660 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 9.96 秒
+2025-12-06 18:46:43,661 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:46:43,663 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品差评 分析完成，风险等级: 低
+2025-12-06 18:46:43,663 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 908.35 秒，总计 1690 条内容，0 条评论
+2025-12-06 18:46:43,664 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-06 18:46:43,664 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始汇总 13 个小报告
+2025-12-06 18:46:57,376 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:46:57,378 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: 低
+2025-12-06 18:46:57,378 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-06 18:46:57,379 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-06 18:46:57,401 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251206_184657.json
+2025-12-06 18:46:57,401 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 话题 '产品质量问题' 处理完成，总耗时 933.6 秒
+2025-12-06 18:46:57,401 - risk_analyzer - INFO - 安排再次调研话题: 产品质量问题
+2025-12-06 18:47:07,402 - risk_analyzer - INFO - 调度VCS分析话题: 产品质量问题，任务ID: vcs_task1765018027402_kF1mXEYz
+2025-12-06 18:47:07,402 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始处理话题: 产品质量问题
+2025-12-06 18:47:07,402 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-06 18:47:17,949 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:47:17,949 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 成功生成 12 个关键词: 质量问题, 产品缺陷, 产品召回, 质量投诉, 产品安全...
+2025-12-06 18:47:17,949 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-06 18:47:17,949 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-06 18:47:17,949 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量问题，计划爬取 50 个视频/帖子，每条内容 100 条评论
+2025-12-06 18:48:02,556 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:48:02,556 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量问题 的爬取结果
+2025-12-06 18:48:02,558 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:48:02,558 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:48:02,558 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:48:12,291 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:48:12,292 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 9.73 秒
+2025-12-06 18:48:12,293 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:48:12,294 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量问题 分析完成，风险等级: 低
+2025-12-06 18:48:12,294 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品缺陷，计划爬取 40 个视频/帖子，每条内容 90 条评论
+2025-12-06 18:48:56,926 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品缺陷 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:48:56,926 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品缺陷 的爬取结果
+2025-12-06 18:48:56,926 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:48:56,926 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:48:56,926 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:49:07,943 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:49:07,944 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.02 秒
+2025-12-06 18:49:07,944 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:49:07,945 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品缺陷 分析完成，风险等级: 低
+2025-12-06 18:49:07,945 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品召回，计划爬取 35 个视频/帖子，每条内容 80 条评论
+2025-12-06 18:49:52,256 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品召回 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:49:52,256 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品召回 的爬取结果
+2025-12-06 18:49:52,257 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:49:52,257 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:49:52,257 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:50:03,512 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:50:03,513 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.26 秒
+2025-12-06 18:50:03,513 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:50:03,515 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品召回 分析完成，风险等级: 低
+2025-12-06 18:50:03,515 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量投诉，计划爬取 45 个视频/帖子，每条内容 95 条评论
+2025-12-06 18:50:47,915 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量投诉 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:50:47,915 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量投诉 的爬取结果
+2025-12-06 18:50:47,915 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:50:47,916 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:50:47,916 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:51:14,920 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:51:14,921 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 27.00 秒
+2025-12-06 18:51:14,921 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:51:14,922 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量投诉 分析完成，风险等级: 低
+2025-12-06 18:51:14,922 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品安全，计划爬取 30 个视频/帖子，每条内容 70 条评论
+2025-12-06 18:51:59,313 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品安全 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:51:59,313 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品安全 的爬取结果
+2025-12-06 18:51:59,314 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:51:59,314 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:51:59,314 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:52:29,098 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:52:29,100 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 29.79 秒
+2025-12-06 18:52:29,100 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:52:29,100 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品安全 分析完成，风险等级: 低
+2025-12-06 18:52:29,100 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量门，计划爬取 25 个视频/帖子，每条内容 60 条评论
+2025-12-06 18:53:13,450 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量门 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:53:13,450 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量门 的爬取结果
+2025-12-06 18:53:13,450 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:53:13,450 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:53:13,450 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:53:22,818 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:53:22,819 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 9.37 秒
+2025-12-06 18:53:22,819 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:53:22,820 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量门 分析完成，风险等级: 低
+2025-12-06 18:53:22,820 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品问题，计划爬取 50 个视频/帖子，每条内容 100 条评论
+2025-12-06 18:54:07,151 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:54:07,151 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品问题 的爬取结果
+2025-12-06 18:54:07,151 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:54:07,151 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:54:07,151 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:54:16,989 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:54:16,990 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 9.84 秒
+2025-12-06 18:54:16,990 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:54:16,990 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品问题 分析完成，风险等级: 低
+2025-12-06 18:54:16,990 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量风波，计划爬取 20 个视频/帖子，每条内容 50 条评论
+2025-12-06 18:55:01,345 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量风波 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:55:01,345 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量风波 的爬取结果
+2025-12-06 18:55:01,346 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:55:01,346 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:55:01,346 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:55:11,484 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:55:11,485 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.14 秒
+2025-12-06 18:55:11,485 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:55:11,486 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量风波 分析完成，风险等级: 低
+2025-12-06 18:55:11,486 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量隐患，计划爬取 30 个视频/帖子，每条内容 70 条评论
+2025-12-06 18:55:54,321 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量隐患 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:55:54,321 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量隐患 的爬取结果
+2025-12-06 18:55:54,321 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:55:54,322 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:55:54,322 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:56:44,133 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:56:44,134 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 49.81 秒
+2025-12-06 18:56:44,135 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:56:44,136 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量隐患 分析完成，风险等级: 低
+2025-12-06 18:56:44,136 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品瑕疵，计划爬取 25 个视频/帖子，每条内容 60 条评论
+2025-12-06 18:57:28,533 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品瑕疵 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:57:28,533 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品瑕疵 的爬取结果
+2025-12-06 18:57:28,534 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:57:28,534 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:57:28,534 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:58:06,041 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:58:06,041 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 37.51 秒
+2025-12-06 18:58:06,042 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:58:06,043 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品瑕疵 分析完成，风险等级: 低
+2025-12-06 18:58:06,043 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量曝光，计划爬取 40 个视频/帖子，每条内容 90 条评论
+2025-12-06 18:58:50,497 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量曝光 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:58:50,497 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量曝光 的爬取结果
+2025-12-06 18:58:50,497 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:58:50,498 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:58:50,498 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:59:01,199 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:59:01,200 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.70 秒
+2025-12-06 18:59:01,200 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:59:01,201 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量曝光 分析完成，风险等级: 低
+2025-12-06 18:59:01,201 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品不合格，计划爬取 35 个视频/帖子，每条内容 80 条评论
+2025-12-06 18:59:45,633 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品不合格 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 18:59:45,633 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品不合格 的爬取结果
+2025-12-06 18:59:45,633 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 18:59:45,633 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 18:59:45,634 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 18:59:56,487 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 18:59:56,487 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.85 秒
+2025-12-06 18:59:56,487 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 18:59:56,488 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品不合格 分析完成，风险等级: 低
+2025-12-06 18:59:56,488 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 758.54 秒，总计 1560 条内容，0 条评论
+2025-12-06 18:59:56,489 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-06 18:59:56,489 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始汇总 12 个小报告
+2025-12-06 19:00:10,773 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:00:10,774 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: 低
+2025-12-06 19:00:10,775 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-06 19:00:10,777 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-06 19:00:10,795 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251206_190010.json
+2025-12-06 19:00:10,795 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 话题 '产品质量问题' 处理完成，总耗时 783.39 秒
+2025-12-06 19:00:10,795 - risk_analyzer - INFO - 安排再次调研话题: 产品质量问题
+2025-12-06 19:00:20,797 - risk_analyzer - INFO - 调度VCS分析话题: 产品质量问题，任务ID: vcs_task1765018820797_IaD38Mxz
+2025-12-06 19:00:20,797 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始处理话题: 产品质量问题
+2025-12-06 19:00:20,797 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-06 19:00:30,078 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:00:30,078 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 成功生成 10 个关键词: 质量问题, 产品缺陷, 产品召回, 质量投诉, 产品安全...
+2025-12-06 19:00:30,078 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-06 19:00:30,079 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-06 19:00:30,079 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量问题，计划爬取 50 个视频/帖子，每条内容 100 条评论
+2025-12-06 19:01:15,062 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:01:15,062 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量问题 的爬取结果
+2025-12-06 19:01:15,062 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:01:15,063 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:01:15,063 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:01:24,023 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:01:24,024 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 8.96 秒
+2025-12-06 19:01:24,024 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:01:24,026 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量问题 分析完成，风险等级: 低
+2025-12-06 19:01:24,026 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品缺陷，计划爬取 45 个视频/帖子，每条内容 90 条评论
+2025-12-06 19:02:08,395 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品缺陷 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:02:08,395 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品缺陷 的爬取结果
+2025-12-06 19:02:08,395 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:02:08,395 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:02:08,396 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:02:18,299 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:02:18,301 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 9.90 秒
+2025-12-06 19:02:18,301 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:02:18,302 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品缺陷 分析完成，风险等级: 低
+2025-12-06 19:02:18,303 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品召回，计划爬取 40 个视频/帖子，每条内容 80 条评论
+2025-12-06 19:03:02,670 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品召回 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:03:02,670 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品召回 的爬取结果
+2025-12-06 19:03:02,670 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:03:02,670 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:03:02,670 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:03:13,294 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:03:13,295 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.63 秒
+2025-12-06 19:03:13,295 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:03:13,296 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品召回 分析完成，风险等级: 低
+2025-12-06 19:03:13,297 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量投诉，计划爬取 35 个视频/帖子，每条内容 70 条评论
+2025-12-06 19:03:57,694 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量投诉 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:03:57,694 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量投诉 的爬取结果
+2025-12-06 19:03:57,694 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:03:57,695 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:03:57,695 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:04:07,726 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:04:07,727 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.03 秒
+2025-12-06 19:04:07,727 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:04:07,728 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量投诉 分析完成，风险等级: 低
+2025-12-06 19:04:07,729 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品安全，计划爬取 30 个视频/帖子，每条内容 60 条评论
+2025-12-06 19:04:52,196 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品安全 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:04:52,196 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品安全 的爬取结果
+2025-12-06 19:04:52,196 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:04:52,196 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:04:52,197 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:05:17,898 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:05:17,899 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 25.70 秒
+2025-12-06 19:05:17,899 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:05:17,901 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品安全 分析完成，风险等级: 低
+2025-12-06 19:05:17,901 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量门，计划爬取 25 个视频/帖子，每条内容 50 条评论
+2025-12-06 19:06:00,898 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量门 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:06:00,898 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量门 的爬取结果
+2025-12-06 19:06:00,898 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:06:00,899 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:06:00,899 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:06:31,718 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:06:31,719 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 30.82 秒
+2025-12-06 19:06:31,719 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:06:31,720 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量门 分析完成，风险等级: 低
+2025-12-06 19:06:31,720 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品问题，计划爬取 20 个视频/帖子，每条内容 40 条评论
+2025-12-06 19:07:16,013 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:07:16,013 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品问题 的爬取结果
+2025-12-06 19:07:16,013 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:07:16,014 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:07:16,014 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:07:26,021 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:07:26,022 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.01 秒
+2025-12-06 19:07:26,023 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:07:26,024 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品问题 分析完成，风险等级: 低
+2025-12-06 19:07:26,024 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量曝光，计划爬取 15 个视频/帖子，每条内容 30 条评论
+2025-12-06 19:08:10,245 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量曝光 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:08:10,245 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量曝光 的爬取结果
+2025-12-06 19:08:10,245 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:08:10,245 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:08:10,245 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:08:20,827 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:08:20,828 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.58 秒
+2025-12-06 19:08:20,830 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:08:20,831 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量曝光 分析完成，风险等级: 低
+2025-12-06 19:08:20,832 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品风险，计划爬取 10 个视频/帖子，每条内容 20 条评论
+2025-12-06 19:09:05,290 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品风险 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:09:05,290 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品风险 的爬取结果
+2025-12-06 19:09:05,290 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:09:05,290 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:09:05,291 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:09:42,303 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:09:42,304 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 37.01 秒
+2025-12-06 19:09:42,305 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:09:42,306 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品风险 分析完成，风险等级: 低
+2025-12-06 19:09:42,306 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量隐患，计划爬取 5 个视频/帖子，每条内容 10 条评论
+2025-12-06 19:10:25,219 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量隐患 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:10:25,219 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量隐患 的爬取结果
+2025-12-06 19:10:25,219 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:10:25,220 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:10:25,220 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:11:01,706 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:11:01,709 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 36.49 秒
+2025-12-06 19:11:01,709 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:11:01,711 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量隐患 分析完成，风险等级: 低
+2025-12-06 19:11:01,712 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 631.63 秒，总计 1300 条内容，0 条评论
+2025-12-06 19:11:01,712 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-06 19:11:01,712 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始汇总 10 个小报告
+2025-12-06 19:11:16,612 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:11:16,613 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: 低
+2025-12-06 19:11:16,615 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-06 19:11:16,616 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-06 19:11:16,630 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251206_191116.json
+2025-12-06 19:11:16,630 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 话题 '产品质量问题' 处理完成，总耗时 655.83 秒
+2025-12-06 19:11:16,630 - risk_analyzer - INFO - 安排再次调研话题: 产品质量问题
+2025-12-06 19:11:26,632 - risk_analyzer - INFO - 调度VCS分析话题: 产品质量问题，任务ID: vcs_task1765019486632_YyUgeCym
+2025-12-06 19:11:26,633 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始处理话题: 产品质量问题
+2025-12-06 19:11:26,633 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-06 19:11:37,873 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:11:37,874 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 成功生成 12 个关键词: 质量问题, 产品缺陷, 产品召回, 质量投诉, 产品安全...
+2025-12-06 19:11:37,875 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-06 19:11:37,875 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-06 19:11:37,875 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量问题，计划爬取 50 个视频/帖子，每条内容 100 条评论
+2025-12-06 19:12:22,215 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:12:22,215 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量问题 的爬取结果
+2025-12-06 19:12:22,215 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:12:22,215 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:12:22,215 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:12:54,800 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:12:54,800 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 32.59 秒
+2025-12-06 19:12:54,800 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:12:54,801 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量问题 分析完成，风险等级: 低
+2025-12-06 19:12:54,801 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品缺陷，计划爬取 45 个视频/帖子，每条内容 90 条评论
+2025-12-06 19:13:39,065 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品缺陷 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:13:39,065 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品缺陷 的爬取结果
+2025-12-06 19:13:39,065 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:13:39,066 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:13:39,066 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:13:49,428 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:13:49,428 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.36 秒
+2025-12-06 19:13:49,428 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:13:49,431 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品缺陷 分析完成，风险等级: 低
+2025-12-06 19:13:49,432 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品召回，计划爬取 40 个视频/帖子，每条内容 80 条评论
+2025-12-06 19:14:33,774 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品召回 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:14:33,774 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品召回 的爬取结果
+2025-12-06 19:14:33,774 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:14:33,775 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:14:33,775 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:14:43,633 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:14:43,633 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 9.86 秒
+2025-12-06 19:14:43,633 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:14:43,634 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品召回 分析完成，风险等级: 低
+2025-12-06 19:14:43,634 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量投诉，计划爬取 35 个视频/帖子，每条内容 70 条评论
+2025-12-06 19:15:27,849 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量投诉 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:15:27,849 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量投诉 的爬取结果
+2025-12-06 19:15:27,849 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:15:27,849 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:15:27,850 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:15:56,537 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:15:56,538 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 28.69 秒
+2025-12-06 19:15:56,538 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:15:56,539 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量投诉 分析完成，风险等级: 低
+2025-12-06 19:15:56,539 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品安全，计划爬取 30 个视频/帖子，每条内容 60 条评论
+2025-12-06 19:16:40,707 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品安全 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:16:40,707 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品安全 的爬取结果
+2025-12-06 19:16:40,707 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:16:40,708 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:16:40,708 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:16:50,047 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:16:50,048 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 9.34 秒
+2025-12-06 19:16:50,048 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:16:50,049 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品安全 分析完成，风险等级: 低
+2025-12-06 19:16:50,049 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量门，计划爬取 25 个视频/帖子，每条内容 50 条评论
+2025-12-06 19:17:34,272 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量门 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:17:34,272 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量门 的爬取结果
+2025-12-06 19:17:34,272 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:17:34,272 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:17:34,273 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:18:05,205 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:18:05,205 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 30.93 秒
+2025-12-06 19:18:05,205 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:18:05,206 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量门 分析完成，风险等级: 低
+2025-12-06 19:18:05,206 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品翻车，计划爬取 20 个视频/帖子，每条内容 40 条评论
+2025-12-06 19:18:49,293 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品翻车 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:18:49,293 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品翻车 的爬取结果
+2025-12-06 19:18:49,293 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:18:49,294 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:18:49,294 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:19:14,398 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:19:14,399 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 25.11 秒
+2025-12-06 19:19:14,399 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:19:14,399 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品翻车 分析完成，风险等级: 低
+2025-12-06 19:19:14,400 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量曝光，计划爬取 20 个视频/帖子，每条内容 40 条评论
+2025-12-06 19:19:57,583 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量曝光 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:19:57,583 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量曝光 的爬取结果
+2025-12-06 19:19:57,583 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:19:57,584 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:19:57,584 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:20:25,526 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:20:25,527 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 27.94 秒
+2025-12-06 19:20:25,527 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:20:25,527 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量曝光 分析完成，风险等级: 低
+2025-12-06 19:20:25,527 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品测评，计划爬取 15 个视频/帖子，每条内容 30 条评论
+2025-12-06 19:21:10,117 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品测评 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:21:10,117 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品测评 的爬取结果
+2025-12-06 19:21:10,117 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:21:10,119 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:21:10,119 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:21:21,776 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:21:21,776 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.66 秒
+2025-12-06 19:21:21,777 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:21:21,778 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品测评 分析完成，风险等级: 低
+2025-12-06 19:21:21,778 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量风波，计划爬取 15 个视频/帖子，每条内容 30 条评论
+2025-12-06 19:22:06,145 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量风波 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:22:06,145 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量风波 的爬取结果
+2025-12-06 19:22:06,145 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:22:06,145 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:22:06,145 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:22:33,988 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:22:33,989 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 27.84 秒
+2025-12-06 19:22:33,989 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:22:33,990 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量风波 分析完成，风险等级: 低
+2025-12-06 19:22:33,990 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品黑榜，计划爬取 10 个视频/帖子，每条内容 20 条评论
+2025-12-06 19:23:18,262 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品黑榜 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:23:18,262 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品黑榜 的爬取结果
+2025-12-06 19:23:18,262 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:23:18,264 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:23:18,264 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:23:28,758 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:23:28,759 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.50 秒
+2025-12-06 19:23:28,759 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:23:28,760 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品黑榜 分析完成，风险等级: 低
+2025-12-06 19:23:28,760 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量争议，计划爬取 10 个视频/帖子，每条内容 20 条评论
+2025-12-06 19:24:13,232 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量争议 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:24:13,232 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量争议 的爬取结果
+2025-12-06 19:24:13,232 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:24:13,232 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:24:13,232 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:24:48,794 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:24:48,795 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 35.56 秒
+2025-12-06 19:24:48,795 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:24:48,795 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量争议 分析完成，风险等级: 低
+2025-12-06 19:24:48,795 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 790.92 秒，总计 1560 条内容，0 条评论
+2025-12-06 19:24:48,795 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-06 19:24:48,795 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始汇总 12 个小报告
+2025-12-06 19:25:02,967 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:25:02,968 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: 低
+2025-12-06 19:25:02,970 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-06 19:25:02,971 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-06 19:25:02,988 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251206_192502.json
+2025-12-06 19:25:02,988 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 话题 '产品质量问题' 处理完成，总耗时 816.36 秒
+2025-12-06 19:25:02,988 - risk_analyzer - INFO - 安排再次调研话题: 产品质量问题
+2025-12-06 19:25:12,989 - risk_analyzer - INFO - 调度VCS分析话题: 产品质量问题，任务ID: vcs_task1765020312989_hOcgpbrO
+2025-12-06 19:25:12,989 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始处理话题: 产品质量问题
+2025-12-06 19:25:12,989 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-06 19:25:54,270 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:25:54,271 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 成功生成 13 个关键词: 质量问题, 产品缺陷, 产品召回, 质量投诉, 产品安全...
+2025-12-06 19:25:54,271 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-06 19:25:54,272 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-06 19:25:54,272 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量问题，计划爬取 100 个视频/帖子，每条内容 200 条评论
+2025-12-06 19:26:37,415 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:26:37,415 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量问题 的爬取结果
+2025-12-06 19:26:37,415 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:26:37,416 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:26:37,416 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:27:35,067 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:27:35,068 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 57.65 秒
+2025-12-06 19:27:35,068 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:27:35,069 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量问题 分析完成，风险等级: 低
+2025-12-06 19:27:35,069 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品缺陷，计划爬取 90 个视频/帖子，每条内容 180 条评论
+2025-12-06 19:28:19,395 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品缺陷 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:28:19,396 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品缺陷 的爬取结果
+2025-12-06 19:28:19,396 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:28:19,396 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:28:19,396 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:28:30,951 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:28:30,952 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.56 秒
+2025-12-06 19:28:30,952 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:28:30,953 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品缺陷 分析完成，风险等级: 低
+2025-12-06 19:28:30,954 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品召回，计划爬取 80 个视频/帖子，每条内容 160 条评论
+2025-12-06 19:29:15,345 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品召回 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:29:15,345 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品召回 的爬取结果
+2025-12-06 19:29:15,345 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:29:15,345 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:29:15,346 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:30:02,026 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:30:02,027 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 46.68 秒
+2025-12-06 19:30:02,027 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:30:02,028 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品召回 分析完成，风险等级: 低
+2025-12-06 19:30:02,028 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量投诉，计划爬取 85 个视频/帖子，每条内容 170 条评论
+2025-12-06 19:30:46,321 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量投诉 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:30:46,321 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量投诉 的爬取结果
+2025-12-06 19:30:46,321 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:30:46,322 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:30:46,322 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:30:56,379 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:30:56,380 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.06 秒
+2025-12-06 19:30:56,381 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:30:56,381 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量投诉 分析完成，风险等级: 低
+2025-12-06 19:30:56,381 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品安全，计划爬取 75 个视频/帖子，每条内容 150 条评论
+2025-12-06 19:31:40,794 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品安全 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:31:40,794 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品安全 的爬取结果
+2025-12-06 19:31:40,794 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:31:40,794 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:31:40,794 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:32:12,552 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:32:12,553 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 31.76 秒
+2025-12-06 19:32:12,553 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:32:12,554 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品安全 分析完成，风险等级: 低
+2025-12-06 19:32:12,554 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量问题曝光，计划爬取 95 个视频/帖子，每条内容 190 条评论
+2025-12-06 19:32:56,999 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量问题曝光 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:32:56,999 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量问题曝光 的爬取结果
+2025-12-06 19:32:56,999 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:32:57,000 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:32:57,000 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:33:30,118 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:33:30,119 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 33.12 秒
+2025-12-06 19:33:30,119 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:33:30,120 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量问题曝光 分析完成，风险等级: 低
+2025-12-06 19:33:30,120 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品检测，计划爬取 70 个视频/帖子，每条内容 140 条评论
+2025-12-06 19:34:14,541 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品检测 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:34:14,543 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品检测 的爬取结果
+2025-12-06 19:34:14,543 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:34:14,543 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:34:14,543 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:34:24,290 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:34:24,290 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 9.75 秒
+2025-12-06 19:34:24,290 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:34:24,290 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品检测 分析完成，风险等级: 低
+2025-12-06 19:34:24,290 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量门，计划爬取 65 个视频/帖子，每条内容 130 条评论
+2025-12-06 19:35:08,563 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量门 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:35:08,563 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量门 的爬取结果
+2025-12-06 19:35:08,563 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:35:08,563 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:35:08,563 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:35:42,984 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:35:42,985 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 34.42 秒
+2025-12-06 19:35:42,985 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:35:42,986 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量门 分析完成，风险等级: 低
+2025-12-06 19:35:42,986 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品不合格，计划爬取 60 个视频/帖子，每条内容 120 条评论
+2025-12-06 19:36:27,316 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品不合格 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:36:27,316 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品不合格 的爬取结果
+2025-12-06 19:36:27,316 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:36:27,316 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:36:27,316 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:36:39,467 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:36:39,467 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 12.15 秒
+2025-12-06 19:36:39,468 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:36:39,469 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品不合格 分析完成，风险等级: 低
+2025-12-06 19:36:39,469 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量风波，计划爬取 55 个视频/帖子，每条内容 110 条评论
+2025-12-06 19:37:23,758 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量风波 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:37:23,758 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量风波 的爬取结果
+2025-12-06 19:37:23,758 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:37:23,758 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:37:23,758 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:38:06,209 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:38:06,209 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 42.45 秒
+2025-12-06 19:38:06,211 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:38:06,211 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量风波 分析完成，风险等级: 低
+2025-12-06 19:38:06,211 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品危机，计划爬取 50 个视频/帖子，每条内容 100 条评论
+2025-12-06 19:38:50,513 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品危机 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:38:50,513 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品危机 的爬取结果
+2025-12-06 19:38:50,513 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:38:50,515 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:38:50,515 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:39:00,332 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:39:00,332 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 9.82 秒
+2025-12-06 19:39:00,332 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:39:00,333 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品危机 分析完成，风险等级: 低
+2025-12-06 19:39:00,333 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量争议，计划爬取 45 个视频/帖子，每条内容 90 条评论
+2025-12-06 19:39:44,770 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量争议 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:39:44,770 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量争议 的爬取结果
+2025-12-06 19:39:44,770 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:39:44,770 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:39:44,770 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:40:09,494 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:40:09,494 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 24.72 秒
+2025-12-06 19:40:09,494 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:40:09,495 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量争议 分析完成，风险等级: 低
+2025-12-06 19:40:09,495 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品翻车，计划爬取 40 个视频/帖子，每条内容 80 条评论
+2025-12-06 19:40:53,928 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品翻车 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:40:53,928 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品翻车 的爬取结果
+2025-12-06 19:40:53,928 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:40:53,929 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:40:53,929 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:41:07,228 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:41:07,229 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 13.30 秒
+2025-12-06 19:41:07,229 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:41:07,229 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品翻车 分析完成，风险等级: 低
+2025-12-06 19:41:07,230 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 912.96 秒，总计 1690 条内容，0 条评论
+2025-12-06 19:41:07,230 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-06 19:41:07,230 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始汇总 13 个小报告
+2025-12-06 19:41:20,480 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:41:20,481 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: 低
+2025-12-06 19:41:20,482 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-06 19:41:20,484 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-06 19:41:20,502 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251206_194120.json
+2025-12-06 19:41:20,502 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 话题 '产品质量问题' 处理完成，总耗时 967.51 秒
+2025-12-06 19:41:20,502 - risk_analyzer - INFO - 安排再次调研话题: 产品质量问题
+2025-12-06 19:41:30,503 - risk_analyzer - INFO - 调度VCS分析话题: 产品质量问题，任务ID: vcs_task1765021290503_DNFjrc0u
+2025-12-06 19:41:30,503 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始处理话题: 产品质量问题
+2025-12-06 19:41:30,503 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-06 19:42:03,596 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:42:03,596 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 成功生成 12 个关键词: 质量问题, 产品缺陷, 产品召回, 投诉产品, 产品安全...
+2025-12-06 19:42:03,597 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-06 19:42:03,597 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-06 19:42:03,597 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量问题，计划爬取 100 个视频/帖子，每条内容 200 条评论
+2025-12-06 19:42:47,892 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:42:47,892 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量问题 的爬取结果
+2025-12-06 19:42:47,892 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:42:47,893 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:42:47,893 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:42:58,132 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:42:58,133 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.24 秒
+2025-12-06 19:42:58,133 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:42:58,134 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量问题 分析完成，风险等级: 低
+2025-12-06 19:42:58,134 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品缺陷，计划爬取 80 个视频/帖子，每条内容 150 条评论
+2025-12-06 19:43:41,240 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品缺陷 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:43:41,240 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品缺陷 的爬取结果
+2025-12-06 19:43:41,240 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:43:41,240 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:43:41,241 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:44:26,921 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:44:26,922 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 45.68 秒
+2025-12-06 19:44:26,922 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:44:26,923 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品缺陷 分析完成，风险等级: 低
+2025-12-06 19:44:26,923 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品召回，计划爬取 70 个视频/帖子，每条内容 120 条评论
+2025-12-06 19:45:11,330 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品召回 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:45:11,330 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品召回 的爬取结果
+2025-12-06 19:45:11,330 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:45:11,331 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:45:11,331 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:45:47,452 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:45:47,453 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 36.12 秒
+2025-12-06 19:45:47,454 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:45:47,455 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品召回 分析完成，风险等级: 低
+2025-12-06 19:45:47,455 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 投诉产品，计划爬取 60 个视频/帖子，每条内容 100 条评论
+2025-12-06 19:46:31,846 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 投诉产品 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:46:31,846 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 投诉产品 的爬取结果
+2025-12-06 19:46:31,846 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:46:31,846 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:46:31,846 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:46:57,109 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:46:57,111 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 25.26 秒
+2025-12-06 19:46:57,111 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:46:57,112 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 投诉产品 分析完成，风险等级: 低
+2025-12-06 19:46:57,113 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品安全，计划爬取 90 个视频/帖子，每条内容 180 条评论
+2025-12-06 19:47:41,475 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品安全 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:47:41,476 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品安全 的爬取结果
+2025-12-06 19:47:41,476 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:47:41,476 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:47:41,476 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:47:52,008 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:47:52,008 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.53 秒
+2025-12-06 19:47:52,009 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:47:52,010 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品安全 分析完成，风险等级: 低
+2025-12-06 19:47:52,010 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 劣质产品，计划爬取 75 个视频/帖子，每条内容 130 条评论
+2025-12-06 19:48:34,880 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 劣质产品 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:48:34,880 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 劣质产品 的爬取结果
+2025-12-06 19:48:34,880 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:48:34,880 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:48:34,880 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:49:02,087 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:49:02,087 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 27.21 秒
+2025-12-06 19:49:02,087 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:49:02,089 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 劣质产品 分析完成，风险等级: 低
+2025-12-06 19:49:02,089 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品测评，计划爬取 50 个视频/帖子，每条内容 80 条评论
+2025-12-06 19:49:46,420 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品测评 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:49:46,421 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品测评 的爬取结果
+2025-12-06 19:49:46,421 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:49:46,421 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:49:46,421 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:50:08,109 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:50:08,109 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 21.69 秒
+2025-12-06 19:50:08,109 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:50:08,110 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品测评 分析完成，风险等级: 低
+2025-12-06 19:50:08,110 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品曝光，计划爬取 85 个视频/帖子，每条内容 160 条评论
+2025-12-06 19:50:51,705 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品曝光 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:50:51,705 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品曝光 的爬取结果
+2025-12-06 19:50:51,705 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:50:51,705 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:50:51,705 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:51:01,781 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:51:01,782 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.08 秒
+2025-12-06 19:51:01,782 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:51:01,783 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品曝光 分析完成，风险等级: 低
+2025-12-06 19:51:01,783 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 维权，计划爬取 65 个视频/帖子，每条内容 110 条评论
+2025-12-06 19:51:46,093 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 维权 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:51:46,093 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 维权 的爬取结果
+2025-12-06 19:51:46,093 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:51:46,093 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:51:46,094 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:51:57,490 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:51:57,491 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.40 秒
+2025-12-06 19:51:57,491 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:51:57,492 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 维权 分析完成，风险等级: 低
+2025-12-06 19:51:57,492 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 消费者投诉，计划爬取 70 个视频/帖子，每条内容 140 条评论
+2025-12-06 19:52:41,856 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 消费者投诉 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:52:41,856 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 消费者投诉 的爬取结果
+2025-12-06 19:52:41,856 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:52:41,856 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:52:41,857 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:53:12,096 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:53:12,131 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 30.27 秒
+2025-12-06 19:53:12,131 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:53:12,132 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 消费者投诉 分析完成，风险等级: 低
+2025-12-06 19:53:12,132 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品风险，计划爬取 60 个视频/帖子，每条内容 100 条评论
+2025-12-06 19:53:55,018 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品风险 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:53:55,018 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品风险 的爬取结果
+2025-12-06 19:53:55,019 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:53:55,019 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:53:55,019 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:54:22,514 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:54:22,515 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 27.50 秒
+2025-12-06 19:54:22,515 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:54:22,516 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品风险 分析完成，风险等级: 低
+2025-12-06 19:54:22,516 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量门，计划爬取 55 个视频/帖子，每条内容 90 条评论
+2025-12-06 19:55:06,740 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量门 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:55:06,740 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量门 的爬取结果
+2025-12-06 19:55:06,740 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:55:06,740 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:55:06,740 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:55:44,622 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:55:44,624 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 37.88 秒
+2025-12-06 19:55:44,624 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:55:44,626 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量门 分析完成，风险等级: 低
+2025-12-06 19:55:44,626 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 821.03 秒，总计 1560 条内容，0 条评论
+2025-12-06 19:55:44,628 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-06 19:55:44,628 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始汇总 12 个小报告
+2025-12-06 19:56:32,327 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:56:32,329 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: 低
+2025-12-06 19:56:32,330 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-06 19:56:32,331 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-06 19:56:32,350 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251206_195632.json
+2025-12-06 19:56:32,350 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 话题 '产品质量问题' 处理完成，总耗时 901.85 秒
+2025-12-06 19:56:32,351 - risk_analyzer - INFO - 安排再次调研话题: 产品质量问题
+2025-12-06 19:56:42,351 - risk_analyzer - INFO - 调度VCS分析话题: 产品质量问题，任务ID: vcs_task1765022202351_2zFzRCe0
+2025-12-06 19:56:42,351 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始处理话题: 产品质量问题
+2025-12-06 19:56:42,353 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-06 19:56:54,475 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:56:54,475 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 成功生成 13 个关键词: 质量问题, 产品缺陷, 质量投诉, 产品召回, 质量门...
+2025-12-06 19:56:54,475 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-06 19:56:54,475 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-06 19:56:54,476 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量问题，计划爬取 50 个视频/帖子，每条内容 100 条评论
+2025-12-06 19:57:38,721 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:57:38,722 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量问题 的爬取结果
+2025-12-06 19:57:38,722 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:57:38,722 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:57:38,722 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:58:26,764 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:58:26,765 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 48.04 秒
+2025-12-06 19:58:26,766 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:58:26,768 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量问题 分析完成，风险等级: 低
+2025-12-06 19:58:26,768 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品缺陷，计划爬取 40 个视频/帖子，每条内容 80 条评论
+2025-12-06 19:59:10,982 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品缺陷 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 19:59:10,982 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品缺陷 的爬取结果
+2025-12-06 19:59:10,982 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 19:59:10,983 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 19:59:10,983 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 19:59:38,761 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 19:59:38,763 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 27.78 秒
+2025-12-06 19:59:38,763 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 19:59:38,765 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品缺陷 分析完成，风险等级: 低
+2025-12-06 19:59:38,765 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量投诉，计划爬取 45 个视频/帖子，每条内容 90 条评论
+2025-12-06 20:00:22,971 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量投诉 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:00:22,972 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量投诉 的爬取结果
+2025-12-06 20:00:22,972 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:00:22,972 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:00:22,972 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:01:04,147 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:01:04,149 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 41.18 秒
+2025-12-06 20:01:04,149 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:01:04,151 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量投诉 分析完成，风险等级: 低
+2025-12-06 20:01:04,152 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品召回，计划爬取 35 个视频/帖子，每条内容 70 条评论
+2025-12-06 20:01:48,364 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品召回 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:01:48,364 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品召回 的爬取结果
+2025-12-06 20:01:48,364 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:01:48,364 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:01:48,364 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:02:43,126 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:02:43,128 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 54.76 秒
+2025-12-06 20:02:43,128 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:02:43,129 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品召回 分析完成，风险等级: 低
+2025-12-06 20:02:43,130 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量门，计划爬取 30 个视频/帖子，每条内容 60 条评论
+2025-12-06 20:03:27,340 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量门 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:03:27,340 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量门 的爬取结果
+2025-12-06 20:03:27,340 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:03:27,341 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:03:27,341 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:03:54,761 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:03:54,761 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 27.42 秒
+2025-12-06 20:03:54,761 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:03:54,762 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量门 分析完成，风险等级: 低
+2025-12-06 20:03:54,762 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品安全，计划爬取 40 个视频/帖子，每条内容 80 条评论
+2025-12-06 20:04:39,149 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品安全 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:04:39,149 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品安全 的爬取结果
+2025-12-06 20:04:39,149 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:04:39,149 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:04:39,150 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:04:50,308 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:04:50,308 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.16 秒
+2025-12-06 20:04:50,308 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:04:50,308 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品安全 分析完成，风险等级: 低
+2025-12-06 20:04:50,309 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量曝光，计划爬取 45 个视频/帖子，每条内容 90 条评论
+2025-12-06 20:05:33,278 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量曝光 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:05:33,278 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量曝光 的爬取结果
+2025-12-06 20:05:33,278 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:05:33,279 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:05:33,279 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:05:44,751 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:05:44,751 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.47 秒
+2025-12-06 20:05:44,751 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:05:44,751 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量曝光 分析完成，风险等级: 低
+2025-12-06 20:05:44,751 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品问题，计划爬取 50 个视频/帖子，每条内容 100 条评论
+2025-12-06 20:06:27,684 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:06:27,684 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品问题 的爬取结果
+2025-12-06 20:06:27,684 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:06:27,686 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:06:27,686 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:06:40,683 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:06:40,683 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 13.00 秒
+2025-12-06 20:06:40,685 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:06:40,685 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品问题 分析完成，风险等级: 低
+2025-12-06 20:06:40,685 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量风波，计划爬取 35 个视频/帖子，每条内容 70 条评论
+2025-12-06 20:07:25,015 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量风波 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:07:25,015 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量风波 的爬取结果
+2025-12-06 20:07:25,015 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:07:25,016 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:07:25,016 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:08:01,482 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:08:01,484 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 36.47 秒
+2025-12-06 20:08:01,486 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:08:01,488 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量风波 分析完成，风险等级: 低
+2025-12-06 20:08:01,489 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品翻车，计划爬取 40 个视频/帖子，每条内容 80 条评论
+2025-12-06 20:08:45,744 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品翻车 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:08:45,744 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品翻车 的爬取结果
+2025-12-06 20:08:45,745 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:08:45,745 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:08:45,745 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:09:15,932 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:09:15,932 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 30.19 秒
+2025-12-06 20:09:15,933 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:09:15,933 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品翻车 分析完成，风险等级: 低
+2025-12-06 20:09:15,934 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量隐患，计划爬取 30 个视频/帖子，每条内容 60 条评论
+2025-12-06 20:10:00,356 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量隐患 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:10:00,356 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量隐患 的爬取结果
+2025-12-06 20:10:00,357 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:10:00,357 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:10:00,357 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:10:31,303 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:10:31,304 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 30.95 秒
+2025-12-06 20:10:31,304 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:10:31,305 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量隐患 分析完成，风险等级: 低
+2025-12-06 20:10:31,305 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品测评，计划爬取 25 个视频/帖子，每条内容 50 条评论
+2025-12-06 20:11:15,668 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品测评 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:11:15,668 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品测评 的爬取结果
+2025-12-06 20:11:15,668 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:11:15,668 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:11:15,669 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:11:26,354 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:11:26,355 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.69 秒
+2025-12-06 20:11:26,355 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:11:26,355 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品测评 分析完成，风险等级: 低
+2025-12-06 20:11:26,356 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量争议，计划爬取 35 个视频/帖子，每条内容 70 条评论
+2025-12-06 20:12:09,273 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量争议 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:12:09,273 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量争议 的爬取结果
+2025-12-06 20:12:09,274 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:12:09,274 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:12:09,274 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:12:19,610 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:12:19,611 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.34 秒
+2025-12-06 20:12:19,611 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:12:19,611 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量争议 分析完成，风险等级: 低
+2025-12-06 20:12:19,613 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 925.14 秒，总计 1690 条内容，0 条评论
+2025-12-06 20:12:19,613 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-06 20:12:19,613 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始汇总 13 个小报告
+2025-12-06 20:12:34,014 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:12:34,017 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: 低
+2025-12-06 20:12:34,018 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-06 20:12:34,018 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-06 20:12:34,037 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251206_201234.json
+2025-12-06 20:12:34,037 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 话题 '产品质量问题' 处理完成，总耗时 951.69 秒
+2025-12-06 20:12:34,037 - risk_analyzer - INFO - 安排再次调研话题: 产品质量问题
+2025-12-06 20:12:44,038 - risk_analyzer - INFO - 调度VCS分析话题: 产品质量问题，任务ID: vcs_task1765023164038_Mp2l950j
+2025-12-06 20:12:44,038 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始处理话题: 产品质量问题
+2025-12-06 20:12:44,038 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-06 20:13:13,909 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:13:13,911 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 成功生成 12 个关键词: 质量问题, 产品缺陷, 产品召回, 投诉产品, 质量门...
+2025-12-06 20:13:13,911 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-06 20:13:13,911 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-06 20:13:13,913 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量问题，计划爬取 100 个视频/帖子，每条内容 50 条评论
+2025-12-06 20:13:58,334 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:13:58,335 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量问题 的爬取结果
+2025-12-06 20:13:58,335 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:13:58,335 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:13:58,335 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:14:09,021 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:14:09,021 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.69 秒
+2025-12-06 20:14:09,022 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:14:09,023 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量问题 分析完成，风险等级: 低
+2025-12-06 20:14:09,023 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品缺陷，计划爬取 90 个视频/帖子，每条内容 45 条评论
+2025-12-06 20:14:51,945 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品缺陷 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:14:51,945 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品缺陷 的爬取结果
+2025-12-06 20:14:51,945 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:14:51,945 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:14:51,945 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:15:16,824 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:15:16,825 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 24.88 秒
+2025-12-06 20:15:16,826 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:15:16,826 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品缺陷 分析完成，风险等级: 低
+2025-12-06 20:15:16,826 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品召回，计划爬取 80 个视频/帖子，每条内容 40 条评论
+2025-12-06 20:16:01,391 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品召回 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:16:01,391 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品召回 的爬取结果
+2025-12-06 20:16:01,391 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:16:01,391 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:16:01,393 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:16:12,470 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:16:12,471 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.08 秒
+2025-12-06 20:16:12,471 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:16:12,473 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品召回 分析完成，风险等级: 低
+2025-12-06 20:16:12,473 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 投诉产品，计划爬取 70 个视频/帖子，每条内容 35 条评论
+2025-12-06 20:16:56,911 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 投诉产品 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:16:56,912 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 投诉产品 的爬取结果
+2025-12-06 20:16:56,912 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:16:56,912 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:16:56,912 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:17:08,188 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:17:08,190 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.28 秒
+2025-12-06 20:17:08,190 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:17:08,191 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 投诉产品 分析完成，风险等级: 低
+2025-12-06 20:17:08,192 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量门，计划爬取 60 个视频/帖子，每条内容 30 条评论
+2025-12-06 20:17:52,620 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量门 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:17:52,621 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量门 的爬取结果
+2025-12-06 20:17:52,621 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:17:52,621 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:17:52,621 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:18:03,115 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:18:03,117 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.50 秒
+2025-12-06 20:18:03,117 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:18:03,118 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量门 分析完成，风险等级: 低
+2025-12-06 20:18:03,119 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品安全，计划爬取 50 个视频/帖子，每条内容 25 条评论
+2025-12-06 20:18:47,262 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品安全 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:18:47,262 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品安全 的爬取结果
+2025-12-06 20:18:47,262 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:18:47,263 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:18:47,263 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:19:16,152 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:19:16,153 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 28.89 秒
+2025-12-06 20:19:16,153 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:19:16,154 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品安全 分析完成，风险等级: 低
+2025-12-06 20:19:16,154 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质检问题，计划爬取 50 个视频/帖子，每条内容 25 条评论
+2025-12-06 20:20:00,429 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质检问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:20:00,429 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质检问题 的爬取结果
+2025-12-06 20:20:00,429 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:20:00,430 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:20:00,430 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:20:10,189 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:20:10,189 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 9.76 秒
+2025-12-06 20:20:10,189 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:20:10,190 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质检问题 分析完成，风险等级: 低
+2025-12-06 20:20:10,190 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 劣质产品，计划爬取 40 个视频/帖子，每条内容 20 条评论
+2025-12-06 20:20:54,702 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 劣质产品 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:20:54,702 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 劣质产品 的爬取结果
+2025-12-06 20:20:54,702 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:20:54,702 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:20:54,702 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:21:05,199 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:21:05,200 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.50 秒
+2025-12-06 20:21:05,200 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:21:05,201 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 劣质产品 分析完成，风险等级: 低
+2025-12-06 20:21:05,201 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品投诉，计划爬取 40 个视频/帖子，每条内容 20 条评论
+2025-12-06 20:21:49,554 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品投诉 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:21:49,554 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品投诉 的爬取结果
+2025-12-06 20:21:49,554 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:21:49,554 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:21:49,555 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:22:24,842 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:22:24,844 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 35.29 秒
+2025-12-06 20:22:24,845 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:22:24,846 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品投诉 分析完成，风险等级: 低
+2025-12-06 20:22:24,846 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量曝光，计划爬取 30 个视频/帖子，每条内容 15 条评论
+2025-12-06 20:23:08,987 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量曝光 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:23:08,987 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量曝光 的爬取结果
+2025-12-06 20:23:08,987 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:23:08,988 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:23:08,988 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:23:40,291 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:23:40,293 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 31.31 秒
+2025-12-06 20:23:40,294 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:23:40,295 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量曝光 分析完成，风险等级: 低
+2025-12-06 20:23:40,297 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品翻车，计划爬取 30 个视频/帖子，每条内容 15 条评论
+2025-12-06 20:24:23,065 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品翻车 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:24:23,065 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品翻车 的爬取结果
+2025-12-06 20:24:23,065 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:24:23,066 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:24:23,066 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:24:34,697 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:24:34,699 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.63 秒
+2025-12-06 20:24:34,699 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:24:34,701 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品翻车 分析完成，风险等级: 低
+2025-12-06 20:24:34,701 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量隐患，计划爬取 20 个视频/帖子，每条内容 10 条评论
+2025-12-06 20:25:18,929 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量隐患 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:25:18,929 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量隐患 的爬取结果
+2025-12-06 20:25:18,929 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:25:18,929 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:25:18,929 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:25:47,675 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:25:47,677 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 28.75 秒
+2025-12-06 20:25:47,678 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:25:47,679 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量隐患 分析完成，风险等级: 低
+2025-12-06 20:25:47,681 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 753.77 秒，总计 1560 条内容，0 条评论
+2025-12-06 20:25:47,681 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-06 20:25:47,681 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始汇总 12 个小报告
+2025-12-06 20:26:02,321 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:26:02,323 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: 低
+2025-12-06 20:26:02,327 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-06 20:26:02,329 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-06 20:26:02,348 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251206_202602.json
+2025-12-06 20:26:02,348 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 话题 '产品质量问题' 处理完成，总耗时 798.31 秒
+2025-12-06 20:26:02,348 - risk_analyzer - INFO - 安排再次调研话题: 产品质量问题
+2025-12-06 20:26:12,349 - risk_analyzer - INFO - 调度VCS分析话题: 产品质量问题，任务ID: vcs_task1765023972349_jbrXRoqC
+2025-12-06 20:26:12,349 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始处理话题: 产品质量问题
+2025-12-06 20:26:12,349 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-06 20:26:39,596 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:26:39,596 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 成功生成 12 个关键词: 质量问题, 产品缺陷, 产品召回, 质量投诉, 产品安全...
+2025-12-06 20:26:39,597 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-06 20:26:39,597 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-06 20:26:39,597 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量问题，计划爬取 100 个视频/帖子，每条内容 200 条评论
+2025-12-06 20:27:24,088 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:27:24,088 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量问题 的爬取结果
+2025-12-06 20:27:24,088 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:27:24,088 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:27:24,088 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:27:34,390 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:27:34,390 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.30 秒
+2025-12-06 20:27:34,391 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:27:34,391 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量问题 分析完成，风险等级: 低
+2025-12-06 20:27:34,391 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品缺陷，计划爬取 90 个视频/帖子，每条内容 180 条评论
+2025-12-06 20:28:18,687 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品缺陷 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:28:18,687 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品缺陷 的爬取结果
+2025-12-06 20:28:18,687 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:28:18,687 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:28:18,687 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:28:28,435 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:28:28,436 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 9.75 秒
+2025-12-06 20:28:28,437 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:28:28,438 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品缺陷 分析完成，风险等级: 低
+2025-12-06 20:28:28,438 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品召回，计划爬取 80 个视频/帖子，每条内容 160 条评论
+2025-12-06 20:29:12,845 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品召回 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:29:12,845 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品召回 的爬取结果
+2025-12-06 20:29:12,846 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:29:12,846 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:29:12,846 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:29:24,050 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:29:24,052 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.21 秒
+2025-12-06 20:29:24,053 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:29:24,055 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品召回 分析完成，风险等级: 低
+2025-12-06 20:29:24,055 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量投诉，计划爬取 85 个视频/帖子，每条内容 170 条评论
+2025-12-06 20:30:08,174 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量投诉 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:30:08,174 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量投诉 的爬取结果
+2025-12-06 20:30:08,174 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:30:08,174 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:30:08,174 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:30:35,916 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:30:35,919 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 27.74 秒
+2025-12-06 20:30:35,919 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:30:35,921 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量投诉 分析完成，风险等级: 低
+2025-12-06 20:30:35,921 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品安全，计划爬取 75 个视频/帖子，每条内容 150 条评论
+2025-12-06 20:31:18,793 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品安全 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:31:18,793 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品安全 的爬取结果
+2025-12-06 20:31:18,793 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:31:18,794 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:31:18,794 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:31:58,127 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:31:58,127 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 39.33 秒
+2025-12-06 20:31:58,127 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:31:58,128 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品安全 分析完成，风险等级: 低
+2025-12-06 20:31:58,128 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量门，计划爬取 70 个视频/帖子，每条内容 140 条评论
+2025-12-06 20:32:42,484 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量门 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:32:42,484 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量门 的爬取结果
+2025-12-06 20:32:42,485 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:32:42,485 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:32:42,485 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:33:09,354 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:33:09,355 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 26.87 秒
+2025-12-06 20:33:09,355 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:33:09,357 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量门 分析完成，风险等级: 低
+2025-12-06 20:33:09,357 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品问题，计划爬取 95 个视频/帖子，每条内容 190 条评论
+2025-12-06 20:33:53,684 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:33:53,684 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品问题 的爬取结果
+2025-12-06 20:33:53,685 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:33:53,685 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:33:53,685 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:34:23,599 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:34:23,600 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 29.91 秒
+2025-12-06 20:34:23,600 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:34:23,601 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品问题 分析完成，风险等级: 低
+2025-12-06 20:34:23,601 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量曝光，计划爬取 65 个视频/帖子，每条内容 130 条评论
+2025-12-06 20:35:07,891 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量曝光 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:35:07,891 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量曝光 的爬取结果
+2025-12-06 20:35:07,891 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:35:07,893 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:35:07,893 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:35:19,264 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:35:19,265 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.37 秒
+2025-12-06 20:35:19,265 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:35:19,265 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量曝光 分析完成，风险等级: 低
+2025-12-06 20:35:19,266 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品风险，计划爬取 60 个视频/帖子，每条内容 120 条评论
+2025-12-06 20:36:03,770 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品风险 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:36:03,771 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品风险 的爬取结果
+2025-12-06 20:36:03,771 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:36:03,771 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:36:03,771 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:36:16,421 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:36:16,422 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 12.65 秒
+2025-12-06 20:36:16,422 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:36:16,423 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品风险 分析完成，风险等级: 低
+2025-12-06 20:36:16,423 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量纠纷，计划爬取 55 个视频/帖子，每条内容 110 条评论
+2025-12-06 20:37:01,100 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量纠纷 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:37:01,101 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量纠纷 的爬取结果
+2025-12-06 20:37:01,101 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:37:01,101 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:37:01,101 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:37:10,320 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:37:10,320 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 9.22 秒
+2025-12-06 20:37:10,320 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:37:10,322 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量纠纷 分析完成，风险等级: 低
+2025-12-06 20:37:10,322 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品检测，计划爬取 50 个视频/帖子，每条内容 100 条评论
+2025-12-06 20:37:53,262 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品检测 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:37:53,262 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品检测 的爬取结果
+2025-12-06 20:37:53,262 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:37:53,263 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:37:53,263 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:38:04,678 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:38:04,678 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.42 秒
+2025-12-06 20:38:04,678 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:38:04,680 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品检测 分析完成，风险等级: 低
+2025-12-06 20:38:04,680 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量事件，计划爬取 45 个视频/帖子，每条内容 90 条评论
+2025-12-06 20:38:48,927 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量事件 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:38:48,927 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量事件 的爬取结果
+2025-12-06 20:38:48,927 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:38:48,928 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:38:48,928 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:39:13,100 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:39:13,101 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 24.17 秒
+2025-12-06 20:39:13,102 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:39:13,103 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量事件 分析完成，风险等级: 低
+2025-12-06 20:39:13,103 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 753.51 秒，总计 1560 条内容，0 条评论
+2025-12-06 20:39:13,103 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-06 20:39:13,103 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始汇总 12 个小报告
+2025-12-06 20:39:52,227 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:39:52,227 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: 低
+2025-12-06 20:39:52,228 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-06 20:39:52,230 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-06 20:39:52,249 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251206_203952.json
+2025-12-06 20:39:52,249 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 话题 '产品质量问题' 处理完成，总耗时 819.9 秒
+2025-12-06 20:39:52,249 - risk_analyzer - INFO - 安排再次调研话题: 产品质量问题
+2025-12-06 20:40:02,251 - risk_analyzer - INFO - 调度VCS分析话题: 产品质量问题，任务ID: vcs_task1765024802251_ElCtFg4R
+2025-12-06 20:40:02,251 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始处理话题: 产品质量问题
+2025-12-06 20:40:02,251 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-06 20:40:38,161 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:40:38,163 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 成功生成 13 个关键词: 质量问题, 产品缺陷, 产品召回, 投诉产品, 产品安全...
+2025-12-06 20:40:38,164 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-06 20:40:38,164 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-06 20:40:38,165 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量问题，计划爬取 50 个视频/帖子，每条内容 100 条评论
+2025-12-06 20:41:23,047 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:41:23,048 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量问题 的爬取结果
+2025-12-06 20:41:23,048 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:41:23,049 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:41:23,049 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:41:47,338 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:41:47,338 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 24.29 秒
+2025-12-06 20:41:47,338 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:41:47,339 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量问题 分析完成，风险等级: 低
+2025-12-06 20:41:47,339 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品缺陷，计划爬取 45 个视频/帖子，每条内容 90 条评论
+2025-12-06 20:42:31,598 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品缺陷 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:42:31,598 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品缺陷 的爬取结果
+2025-12-06 20:42:31,598 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:42:31,598 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:42:31,598 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:42:42,728 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:42:42,728 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.13 秒
+2025-12-06 20:42:42,729 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:42:42,729 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品缺陷 分析完成，风险等级: 低
+2025-12-06 20:42:42,729 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品召回，计划爬取 40 个视频/帖子，每条内容 80 条评论
+2025-12-06 20:43:27,059 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品召回 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:43:27,059 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品召回 的爬取结果
+2025-12-06 20:43:27,059 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:43:27,059 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:43:27,059 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:44:06,275 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:44:06,276 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 39.22 秒
+2025-12-06 20:44:06,276 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:44:06,277 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品召回 分析完成，风险等级: 低
+2025-12-06 20:44:06,277 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 投诉产品，计划爬取 35 个视频/帖子，每条内容 70 条评论
+2025-12-06 20:44:50,765 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 投诉产品 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:44:50,765 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 投诉产品 的爬取结果
+2025-12-06 20:44:50,765 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:44:50,766 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:44:50,766 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:45:01,685 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:45:01,686 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.92 秒
+2025-12-06 20:45:01,687 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:45:01,687 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 投诉产品 分析完成，风险等级: 低
+2025-12-06 20:45:01,688 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品安全，计划爬取 30 个视频/帖子，每条内容 60 条评论
+2025-12-06 20:45:45,902 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品安全 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:45:45,902 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品安全 的爬取结果
+2025-12-06 20:45:45,902 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:45:45,902 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:45:45,903 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:46:09,677 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:46:09,677 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 23.77 秒
+2025-12-06 20:46:09,677 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:46:09,679 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品安全 分析完成，风险等级: 低
+2025-12-06 20:46:09,679 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量曝光，计划爬取 30 个视频/帖子，每条内容 60 条评论
+2025-12-06 20:46:53,821 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量曝光 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:46:53,821 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量曝光 的爬取结果
+2025-12-06 20:46:53,821 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:46:53,821 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:46:53,822 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:47:05,831 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:47:05,832 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 12.01 秒
+2025-12-06 20:47:05,832 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:47:05,834 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量曝光 分析完成，风险等级: 低
+2025-12-06 20:47:05,834 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品测评，计划爬取 25 个视频/帖子，每条内容 50 条评论
+2025-12-06 20:47:50,229 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品测评 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:47:50,230 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品测评 的爬取结果
+2025-12-06 20:47:50,230 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:47:50,230 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:47:50,230 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:48:01,240 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:48:01,242 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.01 秒
+2025-12-06 20:48:01,243 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:48:01,244 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品测评 分析完成，风险等级: 低
+2025-12-06 20:48:01,244 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量门，计划爬取 25 个视频/帖子，每条内容 50 条评论
+2025-12-06 20:48:45,422 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量门 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:48:45,423 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量门 的爬取结果
+2025-12-06 20:48:45,423 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:48:45,423 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:48:45,423 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:48:55,534 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:48:55,535 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.11 秒
+2025-12-06 20:48:55,535 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:48:55,536 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量门 分析完成，风险等级: 低
+2025-12-06 20:48:55,536 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品翻车，计划爬取 20 个视频/帖子，每条内容 40 条评论
+2025-12-06 20:49:38,281 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品翻车 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:49:38,281 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品翻车 的爬取结果
+2025-12-06 20:49:38,281 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:49:38,282 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:49:38,282 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:50:09,160 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:50:09,160 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 30.88 秒
+2025-12-06 20:50:09,160 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:50:09,161 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品翻车 分析完成，风险等级: 低
+2025-12-06 20:50:09,161 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量投诉，计划爬取 20 个视频/帖子，每条内容 40 条评论
+2025-12-06 20:50:53,590 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量投诉 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:50:53,590 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量投诉 的爬取结果
+2025-12-06 20:50:53,591 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:50:53,591 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:50:53,591 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:51:23,917 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:51:23,918 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 30.33 秒
+2025-12-06 20:51:23,918 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:51:23,919 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量投诉 分析完成，风险等级: 低
+2025-12-06 20:51:23,919 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品问题，计划爬取 15 个视频/帖子，每条内容 30 条评论
+2025-12-06 20:52:08,305 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:52:08,305 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品问题 的爬取结果
+2025-12-06 20:52:08,305 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:52:08,305 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:52:08,306 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:52:18,484 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:52:18,485 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.18 秒
+2025-12-06 20:52:18,485 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:52:18,486 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品问题 分析完成，风险等级: 低
+2025-12-06 20:52:18,486 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量争议，计划爬取 15 个视频/帖子，每条内容 30 条评论
+2025-12-06 20:53:02,892 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量争议 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:53:02,892 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量争议 的爬取结果
+2025-12-06 20:53:02,892 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:53:02,893 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:53:02,893 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:53:32,878 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:53:32,878 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 29.99 秒
+2025-12-06 20:53:32,879 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:53:32,880 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量争议 分析完成，风险等级: 低
+2025-12-06 20:53:32,880 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品黑榜，计划爬取 10 个视频/帖子，每条内容 20 条评论
+2025-12-06 20:54:17,169 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品黑榜 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:54:17,169 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品黑榜 的爬取结果
+2025-12-06 20:54:17,169 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:54:17,170 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:54:17,170 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:54:25,844 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:54:25,846 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 8.68 秒
+2025-12-06 20:54:25,846 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:54:25,847 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品黑榜 分析完成，风险等级: 低
+2025-12-06 20:54:25,847 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 827.68 秒，总计 1690 条内容，0 条评论
+2025-12-06 20:54:25,847 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-06 20:54:25,847 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始汇总 13 个小报告
+2025-12-06 20:55:04,016 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:55:04,017 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: 低
+2025-12-06 20:55:04,018 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-06 20:55:04,019 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-06 20:55:04,070 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251206_205504.json
+2025-12-06 20:55:04,070 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 话题 '产品质量问题' 处理完成，总耗时 901.82 秒
+2025-12-06 20:55:04,071 - risk_analyzer - INFO - 安排再次调研话题: 产品质量问题
+2025-12-06 20:55:14,072 - risk_analyzer - INFO - 调度VCS分析话题: 产品质量问题，任务ID: vcs_task1765025714072_QqKdi322
+2025-12-06 20:55:14,072 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始处理话题: 产品质量问题
+2025-12-06 20:55:14,072 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-06 20:55:54,838 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:55:54,838 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 成功生成 13 个关键词: 质量问题, 产品缺陷, 产品召回, 投诉产品, 产品安全...
+2025-12-06 20:55:54,838 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-06 20:55:54,840 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-06 20:55:54,840 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量问题，计划爬取 50 个视频/帖子，每条内容 100 条评论
+2025-12-06 20:56:39,286 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:56:39,286 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量问题 的爬取结果
+2025-12-06 20:56:39,286 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:56:39,286 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:56:39,286 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:57:07,603 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:57:07,605 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 28.32 秒
+2025-12-06 20:57:07,605 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:57:07,606 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量问题 分析完成，风险等级: 低
+2025-12-06 20:57:07,606 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品缺陷，计划爬取 40 个视频/帖子，每条内容 80 条评论
+2025-12-06 20:57:51,959 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品缺陷 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:57:51,959 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品缺陷 的爬取结果
+2025-12-06 20:57:51,960 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:57:51,960 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:57:51,960 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:58:01,262 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:58:01,264 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 9.30 秒
+2025-12-06 20:58:01,264 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:58:01,267 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品缺陷 分析完成，风险等级: 低
+2025-12-06 20:58:01,268 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品召回，计划爬取 35 个视频/帖子，每条内容 70 条评论
+2025-12-06 20:58:43,996 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品召回 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:58:43,996 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品召回 的爬取结果
+2025-12-06 20:58:43,996 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:58:43,996 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:58:43,997 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 20:59:14,147 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 20:59:14,149 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 30.15 秒
+2025-12-06 20:59:14,149 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 20:59:14,150 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品召回 分析完成，风险等级: 低
+2025-12-06 20:59:14,152 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 投诉产品，计划爬取 30 个视频/帖子，每条内容 60 条评论
+2025-12-06 20:59:58,504 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 投诉产品 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 20:59:58,504 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 投诉产品 的爬取结果
+2025-12-06 20:59:58,504 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 20:59:58,504 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 20:59:58,505 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 21:00:08,579 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:00:08,580 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.07 秒
+2025-12-06 21:00:08,580 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 21:00:08,581 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 投诉产品 分析完成，风险等级: 低
+2025-12-06 21:00:08,581 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品安全，计划爬取 25 个视频/帖子，每条内容 50 条评论
+2025-12-06 21:00:52,848 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品安全 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 21:00:52,848 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品安全 的爬取结果
+2025-12-06 21:00:52,848 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 21:00:52,848 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 21:00:52,849 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 21:01:03,557 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:01:03,559 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.71 秒
+2025-12-06 21:01:03,559 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 21:01:03,561 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品安全 分析完成，风险等级: 低
+2025-12-06 21:01:03,561 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量门，计划爬取 20 个视频/帖子，每条内容 40 条评论
+2025-12-06 21:01:48,033 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量门 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 21:01:48,033 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量门 的爬取结果
+2025-12-06 21:01:48,033 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 21:01:48,033 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 21:01:48,033 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 21:01:58,480 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:01:58,480 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.45 秒
+2025-12-06 21:01:58,481 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 21:01:58,481 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量门 分析完成，风险等级: 低
+2025-12-06 21:01:58,482 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品故障，计划爬取 20 个视频/帖子，每条内容 40 条评论
+2025-12-06 21:02:41,188 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品故障 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 21:02:41,188 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品故障 的爬取结果
+2025-12-06 21:02:41,188 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 21:02:41,188 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 21:02:41,189 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 21:03:12,864 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:03:12,865 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 31.68 秒
+2025-12-06 21:03:12,865 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 21:03:12,866 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品故障 分析完成，风险等级: 低
+2025-12-06 21:03:12,866 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量曝光，计划爬取 15 个视频/帖子，每条内容 30 条评论
+2025-12-06 21:03:57,101 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量曝光 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 21:03:57,101 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量曝光 的爬取结果
+2025-12-06 21:03:57,101 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 21:03:57,102 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 21:03:57,102 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 21:04:26,833 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:04:26,834 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 29.73 秒
+2025-12-06 21:04:26,836 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 21:04:26,837 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量曝光 分析完成，风险等级: 低
+2025-12-06 21:04:26,837 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品投诉，计划爬取 15 个视频/帖子，每条内容 30 条评论
+2025-12-06 21:05:11,212 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品投诉 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 21:05:11,212 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品投诉 的爬取结果
+2025-12-06 21:05:11,212 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 21:05:11,212 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 21:05:11,212 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 21:05:38,865 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:05:38,865 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 27.65 秒
+2025-12-06 21:05:38,865 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 21:05:38,865 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品投诉 分析完成，风险等级: 低
+2025-12-06 21:05:38,865 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量隐患，计划爬取 10 个视频/帖子，每条内容 20 条评论
+2025-12-06 21:06:23,206 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量隐患 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 21:06:23,206 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量隐患 的爬取结果
+2025-12-06 21:06:23,206 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 21:06:23,206 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 21:06:23,206 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 21:06:33,209 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:06:33,210 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.00 秒
+2025-12-06 21:06:33,210 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 21:06:33,212 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量隐患 分析完成，风险等级: 低
+2025-12-06 21:06:33,212 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品问题，计划爬取 10 个视频/帖子，每条内容 20 条评论
+2025-12-06 21:07:17,520 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 21:07:17,520 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品问题 的爬取结果
+2025-12-06 21:07:17,520 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 21:07:17,520 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 21:07:17,520 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 21:07:29,039 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:07:29,040 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.52 秒
+2025-12-06 21:07:29,040 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 21:07:29,040 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品问题 分析完成，风险等级: 低
+2025-12-06 21:07:29,040 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量争议，计划爬取 10 个视频/帖子，每条内容 20 条评论
+2025-12-06 21:08:13,480 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量争议 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 21:08:13,480 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量争议 的爬取结果
+2025-12-06 21:08:13,480 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 21:08:13,480 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 21:08:13,480 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 21:08:24,968 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:08:24,969 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 11.49 秒
+2025-12-06 21:08:24,970 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 21:08:24,971 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量争议 分析完成，风险等级: 低
+2025-12-06 21:08:24,971 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品差评，计划爬取 5 个视频/帖子，每条内容 10 条评论
+2025-12-06 21:09:09,201 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品差评 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 21:09:09,202 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品差评 的爬取结果
+2025-12-06 21:09:09,202 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 21:09:09,202 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 21:09:09,203 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 21:09:21,931 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:09:21,932 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 12.73 秒
+2025-12-06 21:09:21,932 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 21:09:21,933 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品差评 分析完成，风险等级: 低
+2025-12-06 21:09:21,933 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 807.09 秒，总计 1690 条内容，0 条评论
+2025-12-06 21:09:21,933 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-06 21:09:21,933 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始汇总 13 个小报告
+2025-12-06 21:09:59,123 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:09:59,125 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: 低
+2025-12-06 21:09:59,127 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-06 21:09:59,129 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-06 21:09:59,146 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251206_210959.json
+2025-12-06 21:09:59,147 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 话题 '产品质量问题' 处理完成，总耗时 885.08 秒
+2025-12-06 21:09:59,147 - risk_analyzer - INFO - 安排再次调研话题: 产品质量问题
+2025-12-06 21:10:09,148 - risk_analyzer - INFO - 调度VCS分析话题: 产品质量问题，任务ID: vcs_task1765026609148_CGhUnjd1
+2025-12-06 21:10:09,148 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始处理话题: 产品质量问题
+2025-12-06 21:10:09,148 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-06 21:10:49,036 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:10:49,037 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 成功生成 12 个关键词: 质量问题, 产品缺陷, 产品召回, 投诉产品, 产品安全...
+2025-12-06 21:10:49,038 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-06 21:10:49,038 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-06 21:10:49,038 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量问题，计划爬取 50 个视频/帖子，每条内容 100 条评论
+2025-12-06 21:11:33,298 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量问题 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 21:11:33,298 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量问题 的爬取结果
+2025-12-06 21:11:33,298 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 21:11:33,299 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 21:11:33,299 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 21:12:00,135 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:12:00,135 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 26.84 秒
+2025-12-06 21:12:00,135 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 21:12:00,135 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 质量问题 分析完成，风险等级: 低
+2025-12-06 21:12:00,135 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品缺陷，计划爬取 45 个视频/帖子，每条内容 90 条评论
+2025-12-06 21:12:44,504 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品缺陷 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 21:12:44,504 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品缺陷 的爬取结果
+2025-12-06 21:12:44,504 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 21:12:44,504 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 21:12:44,504 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 21:12:56,672 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:12:56,673 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 12.17 秒
+2025-12-06 21:12:56,674 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 21:12:56,676 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品缺陷 分析完成，风险等级: 低
+2025-12-06 21:12:56,677 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品召回，计划爬取 40 个视频/帖子，每条内容 80 条评论
+2025-12-06 21:13:41,037 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品召回 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 21:13:41,037 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品召回 的爬取结果
+2025-12-06 21:13:41,037 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 21:13:41,038 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 21:13:41,038 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 21:13:51,982 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:13:51,982 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.94 秒
+2025-12-06 21:13:51,982 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 21:13:51,984 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品召回 分析完成，风险等级: 低
+2025-12-06 21:13:51,984 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 投诉产品，计划爬取 35 个视频/帖子，每条内容 70 条评论
+2025-12-06 21:14:36,521 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 投诉产品 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 21:14:36,521 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 投诉产品 的爬取结果
+2025-12-06 21:14:36,521 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 21:14:36,522 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 21:14:36,522 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 21:14:47,056 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:14:47,057 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.53 秒
+2025-12-06 21:14:47,058 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 21:14:47,059 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 投诉产品 分析完成，风险等级: 低
+2025-12-06 21:14:47,059 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 产品安全，计划爬取 30 个视频/帖子，每条内容 60 条评论
+2025-12-06 21:15:31,328 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 产品安全 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 21:15:31,328 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 产品安全 的爬取结果
+2025-12-06 21:15:31,328 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 21:15:31,329 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 21:15:31,329 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-06 21:15:41,741 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 21:15:41,743 - DetectionSystem.VideosCommentsSpotter.agent - INFO - LLM分析完成，耗时: 10.41 秒
+2025-12-06 21:15:41,744 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 内容分析完成，报告生成成功，风险等级: 低
+2025-12-06 21:15:41,745 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 关键词 产品安全 分析完成，风险等级: 低
+2025-12-06 21:15:41,745 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 处理关键词: 质量门，计划爬取 25 个视频/帖子，每条内容 50 条评论
+2025-12-06 21:16:24,554 - DetectionSystem.VideosCommentsSpotter.agent - INFO - dy平台关键词 质量门 爬取完成，获取 130 条内容，0 条评论
+2025-12-06 21:16:24,555 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析关键词 质量门 的爬取结果
+2025-12-06 21:16:24,555 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 产品质量问题，爬取平台数: 1
+2025-12-06 21:16:24,555 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 130
+2025-12-06 21:16:24,555 - DetectionSystem.VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析

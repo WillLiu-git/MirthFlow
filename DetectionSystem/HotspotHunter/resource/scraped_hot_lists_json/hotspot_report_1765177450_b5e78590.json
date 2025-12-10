@@ -1,0 +1,297 @@
+{
+  "summary": "本次热点榜主要涵盖了娱乐、体育、国际关系和日常生活等多个领域的内容。热点类型多样，包括体育赛事、娱乐新闻、国际冲突和社会热点等。整体来看，榜单中没有明显的负面舆情风险话题，大部分内容为中性或正面。\n本次热点榜主要涵盖了娱乐、社会新闻和国际事件等多个领域。娱乐类话题如星光大赏阵容官宣、痞幼自曝曾被两个恋综拒绝等占据了榜单前列。社会新闻和国际事件如泰国对柬埔寨发动空袭、日军被爆引导美军轰炸平民等也引起了较高关注。整体来看，榜单中大部分话题为普通热点，但存在少量具有潜在风险的内容。\n本次热点榜主要涉及科技、国际关系、经济、医疗等多个领域。其中，多家APP对豆包手机禁用和阿里系APP禁止豆包手机登陆显示出科技领域的竞争动态；美军承认击落美军战机涉及国际军事事件；多个品牌手机涨价影响会持续多久反映了经济领域的消费者关注点；中法发表多份联合声明和马克龙访问四川大学展示了国际外交活动；坏死的肢体必须截掉吗则是医疗健康话题。整体来看，榜单内容多样，但无明显高风险话题。\n本次热点榜涵盖了社会民生、经济政策、娱乐新闻等多个领域。热点主要集中在社会民生和经济政策方面，其中部分话题涉及负面事件和争议。整体来看，榜单中存在一些具有潜在风险的话题，需要进一步关注。",
+  "topics": [
+    {
+      "topic": "泰柬边境再发冲突",
+      "platform": "抖音",
+      "hotness": "821.0万",
+      "risk_level": 6,
+      "category": "国际冲突",
+      "reason": "标题明确提到泰柬边境发生冲突，可能涉及国际关系和地区安全，存在一定的潜在风险。",
+      "further_investigate": true,
+      "title": "泰柬边境再发冲突"
+    },
+    {
+      "topic": "美防长不点名“警告”日本",
+      "platform": "抖音",
+      "hotness": "783.7万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "标题提到美防长对日本的警告，可能涉及国际政治敏感话题，需要进一步观察。",
+      "further_investigate": true,
+      "title": "美防长不点名“警告”日本"
+    },
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "781.1万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "标题提到国防部回应日本战机被雷达照射的事件，可能涉及国际军事敏感话题。",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "泰国军方称出动战斗机回应柬方",
+      "platform": "抖音",
+      "hotness": "765.5万",
+      "risk_level": 6,
+      "category": "国际冲突",
+      "reason": "标题提到泰国军方出动战斗机回应柬方，可能涉及国际军事冲突，存在一定的潜在风险。",
+      "further_investigate": true,
+      "title": "泰国军方称出动战斗机回应柬方"
+    },
+    {
+      "topic": "泰国对柬埔寨发动空袭",
+      "platform": "微博",
+      "hotness": "58万",
+      "risk_level": 8,
+      "category": "国际冲突",
+      "reason": "涉及国家间的军事冲突，可能引发国际关注和舆论争议",
+      "further_investigate": true,
+      "title": "泰国对柬埔寨发动空袭"
+    },
+    {
+      "topic": "日军被爆引导美军轰炸平民",
+      "platform": "微博",
+      "hotness": "52万",
+      "risk_level": 9,
+      "category": "历史争议",
+      "reason": "涉及战争罪行和历史敏感话题，可能引发强烈舆论反应",
+      "further_investigate": true,
+      "title": "日军被爆引导美军轰炸平民"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "37万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及恶性犯罪事件，可能引发公众恐慌和舆论关注",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "日本婴儿残尸有刀具切割痕迹",
+      "platform": "微博",
+      "hotness": "25万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及恶性犯罪事件，可能引发公众恐慌和舆论关注",
+      "further_investigate": true,
+      "title": "日本婴儿残尸有刀具切割痕迹"
+    },
+    {
+      "topic": "郭德纲相声被举报内容低俗",
+      "platform": "微博",
+      "hotness": "43万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及文化内容和道德标准的争议，可能引发公众讨论",
+      "further_investigate": true,
+      "title": "郭德纲相声被举报内容低俗"
+    },
+    {
+      "topic": "红楼梦悼明争议",
+      "platform": "微博",
+      "hotness": "24万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "涉及历史和文化解读的争议，可能引发部分公众讨论",
+      "further_investigate": true,
+      "title": "红楼梦悼明争议"
+    },
+    {
+      "topic": "商家故意不打包让骑手干等",
+      "platform": "微博",
+      "hotness": "16万",
+      "risk_level": 4,
+      "category": "社会矛盾",
+      "reason": "涉及服务行业矛盾，可能引发公众对商家行为的讨论",
+      "further_investigate": true,
+      "title": "商家故意不打包让骑手干等"
+    },
+    {
+      "topic": "任前公示中县委副书记年龄打架",
+      "platform": "微博",
+      "hotness": "10万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及公职人员信息不透明，可能引发公众对政府公信力的讨论",
+      "further_investigate": true,
+      "title": "任前公示中县委副书记年龄打架"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "多家APP对豆包手机禁用可能引发用户不满或市场竞争争议",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "美军承认击落美军战机可能引发国际军事争议或舆论关注",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "阿里系APP禁止豆包手机登陆可能引发用户不满或市场竞争争议",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "父亲工资打孩子账户致儿子无法考公",
+      "platform": "头条",
+      "hotness": "3176.8万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "话题涉及家庭财务管理和公务员考试资格问题，可能引发社会对相关政策的讨论和争议。",
+      "further_investigate": true,
+      "title": "父亲工资打孩子账户致儿子无法考公"
+    },
+    {
+      "topic": "1818名包括明星网红在内双高人员被查",
+      "platform": "头条",
+      "hotness": "2874.5万",
+      "risk_level": 7,
+      "category": "舆论争议",
+      "reason": "话题涉及大量公众人物被调查，可能引发公众对高收入群体行为的关注和讨论。",
+      "further_investigate": true,
+      "title": "1818名包括明星网红在内双高人员被查"
+    },
+    {
+      "topic": "工资必须发钱没有“平替”",
+      "platform": "头条",
+      "hotness": "2353.4万",
+      "risk_level": 5,
+      "category": "社会安全",
+      "reason": "话题涉及工资支付问题，可能引发劳动者权益保护的讨论。",
+      "further_investigate": true,
+      "title": "工资必须发钱没有“平替”"
+    },
+    {
+      "topic": "净网|网警查处编造汽车造成8杀谣言案",
+      "platform": "头条",
+      "hotness": "2601.0万",
+      "risk_level": 4,
+      "category": "社会安全",
+      "reason": "话题涉及网络谣言和公共安全，可能引发对网络信息管理的讨论。",
+      "further_investigate": true,
+      "title": "净网|网警查处编造汽车造成8杀谣言案"
+    },
+    {
+      "topic": "郭德纲被约谈？文旅局回应",
+      "platform": "头条",
+      "hotness": "3880.2万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "话题涉及公众人物被约谈，可能引发对娱乐行业管理的讨论。",
+      "further_investigate": true,
+      "title": "郭德纲被约谈？文旅局回应"
+    },
+    {
+      "topic": "安徽一新能源车突然起火伴有爆炸声",
+      "platform": "头条",
+      "hotness": "1743.5万",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "话题涉及新能源汽车安全问题，可能引发对新能源汽车安全性的关注和讨论。",
+      "further_investigate": true,
+      "title": "安徽一新能源车突然起火伴有爆炸声"
+    },
+    {
+      "topic": "护士患癌请病假遭拒？卫健委介入调查",
+      "platform": "头条",
+      "hotness": "580.4万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "话题涉及医护人员权益问题，可能引发对医疗行业工作环境的关注和讨论。",
+      "further_investigate": true,
+      "title": "护士患癌请病假遭拒？卫健委介入调查"
+    },
+    {
+      "topic": "4500万养牛场立项两年多未见一头牛",
+      "platform": "头条",
+      "hotness": "260.8万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "话题涉及项目管理和资金使用问题，可能引发对公共资金使用效率的讨论。",
+      "further_investigate": true,
+      "title": "4500万养牛场立项两年多未见一头牛"
+    },
+    {
+      "topic": "男子在公园搂抱女童被刑拘",
+      "platform": "头条",
+      "hotness": "213.5万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "话题涉及儿童安全和犯罪行为，可能引发公众对儿童保护的关注和讨论。",
+      "further_investigate": true,
+      "title": "男子在公园搂抱女童被刑拘"
+    },
+    {
+      "topic": "女子遭75岁丈夫殴打 村民发声",
+      "platform": "头条",
+      "hotness": "47.6万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "话题涉及家庭暴力和老年人行为问题，可能引发对家庭暴力防治的关注和讨论。",
+      "further_investigate": true,
+      "title": "女子遭75岁丈夫殴打 村民发声"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 25,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜内容多样，涵盖了娱乐、体育、国际关系和日常生活等多个领域。榜单中没有明显的负面舆情风险话题，大部分内容为中性或正面。",
+    "content_summary": "侦察到的内容主要包括体育赛事（如国乒战胜日本夺冠、湖人险胜76人）、娱乐新闻（如刘亦菲阿布扎比观赛F1、成龙回应“龙叔老了”）、国际关系（如泰柬边境再发冲突、美防长不点名“警告”日本）和社会热点（如双12冬日氛围感穿搭大赏、糖葫芦树我先爬为敬）。",
+    "content_analysis": "热点趋势显示，体育和娱乐类话题占据了榜单的大部分位置，国际关系类话题虽然数量较少，但热度较高。整体情绪倾向中性或正面，无明显负面情绪。",
+    "potential_risks": [
+      "国际关系类话题可能涉及敏感内容，需要进一步观察。",
+      "体育赛事类话题可能存在争议性讨论，需关注后续发展。",
+      "娱乐新闻类话题可能存在粉丝争议，需留意舆情变化。"
+    ],
+    "trend_prediction": "未来24-48小时内，体育和娱乐类话题可能会继续保持热度，国际关系类话题可能会引发更多讨论。",
+    "recommendations": [
+      "加强对国际关系类话题的监控，确保及时掌握舆情动态。",
+      "关注体育赛事类话题的后续发展，预防可能的争议性讨论。",
+      "留意娱乐新闻类话题的粉丝反应，避免舆情失控。"
+    ],
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 4
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 25,
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 4
+    }
+  }
+}

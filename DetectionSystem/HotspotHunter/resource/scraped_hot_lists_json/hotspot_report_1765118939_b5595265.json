@@ -1,0 +1,227 @@
+{
+  "summary": "本次热点榜主要涵盖了娱乐、社会、国际关系和民生等多个领域的热点话题。娱乐内容如抖音热门视频和明星动态占据了榜单的大部分位置，同时也有涉及国际关系和国内经济的重要新闻。整体风险较低，但仍需关注部分涉及国际关系和民生的话题。\n本次热点榜以体育赛事和娱乐新闻为主，国乒夺冠、国产挖掘机技术突破等正面新闻占据高位。同时存在个别负面社会新闻和争议性话题，如人贩子案件和婴儿被褥不雅字母事件。整体舆情较为平稳，但需关注部分潜在风险话题。\n本次热点榜主要涉及国际关系、社会安全、科技争议等多个领域。其中，日本飞机抵近中国海军训练和连霍高速事故涉及国家安全和社会安全，风险较高。豆包手机被多家APP禁用和阿里系APP禁止豆包手机登陆则反映了科技行业的竞争和争议。\n本次热点榜涵盖了军事、体育、社会新闻、国际关系等多个领域的热点话题。军事和国际关系类话题占据了较高热度，显示出当前公众对这些领域的关注度较高。整体风险水平中等，主要集中在中美关系、中日关系等国际议题上。",
+  "topics": [
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "833.9万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及中日两国军事互动，可能引发国际舆论关注和争议。",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "日飞机多次抵近滋扰我海军训练",
+      "platform": "抖音",
+      "hotness": "779.0万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及中日军事摩擦，可能引发民族情绪和国际舆论关注。",
+      "further_investigate": true,
+      "title": "日飞机多次抵近滋扰我海军训练"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "784.5万",
+      "risk_level": 5,
+      "category": "社会安全",
+      "reason": "活动被叫停可能涉及安全问题或管理不当，需关注后续解释和公众反应。",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "直系亲属间献血更安全系谣言",
+      "platform": "抖音",
+      "hotness": "782.0万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "涉及健康谣言，可能误导公众，需关注官方澄清和公众反应。",
+      "further_investigate": true,
+      "title": "直系亲属间献血更安全系谣言"
+    },
+    {
+      "topic": "人贩子被判死缓后对被害人破口大骂",
+      "platform": "微博",
+      "hotness": "34万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及恶性犯罪案件且罪犯态度恶劣，可能引发公众愤怒情绪和对司法公正的讨论",
+      "further_investigate": true,
+      "title": "人贩子被判死缓后对被害人破口大骂"
+    },
+    {
+      "topic": "婴儿被褥印不雅英文字母",
+      "platform": "微博",
+      "hotness": "19万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及儿童用品质量问题和文化敏感性，可能引发对产品质量监管和文化审查的讨论",
+      "further_investigate": true,
+      "title": "婴儿被褥印不雅英文字母"
+    },
+    {
+      "topic": "你的婚纱照可能被卖了",
+      "platform": "微博",
+      "hotness": "20万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "涉及个人隐私泄露问题，可能引发对个人信息保护的关注和担忧",
+      "further_investigate": true,
+      "title": "你的婚纱照可能被卖了"
+    },
+    {
+      "topic": "节食减重50斤吃麻辣烫时晕倒被烫伤",
+      "platform": "微博",
+      "hotness": "19万",
+      "risk_level": 3,
+      "category": "潜在风险",
+      "reason": "涉及极端减肥方式导致的身体伤害，可能引发对健康生活方式的讨论",
+      "further_investigate": false,
+      "title": "节食减重50斤吃麻辣烫时晕倒被烫伤"
+    },
+    {
+      "topic": "日本飞机多次抵近滋扰中国海军训练",
+      "platform": "知乎",
+      "hotness": "2",
+      "risk_level": 8,
+      "category": "国际关系",
+      "reason": "涉及中日两国军事对峙，可能引发外交紧张和民众情绪波动。",
+      "further_investigate": true,
+      "title": "日本飞机多次抵近滋扰中国海军训练"
+    },
+    {
+      "topic": "连霍高速发生车辆追尾事故造成 9 死 7 伤",
+      "platform": "知乎",
+      "hotness": "3",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "重大交通事故可能引发公众对交通安全的关注和质疑。",
+      "further_investigate": true,
+      "title": "连霍高速发生车辆追尾事故造成 9 死 7 伤"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "4",
+      "risk_level": 5,
+      "category": "科技争议",
+      "reason": "反映了科技行业的竞争和可能的垄断行为，可能引发公众讨论和法律争议。",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "7",
+      "risk_level": 5,
+      "category": "科技争议",
+      "reason": "类似前一条，涉及科技行业的竞争和用户权益问题。",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "12",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及美军内部问题，可能引发国际关注和讨论。",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "“雷达照射”意味着什么",
+      "platform": "头条",
+      "hotness": "2713.0万",
+      "risk_level": 7,
+      "category": "舆论争议",
+      "reason": "该话题涉及军事敏感信息，可能引发公众对军事冲突的担忧和猜测。",
+      "further_investigate": true,
+      "title": "“雷达照射”意味着什么"
+    },
+    {
+      "topic": "美最新报告：不允许任何国家过于强大",
+      "platform": "头条",
+      "hotness": "2009.9万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "该话题可能引发中美关系的紧张情绪，影响公众对国际形势的判断。",
+      "further_investigate": true,
+      "title": "美最新报告：不允许任何国家过于强大"
+    },
+    {
+      "topic": "专家：日机擅闯或被解放军视为靶标",
+      "platform": "头条",
+      "hotness": "817.1万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "该话题涉及中日关系，可能引发民族情绪和对立言论。",
+      "further_investigate": true,
+      "title": "专家：日机擅闯或被解放军视为靶标"
+    },
+    {
+      "topic": "西藏贡嘎捣毁一卖淫窝点 10人被抓",
+      "platform": "头条",
+      "hotness": "669.0万",
+      "risk_level": 4,
+      "category": "社会安全",
+      "reason": "该话题涉及社会治安问题，可能引发公众对社会治安状况的讨论。",
+      "further_investigate": false,
+      "title": "西藏贡嘎捣毁一卖淫窝点 10人被抓"
+    },
+    {
+      "topic": "缴纳医保费用你觉得心疼吗",
+      "platform": "头条",
+      "hotness": "605.4万",
+      "risk_level": 3,
+      "category": "社会争议",
+      "reason": "该话题涉及公众对医保政策的看法，可能引发对政策的不满情绪。",
+      "further_investigate": false,
+      "title": "缴纳医保费用你觉得心疼吗"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 18,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜以娱乐内容为主，同时包含国际关系和民生话题。娱乐内容热度较高，国际关系话题风险较大。",
+    "content_summary": "侦察到的主要内容包括抖音热门视频、明星动态、国际军事互动和经济新闻。娱乐内容如'我在抖音刷到煮鸡蛋神了'和'云南bigbang都帅成啥样了'热度较高，国际关系话题如'国防部回应日称战机被雷达照射'和'日飞机多次抵近滋扰我海军训练'也备受关注。",
+    "content_analysis": "娱乐内容占据了榜单的大部分位置，显示出公众对轻松娱乐内容的持续关注。国际关系话题热度虽不及娱乐内容，但因涉及敏感议题，风险较高。民生话题如'贵州榕江荒野求生开赛4天被叫停'和'直系亲属间献血更安全系谣言'也引发了一定关注。",
+    "potential_risks": [
+      "国际关系话题可能引发民族情绪和国际舆论关注",
+      "民生话题如活动叫停和健康谣言可能引发公众质疑",
+      "娱乐内容中可能存在的低俗或不当行为需关注"
+    ],
+    "trend_prediction": "未来24-48小时内，娱乐内容可能继续占据热点榜主导地位，国际关系话题的热度和风险可能因后续发展而上升。",
+    "recommendations": [
+      "加强对国际关系话题的监控，及时回应公众关切",
+      "关注民生话题的后续发展，及时澄清谣言",
+      "监控娱乐内容中可能存在的低俗或不当行为"
+    ],
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 4
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 18,
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 4
+    }
+  }
+}

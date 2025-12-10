@@ -1,0 +1,2 @@
+# 这个__init__.py文件保持为空，避免干扰MediaCrawler的导入
+# 当需要导入VideoCommentSpotter时，直接从videoscomments_crawler.py导入

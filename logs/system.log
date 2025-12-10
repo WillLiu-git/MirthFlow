@@ -1,0 +1,1031 @@
+2025-12-08 15:48:39,939 - SystemManager - INFO - HotspotHunter开始扫描...
+2025-12-08 15:48:39,939 - HotspotHunter - INFO - 开始热点侦察，共扫描 4 个榜单
+2025-12-08 15:48:40,342 - SystemManager - INFO - HotspotHunter开始扫描...
+2025-12-08 15:48:40,343 - HotspotHunter - INFO - 开始热点侦察，共扫描 4 个榜单
+2025-12-08 15:48:49,055 - SystemManager - INFO - 日志系统已初始化
+2025-12-08 15:48:49,055 - SystemManager - INFO - 日志级别: INFO
+2025-12-08 15:48:49,055 - SystemManager - INFO - 系统日志: E:\mirthflow\logs\system.log
+2025-12-08 15:48:49,055 - SystemManager - INFO - 错误日志: E:\mirthflow\logs\error.log
+2025-12-08 15:48:49,055 - SystemManager - INFO - 启动舆情监测系统 - MirthFlow v1.0.0
+2025-12-08 15:48:49,055 - SystemManager - INFO - 配置: {
+  "system_name": "舆情监测系统 - MirthFlow",
+  "version": "1.0.0",
+  "debug_mode": false,
+  "run_interval": 60,
+  "hotspot_hunter_interval": 600,
+  "risk_analyzer_interval": 300,
+  "vcs_interval": 1200,
+  "max_concurrent_tasks": 3,
+  "output_dir": "E:\\mirthflow\\output",
+  "intelligence_file": "E:\\mirthflow\\DetectionSystem\\HotspotHunter\\resource\\intelligence_feed.json",
+  "alerts_file": "E:\\mirthflow\\DetectionSystem\\RiskAnalyzer\\resource\\system_alerts.json",
+  "system_log_file": "E:\\mirthflow\\logs\\system.log",
+  "log_level": "INFO",
+  "config_file": "E:\\mirthflow\\config.json"
+}
+2025-12-08 15:48:50,171 - SystemManager - ERROR - 初始化HotspotHunter组件失败: 'utf-8' codec can't decode bytes in position 164299-164300: invalid continuation byte
+2025-12-08 15:48:51,332 - RiskAnalyzer - INFO - RiskAnalyzer初始化完成
+2025-12-08 15:48:52,440 - SystemManager - INFO - 所有组件初始化完成
+2025-12-08 15:48:52,440 - SystemManager - INFO - RiskAnalyzer开始运行
+2025-12-08 15:48:52,440 - SystemManager - INFO - RiskAnalyzer线程启动成功
+2025-12-08 15:48:52,440 - SystemManager - INFO - VideosCommentsSpotter开始运行
+2025-12-08 15:48:52,440 - SystemManager - INFO - VideosCommentsSpotter线程启动成功
+2025-12-08 15:48:58,528 - HotspotHunter - INFO - 爬取 https://tophub.today/n/KqndgxeLl9 成功，提取 51 条数据
+2025-12-08 15:48:59,294 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:48:59,300 - HotspotHunter - INFO - 成功写入 10 条有效风险数据到情报站
+2025-12-08 15:49:05,591 - HotspotHunter - INFO - 爬取 https://tophub.today/n/rx9oz6oXbq 成功，提取 11 条数据
+2025-12-08 15:49:05,877 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:05,882 - HotspotHunter - INFO - 成功写入 10 条有效风险数据到情报站
+2025-12-08 15:49:08,050 - HotspotHunter - INFO - 爬取 https://tophub.today/n/rx9oz6oXbq 成功，提取 11 条数据
+2025-12-08 15:49:08,672 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:08,686 - HotspotHunter - INFO - 成功写入 10 条有效风险数据到情报站
+2025-12-08 15:49:13,827 - SystemManager - INFO - HotspotHunter扫描完成，发现 20 个风险项目
+2025-12-08 15:49:13,827 - SystemManager - INFO - 开始分析热点报告: HH-1765180119
+2025-12-08 15:49:13,827 - RiskAnalyzer - INFO - 开始完整分析流程
+2025-12-08 15:49:13,827 - RiskAnalyzer - INFO - 接收到HotspotHunter报告，包含20个话题
+2025-12-08 15:49:13,827 - RiskAnalyzer - ERROR - LLM分析过程出错: '\n    "risk_summary"'
+2025-12-08 15:49:13,832 - RiskAnalyzer - INFO - 记忆库更新成功，当前记录数: 6
+2025-12-08 15:49:13,833 - RiskAnalyzer - INFO - 分析完成，全局风险等级：中
+2025-12-08 15:49:13,833 - RiskAnalyzer - INFO - 分析决策结果: 全局风险等级-中, 风险摘要-从热点报告中提取了 20 个风险话题
+2025-12-08 15:49:13,833 - RiskAnalyzer - INFO - 发现 20 个风险话题
+2025-12-08 15:49:13,833 - RiskAnalyzer - INFO - 优先选择 3 个高/中风险话题进行深入调研
+2025-12-08 15:49:13,833 - RiskAnalyzer - INFO - 最终选择 3 个话题进行深入调研
+2025-12-08 15:49:13,833 - RiskAnalyzer - INFO - 准备调用VideosCommentsSpotter，调研3个话题，使用4个关键词
+2025-12-08 15:49:14,882 - RiskAnalyzer - INFO - 调用VCS调研话题: 俄罗斯 盗版疯狂动物城上映
+2025-12-08 15:49:14,882 - VideosCommentsSpotter.agent - INFO - 开始处理话题: 俄罗斯 盗版疯狂动物城上映
+2025-12-08 15:49:14,882 - VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 15:49:15,291 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:15,291 - VideosCommentsSpotter.agent - INFO - 成功生成 1 个关键词: 俄罗斯 盗版疯狂动物城上映
+2025-12-08 15:49:15,291 - VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-08 15:49:15,291 - VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 15:49:15,291 - VideosCommentsSpotter.agent - INFO - 处理关键词: 俄罗斯 盗版疯狂动物城上映，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 15:49:15,291 - VideosCommentsSpotter.agent - INFO - 开始爬取关键词: 俄罗斯 盗版疯狂动物城上映，平台: dy
+2025-12-08 15:49:15,291 - VideosCommentsSpotter.agent - INFO - ✅ dy平台关键词 俄罗斯 盗版疯狂动物城上映 爬取完成
+2025-12-08 15:49:15,291 - VideosCommentsSpotter.agent - INFO - 📊 爬取结果统计:
+2025-12-08 15:49:15,291 - VideosCommentsSpotter.agent - INFO -    实际获取内容数: 5 条
+2025-12-08 15:49:15,291 - VideosCommentsSpotter.agent - INFO -    实际获取评论数: 44 条
+2025-12-08 15:49:15,291 - VideosCommentsSpotter.agent - INFO - dy平台关键词 俄罗斯 盗版疯狂动物城上映 爬取完成，获取 5 条内容，44 条评论
+2025-12-08 15:49:15,291 - VideosCommentsSpotter.agent - INFO - 开始分析关键词 俄罗斯 盗版疯狂动物城上映 的爬取结果
+2025-12-08 15:49:15,291 - VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 俄罗斯 盗版疯狂动物城上映，爬取平台数: 1
+2025-12-08 15:49:15,291 - VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 15:49:15,291 - VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-08 15:49:15,345 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:15,346 - VideosCommentsSpotter.agent - WARNING - 生成错误报告，主题: 俄罗斯 盗版疯狂动物城上映
+2025-12-08 15:49:15,346 - VideosCommentsSpotter.agent - INFO - 
+关键词 俄罗斯 盗版疯狂动物城上映 分析结果:
+2025-12-08 15:49:15,346 - VideosCommentsSpotter.agent - INFO - 风险等级: unknown
+2025-12-08 15:49:15,346 - VideosCommentsSpotter.agent - INFO - 置信度: 0.00
+2025-12-08 15:49:15,346 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 15:49:15,346 - VideosCommentsSpotter.agent - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 15:49:15,346 - VideosCommentsSpotter.agent - INFO - 关键词 俄罗斯 盗版疯狂动物城上映 分析完成，风险等级: unknown
+2025-12-08 15:49:15,346 - VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 0.06 秒，总计 5 条内容，44 条评论
+2025-12-08 15:49:15,353 - VideosCommentsSpotter.agent - INFO - 原始重要视频数量: 5
+2025-12-08 15:49:15,353 - VideosCommentsSpotter.agent - INFO - 去重后重要视频数量: 5
+2025-12-08 15:49:15,353 - VideosCommentsSpotter.agent - INFO - 排序和限制后重要视频数量: 5
+2025-12-08 15:49:15,353 - VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 15:49:15,353 - VideosCommentsSpotter.agent - INFO - 开始汇总 1 个小报告
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - INFO - 最终汇总报告: 话题-俄罗斯 盗版疯狂动物城上映, 处理时间-0.52秒, 风险等级-unknown
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - INFO - 总爬取内容-5条, 总评论数-44条
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - INFO - 平台爬取统计: dy: 5 条内容, 44 条评论
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - INFO - 风险因素: 1 项
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - INFO - 情感分析: 情感打分-0/100
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - INFO - 趋势预测: 无法预测
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - INFO - 建议: 1 条
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - INFO - 重要视频来源: 5 个
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - INFO - 重要视频 1: 俄罗斯 盗版疯狂动物城上映现场实拍：俄罗斯 盗版疯狂动物城上映训练情况..., 平台-dy
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - INFO - 重要视频 2: 直击俄罗斯 盗版疯狂动物城上映现场，精彩瞬间..., 平台-dy
+2025-12-08 15:49:15,416 - VideosCommentsSpotter.agent - INFO - 重要视频 3: 俄罗斯 盗版疯狂动物城上映现场实拍：俄罗斯 盗版疯狂动物城上映训练情况..., 平台-dy
+2025-12-08 15:49:15,416 - VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-08 15:49:15,416 - VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-08 15:49:15,416 - VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_154915.json
+2025-12-08 15:49:15,416 - VideosCommentsSpotter.agent - INFO - 话题 '俄罗斯 盗版疯狂动物城上映' 处理完成，总耗时 0.53 秒
+2025-12-08 15:49:15,416 - RiskAnalyzer - INFO - VCS调研话题 '俄罗斯 盗版疯狂动物城上映' 成功，发现 1 个关键发现
+2025-12-08 15:49:15,432 - RiskAnalyzer - INFO - 调用VCS调研话题: 尔滨雪人先生即将上线
+2025-12-08 15:49:15,432 - VideosCommentsSpotter.agent - INFO - 开始处理话题: 尔滨雪人先生即将上线
+2025-12-08 15:49:15,432 - VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 15:49:15,480 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:15,480 - VideosCommentsSpotter.agent - INFO - 成功生成 1 个关键词: 尔滨雪人先生即将上线
+2025-12-08 15:49:15,483 - VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-08 15:49:15,483 - VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 15:49:15,484 - VideosCommentsSpotter.agent - INFO - 处理关键词: 尔滨雪人先生即将上线，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 15:49:15,484 - VideosCommentsSpotter.agent - INFO - 开始爬取关键词: 尔滨雪人先生即将上线，平台: dy
+2025-12-08 15:49:15,484 - VideosCommentsSpotter.agent - INFO - ✅ dy平台关键词 尔滨雪人先生即将上线 爬取完成
+2025-12-08 15:49:15,484 - VideosCommentsSpotter.agent - INFO - 📊 爬取结果统计:
+2025-12-08 15:49:15,484 - VideosCommentsSpotter.agent - INFO -    实际获取内容数: 5 条
+2025-12-08 15:49:15,484 - VideosCommentsSpotter.agent - INFO -    实际获取评论数: 50 条
+2025-12-08 15:49:15,490 - VideosCommentsSpotter.agent - INFO - dy平台关键词 尔滨雪人先生即将上线 爬取完成，获取 5 条内容，50 条评论
+2025-12-08 15:49:15,490 - VideosCommentsSpotter.agent - INFO - 开始分析关键词 尔滨雪人先生即将上线 的爬取结果
+2025-12-08 15:49:15,490 - VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 尔滨雪人先生即将上线，爬取平台数: 1
+2025-12-08 15:49:15,490 - VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 15:49:15,490 - VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-08 15:49:15,542 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:15,542 - VideosCommentsSpotter.agent - WARNING - 生成错误报告，主题: 尔滨雪人先生即将上线
+2025-12-08 15:49:15,542 - VideosCommentsSpotter.agent - INFO - 
+关键词 尔滨雪人先生即将上线 分析结果:
+2025-12-08 15:49:15,542 - VideosCommentsSpotter.agent - INFO - 风险等级: unknown
+2025-12-08 15:49:15,542 - VideosCommentsSpotter.agent - INFO - 置信度: 0.00
+2025-12-08 15:49:15,542 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 15:49:15,542 - VideosCommentsSpotter.agent - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 15:49:15,542 - VideosCommentsSpotter.agent - INFO - 关键词 尔滨雪人先生即将上线 分析完成，风险等级: unknown
+2025-12-08 15:49:15,542 - VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 0.06 秒，总计 5 条内容，50 条评论
+2025-12-08 15:49:15,542 - VideosCommentsSpotter.agent - INFO - 原始重要视频数量: 5
+2025-12-08 15:49:15,542 - VideosCommentsSpotter.agent - INFO - 去重后重要视频数量: 5
+2025-12-08 15:49:15,542 - VideosCommentsSpotter.agent - INFO - 排序和限制后重要视频数量: 5
+2025-12-08 15:49:15,542 - VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 15:49:15,542 - VideosCommentsSpotter.agent - INFO - 开始汇总 1 个小报告
+2025-12-08 15:49:16,100 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:16,100 - VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 15:49:16,100 - VideosCommentsSpotter.agent - INFO - 最终汇总报告: 话题-尔滨雪人先生即将上线, 处理时间-0.67秒, 风险等级-unknown
+2025-12-08 15:49:16,100 - VideosCommentsSpotter.agent - INFO - 总爬取内容-5条, 总评论数-50条
+2025-12-08 15:49:16,100 - VideosCommentsSpotter.agent - INFO - 平台爬取统计: dy: 5 条内容, 50 条评论
+2025-12-08 15:49:16,100 - VideosCommentsSpotter.agent - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 15:49:16,100 - VideosCommentsSpotter.agent - INFO - 风险因素: 1 项
+2025-12-08 15:49:16,100 - VideosCommentsSpotter.agent - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:16,100 - VideosCommentsSpotter.agent - INFO - 情感分析: 情感打分-0/100
+2025-12-08 15:49:16,100 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 15:49:16,107 - VideosCommentsSpotter.agent - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 15:49:16,107 - VideosCommentsSpotter.agent - INFO - 趋势预测: 无法预测
+2025-12-08 15:49:16,107 - VideosCommentsSpotter.agent - INFO - 建议: 1 条
+2025-12-08 15:49:16,107 - VideosCommentsSpotter.agent - INFO - 重要视频来源: 5 个
+2025-12-08 15:49:16,107 - VideosCommentsSpotter.agent - INFO - 重要视频 1: 震撼！尔滨雪人先生即将上线最新动态曝光..., 平台-dy
+2025-12-08 15:49:16,107 - VideosCommentsSpotter.agent - INFO - 重要视频 2: 深度解析：尔滨雪人先生即将上线背后的故事..., 平台-dy
+2025-12-08 15:49:16,107 - VideosCommentsSpotter.agent - INFO - 重要视频 3: 深度解析：尔滨雪人先生即将上线背后的故事..., 平台-dy
+2025-12-08 15:49:16,107 - VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-08 15:49:16,107 - VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-08 15:49:16,107 - VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_154916.json
+2025-12-08 15:49:16,107 - VideosCommentsSpotter.agent - INFO - 话题 '尔滨雪人先生即将上线' 处理完成，总耗时 0.68 秒
+2025-12-08 15:49:16,107 - RiskAnalyzer - INFO - VCS调研话题 '尔滨雪人先生即将上线' 成功，发现 1 个关键发现
+2025-12-08 15:49:16,107 - RiskAnalyzer - INFO - 调用VCS调研话题: 人人都是中国智驾合伙人
+2025-12-08 15:49:16,107 - VideosCommentsSpotter.agent - INFO - 开始处理话题: 人人都是中国智驾合伙人
+2025-12-08 15:49:16,107 - VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 15:49:16,482 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:16,484 - VideosCommentsSpotter.agent - INFO - 成功生成 1 个关键词: 人人都是中国智驾合伙人
+2025-12-08 15:49:16,485 - VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-08 15:49:16,485 - VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 15:49:16,485 - VideosCommentsSpotter.agent - INFO - 处理关键词: 人人都是中国智驾合伙人，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 15:49:16,485 - VideosCommentsSpotter.agent - INFO - 开始爬取关键词: 人人都是中国智驾合伙人，平台: dy
+2025-12-08 15:49:16,493 - VideosCommentsSpotter.agent - INFO - ✅ dy平台关键词 人人都是中国智驾合伙人 爬取完成
+2025-12-08 15:49:16,493 - VideosCommentsSpotter.agent - INFO - 📊 爬取结果统计:
+2025-12-08 15:49:16,493 - VideosCommentsSpotter.agent - INFO -    实际获取内容数: 5 条
+2025-12-08 15:49:16,496 - VideosCommentsSpotter.agent - INFO -    实际获取评论数: 64 条
+2025-12-08 15:49:16,496 - VideosCommentsSpotter.agent - INFO - dy平台关键词 人人都是中国智驾合伙人 爬取完成，获取 5 条内容，64 条评论
+2025-12-08 15:49:16,496 - VideosCommentsSpotter.agent - INFO - 开始分析关键词 人人都是中国智驾合伙人 的爬取结果
+2025-12-08 15:49:16,496 - VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 人人都是中国智驾合伙人，爬取平台数: 1
+2025-12-08 15:49:16,496 - VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 15:49:16,501 - VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-08 15:49:16,630 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:16,634 - VideosCommentsSpotter.agent - WARNING - 生成错误报告，主题: 人人都是中国智驾合伙人
+2025-12-08 15:49:16,634 - VideosCommentsSpotter.agent - INFO - 
+关键词 人人都是中国智驾合伙人 分析结果:
+2025-12-08 15:49:16,634 - VideosCommentsSpotter.agent - INFO - 风险等级: unknown
+2025-12-08 15:49:16,639 - VideosCommentsSpotter.agent - INFO - 置信度: 0.00
+2025-12-08 15:49:16,642 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 15:49:16,642 - VideosCommentsSpotter.agent - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 15:49:16,642 - VideosCommentsSpotter.agent - INFO - 关键词 人人都是中国智驾合伙人 分析完成，风险等级: unknown
+2025-12-08 15:49:16,647 - VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 0.16 秒，总计 5 条内容，64 条评论
+2025-12-08 15:49:16,647 - VideosCommentsSpotter.agent - INFO - 原始重要视频数量: 5
+2025-12-08 15:49:16,647 - VideosCommentsSpotter.agent - INFO - 去重后重要视频数量: 5
+2025-12-08 15:49:16,647 - VideosCommentsSpotter.agent - INFO - 排序和限制后重要视频数量: 5
+2025-12-08 15:49:16,650 - VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 15:49:16,650 - VideosCommentsSpotter.agent - INFO - 开始汇总 1 个小报告
+2025-12-08 15:49:16,751 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:16,754 - VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 15:49:16,754 - VideosCommentsSpotter.agent - INFO - 最终汇总报告: 话题-人人都是中国智驾合伙人, 处理时间-0.65秒, 风险等级-unknown
+2025-12-08 15:49:16,754 - VideosCommentsSpotter.agent - INFO - 总爬取内容-5条, 总评论数-64条
+2025-12-08 15:49:16,754 - VideosCommentsSpotter.agent - INFO - 平台爬取统计: dy: 5 条内容, 64 条评论
+2025-12-08 15:49:16,756 - VideosCommentsSpotter.agent - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 15:49:16,756 - VideosCommentsSpotter.agent - INFO - 风险因素: 1 项
+2025-12-08 15:49:16,756 - VideosCommentsSpotter.agent - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:16,756 - VideosCommentsSpotter.agent - INFO - 情感分析: 情感打分-0/100
+2025-12-08 15:49:16,756 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 15:49:16,758 - VideosCommentsSpotter.agent - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 15:49:16,758 - VideosCommentsSpotter.agent - INFO - 趋势预测: 无法预测
+2025-12-08 15:49:16,758 - VideosCommentsSpotter.agent - INFO - 建议: 1 条
+2025-12-08 15:49:16,758 - VideosCommentsSpotter.agent - INFO - 重要视频来源: 5 个
+2025-12-08 15:49:16,758 - VideosCommentsSpotter.agent - INFO - 重要视频 1: 直击人人都是中国智驾合伙人现场，精彩瞬间..., 平台-dy
+2025-12-08 15:49:16,759 - VideosCommentsSpotter.agent - INFO - 重要视频 2: 人人都是中国智驾合伙人最新训练视频出炉..., 平台-dy
+2025-12-08 15:49:16,759 - VideosCommentsSpotter.agent - INFO - 重要视频 3: 深度解析：人人都是中国智驾合伙人背后的故事..., 平台-dy
+2025-12-08 15:49:16,759 - VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-08 15:49:16,763 - VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-08 15:49:16,764 - VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_154916.json
+2025-12-08 15:49:16,764 - VideosCommentsSpotter.agent - INFO - 话题 '人人都是中国智驾合伙人' 处理完成，总耗时 0.66 秒
+2025-12-08 15:49:16,764 - RiskAnalyzer - INFO - VCS调研话题 '人人都是中国智驾合伙人' 成功，发现 1 个关键发现
+2025-12-08 15:49:16,767 - RiskAnalyzer - INFO - VideosCommentsSpotter调研完成，成功调研3个话题
+2025-12-08 15:49:16,767 - RiskAnalyzer - INFO - VCS agent 深入调研分析结果: 风险等级-低风险, 总视频数-0 条
+2025-12-08 15:49:16,767 - RiskAnalyzer - INFO - 生成重要级别舆情预警，风险等级：中，针对话题：俄罗斯 盗版疯狂动物城上映, 尔滨雪人先生即将上线, 人人都是中国智驾合伙人
+2025-12-08 15:49:16,767 - RiskAnalyzer - INFO - 生成预警报告: 预警等级-重要, 风险等级-中
+2025-12-08 15:49:16,767 - RiskAnalyzer - INFO - 完整分析流程完成
+2025-12-08 15:49:16,769 - SystemManager - INFO - 生成预警: RA-20251208154916, 等级: 重要
+2025-12-08 15:49:16,769 - SystemManager - INFO - 预警摘要: 从热点报告中提取了 20 个风险话题
+2025-12-08 15:49:16,770 - SystemManager - INFO - 针对话题: 俄罗斯 盗版疯狂动物城上映, 尔滨雪人先生即将上线, 人人都是中国智驾合伙人...
+2025-12-08 15:49:16,771 - SystemManager - INFO - 休眠 563.2秒，准备下次扫描...
+2025-12-08 15:49:16,775 - HotspotHunter - INFO - 爬取 https://tophub.today/n/x9ozB4KoXb 成功，提取 49 条数据
+2025-12-08 15:49:17,085 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:17,096 - HotspotHunter - INFO - 成功写入 10 条有效风险数据到情报站
+2025-12-08 15:49:17,125 - SystemManager - INFO - HotspotHunter扫描完成，发现 20 个风险项目
+2025-12-08 15:49:17,125 - SystemManager - INFO - 开始分析热点报告: HH-1765180120
+2025-12-08 15:49:17,125 - RiskAnalyzer - INFO - 开始完整分析流程
+2025-12-08 15:49:17,125 - RiskAnalyzer - INFO - 接收到HotspotHunter报告，包含20个话题
+2025-12-08 15:49:17,125 - RiskAnalyzer - ERROR - LLM分析过程出错: '\n    "risk_summary"'
+2025-12-08 15:49:17,129 - RiskAnalyzer - INFO - 记忆库更新成功，当前记录数: 7
+2025-12-08 15:49:17,129 - RiskAnalyzer - INFO - 分析完成，全局风险等级：中
+2025-12-08 15:49:17,129 - RiskAnalyzer - INFO - 分析决策结果: 全局风险等级-中, 风险摘要-从热点报告中提取了 20 个风险话题
+2025-12-08 15:49:17,129 - RiskAnalyzer - INFO - 发现 20 个风险话题
+2025-12-08 15:49:17,129 - RiskAnalyzer - INFO - 优先选择 3 个高/中风险话题进行深入调研
+2025-12-08 15:49:17,129 - RiskAnalyzer - INFO - 最终选择 3 个话题进行深入调研
+2025-12-08 15:49:17,135 - RiskAnalyzer - INFO - 准备调用VideosCommentsSpotter，调研3个话题，使用4个关键词
+2025-12-08 15:49:18,323 - RiskAnalyzer - INFO - 调用VCS调研话题: 多家APP对豆包手机禁用
+2025-12-08 15:49:18,323 - VideosCommentsSpotter.agent - INFO - 开始处理话题: 多家APP对豆包手机禁用
+2025-12-08 15:49:18,323 - VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 15:49:18,571 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,571 - VideosCommentsSpotter.agent - INFO - 成功生成 1 个关键词: 多家APP对豆包手机禁用
+2025-12-08 15:49:18,571 - VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-08 15:49:18,571 - VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 15:49:18,571 - VideosCommentsSpotter.agent - INFO - 处理关键词: 多家APP对豆包手机禁用，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 15:49:18,576 - VideosCommentsSpotter.agent - INFO - 开始爬取关键词: 多家APP对豆包手机禁用，平台: dy
+2025-12-08 15:49:18,578 - VideosCommentsSpotter.agent - INFO - ✅ dy平台关键词 多家APP对豆包手机禁用 爬取完成
+2025-12-08 15:49:18,578 - VideosCommentsSpotter.agent - INFO - 📊 爬取结果统计:
+2025-12-08 15:49:18,578 - VideosCommentsSpotter.agent - INFO -    实际获取内容数: 5 条
+2025-12-08 15:49:18,578 - VideosCommentsSpotter.agent - INFO -    实际获取评论数: 52 条
+2025-12-08 15:49:18,578 - VideosCommentsSpotter.agent - INFO - dy平台关键词 多家APP对豆包手机禁用 爬取完成，获取 5 条内容，52 条评论
+2025-12-08 15:49:18,578 - VideosCommentsSpotter.agent - INFO - 开始分析关键词 多家APP对豆包手机禁用 的爬取结果
+2025-12-08 15:49:18,578 - VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 多家APP对豆包手机禁用，爬取平台数: 1
+2025-12-08 15:49:18,578 - VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 15:49:18,578 - VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-08 15:49:18,673 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,673 - VideosCommentsSpotter.agent - WARNING - 生成错误报告，主题: 多家APP对豆包手机禁用
+2025-12-08 15:49:18,673 - VideosCommentsSpotter.agent - INFO - 
+关键词 多家APP对豆包手机禁用 分析结果:
+2025-12-08 15:49:18,673 - VideosCommentsSpotter.agent - INFO - 风险等级: unknown
+2025-12-08 15:49:18,673 - VideosCommentsSpotter.agent - INFO - 置信度: 0.00
+2025-12-08 15:49:18,673 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 15:49:18,673 - VideosCommentsSpotter.agent - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 15:49:18,673 - VideosCommentsSpotter.agent - INFO - 关键词 多家APP对豆包手机禁用 分析完成，风险等级: unknown
+2025-12-08 15:49:18,673 - VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 0.1 秒，总计 5 条内容，52 条评论
+2025-12-08 15:49:18,673 - VideosCommentsSpotter.agent - INFO - 原始重要视频数量: 4
+2025-12-08 15:49:18,673 - VideosCommentsSpotter.agent - INFO - 去重后重要视频数量: 4
+2025-12-08 15:49:18,673 - VideosCommentsSpotter.agent - INFO - 排序和限制后重要视频数量: 4
+2025-12-08 15:49:18,673 - VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 15:49:18,673 - VideosCommentsSpotter.agent - INFO - 开始汇总 1 个小报告
+2025-12-08 15:49:18,737 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,742 - VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 15:49:18,742 - VideosCommentsSpotter.agent - INFO - 最终汇总报告: 话题-多家APP对豆包手机禁用, 处理时间-0.42秒, 风险等级-unknown
+2025-12-08 15:49:18,742 - VideosCommentsSpotter.agent - INFO - 总爬取内容-5条, 总评论数-52条
+2025-12-08 15:49:18,742 - VideosCommentsSpotter.agent - INFO - 平台爬取统计: dy: 5 条内容, 52 条评论
+2025-12-08 15:49:18,742 - VideosCommentsSpotter.agent - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 15:49:18,742 - VideosCommentsSpotter.agent - INFO - 风险因素: 1 项
+2025-12-08 15:49:18,742 - VideosCommentsSpotter.agent - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,742 - VideosCommentsSpotter.agent - INFO - 情感分析: 情感打分-0/100
+2025-12-08 15:49:18,742 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 15:49:18,742 - VideosCommentsSpotter.agent - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 15:49:18,742 - VideosCommentsSpotter.agent - INFO - 趋势预测: 无法预测
+2025-12-08 15:49:18,742 - VideosCommentsSpotter.agent - INFO - 建议: 1 条
+2025-12-08 15:49:18,742 - VideosCommentsSpotter.agent - INFO - 重要视频来源: 4 个
+2025-12-08 15:49:18,742 - VideosCommentsSpotter.agent - INFO - 重要视频 1: 直击多家APP对豆包手机禁用现场，精彩瞬间..., 平台-dy
+2025-12-08 15:49:18,742 - VideosCommentsSpotter.agent - INFO - 重要视频 2: 直击多家APP对豆包手机禁用现场，精彩瞬间..., 平台-dy
+2025-12-08 15:49:18,752 - VideosCommentsSpotter.agent - INFO - 重要视频 3: 直击多家APP对豆包手机禁用现场，精彩瞬间..., 平台-dy
+2025-12-08 15:49:18,752 - VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-08 15:49:18,752 - VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-08 15:49:18,762 - VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_154918.json
+2025-12-08 15:49:18,762 - VideosCommentsSpotter.agent - INFO - 话题 '多家APP对豆包手机禁用' 处理完成，总耗时 0.44 秒
+2025-12-08 15:49:18,762 - RiskAnalyzer - INFO - VCS调研话题 '多家APP对豆包手机禁用' 成功，发现 1 个关键发现
+2025-12-08 15:49:18,762 - RiskAnalyzer - INFO - 调用VCS调研话题: 美军承认:击落美军战机
+2025-12-08 15:49:18,762 - VideosCommentsSpotter.agent - INFO - 开始处理话题: 美军承认:击落美军战机
+2025-12-08 15:49:18,762 - VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 15:49:18,818 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,818 - VideosCommentsSpotter.agent - INFO - 成功生成 1 个关键词: 美军承认:击落美军战机
+2025-12-08 15:49:18,818 - VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-08 15:49:18,818 - VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 15:49:18,818 - VideosCommentsSpotter.agent - INFO - 处理关键词: 美军承认:击落美军战机，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 15:49:18,818 - VideosCommentsSpotter.agent - INFO - 开始爬取关键词: 美军承认:击落美军战机，平台: dy
+2025-12-08 15:49:18,818 - VideosCommentsSpotter.agent - INFO - ✅ dy平台关键词 美军承认:击落美军战机 爬取完成
+2025-12-08 15:49:18,818 - VideosCommentsSpotter.agent - INFO - 📊 爬取结果统计:
+2025-12-08 15:49:18,818 - VideosCommentsSpotter.agent - INFO -    实际获取内容数: 5 条
+2025-12-08 15:49:18,818 - VideosCommentsSpotter.agent - INFO -    实际获取评论数: 52 条
+2025-12-08 15:49:18,831 - VideosCommentsSpotter.agent - INFO - dy平台关键词 美军承认:击落美军战机 爬取完成，获取 5 条内容，52 条评论
+2025-12-08 15:49:18,832 - VideosCommentsSpotter.agent - INFO - 开始分析关键词 美军承认:击落美军战机 的爬取结果
+2025-12-08 15:49:18,832 - VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 美军承认:击落美军战机，爬取平台数: 1
+2025-12-08 15:49:18,832 - VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 15:49:18,834 - VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-08 15:49:18,917 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,920 - VideosCommentsSpotter.agent - WARNING - 生成错误报告，主题: 美军承认:击落美军战机
+2025-12-08 15:49:18,920 - VideosCommentsSpotter.agent - INFO - 
+关键词 美军承认:击落美军战机 分析结果:
+2025-12-08 15:49:18,920 - VideosCommentsSpotter.agent - INFO - 风险等级: unknown
+2025-12-08 15:49:18,920 - VideosCommentsSpotter.agent - INFO - 置信度: 0.00
+2025-12-08 15:49:18,920 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 15:49:18,920 - VideosCommentsSpotter.agent - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 15:49:18,922 - VideosCommentsSpotter.agent - INFO - 关键词 美军承认:击落美军战机 分析完成，风险等级: unknown
+2025-12-08 15:49:18,922 - VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 0.1 秒，总计 5 条内容，52 条评论
+2025-12-08 15:49:18,922 - VideosCommentsSpotter.agent - INFO - 原始重要视频数量: 5
+2025-12-08 15:49:18,922 - VideosCommentsSpotter.agent - INFO - 去重后重要视频数量: 5
+2025-12-08 15:49:18,922 - VideosCommentsSpotter.agent - INFO - 排序和限制后重要视频数量: 5
+2025-12-08 15:49:18,922 - VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 15:49:18,924 - VideosCommentsSpotter.agent - INFO - 开始汇总 1 个小报告
+2025-12-08 15:49:18,981 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,981 - VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 15:49:18,981 - VideosCommentsSpotter.agent - INFO - 最终汇总报告: 话题-美军承认:击落美军战机, 处理时间-0.22秒, 风险等级-unknown
+2025-12-08 15:49:18,981 - VideosCommentsSpotter.agent - INFO - 总爬取内容-5条, 总评论数-52条
+2025-12-08 15:49:18,981 - VideosCommentsSpotter.agent - INFO - 平台爬取统计: dy: 5 条内容, 52 条评论
+2025-12-08 15:49:18,981 - VideosCommentsSpotter.agent - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 15:49:18,986 - VideosCommentsSpotter.agent - INFO - 风险因素: 1 项
+2025-12-08 15:49:18,986 - VideosCommentsSpotter.agent - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,986 - VideosCommentsSpotter.agent - INFO - 情感分析: 情感打分-0/100
+2025-12-08 15:49:18,986 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 15:49:18,986 - VideosCommentsSpotter.agent - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 15:49:18,986 - VideosCommentsSpotter.agent - INFO - 趋势预测: 无法预测
+2025-12-08 15:49:18,986 - VideosCommentsSpotter.agent - INFO - 建议: 1 条
+2025-12-08 15:49:18,986 - VideosCommentsSpotter.agent - INFO - 重要视频来源: 5 个
+2025-12-08 15:49:18,986 - VideosCommentsSpotter.agent - INFO - 重要视频 1: 震撼！美军承认:击落美军战机最新动态曝光..., 平台-dy
+2025-12-08 15:49:18,986 - VideosCommentsSpotter.agent - INFO - 重要视频 2: 深度解析：美军承认:击落美军战机背后的故事..., 平台-dy
+2025-12-08 15:49:18,986 - VideosCommentsSpotter.agent - INFO - 重要视频 3: 震撼！美军承认:击落美军战机最新动态曝光..., 平台-dy
+2025-12-08 15:49:18,990 - VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-08 15:49:18,992 - VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-08 15:49:18,992 - VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_154918.json
+2025-12-08 15:49:18,992 - VideosCommentsSpotter.agent - INFO - 话题 '美军承认:击落美军战机' 处理完成，总耗时 0.23 秒
+2025-12-08 15:49:18,992 - RiskAnalyzer - INFO - VCS调研话题 '美军承认:击落美军战机' 成功，发现 1 个关键发现
+2025-12-08 15:49:18,992 - RiskAnalyzer - INFO - 调用VCS调研话题: 坏死的肢体必须截掉吗
+2025-12-08 15:49:18,992 - VideosCommentsSpotter.agent - INFO - 开始处理话题: 坏死的肢体必须截掉吗
+2025-12-08 15:49:18,992 - VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 15:49:19,055 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:19,055 - VideosCommentsSpotter.agent - INFO - 成功生成 1 个关键词: 坏死的肢体必须截掉吗
+2025-12-08 15:49:19,055 - VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-08 15:49:19,063 - VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 15:49:19,063 - VideosCommentsSpotter.agent - INFO - 处理关键词: 坏死的肢体必须截掉吗，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 15:49:19,063 - VideosCommentsSpotter.agent - INFO - 开始爬取关键词: 坏死的肢体必须截掉吗，平台: dy
+2025-12-08 15:49:19,065 - VideosCommentsSpotter.agent - INFO - ✅ dy平台关键词 坏死的肢体必须截掉吗 爬取完成
+2025-12-08 15:49:19,070 - VideosCommentsSpotter.agent - INFO - 📊 爬取结果统计:
+2025-12-08 15:49:19,070 - VideosCommentsSpotter.agent - INFO -    实际获取内容数: 5 条
+2025-12-08 15:49:19,070 - VideosCommentsSpotter.agent - INFO -    实际获取评论数: 42 条
+2025-12-08 15:49:19,070 - VideosCommentsSpotter.agent - INFO - dy平台关键词 坏死的肢体必须截掉吗 爬取完成，获取 5 条内容，42 条评论
+2025-12-08 15:49:19,070 - VideosCommentsSpotter.agent - INFO - 开始分析关键词 坏死的肢体必须截掉吗 的爬取结果
+2025-12-08 15:49:19,070 - VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 坏死的肢体必须截掉吗，爬取平台数: 1
+2025-12-08 15:49:19,070 - VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 15:49:19,070 - VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-08 15:49:19,397 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:19,399 - VideosCommentsSpotter.agent - WARNING - 生成错误报告，主题: 坏死的肢体必须截掉吗
+2025-12-08 15:49:19,399 - VideosCommentsSpotter.agent - INFO - 
+关键词 坏死的肢体必须截掉吗 分析结果:
+2025-12-08 15:49:19,401 - VideosCommentsSpotter.agent - INFO - 风险等级: unknown
+2025-12-08 15:49:19,401 - VideosCommentsSpotter.agent - INFO - 置信度: 0.00
+2025-12-08 15:49:19,401 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 15:49:19,401 - VideosCommentsSpotter.agent - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 15:49:19,401 - VideosCommentsSpotter.agent - INFO - 关键词 坏死的肢体必须截掉吗 分析完成，风险等级: unknown
+2025-12-08 15:49:19,401 - VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 0.34 秒，总计 5 条内容，42 条评论
+2025-12-08 15:49:19,401 - VideosCommentsSpotter.agent - INFO - 原始重要视频数量: 4
+2025-12-08 15:49:19,401 - VideosCommentsSpotter.agent - INFO - 去重后重要视频数量: 4
+2025-12-08 15:49:19,401 - VideosCommentsSpotter.agent - INFO - 排序和限制后重要视频数量: 4
+2025-12-08 15:49:19,401 - VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 15:49:19,401 - VideosCommentsSpotter.agent - INFO - 开始汇总 1 个小报告
+2025-12-08 15:49:19,451 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:19,456 - VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 15:49:19,456 - VideosCommentsSpotter.agent - INFO - 最终汇总报告: 话题-坏死的肢体必须截掉吗, 处理时间-0.46秒, 风险等级-unknown
+2025-12-08 15:49:19,456 - VideosCommentsSpotter.agent - INFO - 总爬取内容-5条, 总评论数-42条
+2025-12-08 15:49:19,456 - VideosCommentsSpotter.agent - INFO - 平台爬取统计: dy: 5 条内容, 42 条评论
+2025-12-08 15:49:19,456 - VideosCommentsSpotter.agent - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 15:49:19,456 - VideosCommentsSpotter.agent - INFO - 风险因素: 1 项
+2025-12-08 15:49:19,456 - VideosCommentsSpotter.agent - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:19,463 - VideosCommentsSpotter.agent - INFO - 情感分析: 情感打分-0/100
+2025-12-08 15:49:19,463 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 15:49:19,463 - VideosCommentsSpotter.agent - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 15:49:19,465 - VideosCommentsSpotter.agent - INFO - 趋势预测: 无法预测
+2025-12-08 15:49:19,465 - VideosCommentsSpotter.agent - INFO - 建议: 1 条
+2025-12-08 15:49:19,465 - VideosCommentsSpotter.agent - INFO - 重要视频来源: 4 个
+2025-12-08 15:49:19,465 - VideosCommentsSpotter.agent - INFO - 重要视频 1: 坏死的肢体必须截掉吗现场实拍：坏死的肢体必须截掉吗训练情况..., 平台-dy
+2025-12-08 15:49:19,465 - VideosCommentsSpotter.agent - INFO - 重要视频 2: 震撼！坏死的肢体必须截掉吗最新动态曝光..., 平台-dy
+2025-12-08 15:49:19,465 - VideosCommentsSpotter.agent - INFO - 重要视频 3: 坏死的肢体必须截掉吗最新训练视频出炉..., 平台-dy
+2025-12-08 15:49:19,465 - VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-08 15:49:19,465 - VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-08 15:49:19,465 - VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_154919.json
+2025-12-08 15:49:19,465 - VideosCommentsSpotter.agent - INFO - 话题 '坏死的肢体必须截掉吗' 处理完成，总耗时 0.47 秒
+2025-12-08 15:49:19,479 - RiskAnalyzer - INFO - VCS调研话题 '坏死的肢体必须截掉吗' 成功，发现 1 个关键发现
+2025-12-08 15:49:19,479 - RiskAnalyzer - INFO - VideosCommentsSpotter调研完成，成功调研3个话题
+2025-12-08 15:49:19,479 - RiskAnalyzer - INFO - VCS agent 深入调研分析结果: 风险等级-低风险, 总视频数-0 条
+2025-12-08 15:49:19,479 - RiskAnalyzer - INFO - 生成重要级别舆情预警，风险等级：中，针对话题：多家APP对豆包手机禁用, 美军承认:击落美军战机, 坏死的肢体必须截掉吗
+2025-12-08 15:49:19,479 - RiskAnalyzer - INFO - 生成预警报告: 预警等级-重要, 风险等级-中
+2025-12-08 15:49:19,479 - RiskAnalyzer - INFO - 完整分析流程完成
+2025-12-08 15:49:19,479 - SystemManager - INFO - 生成预警: RA-20251208154919, 等级: 重要
+2025-12-08 15:49:19,479 - SystemManager - INFO - 预警摘要: 从热点报告中提取了 20 个风险话题
+2025-12-08 15:49:19,479 - SystemManager - INFO - 针对话题: 多家APP对豆包手机禁用, 美军承认:击落美军战机, 坏死的肢体必须截掉吗...
+2025-12-08 15:49:19,479 - SystemManager - INFO - 休眠 560.9秒，准备下次扫描...
+2025-12-08 15:55:40,976 - SystemManager - INFO - [系统状态] 运行时长: 1时33分 | 扫描: 6 | 分析: 6 | 预警: 6
+2025-12-08 15:55:41,024 - SystemManager - INFO - [系统状态] 运行时长: 1时33分 | 扫描: 8 | 分析: 8 | 预警: 8
+2025-12-08 15:58:40,737 - SystemManager - INFO - [系统状态] 运行时长: 1时30分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 15:58:40,778 - SystemManager - INFO - HotspotHunter开始扫描...
+2025-12-08 15:58:40,778 - HotspotHunter - INFO - 开始热点侦察，共扫描 4 个榜单
+2025-12-08 15:58:40,857 - SystemManager - INFO - [系统状态] 运行时长: 1时30分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 15:58:41,218 - SystemManager - INFO - HotspotHunter开始扫描...
+2025-12-08 15:58:41,218 - HotspotHunter - INFO - 开始热点侦察，共扫描 4 个榜单
+2025-12-08 15:58:44,716 - HotspotHunter - INFO - 爬取 https://tophub.today/n/K7GdaMgdQy 成功，提取 49 条数据
+2025-12-08 15:58:46,042 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:58:46,047 - HotspotHunter - INFO - 成功写入 10 条有效风险数据到情报站
+2025-12-08 15:58:47,392 - HotspotHunter - INFO - 爬取 https://tophub.today/n/K7GdaMgdQy 成功，提取 49 条数据
+2025-12-08 15:58:47,630 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:58:47,634 - HotspotHunter - INFO - 成功写入 10 条有效风险数据到情报站
+2025-12-08 15:58:48,893 - HotspotHunter - INFO - 爬取 https://tophub.today/n/KqndgxeLl9 成功，提取 51 条数据
+2025-12-08 15:58:48,950 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:58:48,956 - HotspotHunter - INFO - 成功写入 10 条有效风险数据到情报站
+2025-12-08 15:58:52,873 - HotspotHunter - INFO - 爬取 https://tophub.today/n/rx9oz6oXbq 成功，提取 11 条数据
+2025-12-08 15:58:52,920 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:58:52,920 - HotspotHunter - INFO - 成功写入 10 条有效风险数据到情报站
+2025-12-08 15:58:53,376 - SystemManager - INFO - [系统状态] 运行时长: 10分 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-08 15:58:55,650 - HotspotHunter - INFO - 爬取 https://tophub.today/n/x9ozB4KoXb 成功，提取 49 条数据
+2025-12-08 15:58:55,698 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:58:55,698 - HotspotHunter - INFO - 成功写入 10 条有效风险数据到情报站
+2025-12-08 15:58:55,714 - SystemManager - ERROR - HotspotHunter扫描失败: [Errno 22] Invalid argument
+2025-12-08 15:58:55,730 - SystemManager - ERROR - HotspotHunter线程异常: [Errno 22] Invalid argument
+2025-12-08 15:58:55,735 - SystemManager - INFO - HotspotHunter已停止
+2025-12-08 15:59:40,062 - HotspotHunter - INFO - 爬取 https://tophub.today/n/rx9oz6oXbq 成功，提取 11 条数据
+2025-12-08 15:59:42,348 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:59:42,352 - HotspotHunter - INFO - 成功写入 10 条有效风险数据到情报站
+2025-12-08 16:00:42,001 - SystemManager - INFO - HotspotHunter扫描完成，发现 20 个风险项目
+2025-12-08 16:00:42,001 - SystemManager - INFO - 开始分析热点报告: HH-1765180720
+2025-12-08 16:00:42,001 - RiskAnalyzer - INFO - 开始完整分析流程
+2025-12-08 16:00:42,001 - RiskAnalyzer - INFO - 接收到HotspotHunter报告，包含20个话题
+2025-12-08 16:00:42,005 - RiskAnalyzer - ERROR - LLM分析过程出错: '\n    "risk_summary"'
+2025-12-08 16:00:42,005 - RiskAnalyzer - INFO - 记忆库更新成功，当前记录数: 7
+2025-12-08 16:00:42,005 - RiskAnalyzer - INFO - 分析完成，全局风险等级：中
+2025-12-08 16:00:42,005 - RiskAnalyzer - INFO - 分析决策结果: 全局风险等级-中, 风险摘要-从热点报告中提取了 20 个风险话题
+2025-12-08 16:00:42,005 - RiskAnalyzer - INFO - 发现 20 个风险话题
+2025-12-08 16:00:42,005 - RiskAnalyzer - INFO - 优先选择 3 个高/中风险话题进行深入调研
+2025-12-08 16:00:42,005 - RiskAnalyzer - INFO - 最终选择 3 个话题进行深入调研
+2025-12-08 16:00:42,005 - RiskAnalyzer - INFO - 准备调用VideosCommentsSpotter，调研3个话题，使用4个关键词
+2025-12-08 16:00:42,387 - RiskAnalyzer - INFO - 调用VCS调研话题: 谁来看下这女生什么球风
+2025-12-08 16:00:42,387 - VideosCommentsSpotter.agent - INFO - 开始处理话题: 谁来看下这女生什么球风
+2025-12-08 16:00:42,387 - VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 16:00:43,576 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:43,581 - VideosCommentsSpotter.agent - INFO - 成功生成 1 个关键词: 谁来看下这女生什么球风
+2025-12-08 16:00:43,581 - VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-08 16:00:43,581 - VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 16:00:43,581 - VideosCommentsSpotter.agent - INFO - 处理关键词: 谁来看下这女生什么球风，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 16:00:43,581 - VideosCommentsSpotter.agent - INFO - 开始爬取关键词: 谁来看下这女生什么球风，平台: dy
+2025-12-08 16:00:43,581 - VideosCommentsSpotter.agent - INFO - ✅ dy平台关键词 谁来看下这女生什么球风 爬取完成
+2025-12-08 16:00:43,586 - VideosCommentsSpotter.agent - INFO - 📊 爬取结果统计:
+2025-12-08 16:00:43,586 - VideosCommentsSpotter.agent - INFO -    实际获取内容数: 5 条
+2025-12-08 16:00:43,586 - VideosCommentsSpotter.agent - INFO -    实际获取评论数: 31 条
+2025-12-08 16:00:43,586 - VideosCommentsSpotter.agent - INFO - dy平台关键词 谁来看下这女生什么球风 爬取完成，获取 5 条内容，31 条评论
+2025-12-08 16:00:43,586 - VideosCommentsSpotter.agent - INFO - 开始分析关键词 谁来看下这女生什么球风 的爬取结果
+2025-12-08 16:00:43,586 - VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 谁来看下这女生什么球风，爬取平台数: 1
+2025-12-08 16:00:43,586 - VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 16:00:43,586 - VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-08 16:00:43,623 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:43,662 - VideosCommentsSpotter.agent - WARNING - 生成错误报告，主题: 谁来看下这女生什么球风
+2025-12-08 16:00:43,662 - VideosCommentsSpotter.agent - INFO - 
+关键词 谁来看下这女生什么球风 分析结果:
+2025-12-08 16:00:43,662 - VideosCommentsSpotter.agent - INFO - 风险等级: unknown
+2025-12-08 16:00:43,662 - VideosCommentsSpotter.agent - INFO - 置信度: 0.00
+2025-12-08 16:00:43,662 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 16:00:43,662 - VideosCommentsSpotter.agent - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 16:00:43,662 - VideosCommentsSpotter.agent - INFO - 关键词 谁来看下这女生什么球风 分析完成，风险等级: unknown
+2025-12-08 16:00:43,662 - VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 0.08 秒，总计 5 条内容，31 条评论
+2025-12-08 16:00:43,662 - VideosCommentsSpotter.agent - INFO - 原始重要视频数量: 5
+2025-12-08 16:00:43,662 - VideosCommentsSpotter.agent - INFO - 去重后重要视频数量: 5
+2025-12-08 16:00:43,662 - VideosCommentsSpotter.agent - INFO - 排序和限制后重要视频数量: 5
+2025-12-08 16:00:43,662 - VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 16:00:43,662 - VideosCommentsSpotter.agent - INFO - 开始汇总 1 个小报告
+2025-12-08 16:00:43,720 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:43,726 - VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 16:00:43,726 - VideosCommentsSpotter.agent - INFO - 最终汇总报告: 话题-谁来看下这女生什么球风, 处理时间-1.34秒, 风险等级-unknown
+2025-12-08 16:00:43,726 - VideosCommentsSpotter.agent - INFO - 总爬取内容-5条, 总评论数-31条
+2025-12-08 16:00:43,726 - VideosCommentsSpotter.agent - INFO - 平台爬取统计: dy: 5 条内容, 31 条评论
+2025-12-08 16:00:43,726 - VideosCommentsSpotter.agent - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 16:00:43,726 - VideosCommentsSpotter.agent - INFO - 风险因素: 1 项
+2025-12-08 16:00:43,731 - VideosCommentsSpotter.agent - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:43,731 - VideosCommentsSpotter.agent - INFO - 情感分析: 情感打分-0/100
+2025-12-08 16:00:43,731 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 16:00:43,731 - VideosCommentsSpotter.agent - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 16:00:43,731 - VideosCommentsSpotter.agent - INFO - 趋势预测: 无法预测
+2025-12-08 16:00:43,731 - VideosCommentsSpotter.agent - INFO - 建议: 1 条
+2025-12-08 16:00:43,731 - VideosCommentsSpotter.agent - INFO - 重要视频来源: 5 个
+2025-12-08 16:00:43,735 - VideosCommentsSpotter.agent - INFO - 重要视频 1: 谁来看下这女生什么球风最新训练视频出炉..., 平台-dy
+2025-12-08 16:00:43,736 - VideosCommentsSpotter.agent - INFO - 重要视频 2: 谁来看下这女生什么球风现场实拍：谁来看下这女生什么球风训练情况..., 平台-dy
+2025-12-08 16:00:43,736 - VideosCommentsSpotter.agent - INFO - 重要视频 3: 谁来看下这女生什么球风最新训练视频出炉..., 平台-dy
+2025-12-08 16:00:43,736 - VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-08 16:00:43,741 - VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-08 16:00:43,745 - VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_160043.json
+2025-12-08 16:00:43,745 - VideosCommentsSpotter.agent - INFO - 话题 '谁来看下这女生什么球风' 处理完成，总耗时 1.36 秒
+2025-12-08 16:00:43,746 - RiskAnalyzer - INFO - VCS调研话题 '谁来看下这女生什么球风' 成功，发现 1 个关键发现
+2025-12-08 16:00:43,746 - RiskAnalyzer - INFO - 调用VCS调研话题: 加快发展新质生产力
+2025-12-08 16:00:43,746 - VideosCommentsSpotter.agent - INFO - 开始处理话题: 加快发展新质生产力
+2025-12-08 16:00:43,746 - VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 16:00:44,092 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,097 - VideosCommentsSpotter.agent - INFO - 成功生成 1 个关键词: 加快发展新质生产力
+2025-12-08 16:00:44,097 - VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-08 16:00:44,097 - VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 16:00:44,097 - VideosCommentsSpotter.agent - INFO - 处理关键词: 加快发展新质生产力，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 16:00:44,097 - VideosCommentsSpotter.agent - INFO - 开始爬取关键词: 加快发展新质生产力，平台: dy
+2025-12-08 16:00:44,102 - VideosCommentsSpotter.agent - INFO - ✅ dy平台关键词 加快发展新质生产力 爬取完成
+2025-12-08 16:00:44,102 - VideosCommentsSpotter.agent - INFO - 📊 爬取结果统计:
+2025-12-08 16:00:44,102 - VideosCommentsSpotter.agent - INFO -    实际获取内容数: 5 条
+2025-12-08 16:00:44,102 - VideosCommentsSpotter.agent - INFO -    实际获取评论数: 48 条
+2025-12-08 16:00:44,107 - VideosCommentsSpotter.agent - INFO - dy平台关键词 加快发展新质生产力 爬取完成，获取 5 条内容，48 条评论
+2025-12-08 16:00:44,107 - VideosCommentsSpotter.agent - INFO - 开始分析关键词 加快发展新质生产力 的爬取结果
+2025-12-08 16:00:44,107 - VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 加快发展新质生产力，爬取平台数: 1
+2025-12-08 16:00:44,107 - VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 16:00:44,107 - VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-08 16:00:44,160 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,165 - VideosCommentsSpotter.agent - WARNING - 生成错误报告，主题: 加快发展新质生产力
+2025-12-08 16:00:44,165 - VideosCommentsSpotter.agent - INFO - 
+关键词 加快发展新质生产力 分析结果:
+2025-12-08 16:00:44,165 - VideosCommentsSpotter.agent - INFO - 风险等级: unknown
+2025-12-08 16:00:44,165 - VideosCommentsSpotter.agent - INFO - 置信度: 0.00
+2025-12-08 16:00:44,165 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 16:00:44,170 - VideosCommentsSpotter.agent - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 16:00:44,170 - VideosCommentsSpotter.agent - INFO - 关键词 加快发展新质生产力 分析完成，风险等级: unknown
+2025-12-08 16:00:44,170 - VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 0.07 秒，总计 5 条内容，48 条评论
+2025-12-08 16:00:44,170 - VideosCommentsSpotter.agent - INFO - 原始重要视频数量: 5
+2025-12-08 16:00:44,170 - VideosCommentsSpotter.agent - INFO - 去重后重要视频数量: 5
+2025-12-08 16:00:44,170 - VideosCommentsSpotter.agent - INFO - 排序和限制后重要视频数量: 5
+2025-12-08 16:00:44,170 - VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 16:00:44,170 - VideosCommentsSpotter.agent - INFO - 开始汇总 1 个小报告
+2025-12-08 16:00:44,214 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,217 - VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 16:00:44,217 - VideosCommentsSpotter.agent - INFO - 最终汇总报告: 话题-加快发展新质生产力, 处理时间-0.47秒, 风险等级-unknown
+2025-12-08 16:00:44,217 - VideosCommentsSpotter.agent - INFO - 总爬取内容-5条, 总评论数-48条
+2025-12-08 16:00:44,217 - VideosCommentsSpotter.agent - INFO - 平台爬取统计: dy: 5 条内容, 48 条评论
+2025-12-08 16:00:44,221 - VideosCommentsSpotter.agent - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 16:00:44,221 - VideosCommentsSpotter.agent - INFO - 风险因素: 1 项
+2025-12-08 16:00:44,221 - VideosCommentsSpotter.agent - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,221 - VideosCommentsSpotter.agent - INFO - 情感分析: 情感打分-0/100
+2025-12-08 16:00:44,221 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 16:00:44,221 - VideosCommentsSpotter.agent - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 16:00:44,221 - VideosCommentsSpotter.agent - INFO - 趋势预测: 无法预测
+2025-12-08 16:00:44,221 - VideosCommentsSpotter.agent - INFO - 建议: 1 条
+2025-12-08 16:00:44,221 - VideosCommentsSpotter.agent - INFO - 重要视频来源: 5 个
+2025-12-08 16:00:44,221 - VideosCommentsSpotter.agent - INFO - 重要视频 1: 加快发展新质生产力现场实拍：加快发展新质生产力训练情况..., 平台-dy
+2025-12-08 16:00:44,221 - VideosCommentsSpotter.agent - INFO - 重要视频 2: 加快发展新质生产力现场实拍：加快发展新质生产力训练情况..., 平台-dy
+2025-12-08 16:00:44,221 - VideosCommentsSpotter.agent - INFO - 重要视频 3: 加快发展新质生产力现场实拍：加快发展新质生产力训练情况..., 平台-dy
+2025-12-08 16:00:44,226 - VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-08 16:00:44,227 - VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-08 16:00:44,231 - VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_160044.json
+2025-12-08 16:00:44,231 - VideosCommentsSpotter.agent - INFO - 话题 '加快发展新质生产力' 处理完成，总耗时 0.48 秒
+2025-12-08 16:00:44,231 - RiskAnalyzer - INFO - VCS调研话题 '加快发展新质生产力' 成功，发现 1 个关键发现
+2025-12-08 16:00:44,231 - RiskAnalyzer - INFO - 调用VCS调研话题: 东方美学被明制汉服拿捏了
+2025-12-08 16:00:44,231 - VideosCommentsSpotter.agent - INFO - 开始处理话题: 东方美学被明制汉服拿捏了
+2025-12-08 16:00:44,231 - VideosCommentsSpotter.agent - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 16:00:44,275 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,275 - VideosCommentsSpotter.agent - INFO - 成功生成 1 个关键词: 东方美学被明制汉服拿捏了
+2025-12-08 16:00:44,275 - VideosCommentsSpotter.agent - INFO - 目标平台: dy
+2025-12-08 16:00:44,278 - VideosCommentsSpotter.agent - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 16:00:44,278 - VideosCommentsSpotter.agent - INFO - 处理关键词: 东方美学被明制汉服拿捏了，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 16:00:44,279 - VideosCommentsSpotter.agent - INFO - 开始爬取关键词: 东方美学被明制汉服拿捏了，平台: dy
+2025-12-08 16:00:44,283 - VideosCommentsSpotter.agent - INFO - ✅ dy平台关键词 东方美学被明制汉服拿捏了 爬取完成
+2025-12-08 16:00:44,283 - VideosCommentsSpotter.agent - INFO - 📊 爬取结果统计:
+2025-12-08 16:00:44,285 - VideosCommentsSpotter.agent - INFO -    实际获取内容数: 5 条
+2025-12-08 16:00:44,285 - VideosCommentsSpotter.agent - INFO -    实际获取评论数: 37 条
+2025-12-08 16:00:44,285 - VideosCommentsSpotter.agent - INFO - dy平台关键词 东方美学被明制汉服拿捏了 爬取完成，获取 5 条内容，37 条评论
+2025-12-08 16:00:44,287 - VideosCommentsSpotter.agent - INFO - 开始分析关键词 东方美学被明制汉服拿捏了 的爬取结果
+2025-12-08 16:00:44,287 - VideosCommentsSpotter.agent - INFO - 开始分析内容，主题: 东方美学被明制汉服拿捏了，爬取平台数: 1
+2025-12-08 16:00:44,289 - VideosCommentsSpotter.agent - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 16:00:44,289 - VideosCommentsSpotter.agent - INFO - 调用LLM进行内容分析
+2025-12-08 16:00:44,323 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,327 - VideosCommentsSpotter.agent - WARNING - 生成错误报告，主题: 东方美学被明制汉服拿捏了
+2025-12-08 16:00:44,327 - VideosCommentsSpotter.agent - INFO - 
+关键词 东方美学被明制汉服拿捏了 分析结果:
+2025-12-08 16:00:44,327 - VideosCommentsSpotter.agent - INFO - 风险等级: unknown
+2025-12-08 16:00:44,329 - VideosCommentsSpotter.agent - INFO - 置信度: 0.00
+2025-12-08 16:00:44,330 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 16:00:44,330 - VideosCommentsSpotter.agent - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 16:00:44,330 - VideosCommentsSpotter.agent - INFO - 关键词 东方美学被明制汉服拿捏了 分析完成，风险等级: unknown
+2025-12-08 16:00:44,330 - VideosCommentsSpotter.agent - INFO - 所有平台爬取完成，总耗时: 0.05 秒，总计 5 条内容，37 条评论
+2025-12-08 16:00:44,330 - VideosCommentsSpotter.agent - INFO - 原始重要视频数量: 5
+2025-12-08 16:00:44,330 - VideosCommentsSpotter.agent - INFO - 去重后重要视频数量: 5
+2025-12-08 16:00:44,332 - VideosCommentsSpotter.agent - INFO - 排序和限制后重要视频数量: 5
+2025-12-08 16:00:44,332 - VideosCommentsSpotter.agent - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 16:00:44,332 - VideosCommentsSpotter.agent - INFO - 开始汇总 1 个小报告
+2025-12-08 16:00:44,368 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,368 - VideosCommentsSpotter.agent - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 16:00:44,368 - VideosCommentsSpotter.agent - INFO - 最终汇总报告: 话题-东方美学被明制汉服拿捏了, 处理时间-0.14秒, 风险等级-unknown
+2025-12-08 16:00:44,368 - VideosCommentsSpotter.agent - INFO - 总爬取内容-5条, 总评论数-37条
+2025-12-08 16:00:44,368 - VideosCommentsSpotter.agent - INFO - 平台爬取统计: dy: 5 条内容, 37 条评论
+2025-12-08 16:00:44,368 - VideosCommentsSpotter.agent - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 16:00:44,368 - VideosCommentsSpotter.agent - INFO - 风险因素: 1 项
+2025-12-08 16:00:44,368 - VideosCommentsSpotter.agent - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,373 - VideosCommentsSpotter.agent - INFO - 情感分析: 情感打分-0/100
+2025-12-08 16:00:44,373 - VideosCommentsSpotter.agent - INFO - 关键发现: 1 项
+2025-12-08 16:00:44,373 - VideosCommentsSpotter.agent - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 16:00:44,373 - VideosCommentsSpotter.agent - INFO - 趋势预测: 无法预测
+2025-12-08 16:00:44,373 - VideosCommentsSpotter.agent - INFO - 建议: 1 条
+2025-12-08 16:00:44,373 - VideosCommentsSpotter.agent - INFO - 重要视频来源: 5 个
+2025-12-08 16:00:44,373 - VideosCommentsSpotter.agent - INFO - 重要视频 1: 东方美学被明制汉服拿捏了现场实拍：东方美学被明制汉服拿捏了训练情况..., 平台-dy
+2025-12-08 16:00:44,373 - VideosCommentsSpotter.agent - INFO - 重要视频 2: 东方美学被明制汉服拿捏了现场实拍：东方美学被明制汉服拿捏了训练情况..., 平台-dy
+2025-12-08 16:00:44,373 - VideosCommentsSpotter.agent - INFO - 重要视频 3: 深度解析：东方美学被明制汉服拿捏了背后的故事..., 平台-dy
+2025-12-08 16:00:44,373 - VideosCommentsSpotter.agent - INFO - 步骤4: 更新记忆
+2025-12-08 16:00:44,379 - VideosCommentsSpotter.agent - INFO - 步骤5: 保存分析报告
+2025-12-08 16:00:44,384 - VideosCommentsSpotter.agent - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_160044.json
+2025-12-08 16:00:44,384 - VideosCommentsSpotter.agent - INFO - 话题 '东方美学被明制汉服拿捏了' 处理完成，总耗时 0.15 秒
+2025-12-08 16:00:44,384 - RiskAnalyzer - INFO - VCS调研话题 '东方美学被明制汉服拿捏了' 成功，发现 1 个关键发现
+2025-12-08 16:00:44,384 - RiskAnalyzer - INFO - VideosCommentsSpotter调研完成，成功调研3个话题
+2025-12-08 16:00:44,384 - RiskAnalyzer - INFO - VCS agent 深入调研分析结果: 风险等级-低风险, 总视频数-0 条
+2025-12-08 16:00:44,384 - RiskAnalyzer - INFO - 生成重要级别舆情预警，风险等级：中，针对话题：谁来看下这女生什么球风, 加快发展新质生产力, 东方美学被明制汉服拿捏了
+2025-12-08 16:00:44,389 - RiskAnalyzer - INFO - 生成预警报告: 预警等级-重要, 风险等级-中
+2025-12-08 16:00:44,389 - RiskAnalyzer - INFO - 完整分析流程完成
+2025-12-08 16:00:44,389 - SystemManager - INFO - 生成预警: RA-20251208160044, 等级: 重要
+2025-12-08 16:00:44,389 - SystemManager - INFO - 预警摘要: 从热点报告中提取了 20 个风险话题
+2025-12-08 16:00:44,394 - SystemManager - INFO - 针对话题: 谁来看下这女生什么球风, 加快发展新质生产力, 东方美学被明制汉服拿捏了...
+2025-12-08 16:00:44,394 - SystemManager - INFO - 休眠 476.4秒，准备下次扫描...
+2025-12-08 16:01:22,836 - SystemManager - INFO - HotspotHunter开始扫描...
+2025-12-08 16:01:22,836 - HotspotHunter - INFO - 开始热点侦察，共扫描 4 个榜单
+2025-12-08 16:01:34,432 - HotspotHunter - INFO - 爬取 https://tophub.today/n/K7GdaMgdQy 成功，提取 49 条数据
+2025-12-08 16:01:34,705 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:01:34,714 - HotspotHunter - INFO - 成功写入 10 条有效风险数据到情报站
+2025-12-08 16:01:48,379 - HotspotHunter - INFO - 爬取 https://tophub.today/n/KqndgxeLl9 成功，提取 51 条数据
+2025-12-08 16:01:48,961 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:01:48,966 - HotspotHunter - INFO - 成功写入 10 条有效风险数据到情报站
+2025-12-08 16:02:13,748 - HotspotHunter - INFO - 爬取 https://tophub.today/n/rx9oz6oXbq 成功，提取 11 条数据
+2025-12-08 16:02:14,736 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:02:14,742 - HotspotHunter - INFO - 成功写入 10 条有效风险数据到情报站
+2025-12-08 16:02:23,006 - HotspotHunter - INFO - 爬取 https://tophub.today/n/x9ozB4KoXb 成功，提取 49 条数据
+2025-12-08 16:02:26,950 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:02:26,961 - HotspotHunter - INFO - 成功写入 10 条有效风险数据到情报站
+2025-12-08 16:02:26,981 - SystemManager - ERROR - HotspotHunter扫描失败: [Errno 22] Invalid argument
+2025-12-08 16:02:26,986 - SystemManager - ERROR - HotspotHunter线程异常: [Errno 22] Invalid argument
+2025-12-08 16:02:26,991 - SystemManager - INFO - HotspotHunter已停止
+2025-12-08 16:06:23,998 - SystemManager - INFO - [系统状态] 运行时长: 1时44分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 16:06:24,016 - SystemManager - INFO - [系统状态] 运行时长: 1时44分 | 扫描: 8 | 分析: 8 | 预警: 8
+2025-12-08 16:09:23,756 - SystemManager - INFO - [系统状态] 运行时长: 1时41分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 16:09:23,855 - SystemManager - INFO - [系统状态] 运行时长: 1时41分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 16:09:24,332 - SystemManager - INFO - [系统状态] 运行时长: 20分 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-08 16:16:24,953 - SystemManager - INFO - [系统状态] 运行时长: 1时54分 | 扫描: 8 | 分析: 8 | 预警: 8
+2025-12-08 16:16:24,955 - SystemManager - INFO - [系统状态] 运行时长: 1时54分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 16:19:24,645 - SystemManager - INFO - [系统状态] 运行时长: 1时51分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 16:19:24,706 - SystemManager - INFO - [系统状态] 运行时长: 1时51分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 16:19:25,205 - SystemManager - INFO - [系统状态] 运行时长: 30分 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-08 18:17:34,474 - SystemManager - INFO - [系统状态] 运行时长: 3时49分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 18:17:34,635 - SystemManager - INFO - [系统状态] 运行时长: 3时49分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 18:17:35,041 - SystemManager - INFO - [系统状态] 运行时长: 2时28分 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-08 18:17:35,074 - SystemManager - INFO - [系统状态] 运行时长: 3时55分 | 扫描: 8 | 分析: 8 | 预警: 8
+2025-12-08 18:17:35,082 - SystemManager - INFO - [系统状态] 运行时长: 3时55分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 18:27:34,879 - SystemManager - INFO - [系统状态] 运行时长: 3时59分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 18:27:35,092 - SystemManager - INFO - [系统状态] 运行时长: 3时59分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 18:27:35,451 - SystemManager - INFO - [系统状态] 运行时长: 2时38分 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-08 18:27:35,506 - SystemManager - INFO - [系统状态] 运行时长: 4时5分 | 扫描: 8 | 分析: 8 | 预警: 8
+2025-12-08 18:27:35,566 - SystemManager - INFO - [系统状态] 运行时长: 4时5分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 18:37:35,281 - SystemManager - INFO - [系统状态] 运行时长: 4时9分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 18:37:35,547 - SystemManager - INFO - [系统状态] 运行时长: 4时9分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 18:37:35,846 - SystemManager - INFO - [系统状态] 运行时长: 2时48分 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-08 18:37:35,901 - SystemManager - INFO - [系统状态] 运行时长: 4时15分 | 扫描: 8 | 分析: 8 | 预警: 8
+2025-12-08 18:37:35,980 - SystemManager - INFO - [系统状态] 运行时长: 4时15分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 18:47:35,675 - SystemManager - INFO - [系统状态] 运行时长: 4时19分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 18:47:35,967 - SystemManager - INFO - [系统状态] 运行时长: 4时19分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 18:47:36,250 - SystemManager - INFO - [系统状态] 运行时长: 2时58分 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-08 18:47:36,299 - SystemManager - INFO - [系统状态] 运行时长: 4时25分 | 扫描: 8 | 分析: 8 | 预警: 8
+2025-12-08 18:47:36,391 - SystemManager - INFO - [系统状态] 运行时长: 4时25分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 19:52:22,338 - SystemManager - INFO - [系统状态] 运行时长: 5时24分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 19:52:22,673 - SystemManager - INFO - [系统状态] 运行时长: 5时24分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 19:52:22,915 - SystemManager - INFO - [系统状态] 运行时长: 4时3分 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-08 19:52:22,960 - SystemManager - INFO - [系统状态] 运行时长: 5时30分 | 扫描: 8 | 分析: 8 | 预警: 8
+2025-12-08 19:52:23,067 - SystemManager - INFO - [系统状态] 运行时长: 5时30分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 20:02:22,927 - SystemManager - INFO - [系统状态] 运行时长: 5时34分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 20:02:23,329 - SystemManager - INFO - [系统状态] 运行时长: 5时34分 | 扫描: 7 | 分析: 7 | 预警: 7
+2025-12-08 20:02:23,512 - SystemManager - INFO - [系统状态] 运行时长: 4时13分 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-08 20:02:23,548 - SystemManager - INFO - [系统状态] 运行时长: 5时40分 | 扫描: 8 | 分析: 8 | 预警: 8
+2025-12-08 20:02:23,707 - SystemManager - INFO - [系统状态] 运行时长: 5时40分 | 扫描: 7 | 分析: 7 | 预警: 7

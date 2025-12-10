@@ -1,0 +1,217 @@
+{
+  "summary": "本次热点榜主要涵盖了体育赛事、社会热点、娱乐内容和国际关系等多个领域。体育赛事如湖人险胜76人和国乒战胜日本夺冠占据了较高的热度。社会热点如环卫爷爷把落叶扫成打卡点和贵州榕江荒野求生开赛4天被叫停也引起了广泛关注。国际关系方面，中方当场驳回日方所谓交涉和美防长不点名“警告”日本等话题显示出一定的敏感性。\n本次热点榜主要涵盖了娱乐、体育、社会新闻等多个领域的热点话题。娱乐类话题如浙江卫视跨年晚会官宣、王一博大魔王品牌全球代言人等占据了榜单前列。体育类话题如杨瀚森转身暴扣、詹姆斯戴王冠等也表现突出。社会新闻类话题如日本一成人商店惊现婴儿残尸、警方通报44岁男子公园搂抱女童等具有较高的关注度。整体来看，榜单内容多样，热点分布较为均衡。\n本次热点榜主要涵盖了国际访问、科技应用争议、体育赛事和文化娱乐等多个领域。榜单中出现了多个关于豆包手机被禁用的相关话题，显示出一定的争议性。整体来看，大部分话题属于普通热点，无明显负面舆情风险。\n本次热点榜主要涉及国际关系、经济政策、社会事件和娱乐新闻等多个领域。国际关系类话题占据主导地位，特别是中日、中美关系相关内容热度较高。整体来看，榜单中存在少量具有潜在争议的话题，但大多数为中性或正面内容。",
+  "topics": [
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "768.6万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "该话题涉及活动被叫停，可能存在组织不当或安全隐患，需要进一步了解具体原因。",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "中方当场驳回日方所谓交涉",
+      "platform": "抖音",
+      "hotness": "800.1万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及中日外交争议，可能引发舆论关注和讨论。",
+      "further_investigate": true,
+      "title": "中方当场驳回日方所谓交涉"
+    },
+    {
+      "topic": "美防长不点名“警告”日本",
+      "platform": "抖音",
+      "hotness": "792.3万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及美日关系和中美日三方互动，可能引发国际舆论关注。",
+      "further_investigate": true,
+      "title": "美防长不点名“警告”日本"
+    },
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "782.1万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及中日军事互动，可能引发外交争议和舆论关注。",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "洪秀柱警告日本别惹事",
+      "platform": "抖音",
+      "hotness": "773.5万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及两岸关系和日本互动，可能引发舆论关注。",
+      "further_investigate": true,
+      "title": "洪秀柱警告日本别惹事"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "28万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "该话题涉及婴儿死亡事件，具有强烈的负面性和社会敏感性，可能引发公众强烈反应和舆论争议。",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "警方通报44岁男子公园搂抱女童",
+      "platform": "微博",
+      "hotness": "27万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "该话题涉及儿童安全问题，具有潜在的负面性和社会敏感性，可能引发公众关注和讨论。",
+      "further_investigate": true,
+      "title": "警方通报44岁男子公园搂抱女童"
+    },
+    {
+      "topic": "红楼梦 悼明",
+      "platform": "微博",
+      "hotness": "28万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "该话题涉及历史敏感话题，可能引发一定的舆论争议和讨论。",
+      "further_investigate": true,
+      "title": "红楼梦 悼明"
+    },
+    {
+      "topic": "美国没支持日本慌了",
+      "platform": "微博",
+      "hotness": "26万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "该话题涉及国际关系，可能引发一定的舆论关注和讨论。",
+      "further_investigate": true,
+      "title": "美国没支持日本慌了"
+    },
+    {
+      "topic": "美防长称美国无意改变台海现状",
+      "platform": "微博",
+      "hotness": "12万",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "该话题涉及敏感的国际政治问题，可能引发较大的舆论争议和讨论。",
+      "further_investigate": true,
+      "title": "美防长称美国无意改变台海现状"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "标题显示多家APP对豆包手机采取了禁用措施，可能引发关于应用兼容性和市场竞争的讨论",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "阿里系APP对豆包手机的登陆限制，可能引发关于平台竞争和用户权益的讨论",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "标题涉及美军击落自家战机的事件，可能引发关于军事安全和国际关系的讨论",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "中方不接受日方交涉已当场驳回",
+      "platform": "头条",
+      "hotness": "4084.0万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及中日外交争议，可能引发民族情绪讨论",
+      "further_investigate": true,
+      "title": "中方不接受日方交涉已当场驳回"
+    },
+    {
+      "topic": "特朗普长子：特朗普或退出乌和平进程",
+      "platform": "头条",
+      "hotness": "3343.7万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "涉及美国政治人物对国际事务的立场变化，可能引发争议",
+      "further_investigate": true,
+      "title": "特朗普长子：特朗普或退出乌和平进程"
+    },
+    {
+      "topic": "净网|网警查处编造汽车造成8杀谣言案",
+      "platform": "头条",
+      "hotness": "2737.6万",
+      "risk_level": 4,
+      "category": "社会安全",
+      "reason": "涉及网络谣言传播，可能引发公众对网络安全的关注",
+      "further_investigate": false,
+      "title": "净网|网警查处编造汽车造成8杀谣言案"
+    },
+    {
+      "topic": "孩子被褥印不雅英文字母",
+      "platform": "头条",
+      "hotness": "61.2万",
+      "risk_level": 3,
+      "category": "社会事件",
+      "reason": "涉及儿童用品质量问题，可能引发家长群体的关注",
+      "further_investigate": false,
+      "title": "孩子被褥印不雅英文字母"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 17,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜内容多样，体育赛事和社会热点占据了较高热度，国际关系话题也显示出一定的敏感性。",
+    "content_summary": "侦察到了体育赛事如湖人险胜76人和国乒战胜日本夺冠，社会热点如环卫爷爷把落叶扫成打卡点，以及国际关系话题如中方当场驳回日方所谓交涉和美防长不点名“警告”日本。",
+    "content_analysis": "体育赛事和社会热点话题情绪倾向较为正面，国际关系话题显示出一定的争议性和敏感性。",
+    "potential_risks": [
+      "国际关系话题可能引发舆论关注和讨论",
+      "贵州榕江荒野求生开赛4天被叫停可能存在组织不当或安全隐患",
+      "需要密切关注国际关系话题的进一步发展"
+    ],
+    "trend_prediction": "未来24-48小时内，体育赛事和社会热点话题的热度可能会逐渐下降，而国际关系话题可能会持续引发关注和讨论。",
+    "recommendations": [
+      "密切关注国际关系话题的舆论动向",
+      "进一步了解贵州榕江荒野求生开赛被叫停的具体原因",
+      "监控体育赛事和社会热点话题的情绪变化"
+    ],
+    "risk_overview": {
+      "high_risk_count": 4,
+      "medium_risk_count": 1,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 17,
+    "risk_overview": {
+      "high_risk_count": 4,
+      "medium_risk_count": 1,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  }
+}

@@ -1,19 +1,34 @@
 import os
+import sys
 
 # ===============================
-# LLM 客户端配置
+# Import Configuration from Common Config
 # ===============================
-# 支持统一配置 API KEY、模型名和基础URL
+# This file imports all configuration from the central common/config.py
+# to achieve unified configuration management across all agents.
 
-LLM_CONFIG = {
-    "api_key": "your api key",  # <<-- 直接赋值密钥
-    "model_name": "deepseek-ai/DeepSeek-V3",  # <<-- 直接赋值模型名称
-    "base_url": "https://api.siliconflow.cn/v1",
-    "timeout": float(os.getenv("LLM_TIMEOUT", 1800.0)),
-}
+# Add the project root to path to enable common config import
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-# ===============================
-# 日志配置（可选）
-# ===============================
-LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
-LOG_FILE = os.getenv("LOG_FILE", "hotspot_hunter.log")
+try:
+    # Import configurations from common config
+    from common.config import (
+        # Agent-specific API Configuration
+        RISK_ANALYZER_LLM_CONFIG,
+        
+        # Risk Analyzer Configuration
+        RISK_ANALYZER_CONFIG
+    )
+    
+    # Use agent-specific LLM config
+    LLM_CONFIG = RISK_ANALYZER_LLM_CONFIG
+    
+    # Log configuration
+    LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
+    LOG_FILE = os.getenv("LOG_FILE", "risk_analyzer.log")
+    
+except ImportError as e:
+    print(f"[ERROR] Failed to import common config: {e}")
+    print("[ERROR] 无法加载统一配置，系统无法正常运行")
+    print("[ERROR] 请检查 DetectionSystem/common/config.py 文件是否存在且可访问")
+    raise ImportError(f"无法导入统一配置: {e}") from e

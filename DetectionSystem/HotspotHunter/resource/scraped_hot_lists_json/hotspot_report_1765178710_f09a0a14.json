@@ -1,0 +1,287 @@
+{
+  "summary": "本次热点榜整体以娱乐、体育和文化类话题为主，其中包含少量涉及国际关系和争议性事件的内容。大部分话题热度集中在1000万左右，显示出较高的公众关注度。需要特别关注的是涉及国际冲突和谣言道歉的话题，这些内容可能引发进一步的舆论讨论。\n从爬取数据中提取到风险项目\n从爬取数据中提取到风险项目",
+  "topics": [
+    {
+      "topic": "泰柬边境再发冲突",
+      "platform": "抖音",
+      "hotness": "817.0万",
+      "risk_level": 7,
+      "category": "国际冲突",
+      "reason": "标题明确提到泰柬边境发生冲突，涉及国际关系紧张，可能引发进一步的舆论关注和讨论。",
+      "further_investigate": true,
+      "title": "泰柬边境再发冲突"
+    },
+    {
+      "topic": "榕江荒野求生选手就谣言道歉",
+      "platform": "抖音",
+      "hotness": "835.5万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "标题提到选手因谣言道歉，表明事件曾引发争议，可能仍有舆论余波。",
+      "further_investigate": true,
+      "title": "榕江荒野求生选手就谣言道歉"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "773.3万",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "标题提到活动被叫停，可能涉及争议或管理问题，需要关注后续发展。",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "774.6万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "标题涉及国防部回应国际事件，可能引发舆论关注和讨论。",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "美防长不点名“警告”日本",
+      "platform": "抖音",
+      "hotness": "782.0万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "标题提到美国防长警告日本，涉及国际关系，可能引发舆论关注。",
+      "further_investigate": true,
+      "title": "美防长不点名“警告”日本"
+    },
+    {
+      "topic": "泰国军方称出动战斗机回应柬方",
+      "platform": "抖音",
+      "hotness": "767.9万",
+      "risk_level": 7,
+      "category": "国际冲突",
+      "reason": "标题明确提到泰国军方出动战斗机，涉及国际冲突，可能引发进一步的舆论关注。",
+      "further_investigate": true,
+      "title": "泰国军方称出动战斗机回应柬方"
+    },
+    {
+      "title": "星光大赏阵容官宣",
+      "platform": "未知",
+      "hotness": "63万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "尔滨雪人先生即将上线",
+      "platform": "未知",
+      "hotness": "62万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "年底了把养好身体当个事儿",
+      "platform": "未知",
+      "hotness": "62万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "痞幼自曝曾被两个恋综拒绝",
+      "platform": "未知",
+      "hotness": "62万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "王者荣耀挑战者杯",
+      "platform": "未知",
+      "hotness": "60万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "泰国对柬埔寨发动空袭",
+      "platform": "未知",
+      "hotness": "58万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "2025动漫嘉年华",
+      "platform": "未知",
+      "hotness": "56万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "孟子义李昀锐 星光大赏",
+      "platform": "未知",
+      "hotness": "54万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "日军被爆引导美军轰炸平民",
+      "platform": "未知",
+      "hotness": "52万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "星穹铁道二相乐园预告",
+      "platform": "未知",
+      "hotness": "48万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "父亲工资打孩子账户致儿子无法考公",
+      "platform": "未知",
+      "hotness": "3976.4万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "确保我国经济航船乘风破浪行稳致远",
+      "platform": "未知",
+      "hotness": "3598.0万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "1818名明星网红等人查补税款15.23亿",
+      "platform": "未知",
+      "hotness": "3255.6万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "马克龙：中国应伸出援手投资欧洲",
+      "platform": "未知",
+      "hotness": "2945.8万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "净网|网警查处编造汽车造成8杀谣言案",
+      "platform": "未知",
+      "hotness": "2665.5万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "护士患癌请病假遭拒？卫健委介入调查",
+      "platform": "未知",
+      "hotness": "2411.8万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "家人刷视频才知13岁孩子救了人",
+      "platform": "未知",
+      "hotness": "2182.3万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "“雪假”带动冬季出游",
+      "platform": "未知",
+      "hotness": "1974.6万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "安徽一新能源车突然起火伴有爆炸声",
+      "platform": "未知",
+      "hotness": "1786.7万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "打HPV疫苗会导致绝育？假的",
+      "platform": "未知",
+      "hotness": "1616.7万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    }
+  ],
+  "report_count": 3,
+  "total_risk_items": 26,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜以娱乐、体育和文化类话题为主，热度集中在1000万左右，显示出较高的公众关注度。少量涉及国际关系和争议性事件的内容需要特别关注。",
+    "content_summary": "侦察到的主要内容包括娱乐话题如‘东方美学被明制汉服拿捏了’、体育新闻如‘湖人险胜76人’、文化话题如‘双12冬日氛围感穿搭大赏’等。此外，还涉及国际冲突和谣言道歉等争议性事件。",
+    "content_analysis": "娱乐和文化类话题占据主导地位，显示出公众对轻松内容的偏好。体育新闻也受到较高关注。国际冲突和争议性事件虽然数量较少，但热度较高，可能引发进一步的舆论讨论。",
+    "potential_risks": [
+      "国际冲突话题可能引发进一步的舆论关注和讨论",
+      "谣言道歉事件可能仍有舆论余波",
+      "活动被叫停可能涉及争议或管理问题"
+    ],
+    "trend_prediction": "未来24-48小时内，娱乐和文化类话题可能继续保持高热度。国际冲突和争议性事件可能引发更多的舆论讨论和关注。",
+    "recommendations": [
+      "密切关注国际冲突话题的舆论发展",
+      "跟踪谣言道歉事件的后续影响",
+      "关注活动被叫停的具体原因和公众反应"
+    ],
+    "risk_overview": {
+      "high_risk_count": 4,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 6
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 26,
+    "risk_overview": {
+      "high_risk_count": 4,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 6
+    }
+  }
+}

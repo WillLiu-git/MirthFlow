@@ -1,0 +1,247 @@
+{
+  "summary": "本次热点榜主要以娱乐、社会新闻和国际关系为主，其中涉及多个潜在风险话题。娱乐类话题占据主导地位，但国际关系和社会新闻类话题存在较高的舆情风险。需要特别关注国防部回应日称战机被雷达照射和贵州榕江荒野求生开赛4天被叫停等话题。\n本次热点榜单以体育赛事、娱乐新闻和社会事件为主，其中国乒相关话题占据多个高位，显示出较高的公众关注度。榜单中出现了几起涉及社会安全和舆论争议的事件，需要特别关注。整体来看，大部分热点属于普通娱乐和体育新闻，风险较低。\n本次热点榜主要涉及国际关系、社会事件、科技争议和医疗政策等多个领域。其中，国际关系和社会安全类话题占据主导，如日本飞机抵近中国海军训练和连霍高速追尾事故。科技争议方面，多家APP对豆包手机的禁用引发关注。整体来看，热点榜风险等级分布较为均衡，既有高风险的敏感话题，也有低风险的普通热点。\n本次热点榜涵盖了军事、国际关系、社会新闻、体育等多个领域的热点话题。军事和国际关系类话题热度较高，涉及中美关系和日本军事动态，存在一定的舆论风险。社会新闻中涉及健康问题和道德争议的内容也引发了广泛关注。",
+  "topics": [
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "828.0万",
+      "risk_level": 8,
+      "category": "国际关系",
+      "reason": "涉及中日两国军事摩擦，可能引发民族情绪和国际舆论争议。",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "782.8万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "活动被叫停可能涉及安全隐患或管理问题，容易引发公众质疑和讨论。",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "日飞机多次抵近滋扰我海军训练",
+      "platform": "抖音",
+      "hotness": "779.9万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及中日军事对峙，可能引发民族情绪和国际舆论争议。",
+      "further_investigate": true,
+      "title": "日飞机多次抵近滋扰我海军训练"
+    },
+    {
+      "topic": "直系亲属间献血更安全系谣言",
+      "platform": "抖音",
+      "hotness": "781.9万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及健康谣言，可能误导公众，引发社会讨论。",
+      "further_investigate": true,
+      "title": "直系亲属间献血更安全系谣言"
+    },
+    {
+      "topic": "人贩子被判死缓后对被害人破口大骂",
+      "platform": "微博",
+      "hotness": "34万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "该话题涉及犯罪行为和司法公正，可能引发公众对法律执行的质疑和情绪波动，存在较高的舆论风险。",
+      "further_investigate": true,
+      "title": "人贩子被判死缓后对被害人破口大骂"
+    },
+    {
+      "topic": "婴儿被褥印不雅英文字母",
+      "platform": "微博",
+      "hotness": "19万",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "该话题涉及儿童用品的安全和文化敏感性，可能引发公众对产品质量和文化尊重的讨论，存在一定的舆论风险。",
+      "further_investigate": true,
+      "title": "婴儿被褥印不雅英文字母"
+    },
+    {
+      "topic": "节食减重50斤吃麻辣烫时晕倒被烫伤",
+      "platform": "微博",
+      "hotness": "19万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "该话题涉及健康问题和极端减肥行为，可能引发公众对健康生活方式的讨论和担忧，存在一定的舆论风险。",
+      "further_investigate": true,
+      "title": "节食减重50斤吃麻辣烫时晕倒被烫伤"
+    },
+    {
+      "topic": "你的婚纱照可能被卖了",
+      "platform": "微博",
+      "hotness": "20万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "该话题涉及个人隐私和数据安全，可能引发公众对隐私保护的关注和讨论，存在一定的舆论风险。",
+      "further_investigate": true,
+      "title": "你的婚纱照可能被卖了"
+    },
+    {
+      "topic": "日本飞机多次抵近滋扰中国海军训练",
+      "platform": "知乎",
+      "hotness": "2",
+      "risk_level": 8,
+      "category": "国际关系",
+      "reason": "涉及中日两国军事互动，可能引发民族情绪和国际舆论争议，具有较高的敏感性和潜在冲突风险。",
+      "further_investigate": true,
+      "title": "日本飞机多次抵近滋扰中国海军训练"
+    },
+    {
+      "topic": "连霍高速发生车辆追尾事故造成 9 死 7 伤",
+      "platform": "知乎",
+      "hotness": "3",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "重大交通事故可能引发公众对交通安全的关注和质疑，存在舆论发酵的风险。",
+      "further_investigate": true,
+      "title": "连霍高速发生车辆追尾事故造成 9 死 7 伤"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "4",
+      "risk_level": 5,
+      "category": "科技争议",
+      "reason": "涉及科技公司之间的竞争和用户权益问题，可能引发消费者不满和舆论讨论。",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "7",
+      "risk_level": 6,
+      "category": "科技争议",
+      "reason": "大型科技公司的排他性行为可能引发反垄断和用户权益保护的争议。",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "12",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及美军内部事件，可能引发国际关注和军事安全讨论。",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "美最新报告：不允许任何国家过于强大",
+      "platform": "头条",
+      "hotness": "2208.2万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "该话题涉及中美关系，可能引发民族主义情绪和国际舆论争议。",
+      "further_investigate": true,
+      "title": "美最新报告：不允许任何国家过于强大"
+    },
+    {
+      "topic": "“雷达照射”意味着什么",
+      "platform": "头条",
+      "hotness": "1998.0万",
+      "risk_level": 6,
+      "category": "军事安全",
+      "reason": "涉及军事敏感话题，可能引发公众对军事冲突的担忧。",
+      "further_investigate": true,
+      "title": "“雷达照射”意味着什么"
+    },
+    {
+      "topic": "专家：日机擅闯或被解放军视为靶标",
+      "platform": "头条",
+      "hotness": "812.3万",
+      "risk_level": 6,
+      "category": "军事安全",
+      "reason": "涉及中日军事对峙，可能引发两国舆论对立。",
+      "further_investigate": true,
+      "title": "专家：日机擅闯或被解放军视为靶标"
+    },
+    {
+      "topic": "男子连续20年喝热水养生确诊舌癌",
+      "platform": "头条",
+      "hotness": "1480.2万",
+      "risk_level": 4,
+      "category": "健康争议",
+      "reason": "可能引发公众对健康养生方式的误解和恐慌。",
+      "further_investigate": true,
+      "title": "男子连续20年喝热水养生确诊舌癌"
+    },
+    {
+      "topic": "女子婚后出轨伴郎并生娃 双双获刑",
+      "platform": "头条",
+      "hotness": "1211.9万",
+      "risk_level": 5,
+      "category": "道德争议",
+      "reason": "涉及婚姻道德和法律问题，可能引发社会舆论争议。",
+      "further_investigate": true,
+      "title": "女子婚后出轨伴郎并生娃 双双获刑"
+    },
+    {
+      "topic": "西藏贡嘎捣毁一卖淫窝点 10人被抓",
+      "platform": "头条",
+      "hotness": "544.5万",
+      "risk_level": 4,
+      "category": "社会安全",
+      "reason": "涉及社会治安问题，可能引发公众对地区治安的关注。",
+      "further_investigate": true,
+      "title": "西藏贡嘎捣毁一卖淫窝点 10人被抓"
+    },
+    {
+      "topic": "荷兰大臣：没想到中方叫停芯片出口",
+      "platform": "头条",
+      "hotness": "164.0万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "涉及中欧贸易关系，可能引发经济和技术领域的舆论争议。",
+      "further_investigate": true,
+      "title": "荷兰大臣：没想到中方叫停芯片出口"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 20,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜以娱乐类话题为主，国际关系和社会新闻类话题也占据一定比例。热度分布较为均匀，但国际关系类话题的舆情风险较高。",
+    "content_summary": "侦察到的主要话题包括娱乐热点如抖音短视频、明星动态，以及国际关系和社会新闻如国防部回应、荒野求生活动被叫停等。",
+    "content_analysis": "娱乐类话题热度较高，但舆情风险较低；国际关系类话题虽然热度不及娱乐类，但舆情风险较高，容易引发民族情绪和国际舆论争议。社会新闻类话题如荒野求生活动被叫停和健康谣言也存在一定风险。",
+    "potential_risks": [
+      "国际关系类话题可能引发民族情绪和国际舆论争议",
+      "社会新闻类话题可能涉及公众安全和健康误导",
+      "娱乐类话题可能存在不当内容或版权争议"
+    ],
+    "trend_prediction": "未来24-48小时内，国际关系类话题可能持续发酵，娱乐类话题可能快速更替，社会新闻类话题可能引发更多讨论。",
+    "recommendations": [
+      "加强对国际关系类话题的舆情监控",
+      "及时澄清社会新闻类话题中的不实信息",
+      "关注娱乐类话题中的不当内容"
+    ],
+    "risk_overview": {
+      "high_risk_count": 3,
+      "medium_risk_count": 1,
+      "low_risk_count": 0,
+      "total_count": 4
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 20,
+    "risk_overview": {
+      "high_risk_count": 3,
+      "medium_risk_count": 1,
+      "low_risk_count": 0,
+      "total_count": 4
+    }
+  }
+}

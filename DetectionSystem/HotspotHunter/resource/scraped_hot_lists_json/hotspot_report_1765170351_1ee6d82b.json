@@ -1,0 +1,257 @@
+{
+  "summary": "本次热点榜主要涵盖了体育赛事、社会热点、娱乐内容和国际新闻等多个领域。榜单中大部分内容为中性或正面话题，如体育比赛结果、娱乐活动和日常生活分享。少数话题涉及国际关系和争议事件，需要进一步关注其发展。\n本次热点榜涵盖了多个领域的内容，包括社会事件、娱乐新闻、经济动态和国际新闻。主要热点类型集中在社会事件和娱乐新闻上，其中部分话题存在一定的负面舆情风险。整体来看，榜单内容多样，热度分布较为均匀，但需要关注几个具有潜在风险的话题。\n本次热点榜主要涉及国际访问、APP禁用、体育赛事、电影评选等多个领域。整体热度较低，无明显负面舆情风险。需要关注的是多家APP对豆包手机的禁用情况，可能存在商业竞争或用户体验问题。\n本次热点榜主要涉及国际关系、经济政策、历史事件、军事动态、社会事件等多个领域。榜单中出现了多个涉及中日关系、台湾问题的敏感话题，以及一些社会事件和娱乐新闻。整体来看，国际关系和军事动态类话题热度较高，部分话题存在一定的舆情风险。",
+  "topics": [
+    {
+      "topic": "泰柬边境再发冲突",
+      "platform": "抖音",
+      "hotness": "880.4万",
+      "risk_level": 7,
+      "category": "国际冲突",
+      "reason": "标题明确提到边境冲突，可能引发国际关注和讨论",
+      "further_investigate": true,
+      "title": "泰柬边境再发冲突"
+    },
+    {
+      "topic": "榕江荒野求生选手就谣言道歉",
+      "platform": "抖音",
+      "hotness": "866.0万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及谣言和道歉，可能引发公众讨论和争议",
+      "further_investigate": true,
+      "title": "榕江荒野求生选手就谣言道歉"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "771.9万",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "活动被叫停可能涉及安全问题或管理争议",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "美防长不点名“警告”日本",
+      "platform": "抖音",
+      "hotness": "803.9万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及美国与日本的关系，可能引发国际关注",
+      "further_investigate": true,
+      "title": "美防长不点名“警告”日本"
+    },
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "783.8万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及中日军事互动，可能引发外交争议",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "洪秀柱警告日本别惹事",
+      "platform": "抖音",
+      "hotness": "777.7万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及中日关系，可能引发公众讨论",
+      "further_investigate": true,
+      "title": "洪秀柱警告日本别惹事"
+    },
+    {
+      "topic": "美国将调整与中国经济关系",
+      "platform": "抖音",
+      "hotness": "772.1万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及中美经济关系调整，可能引发广泛关注",
+      "further_investigate": true,
+      "title": "美国将调整与中国经济关系"
+    },
+    {
+      "topic": "退学北大考上清华小伙被白嫖家教费",
+      "platform": "微博",
+      "hotness": "80万",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "该话题涉及教育公平和个人权益问题，可能引发公众对教育体系和家教市场的讨论和争议。",
+      "further_investigate": true,
+      "title": "退学北大考上清华小伙被白嫖家教费"
+    },
+    {
+      "topic": "1818名包括明星网红在内双高人员被查",
+      "platform": "微博",
+      "hotness": "77万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "该话题涉及大量公众人物的负面新闻，可能引发社会对高收入群体行为的关注和讨论。",
+      "further_investigate": true,
+      "title": "1818名包括明星网红在内双高人员被查"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "61万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "该话题涉及极端恶劣的社会事件，可能引发公众对日本社会安全和道德问题的关注和讨论。",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "日军被爆引导美军轰炸平民",
+      "platform": "微博",
+      "hotness": "27万",
+      "risk_level": 9,
+      "category": "国际冲突",
+      "reason": "该话题涉及历史敏感事件和国际冲突，可能引发公众对日本历史行为的讨论和争议。",
+      "further_investigate": true,
+      "title": "日军被爆引导美军轰炸平民"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "多家APP禁用豆包手机可能引发用户不满或商业竞争争议",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "阿里系APP禁止豆包手机登陆可能涉及商业竞争或用户体验问题",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "美军击落美军战机的事件可能引发国际关注和舆论讨论",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "中方不接受日方交涉已当场驳回",
+      "platform": "头条",
+      "hotness": "3500.0万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及中日外交冲突，可能引发民族情绪和国际舆论争议",
+      "further_investigate": true,
+      "title": "中方不接受日方交涉已当场驳回"
+    },
+    {
+      "topic": "台湾当局被曝妄图与日军事勾连",
+      "platform": "头条",
+      "hotness": "1165.1万",
+      "risk_level": 8,
+      "category": "国际关系",
+      "reason": "涉及台湾问题和中日关系，是高度敏感的政治话题",
+      "further_investigate": true,
+      "title": "台湾当局被曝妄图与日军事勾连"
+    },
+    {
+      "topic": "辽宁舰沿琉球群岛北上",
+      "platform": "头条",
+      "hotness": "2592.9万",
+      "risk_level": 6,
+      "category": "军事动态",
+      "reason": "涉及中国军事行动，可能引发地区安全关注和国际舆论",
+      "further_investigate": true,
+      "title": "辽宁舰沿琉球群岛北上"
+    },
+    {
+      "topic": "净网|网警查处编造汽车造成8杀谣言案",
+      "platform": "头条",
+      "hotness": "2346.1万",
+      "risk_level": 5,
+      "category": "社会安全",
+      "reason": "涉及网络谣言和公共安全事件，可能引发社会关注",
+      "further_investigate": true,
+      "title": "净网|网警查处编造汽车造成8杀谣言案"
+    },
+    {
+      "topic": "杨瀚森被打中面部重重倒地遭裁判无视",
+      "platform": "头条",
+      "hotness": "1920.9万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "涉及体育赛事争议，可能引发公众对裁判公正性的讨论",
+      "further_investigate": true,
+      "title": "杨瀚森被打中面部重重倒地遭裁判无视"
+    },
+    {
+      "topic": "人贩子扬言出狱报复能否加刑",
+      "platform": "头条",
+      "hotness": "287.3万",
+      "risk_level": 5,
+      "category": "社会安全",
+      "reason": "涉及犯罪和司法问题，可能引发公众对法律执行的讨论",
+      "further_investigate": true,
+      "title": "人贩子扬言出狱报复能否加刑"
+    },
+    {
+      "topic": "女子婚后出轨伴郎并生娃 双双获刑",
+      "platform": "头条",
+      "hotness": "86.5万",
+      "risk_level": 4,
+      "category": "社会道德",
+      "reason": "涉及婚姻道德和法律问题，可能引发社会讨论",
+      "further_investigate": true,
+      "title": "女子婚后出轨伴郎并生娃 双双获刑"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 21,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜内容多样，体育赛事和娱乐内容占据较大比重，国际新闻和社会热点也有一定比例。榜单整体热度较高，多个话题超过700万热度。",
+    "content_summary": "侦察到的主要内容包括体育赛事（如湖人险胜76人、国乒战胜日本夺冠）、社会热点（如环卫爷爷把落叶扫成打卡点）、娱乐内容（如糖葫芦树我先爬为敬）和国际新闻（如泰柬边境再发冲突）。",
+    "content_analysis": "榜单中大部分话题为中性或正面内容，体育和娱乐话题热度较高。国际关系相关话题虽然数量不多，但热度不低，可能引发公众关注和讨论。",
+    "potential_risks": [
+      "国际关系话题可能引发外交争议",
+      "活动被叫停可能涉及安全问题",
+      "谣言和道歉可能引发公众讨论"
+    ],
+    "trend_prediction": "未来24-48小时内，体育和娱乐话题可能继续保持热度，国际关系话题可能引发更多讨论和关注。",
+    "recommendations": [
+      "密切关注国际关系话题的发展",
+      "关注活动被叫停的具体原因",
+      "监控谣言和道歉话题的公众反应"
+    ],
+    "risk_overview": {
+      "high_risk_count": 6,
+      "medium_risk_count": 1,
+      "low_risk_count": 0,
+      "total_count": 7
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 21,
+    "risk_overview": {
+      "high_risk_count": 6,
+      "medium_risk_count": 1,
+      "low_risk_count": 0,
+      "total_count": 7
+    }
+  }
+}

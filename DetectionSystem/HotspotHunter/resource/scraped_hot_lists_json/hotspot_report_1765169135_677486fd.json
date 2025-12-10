@@ -1,0 +1,207 @@
+{
+  "summary": "本次热点榜主要涵盖了体育赛事、社会新闻、娱乐内容以及国际政治等多个领域。体育类话题如湖人险胜76人和国乒战胜日本夺冠占据了较高热度，社会新闻如环卫爷爷把落叶扫成打卡点展现了正能量。国际政治类话题如泰柬边境再发冲突和德国外长访华前表态也引起了广泛关注。整体来看，榜单内容多样，无明显高风险话题。\n本次热点榜涵盖了教育、娱乐、社会事件等多个领域的热点话题。其中，'退学北大考上清华小伙被白嫖家教费'和'1818名包括明星网红在内双高人员被查'等话题具有较高的社会关注度和潜在争议性。整体来看，榜单以娱乐和社会新闻为主，部分话题可能引发公众讨论。\n本次热点榜主要涵盖了国际访问、科技应用限制、体育赛事、娱乐文化等多个领域。榜单中出现了多个关于APP限制使用的话题，可能涉及商业竞争或用户体验问题。整体来看，大部分话题属于中性或正面内容，无明显负面舆情风险。\n本次热点榜整体观察显示，热点内容主要集中在体育、国际关系、社会事件和文化娱乐等领域。榜单中出现了多个涉及中日关系的热点话题，显示出一定的国际关系敏感性。此外，社会事件和文化娱乐类话题也占据了较大比重，但整体风险较低。",
+  "topics": [
+    {
+      "topic": "泰柬边境再发冲突",
+      "platform": "抖音",
+      "hotness": "810.5万",
+      "risk_level": 7,
+      "category": "国际冲突",
+      "reason": "涉及国家间的边境冲突，可能引发国际关注和舆论争议",
+      "further_investigate": true,
+      "title": "泰柬边境再发冲突"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "773.6万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "活动被叫停可能引发公众对活动组织和管理问题的讨论",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "榕江荒野求生选手就谣言道歉",
+      "platform": "抖音",
+      "hotness": "838.9万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "涉及谣言传播和公开道歉，可能引发公众对信息真实性的讨论",
+      "further_investigate": true,
+      "title": "榕江荒野求生选手就谣言道歉"
+    },
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "783.4万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及中日两国军事互动，可能引发国际关注和舆论争议",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "退学北大考上清华小伙被白嫖家教费",
+      "platform": "微博",
+      "hotness": "95万",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "话题涉及教育公平和劳动权益问题，可能引发公众对教育体系和家教市场的讨论",
+      "further_investigate": true,
+      "title": "退学北大考上清华小伙被白嫖家教费"
+    },
+    {
+      "topic": "1818名包括明星网红在内双高人员被查",
+      "platform": "微博",
+      "hotness": "77万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "话题涉及大量公众人物被调查，可能引发对社会治理和名人效应的讨论",
+      "further_investigate": true,
+      "title": "1818名包括明星网红在内双高人员被查"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "60万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "话题涉及严重的刑事案件，可能引发公众对儿童保护和国际事件的关注",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "中学教师被指当学生面踩死流浪猫",
+      "platform": "微博",
+      "hotness": "12万",
+      "risk_level": 7,
+      "category": "舆论争议",
+      "reason": "话题涉及教师行为和动物保护，可能引发对教育工作者职业道德的讨论",
+      "further_investigate": true,
+      "title": "中学教师被指当学生面踩死流浪猫"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "话题涉及多家APP对特定手机的禁用，可能引发关于商业竞争或用户权益的讨论",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "话题涉及大型互联网企业对特定手机的限制，可能引发关于市场垄断或用户选择的争议",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "话题涉及美军内部事件，可能引发关于军事安全或国际关系的讨论",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "中方不接受日方交涉已当场驳回",
+      "platform": "头条",
+      "hotness": "3419.6万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "话题涉及中日外交交涉，可能引发国际舆论关注和讨论",
+      "further_investigate": true,
+      "title": "中方不接受日方交涉已当场驳回"
+    },
+    {
+      "topic": "台湾当局被曝妄图与日军事勾连",
+      "platform": "头条",
+      "hotness": "1030.0万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "话题涉及台湾与日本的军事联系，可能引发两岸关系紧张和国际关注",
+      "further_investigate": true,
+      "title": "台湾当局被曝妄图与日军事勾连"
+    },
+    {
+      "topic": "孩子被褥印不雅英文字母",
+      "platform": "头条",
+      "hotness": "126.1万",
+      "risk_level": 5,
+      "category": "社会安全",
+      "reason": "话题涉及儿童用品安全问题，可能引发家长和社会公众的关注和讨论",
+      "further_investigate": true,
+      "title": "孩子被褥印不雅英文字母"
+    },
+    {
+      "topic": "西藏贡嘎捣毁一卖淫窝点 10人被抓",
+      "platform": "头条",
+      "hotness": "103.3万",
+      "risk_level": 4,
+      "category": "社会安全",
+      "reason": "话题涉及社会治安问题，可能引发公众对当地治安状况的关注",
+      "further_investigate": true,
+      "title": "西藏贡嘎捣毁一卖淫窝点 10人被抓"
+    },
+    {
+      "topic": "女子婚后出轨伴郎并生娃 双双获刑",
+      "platform": "头条",
+      "hotness": "31.1万",
+      "risk_level": 3,
+      "category": "社会道德",
+      "reason": "话题涉及婚姻道德问题，可能引发社会舆论讨论",
+      "further_investigate": false,
+      "title": "女子婚后出轨伴郎并生娃 双双获刑"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 16,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜内容多样，涵盖了体育、社会、娱乐和国际政治等多个领域。体育类话题和社会正能量内容占据了较高热度，国际政治类话题也引起了广泛关注。整体来看，榜单无明显高风险话题，但部分国际和政治类话题需要进一步关注。",
+    "content_summary": "侦察到的内容主要包括体育赛事（如湖人险胜76人、国乒战胜日本夺冠）、社会新闻（如环卫爷爷把落叶扫成打卡点）、娱乐内容（如刘亦菲阿布扎比观赛F1）以及国际政治（如泰柬边境再发冲突、德国外长访华前表态）。",
+    "content_analysis": "体育类话题和社会正能量内容在榜单中占据了较高比例，显示了公众对体育和社会正能量的关注。国际政治类话题虽然热度较高，但无明显负面倾向。娱乐内容也吸引了大量关注，显示了公众对明星和娱乐活动的兴趣。",
+    "potential_risks": [
+      "关注泰柬边境冲突的后续发展",
+      "监控贵州榕江荒野求生活动被叫停的舆论反应",
+      "跟踪国防部回应日称战机被雷达照射的国际舆论"
+    ],
+    "trend_prediction": "未来24-48小时内，体育类和社会正能量话题的热度可能会持续，国际政治类话题的热度可能会有所波动，具体取决于事件的后续发展。",
+    "recommendations": [
+      "加强对国际政治类话题的监控",
+      "关注体育类话题的后续发展",
+      "跟踪社会正能量话题的公众反应"
+    ],
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 4
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 16,
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 4
+    }
+  }
+}

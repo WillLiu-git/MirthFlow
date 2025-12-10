@@ -1,0 +1,57 @@
+{
+  "keyword": "产品安全隐患",
+  "platform": "dy",
+  "items": [
+    {
+      "title": "产品安全隐患相关视频1",
+      "url": "https://www.douyin.com/video/1234567891",
+      "comments": [
+        {
+          "user": "用户1",
+          "text": "这个视频很有趣1",
+          "likes": 0,
+          "time": "2025-12-06"
+        }
+      ],
+      "platform": "dy",
+      "create_time": "2025-12-06",
+      "likes": 0,
+      "views": 0
+    },
+    {
+      "title": "产品安全隐患相关视频2",
+      "url": "https://www.douyin.com/video/1234567892",
+      "comments": [
+        {
+          "user": "用户2",
+          "text": "这个视频很有趣2",
+          "likes": 10,
+          "time": "2025-12-06"
+        }
+      ],
+      "platform": "dy",
+      "create_time": "2025-12-06",
+      "likes": 100,
+      "views": 1000
+    },
+    {
+      "title": "产品安全隐患相关视频3",
+      "url": "https://www.douyin.com/video/1234567893",
+      "comments": [
+        {
+          "user": "用户3",
+          "text": "这个视频很有趣3",
+          "likes": 20,
+          "time": "2025-12-06"
+        }
+      ],
+      "platform": "dy",
+      "create_time": "2025-12-06",
+      "likes": 200,
+      "views": 2000
+    }
+  ],
+  "total_items": 3,
+  "total_comments": 3,
+  "timestamp": "2025-12-06 12:37:09"
+}

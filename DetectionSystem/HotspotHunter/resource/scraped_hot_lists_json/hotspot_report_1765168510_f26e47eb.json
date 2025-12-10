@@ -1,0 +1,207 @@
+{
+  "summary": "本次热点榜主要涵盖了体育赛事、社会热点、娱乐内容和国际关系等多个领域。榜单中大部分内容为中性或正面话题，如体育比赛结果、娱乐新闻和社会正能量事件。少数话题涉及国际关系和争议事件，需要进一步关注其发展。\n本次热点榜主要涵盖了娱乐、社会新闻、科技和国际关系等多个领域。榜单中大部分话题为娱乐和日常生活相关内容，无明显负面舆情风险。少数话题涉及社会事件和国际关系，需要进一步观察。\n本次热点榜主要涉及国际访问、科技应用限制、体育赛事和文化评选等内容。榜单中未出现明显负面舆情风险，大多数话题为中性或正面内容。需要关注的是科技应用限制相关话题可能引发的行业竞争讨论。\n本次热点榜主要涉及国际政治、社会事件、体育赛事和文化娱乐等多个领域。国际政治话题占据主导地位，包括中美关系、中日关系等热点议题。整体来看，榜单中存在一些具有潜在争议性的国际政治话题，但大多数内容属于正常热点讨论范畴。",
+  "topics": [
+    {
+      "topic": "泰柬边境再发冲突",
+      "platform": "抖音",
+      "hotness": "810.5万",
+      "risk_level": 7,
+      "category": "国际冲突",
+      "reason": "标题明确提到泰柬边境发生冲突，涉及国际关系和安全问题，具有潜在的负面舆情风险。",
+      "further_investigate": true,
+      "title": "泰柬边境再发冲突"
+    },
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "783.4万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "话题涉及中日两国军事互动，可能引发争议或讨论，需要关注后续发展。",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "美防长不点名“警告”日本",
+      "platform": "抖音",
+      "hotness": "804.9万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "话题涉及美日关系，可能引发国际舆论关注，但负面倾向不明确。",
+      "further_investigate": true,
+      "title": "美防长不点名“警告”日本"
+    },
+    {
+      "topic": "洪秀柱警告日本别惹事",
+      "platform": "抖音",
+      "hotness": "779.5万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "话题涉及中日关系，可能引发争议或讨论，但负面倾向不明确。",
+      "further_investigate": true,
+      "title": "洪秀柱警告日本别惹事"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "773.6万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "活动被叫停可能引发公众质疑或讨论，但具体原因未提及，需要进一步观察。",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "44万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "话题涉及严重的刑事案件，可能引发公众恐慌和社会讨论。",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "警方通报44岁男子公园搂抱女童",
+      "platform": "微博",
+      "hotness": "20万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "话题涉及未成年人安全问题，可能引发公众关注和讨论。",
+      "further_investigate": true,
+      "title": "警方通报44岁男子公园搂抱女童"
+    },
+    {
+      "topic": "中学教师被指当学生面踩死流浪猫",
+      "platform": "微博",
+      "hotness": "13万",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "话题涉及动物保护和教师行为，可能引发公众争议。",
+      "further_investigate": true,
+      "title": "中学教师被指当学生面踩死流浪猫"
+    },
+    {
+      "topic": "美国没支持日本慌了",
+      "platform": "微博",
+      "hotness": "44万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "话题涉及国际关系，可能引发公众讨论和情绪波动。",
+      "further_investigate": true,
+      "title": "美国没支持日本慌了"
+    },
+    {
+      "topic": "美国家安全战略报告19次提中国",
+      "platform": "微博",
+      "hotness": "13万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "话题涉及中美关系，可能引发公众关注和讨论。",
+      "further_investigate": true,
+      "title": "美国家安全战略报告19次提中国"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "涉及多家APP对特定手机的限制，可能引发关于行业竞争和用户权益的讨论",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "涉及大型科技公司对特定设备的限制措施，可能引发市场垄断和用户选择的争议",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "涉及军事事件，可能引发国际关系和军事安全的讨论",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "特朗普长子：特朗普或退出乌和平进程",
+      "platform": "头条",
+      "hotness": "4144.6万",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "涉及国际政治敏感话题，可能引发对乌克兰局势的讨论和争议",
+      "further_investigate": true,
+      "title": "特朗普长子：特朗普或退出乌和平进程"
+    },
+    {
+      "topic": "中方不接受日方交涉已当场驳回",
+      "platform": "头条",
+      "hotness": "3393.3万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "涉及中日外交关系，可能引发民族情绪讨论",
+      "further_investigate": true,
+      "title": "中方不接受日方交涉已当场驳回"
+    },
+    {
+      "topic": "台湾当局被曝妄图与日军事勾连",
+      "platform": "头条",
+      "hotness": "1129.5万",
+      "risk_level": 7,
+      "category": "潜在风险",
+      "reason": "涉及台湾问题和中日关系，是高度敏感的政治话题",
+      "further_investigate": true,
+      "title": "台湾当局被曝妄图与日军事勾连"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 16,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜内容多样，涵盖了体育、娱乐、社会和国际关系等多个领域。榜单中大部分话题为中性或正面内容，少数涉及国际关系和争议事件。",
+    "content_summary": "侦察到的内容主要包括体育赛事（如湖人险胜76人、国乒战胜日本夺冠）、社会热点（如环卫爷爷把落叶扫成打卡点）、娱乐新闻（如刘亦菲阿布扎比观赛F1）和国际关系（如泰柬边境再发冲突、国防部回应日称战机被雷达照射）。",
+    "content_analysis": "热点趋势显示，体育和娱乐内容占据了榜单的大部分位置，社会正能量事件也受到广泛关注。国际关系类话题虽然数量不多，但热度较高，可能引发进一步讨论。情绪倾向方面，大部分话题为中性或正面，少数国际关系话题可能带有负面情绪。",
+    "potential_risks": [
+      "关注泰柬边境冲突的后续发展",
+      "监测国防部回应日称战机被雷达照射的舆论反应",
+      "观察贵州榕江荒野求生活动被叫停的具体原因和公众反应"
+    ],
+    "trend_prediction": "未来24-48小时内，体育和娱乐类话题可能继续保持热度，国际关系类话题可能引发更多讨论和关注。",
+    "recommendations": [
+      "加强对国际关系类话题的监测",
+      "关注社会热点事件的舆论反应",
+      "定期更新热点榜单，及时捕捉新出现的风险话题"
+    ],
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 3,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 16,
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 3,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  }
+}

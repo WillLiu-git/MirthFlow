@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ agent_name }} 详情</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+        /* 左侧报告区域 */
+        .report-section {
+            width: 40%;
+            background-color: white;
+            border-right: 1px solid #e0e0e0;
+            padding: 20px;
+            overflow-y: auto;
+            box-sizing: border-box;
+        }
+        /* 右侧日志区域 */
+        .logs-section {
+            width: 60%;
+            background-color: #f0f2f5;
+            padding: 20px;
+            overflow-y: auto;
+            box-sizing: border-box;
+        }
+        /* 标题样式 */
+        h1 {
+            margin-top: 0;
+            color: #2c3e50;
+            font-size: 24px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 18px;
+            color: #34495e;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+        /* 报告卡片样式 */
+        .report-card {
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        /* 报告详情样式 */
+        .report-detail {
+            margin-bottom: 15px;
+        }
+        .report-detail label {
+            font-weight: bold;
+            color: #555;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        .report-detail .value {
+            background-color: white;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+            line-height: 1.5;
+            word-wrap: break-word;
+        }
+        /* 风险等级样式 */
+        .risk-level {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .risk-level.high {
+            background-color: #ffebee;
+            color: #c62828;
+        }
+        .risk-level.medium {
+            background-color: #fff3e0;
+            color: #ef6c00;
+        }
+        .risk-level.low {
+            background-color: #e8f5e8;
+            color: #2e7d32;
+        }
+        /* 列表样式 */
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 4px;
+            border-left: 3px solid #3498db;
+            font-size: 14px;
+        }
+        /* 日志样式 */
+        .logs-list {
+            max-height: calc(100vh - 200px);
+            overflow-y: auto;
+            margin-top: 10px;
+        }
+        .log-entry {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 5px;
+            font-size: 12px;
+            line-height: 1.4;
+            color: #333;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+        .log-entry:nth-child(odd) {
+            background-color: #f8f9fa;
+        }
+        /* 不同日志级别的样式 */
+        .log-entry.error {
+            background-color: #ffebee;
+            border-left: 4px solid #e53935;
+            color: #c62828;
+        }
+        .log-entry.warning {
+            background-color: #fff3e0;
+            border-left: 4px solid #f57c00;
+            color: #ef6c00;
+        }
+        .log-entry.info {
+            background-color: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            color: #1565c0;
+        }
+        .log-entry.debug {
+            background-color: #e8f5e8;
+            border-left: 4px solid #4caf50;
+            color: #2e7d32;
+        }
+        /* 导航栏样式 */
+        .nav-bar {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .nav-bar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .nav-bar a:hover {
+            background-color: #34495e;
+        }
+        /* 按钮样式 */
+        .btn {
+            display: inline-block;
+            padding: 8px 16px;
+            margin: 5px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .btn-primary {
+            background-color: #3498db;
+            color: white;
+        }
+        .btn-primary:hover {
+            background-color: #2980b9;
+        }
+        .btn-danger {
+            background-color: #e74c3c;
+            color: white;
+        }
+        .btn-danger:hover {
+            background-color: #c0392b;
+        }
+        /* 响应式设计 */
+        @media (max-width: 1200px) {
+            .container {
+                flex-direction: column;
+                height: auto;
+            }
+            .report-section,
+            .logs-section {
+                width: 100%;
+                height: auto;
+                max-height: none;
+            }
+            .report-section {
+                border-right: none;
+                border-bottom: 1px solid #e0e0e0;
+                margin-bottom: 10px;
+            }
+            .logs-list {
+                max-height: calc(100vh - 400px);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 20px;
+            }
+            
+            h2 {
+                font-size: 18px;
+            }
+            
+            .report-section,
+            .logs-section {
+                padding: 15px;
+            }
+            
+            .nav-bar a {
+                display: inline-block;
+                margin: 5px;
+                padding: 8px 12px;
+                font-size: 14px;
+            }
+            
+            .log-entry {
+                font-size: 11px;
+                padding: 8px;
+            }
+            
+            .refresh-controls {
+                text-align: center;
+            }
+            
+            .btn {
+                display: inline-block;
+                margin: 5px 2px;
+                padding: 6px 12px;
+                font-size: 13px;
+            }
+            
+            .global-message {
+                top: 10px;
+                right: 10px;
+                left: 10px;
+                min-width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- 全局加载指示器 -->
+    <div id="global-loading" class="global-loading" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(255, 255, 255, 0.7); z-index: 9999; justify-content: center; align-items: center;">
+        <div class="spinner" style="width: 40px; height: 40px; border: 4px solid rgba(52, 152, 219, 0.3); border-radius: 50%; border-top-color: #3498db; animation: spin 1s ease-in-out infinite;"></div>
+    </div>
+    
+    <!-- 全局消息提示 -->
+    <div id="global-message" class="global-message" style="display: none; position: fixed; top: 20px; right: 20px; padding: 15px 20px; border-radius: 4px; z-index: 10000; min-width: 300px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;">
+        <span id="message-text"></span>
+        <button id="close-message" style="background: none; border: none; font-size: 18px; cursor: pointer; position: absolute; right: 10px; top: 50%; transform: translateY(-50%); color: inherit;">&times;</button>
+    </div>
+    
+    <!-- 导航栏 -->
+    <div class="nav-bar">
+        <a href="/">返回首页</a>
+        <a href="/alerts">查看预警</a>
+        <a href="/system_logs">系统日志</a>
+    </div>
+
+    <div class="container">
+        <!-- 左侧报告区域 -->
+        <div class="report-section">
+            <h1>{{ agent_name }} 报告</h1>
+            
+            <div class="report-card">
+                <div class="report-detail">
+                    <label>报告时间</label>
+                    <div class="value">{{ datetime.fromtimestamp(report.generated_time).strftime('%Y-%m-%d %H:%M:%S') if 'generated_time' in report else '暂无数据' }}</div>
+                </div>
+                
+                <div class="report-detail">
+                    <label>预警级别</label>
+                    <div class="value">
+                        <span class="risk-level {{ 'high' if report.alert_level == '紧急' else 'medium' if report.alert_level == '重要' else 'low' }}">{{ report.alert_level if 'alert_level' in report else '信息' }}</span>
+                    </div>
+                </div>
+                
+                <div class="report-detail">
+                    <label>风险等级</label>
+                    <div class="value">
+                        <span class="risk-level {{ 'high' if report.risk_level == '高' or report.risk_level == '极高' else 'medium' if report.risk_level == '中' else 'low' }}">{{ report.risk_level if 'risk_level' in report else '低' }}</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="report-card">
+                <div class="report-detail">
+                    <label>报告摘要</label>
+                    <div class="value">{{ report.summary if 'summary' in report else '暂无摘要' }}</div>
+                </div>
+            </div>
+            
+            {% if 'risk_factors' in report and report.risk_factors %}
+            <div class="report-card">
+                <h2>风险因素</h2>
+                <ul>
+                    {% for factor in report.risk_factors %}
+                    <li>{{ factor }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+            
+            {% if 'recommendations' in report and report.recommendations %}
+            <div class="report-card">
+                <h2>建议措施</h2>
+                <ul>
+                    {% for recommendation in report.recommendations %}
+                    <li>{{ recommendation }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+            
+            {% if 'risk_items' in report and report.risk_items %}
+            <div class="report-card">
+                <h2>风险项目</h2>
+                <ul>
+                    {% for item in report.risk_items[:5] %} <!-- 只显示前5个 -->
+                    <li>{{ item.title }} - {{ item.level }}风险: {{ item.reason }}</li>
+                    {% endfor %}
+                    {% if report.risk_items|length > 5 %}
+                    <li>... 还有 {{ report.risk_items|length - 5 }} 个风险项目</li>
+                    {% endif %}
+                </ul>
+            </div>
+            {% endif %}
+            
+            {% if 'key_findings' in report and report.key_findings %}
+            <div class="report-card">
+                <h2>关键发现</h2>
+                <ul>
+                    {% for finding in report.key_findings[:5] %} <!-- 只显示前5个 -->
+                    <li>{{ finding }}</li>
+                    {% endfor %}
+                    {% if report.key_findings|length > 5 %}
+                    <li>... 还有 {{ report.key_findings|length - 5 }} 个关键发现</li>
+                    {% endif %}
+                </ul>
+            </div>
+            {% endif %}
+        </div>
+        
+        <!-- 右侧日志区域 -->
+        <div class="logs-section">
+            <h1>{{ agent_name }} 日志</h1>
+            
+            {% if logs %}
+                {% for log in logs %}
+                    <div class="log-entry">{{ log }}</div>
+                {% endfor %}
+            {% else %}
+                <div class="log-entry">暂无日志记录</div>
+            {% endif %}
+        </div>
+    </div>
+
+    <script>
+        // 日志自动刷新功能
+        let autoRefreshInterval = null;
+        let isAutoRefreshEnabled = true;
+        
+        // 刷新日志
+        function refreshLogs() {
+            // 显示手动刷新按钮的加载状态
+            const manualRefreshLoading = document.getElementById('manual-refresh-loading');
+            if (manualRefreshLoading) {
+                manualRefreshLoading.style.display = 'flex';
+            }
+            
+            fetch(`/api/logs/{{ agent_name }}`)
+                .then(response => response.json())
+                .then(data => {
+                    const logsContainer = document.querySelector('.logs-section');
+                    const logsList = logsContainer.querySelector('.logs-list') || createLogsList();
+                    
+                    // 清空现有日志
+                    logsList.innerHTML = '';
+                    
+                    // 添加新日志
+                    data.logs.forEach(log => {
+                        const logEntry = document.createElement('div');
+                        
+                        // 分析日志级别
+                        const logLevel = getLogLevel(log);
+                        
+                        // 设置日志条目样式类
+                        logEntry.className = `log-entry ${logLevel}`;
+                        logEntry.textContent = log;
+                        logsList.appendChild(logEntry);
+                    });
+                    
+                    // 滚动到底部
+                    logsList.scrollTop = logsList.scrollHeight;
+                    
+                    // 显示成功消息
+                    showMessage('日志已刷新', 'success');
+                })
+                .catch(error => {
+                    console.error('刷新日志失败:', error);
+                    showMessage('刷新日志失败', 'error');
+                })
+                .finally(() => {
+                    // 隐藏加载状态
+                    const manualRefreshLoading = document.getElementById('manual-refresh-loading');
+                    if (manualRefreshLoading) {
+                        manualRefreshLoading.style.display = 'none';
+                    }
+                });
+        }
+        
+        // 创建日志列表容器
+        function createLogsList() {
+            const logsContainer = document.querySelector('.logs-section');
+            const existingLogs = logsContainer.querySelectorAll('.log-entry');
+            
+            // 创建新的日志列表容器
+            const logsList = document.createElement('div');
+            logsList.className = 'logs-list';
+            
+            // 将现有日志移动到新容器
+            existingLogs.forEach(logEntry => {
+                logsList.appendChild(logEntry);
+            });
+            
+            // 添加刷新控制按钮
+            const refreshControls = document.createElement('div');
+            refreshControls.className = 'refresh-controls';
+            refreshControls.innerHTML = `
+                <div style="margin-bottom: 10px; position: relative; display: inline-block;">
+                    <button id="toggle-refresh" class="btn btn-primary">停止自动刷新</button>
+                    <div id="toggle-refresh-loading" class="loading-indicator" style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(255, 255, 255, 0.7); border-radius: 4px; display: flex; justify-content: center; align-items: center; z-index: 10;">
+                        <div class="spinner" style="width: 20px; height: 20px; border: 3px solid rgba(52, 152, 219, 0.3); border-radius: 50%; border-top-color: #3498db; animation: spin 1s ease-in-out infinite;"></div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px; position: relative; display: inline-block;">
+                    <button id="manual-refresh" class="btn btn-primary">手动刷新</button>
+                    <div id="manual-refresh-loading" class="loading-indicator" style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(255, 255, 255, 0.7); border-radius: 4px; display: flex; justify-content: center; align-items: center; z-index: 10;">
+                        <div class="spinner" style="width: 20px; height: 20px; border: 3px solid rgba(52, 152, 219, 0.3); border-radius: 50%; border-top-color: #3498db; animation: spin 1s ease-in-out infinite;"></div>
+                    </div>
+                </div>
+            `;
+            
+            // 插入到日志容器中
+            logsContainer.insertBefore(refreshControls, logsContainer.firstChild.nextSibling);
+            logsContainer.insertBefore(logsList, refreshControls.nextSibling);
+            
+            // 添加按钮事件监听
+            document.getElementById('toggle-refresh').addEventListener('click', toggleAutoRefresh);
+            document.getElementById('manual-refresh').addEventListener('click', refreshLogs);
+            
+            return logsList;
+        }
+        
+        // 切换自动刷新状态
+        function toggleAutoRefresh() {
+            const toggleButton = document.getElementById('toggle-refresh');
+            isAutoRefreshEnabled = !isAutoRefreshEnabled;
+            
+            if (isAutoRefreshEnabled) {
+                toggleButton.textContent = '停止自动刷新';
+                startAutoRefresh();
+            } else {
+                toggleButton.textContent = '开始自动刷新';
+                stopAutoRefresh();
+            }
+        }
+        
+        // 开始自动刷新
+        function startAutoRefresh() {
+            if (!autoRefreshInterval) {
+                autoRefreshInterval = setInterval(refreshLogs, 5000); // 每5秒刷新一次
+            }
+        }
+        
+        // 停止自动刷新
+        function stopAutoRefresh() {
+            if (autoRefreshInterval) {
+                clearInterval(autoRefreshInterval);
+                autoRefreshInterval = null;
+            }
+        }
+        
+        // 显示全局消息
+        function showMessage(message, type = 'info') {
+            const messageElement = document.getElementById('global-message');
+            const messageText = document.getElementById('message-text');
+            
+            // 设置消息文本和样式
+            messageText.textContent = message;
+            
+            // 根据类型设置样式
+            if (type === 'success') {
+                messageElement.style.backgroundColor = '#d4edda';
+                messageElement.style.color = '#155724';
+                messageElement.style.border = '1px solid #c3e6cb';
+            } else if (type === 'error') {
+                messageElement.style.backgroundColor = '#f8d7da';
+                messageElement.style.color = '#721c24';
+                messageElement.style.border = '1px solid #f5c6cb';
+            } else if (type === 'warning') {
+                messageElement.style.backgroundColor = '#fff3cd';
+                messageElement.style.color = '#856404';
+                messageElement.style.border = '1px solid #ffeeba';
+            } else {
+                messageElement.style.backgroundColor = '#d1ecf1';
+                messageElement.style.color = '#0c5460';
+                messageElement.style.border = '1px solid #bee5eb';
+            }
+            
+            // 显示消息
+            messageElement.style.display = 'block';
+            
+            // 3秒后自动隐藏
+            setTimeout(hideMessage, 3000);
+        }
+        
+        // 获取日志级别
+        function getLogLevel(log) {
+            const logLower = log.toLowerCase();
+            if (logLower.includes('error') || logLower.includes('错误') || logLower.includes('fail')) {
+                return 'error';
+            } else if (logLower.includes('warning') || logLower.includes('警告') || logLower.includes('warn')) {
+                return 'warning';
+            } else if (logLower.includes('info') || logLower.includes('信息') || logLower.includes('success')) {
+                return 'info';
+            } else if (logLower.includes('debug') || logLower.includes('调试')) {
+                return 'debug';
+            } else {
+                return 'default';
+            }
+        }
+        
+        // 隐藏全局消息
+        function hideMessage() {
+            const messageElement = document.getElementById('global-message');
+            messageElement.style.display = 'none';
+        }
+        
+        // 初始化
+        createLogsList();
+        startAutoRefresh();
+        
+        // 添加消息关闭按钮事件
+        const closeMessageBtn = document.getElementById('close-message');
+        if (closeMessageBtn) {
+            closeMessageBtn.addEventListener('click', hideMessage);
+        }
+    </script>
+</body>
+</html>

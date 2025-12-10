@@ -1,0 +1,97 @@
+{
+  "summary": "本次热点榜涵盖了娱乐、时事、国际关系、体育等多个领域，其中多个话题涉及国际关系和国内时事，具有一定的舆情风险。娱乐类话题占据较大比例，但部分时事和国际关系话题可能引发争议或敏感讨论。整体来看，榜单内容多样，热度分布均匀，但需关注部分敏感话题的潜在风险。",
+  "topics": [
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "852.2万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及中日军事关系，可能引发民族情绪和国际舆论争议。",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "日飞机多次抵近滋扰我海军训练",
+      "platform": "抖音",
+      "hotness": "779.8万",
+      "risk_level": 8,
+      "category": "国际关系",
+      "reason": "涉及中日军事摩擦，可能引发公众情绪波动和国际舆论关注。",
+      "further_investigate": true,
+      "title": "日飞机多次抵近滋扰我海军训练"
+    },
+    {
+      "topic": "俄对乌发动大规模袭击",
+      "platform": "抖音",
+      "hotness": "766.9万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及俄乌冲突，可能引发国际舆论关注和国内公众讨论。",
+      "further_investigate": true,
+      "title": "俄对乌发动大规模袭击"
+    },
+    {
+      "topic": "美国将调整与中国经济关系",
+      "platform": "抖音",
+      "hotness": "780.3万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "涉及中美经济关系，可能引发公众对经济前景的担忧和讨论。",
+      "further_investigate": true,
+      "title": "美国将调整与中国经济关系"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "789.8万",
+      "risk_level": 4,
+      "category": "社会安全",
+      "reason": "涉及活动安全问题，可能引发公众对活动组织和管理的不满。",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    }
+  ],
+  "report_count": 2,
+  "total_risk_items": 5,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜内容多样，娱乐类话题占据较大比例，但时事和国际关系话题也较为突出。热度分布均匀，多个话题涉及敏感领域，需密切关注。",
+    "content_summary": "侦察到的话题包括娱乐、时事、国际关系、体育等多个领域。娱乐类话题如抖音短视频、明星动态等占据较大比例，时事和国际关系话题如国防部回应、俄乌冲突等也较为突出。",
+    "content_analysis": "娱乐类话题热度较高，但时事和国际关系话题可能引发更广泛的讨论和争议。部分话题涉及敏感领域，如中日军事关系、中美经济关系等，需密切关注舆情发展。",
+    "potential_risks": [
+      "中日军事关系话题可能引发民族情绪和国际舆论争议。",
+      "俄乌冲突话题可能引发公众对国际局势的关注和讨论。",
+      "贵州榕江荒野求生活动被叫停可能引发公众对活动安全和管理的不满。"
+    ],
+    "trend_prediction": "未来24-48小时内，娱乐类话题可能继续保持高热度，但时事和国际关系话题的讨论可能进一步升温，尤其是涉及敏感领域的话题。",
+    "recommendations": [
+      "密切关注中日军事关系话题的舆情发展，及时回应公众关切。",
+      "加强对俄乌冲突话题的舆论引导，避免不实信息传播。",
+      "对贵州榕江荒野求生活动被叫停的原因进行透明化解释，缓解公众疑虑。"
+    ],
+    "risk_overview": {
+      "high_risk_count": 3,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 5,
+    "risk_overview": {
+      "high_risk_count": 3,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "summary": "本次热点榜主要包含娱乐、社会、体育和国际关系等多个领域的内容。大部分话题为普通热点，无明显负面舆情风险。少数涉及国际关系和公共安全的话题需要进一步观察。\n本次热点榜涵盖了体育、娱乐、社会新闻等多个领域的热点话题。其中，体育类话题如张本美和与王曼昱的比赛、湖人战胜76人等热度较高；娱乐类话题如易烊千玺代言、星光大赏名单等也受到广泛关注。社会新闻中，网警查处网络谣言案、1818名双高人员被查等话题具有一定的负面舆情风险。\n本次热点榜主要涉及国际访问、体育赛事、科技应用和国际关系等多个领域。榜单中未出现明显的高风险话题，大部分内容为中性或正面报道。需要关注的是关于APP禁用和美军击落战机的消息，可能存在一定的争议性。\n本次热点榜主要涉及国际关系、社会事件、体育赛事和娱乐新闻等多个领域。其中，中日关系相关话题热度较高，体育赛事如国乒夺冠也受到广泛关注。整体来看，榜单中无明显高风险话题，但部分国际关系和社会事件话题需要进一步观察。",
+  "topics": [
+    {
+      "topic": "松原辟谣一只松鼠致半城停电",
+      "platform": "抖音",
+      "hotness": "851.7万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "话题涉及公共设施停电，可能引发公众对基础设施安全的关注和讨论",
+      "further_investigate": true,
+      "title": "松原辟谣一只松鼠致半城停电"
+    },
+    {
+      "topic": "美防长不点名“警告”日本",
+      "platform": "抖音",
+      "hotness": "782.1万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "涉及美日关系，可能引发国际政治讨论",
+      "further_investigate": true,
+      "title": "美防长不点名“警告”日本"
+    },
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "780.1万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及中日军事关系，可能引发外交争议",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "洪秀柱警告日本别惹事",
+      "platform": "抖音",
+      "hotness": "773.2万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "涉及两岸关系和日本的关系，可能引发政治讨论",
+      "further_investigate": true,
+      "title": "洪秀柱警告日本别惹事"
+    },
+    {
+      "topic": "美国将调整与中国经济关系",
+      "platform": "抖音",
+      "hotness": "772.8万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及中美经济关系调整，可能引发经济和政治讨论",
+      "further_investigate": true,
+      "title": "美国将调整与中国经济关系"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "771.5万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "活动被叫停可能引发对活动安全和管理的讨论",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "网警查处编造汽车造成8杀网络谣言案",
+      "platform": "微博",
+      "hotness": "25万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及网络谣言，可能引发公众对网络安全的担忧和对谣言传播的讨论",
+      "further_investigate": true,
+      "title": "网警查处编造汽车造成8杀网络谣言案"
+    },
+    {
+      "topic": "1818名包括明星网红在内双高人员被查",
+      "platform": "微博",
+      "hotness": "24万",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "涉及明星网红等高关注度人群，可能引发公众对相关人员的质疑和讨论",
+      "further_investigate": true,
+      "title": "1818名包括明星网红在内双高人员被查"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "20万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "涉及婴儿残尸的极端负面事件，可能引发公众的强烈情绪和讨论",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "警方通报44岁男子公园搂抱女童",
+      "platform": "微博",
+      "hotness": "20万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及儿童安全的负面事件，可能引发公众对儿童保护的关注和讨论",
+      "further_investigate": true,
+      "title": "警方通报44岁男子公园搂抱女童"
+    },
+    {
+      "topic": "女子遭75岁丈夫殴打村民发声",
+      "platform": "微博",
+      "hotness": "14万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "涉及家庭暴力的负面事件，可能引发公众对家庭暴力问题的讨论",
+      "further_investigate": true,
+      "title": "女子遭75岁丈夫殴打村民发声"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "标题提到多家APP对豆包手机禁用，可能涉及商业竞争或用户权益问题，存在一定的争议性。",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "标题提到阿里系APP禁止豆包手机登陆，可能涉及商业竞争或用户权益问题，存在一定的争议性。",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "标题提到美军承认击落美军战机，可能涉及军事失误或内部问题，存在一定的负面倾向。",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "中方不接受日方交涉已当场驳回",
+      "platform": "头条",
+      "hotness": "4002.1万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及中日外交交涉，可能引发国际舆论关注和讨论",
+      "further_investigate": true,
+      "title": "中方不接受日方交涉已当场驳回"
+    },
+    {
+      "topic": "牛弹琴：要警惕日本三方面动作",
+      "platform": "头条",
+      "hotness": "2196.4万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "涉及中日关系，可能引发争议和讨论",
+      "further_investigate": true,
+      "title": "牛弹琴：要警惕日本三方面动作"
+    },
+    {
+      "topic": "人贩子扬言出狱报复能否加刑",
+      "platform": "头条",
+      "hotness": "541.6万",
+      "risk_level": 4,
+      "category": "社会安全",
+      "reason": "涉及犯罪分子的威胁言论，可能引发公众不安",
+      "further_investigate": true,
+      "title": "人贩子扬言出狱报复能否加刑"
+    },
+    {
+      "topic": "孩子被褥印不雅英文字母",
+      "platform": "头条",
+      "hotness": "363.1万",
+      "risk_level": 3,
+      "category": "社会事件",
+      "reason": "涉及儿童用品的不雅内容，可能引发家长和公众关注",
+      "further_investigate": true,
+      "title": "孩子被褥印不雅英文字母"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 18,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜内容多样，涵盖娱乐、社会、体育和国际关系等多个领域。娱乐和社会类话题占据主导，国际关系类话题热度较高但数量较少。",
+    "content_summary": "侦察到的主要内容包括：娱乐热点如'环卫爷爷把落叶扫成打卡点了'、'糖葫芦树我先爬为敬'；体育新闻如'国乒战胜日本夺冠'；国际关系话题如'国防部回应日称战机被雷达照射'、'美国将调整与中国经济关系'。",
+    "content_analysis": "娱乐和社会类话题整体情绪正面，热度较高。国际关系类话题虽然数量不多，但热度较高，可能引发更多讨论。体育类话题情绪积极，无明显争议。",
+    "potential_risks": [
+      "国际关系类话题可能引发更多政治讨论",
+      "公共设施相关话题可能引发对基础设施安全的关注",
+      "活动被叫停可能引发对活动安全和管理的讨论"
+    ],
+    "trend_prediction": "未来24-48小时内，娱乐和社会类话题可能继续保持高热度。国际关系类话题可能引发更多讨论，热度可能上升。",
+    "recommendations": [
+      "密切关注国际关系类话题的发展",
+      "关注公共设施相关话题的公众反应",
+      "监控活动被叫停后的舆论走向"
+    ],
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 4,
+      "low_risk_count": 0,
+      "total_count": 6
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 18,
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 4,
+      "low_risk_count": 0,
+      "total_count": 6
+    }
+  }
+}

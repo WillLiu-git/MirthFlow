@@ -1,0 +1,226 @@
+{
+  "summary": "从爬取数据中提取到风险项目\n从爬取数据中提取到风险项目",
+  "topics": [
+    {
+      "title": "俄罗斯 盗版疯狂动物城上映",
+      "platform": "未知",
+      "hotness": "63万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "尔滨雪人先生即将上线",
+      "platform": "未知",
+      "hotness": "58万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "人人都是中国智驾合伙人",
+      "platform": "未知",
+      "hotness": "56万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "朱孝天回应缺席F4演唱会",
+      "platform": "未知",
+      "hotness": "53万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "税务师成绩",
+      "platform": "未知",
+      "hotness": "25万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "星光大赏阵容官宣",
+      "platform": "未知",
+      "hotness": "24万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "2025动漫嘉年华",
+      "platform": "未知",
+      "hotness": "24万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "商家故意不打包让骑手干等",
+      "platform": "未知",
+      "hotness": "24万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "中央政治局12月8日召开会议",
+      "platform": "未知",
+      "hotness": "20万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "梁靖崑家里人多拿走王楚钦的熊猫",
+      "platform": "未知",
+      "hotness": "20万",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "多家APP对豆包手机禁用",
+      "platform": "未知",
+      "hotness": "0",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "美军承认:击落美军战机",
+      "platform": "未知",
+      "hotness": "0",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "坏死的肢体必须截掉吗",
+      "platform": "未知",
+      "hotness": "0",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "阿里系APP禁止豆包手机登陆",
+      "platform": "未知",
+      "hotness": "0",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "中法发表多份联合声明",
+      "platform": "未知",
+      "hotness": "0",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "马克龙访问四川大学",
+      "platform": "未知",
+      "hotness": "0",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "99 年研究员任博导晋升速度引关注",
+      "platform": "未知",
+      "hotness": "0",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "全网最忙五人组",
+      "platform": "未知",
+      "hotness": "0",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "陈震宣布全面停更，团队保留",
+      "platform": "未知",
+      "hotness": "0",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    },
+    {
+      "title": "维生素 C 真的能降低感冒概率吗",
+      "platform": "未知",
+      "hotness": "0",
+      "risk_level": 3,
+      "category": "未分类",
+      "reason": "LLM分析失败，从爬取数据中提取",
+      "further_investigate": true
+    }
+  ],
+  "report_count": 2,
+  "total_risk_items": 20,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "LLM分析失败，从爬取数据中提取风险项目",
+    "content_summary": "从爬取数据中提取了 10 个风险项目",
+    "content_analysis": "LLM分析失败，无法进行深入分析",
+    "potential_risks": [
+      "LLM分析失败，从爬取数据中提取风险",
+      "建议检查LLM配置"
+    ],
+    "trend_prediction": "无法预测",
+    "recommendations": [
+      "建议检查LLM配置",
+      "确保API密钥有效",
+      "检查网络连接"
+    ],
+    "risk_overview": {
+      "high_risk_count": 0,
+      "medium_risk_count": 10,
+      "low_risk_count": 0,
+      "total_count": 10
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 20,
+    "risk_overview": {
+      "high_risk_count": 0,
+      "medium_risk_count": 10,
+      "low_risk_count": 0,
+      "total_count": 10
+    }
+  }
+}

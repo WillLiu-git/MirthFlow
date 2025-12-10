@@ -83,6 +83,12 @@ class LLMClient:
 
         timeout = kwargs.pop("timeout", self.timeout)
 
+        # 记录LLM请求详细信息
+        logger.info(f"[LLM Request] 调用模型: {self.model_name}")
+        logger.info(f"[LLM Request] 系统提示词长度: {len(system_prompt)} 字符")
+        logger.info(f"[LLM Request] 用户提示词长度: {len(user_prompt)} 字符")
+        logger.info(f"[LLM Request] 参数: temperature={extra_params.get('temperature', 'default')}, json_mode={json_mode}")
+
         response = self.client.chat.completions.create(
             model=self.model_name,
             messages=messages,
@@ -93,10 +99,14 @@ class LLMClient:
         # OpenAI SDK: response.choices[0].message.content
         try:
             raw_content = response.choices[0].message.content
-        except Exception:
+            logger.info(f"[LLM Response] 成功获取响应，长度: {len(raw_content)} 字符")
+            logger.info(f"[LLM Response] 完整响应内容: {raw_content}")
+        except Exception as e:
+            logger.error(f"[LLM Response] 获取响应失败: {str(e)}")
             raw_content = response
 
-        return self.parse_model_response(raw_content)
+        parsed_content = self.parse_model_response(raw_content)
+        return parsed_content
 
     # ----------------------- 🔥 流式调用 -----------------------
     def stream_invoke(self, system_prompt: str, user_prompt: str, **kwargs) -> Generator[str, None, None]:

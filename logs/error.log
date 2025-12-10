@@ -1,0 +1,391 @@
+2025-12-08 15:48:50,171 - SystemManager - ERROR - 初始化HotspotHunter组件失败: 'utf-8' codec can't decode bytes in position 164299-164300: invalid continuation byte
+2025-12-08 15:48:59,294 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:05,877 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:08,672 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:13,827 - RiskAnalyzer - ERROR - LLM分析过程出错: '\n    "risk_summary"'
+2025-12-08 15:49:15,291 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:15,345 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:15,400 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:15,480 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:15,542 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:16,100 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:16,482 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:16,630 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:16,751 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:17,085 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:17,125 - RiskAnalyzer - ERROR - LLM分析过程出错: '\n    "risk_summary"'
+2025-12-08 15:49:18,571 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,673 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,737 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,818 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,917 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,981 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:19,055 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:19,397 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:19,451 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:58:46,042 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:58:47,630 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:58:48,950 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:58:52,920 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:58:55,698 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:58:55,714 - SystemManager - ERROR - HotspotHunter扫描失败: [Errno 22] Invalid argument
+2025-12-08 15:58:55,730 - SystemManager - ERROR - HotspotHunter线程异常: [Errno 22] Invalid argument
+2025-12-08 15:59:42,348 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:42,005 - RiskAnalyzer - ERROR - LLM分析过程出错: '\n    "risk_summary"'
+2025-12-08 16:00:43,576 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:43,623 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:43,720 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,092 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,160 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,214 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,275 - VideosCommentsSpotter.agent - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,323 - VideosCommentsSpotter.agent - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,368 - VideosCommentsSpotter.agent - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:01:34,705 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:01:48,961 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:02:14,736 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:02:26,950 - HotspotHunter - ERROR - LLM分析失败，尝试从爬取数据中提取风险项目: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:02:26,981 - SystemManager - ERROR - HotspotHunter扫描失败: [Errno 22] Invalid argument
+2025-12-08 16:02:26,986 - SystemManager - ERROR - HotspotHunter线程异常: [Errno 22] Invalid argument

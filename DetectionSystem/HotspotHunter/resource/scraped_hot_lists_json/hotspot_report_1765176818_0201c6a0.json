@@ -1,0 +1,217 @@
+{
+  "summary": "本次热点榜主要涵盖了娱乐、体育、国际关系和日常生活等多个领域的内容。大部分热点为娱乐和体育相关，如抖音上的热门挑战、体育赛事结果等。国际关系方面有泰柬边境冲突、美防长警告日本等话题，但整体负面舆情风险较低。\n本次热点榜以娱乐、社会新闻和体育赛事为主，其中娱乐话题占据较大比例，如星光大赏阵容官宣、尔滨雪人先生即将上线等。同时，也存在一些社会新闻和国际事件，如泰国对柬埔寨发动空袭、日军被爆引导美军轰炸平民等。整体来看，大部分话题为普通热点，但少数话题涉及负面事件和国际冲突，需要特别关注。\n本次热点榜主要涉及科技、国际关系、体育和娱乐等多个领域。榜单中出现了多个关于APP禁用和手机涨价的话题，显示出科技领域的关注度较高。国际关系方面，中法联合声明和马克龙访问四川大学成为热点。整体来看，榜单中没有明显的负面舆情风险话题。\n本次热点榜涵盖了社会事件、经济政策、娱乐新闻等多个领域。其中涉及公务员考试、明星网红被查、新能源车起火等话题，部分内容具有潜在争议性。整体热度分布较为均匀，排名前几位的话题热度均超过2000万。",
+  "topics": [
+    {
+      "topic": "泰柬边境再发冲突",
+      "platform": "抖音",
+      "hotness": "835.8万",
+      "risk_level": 6,
+      "category": "群体冲突",
+      "reason": "标题明确提到边境冲突，可能涉及两国关系紧张，存在潜在的国际关系风险",
+      "further_investigate": true,
+      "title": "泰柬边境再发冲突"
+    },
+    {
+      "topic": "美防长不点名“警告”日本",
+      "platform": "抖音",
+      "hotness": "784.1万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "涉及美日关系，标题中的'警告'一词表明可能存在外交紧张",
+      "further_investigate": true,
+      "title": "美防长不点名“警告”日本"
+    },
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "780.8万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "涉及中日军事关系，标题中的'雷达照射'可能引发外交争议",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "774.4万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "活动被叫停可能引发公众对安全或管理问题的讨论",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "泰国对柬埔寨发动空袭",
+      "platform": "微博",
+      "hotness": "65万",
+      "risk_level": 8,
+      "category": "国际冲突",
+      "reason": "涉及国家间的军事冲突，可能引发国际舆论关注和争议",
+      "further_investigate": true,
+      "title": "泰国对柬埔寨发动空袭"
+    },
+    {
+      "topic": "日军被爆引导美军轰炸平民",
+      "platform": "微博",
+      "hotness": "65万",
+      "risk_level": 9,
+      "category": "历史争议",
+      "reason": "涉及历史敏感事件，可能引发民族情绪和国际舆论争议",
+      "further_investigate": true,
+      "title": "日军被爆引导美军轰炸平民"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "43万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及恶性犯罪事件，可能引发社会恐慌和国际舆论关注",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "日本婴儿残尸有刀具切割痕迹",
+      "platform": "微博",
+      "hotness": "30万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及恶性犯罪事件，可能引发社会恐慌和国际舆论关注",
+      "further_investigate": true,
+      "title": "日本婴儿残尸有刀具切割痕迹"
+    },
+    {
+      "topic": "郭德纲相声被举报内容低俗",
+      "platform": "微博",
+      "hotness": "47万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及公众人物和内容审查，可能引发舆论争议",
+      "further_investigate": true,
+      "title": "郭德纲相声被举报内容低俗"
+    },
+    {
+      "topic": "3人疑在鄱阳湖湿地投毒被抓",
+      "platform": "微博",
+      "hotness": "11万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "涉及环境破坏和公共安全，可能引发社会关注",
+      "further_investigate": true,
+      "title": "3人疑在鄱阳湖湿地投毒被抓"
+    },
+    {
+      "topic": "任前公示中县委副书记年龄打架",
+      "platform": "微博",
+      "hotness": "11万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "涉及政府官员信息公开问题，可能引发公众质疑",
+      "further_investigate": true,
+      "title": "任前公示中县委副书记年龄打架"
+    },
+    {
+      "topic": "商家故意不打包让骑手干等",
+      "platform": "微博",
+      "hotness": "11万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "涉及服务行业纠纷，可能引发公众讨论",
+      "further_investigate": true,
+      "title": "商家故意不打包让骑手干等"
+    },
+    {
+      "topic": "父亲工资打孩子账户致儿子无法考公",
+      "platform": "头条",
+      "hotness": "3176.8万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "话题涉及公务员考试资格问题，可能引发公众对政策公平性的讨论",
+      "further_investigate": true,
+      "title": "父亲工资打孩子账户致儿子无法考公"
+    },
+    {
+      "topic": "1818名包括明星网红在内双高人员被查",
+      "platform": "头条",
+      "hotness": "2874.5万",
+      "risk_level": 7,
+      "category": "舆论争议",
+      "reason": "涉及大量公众人物被调查，可能引发舆论关注和讨论",
+      "further_investigate": true,
+      "title": "1818名包括明星网红在内双高人员被查"
+    },
+    {
+      "topic": "安徽一新能源车突然起火伴有爆炸声",
+      "platform": "头条",
+      "hotness": "1743.5万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "新能源车安全问题可能引发公众对产品安全的担忧",
+      "further_investigate": true,
+      "title": "安徽一新能源车突然起火伴有爆炸声"
+    },
+    {
+      "topic": "护士患癌请病假遭拒？卫健委介入调查",
+      "platform": "头条",
+      "hotness": "580.4万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "涉及医疗行业劳动权益问题，可能引发公众讨论",
+      "further_investigate": true,
+      "title": "护士患癌请病假遭拒？卫健委介入调查"
+    },
+    {
+      "topic": "4500万养牛场立项两年多未见一头牛",
+      "platform": "头条",
+      "hotness": "260.8万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "涉及项目资金使用问题，可能引发公众质疑",
+      "further_investigate": true,
+      "title": "4500万养牛场立项两年多未见一头牛"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 17,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜以娱乐和体育内容为主，国际关系话题占比不高但热度不低。整体舆情风险较低，主要集中在少数国际关系话题上。",
+    "content_summary": "侦察到的主要内容包括抖音热门挑战（如糖葫芦树、爆米花等）、体育赛事结果（湖人险胜76人、国乒战胜日本等）、国际关系（泰柬冲突、美日关系等）以及娱乐明星动态。",
+    "content_analysis": "娱乐和体育内容占据了热点榜的大部分位置，显示出用户对这些领域的持续关注。国际关系话题虽然数量不多，但热度较高，需要关注其发展。整体情绪倾向中性偏正面。",
+    "potential_risks": [
+      "泰柬边境冲突可能升级",
+      "美日关系相关话题可能引发讨论",
+      "被叫停的活动可能引发后续讨论"
+    ],
+    "trend_prediction": "未来24-48小时内，娱乐和体育内容可能继续保持热度，国际关系话题需要关注是否有新进展。",
+    "recommendations": [
+      "持续监控泰柬边境冲突相关话题",
+      "关注美日关系相关讨论的发展",
+      "留意被叫停活动的后续报道"
+    ],
+    "risk_overview": {
+      "high_risk_count": 1,
+      "medium_risk_count": 3,
+      "low_risk_count": 0,
+      "total_count": 4
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 17,
+    "risk_overview": {
+      "high_risk_count": 1,
+      "medium_risk_count": 3,
+      "low_risk_count": 0,
+      "total_count": 4
+    }
+  }
+}

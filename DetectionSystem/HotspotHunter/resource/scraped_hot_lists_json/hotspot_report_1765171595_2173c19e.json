@@ -1,0 +1,237 @@
+{
+  "summary": "本次热点榜以娱乐、体育和生活类话题为主，整体舆情较为正面。榜单中出现了少量涉及国际关系和国内政策的话题，但无明显负面倾向。大部分热点集中在抖音平台，热度普遍较高，但未发现明显的负面舆情风险。\n本次热点榜涵盖了多个领域的热点话题，包括社会事件、娱乐新闻、科技动态等。其中，日军被爆引导美军轰炸平民和日本一成人商店惊现婴儿残尸等话题具有较高的负面舆情风险。整体来看，榜单中大部分内容为娱乐和日常生活相关，风险话题占比较小。\n本次热点榜主要涉及国际访问、科技应用限制、气候感受、企业动态和国际军事事件等多个领域。榜单中没有出现明显的负面舆情风险话题，大多数内容为中性或正面报道。需要关注的是科技应用限制和企业债务问题可能引发的后续讨论。\n本次热点榜涵盖了国际关系、经济、社会事件、娱乐等多个领域。其中涉及中日关系、台湾问题等国际政治话题热度较高，同时也有社会事件如明星网红被查、新能源车起火等引发关注。整体来看，榜单内容多样，但部分话题存在一定的舆情风险。",
+  "topics": [
+    {
+      "topic": "泰柬边境再发冲突",
+      "platform": "抖音",
+      "hotness": "836.3万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "涉及国际边境冲突，可能引发相关讨论和关注",
+      "further_investigate": true,
+      "title": "泰柬边境再发冲突"
+    },
+    {
+      "topic": "榕江荒野求生选手就谣言道歉",
+      "platform": "抖音",
+      "hotness": "835.8万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "涉及谣言传播和公开道歉，可能引发公众讨论",
+      "further_investigate": true,
+      "title": "榕江荒野求生选手就谣言道歉"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "774.4万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "活动突然被叫停，可能引发公众疑问和讨论",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "777.3万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "涉及国防外交敏感话题，可能引发关注",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "美防长不点名“警告”日本",
+      "platform": "抖音",
+      "hotness": "784.3万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "涉及国际关系和军事警告，可能引发关注",
+      "further_investigate": true,
+      "title": "美防长不点名“警告”日本"
+    },
+    {
+      "topic": "日军被爆引导美军轰炸平民",
+      "platform": "微博",
+      "hotness": "80万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "话题涉及历史敏感事件，可能引发民族情绪和社会争议",
+      "further_investigate": true,
+      "title": "日军被爆引导美军轰炸平民"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "22万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "话题涉及恶性犯罪事件，可能引发公众恐慌和社会讨论",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "日本婴儿残尸有刀具切割痕迹",
+      "platform": "微博",
+      "hotness": "21万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "话题涉及恶性犯罪事件，可能引发公众恐慌和社会讨论",
+      "further_investigate": true,
+      "title": "日本婴儿残尸有刀具切割痕迹"
+    },
+    {
+      "topic": "1818名包括明星网红在内双高人员被查",
+      "platform": "微博",
+      "hotness": "22万",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "话题涉及公众人物被查，可能引发舆论关注和讨论",
+      "further_investigate": true,
+      "title": "1818名包括明星网红在内双高人员被查"
+    },
+    {
+      "topic": "退学北大考上清华小伙被白嫖家教费",
+      "platform": "微博",
+      "hotness": "68万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "话题涉及教育和社会公平问题，可能引发公众讨论",
+      "further_investigate": true,
+      "title": "退学北大考上清华小伙被白嫖家教费"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "多家APP禁用特定手机可能引发用户不满或市场竞争争议",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "大型互联网企业限制特定设备接入可能引发市场垄断担忧",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "国际军事",
+      "reason": "涉及美军内部军事事件，可能引发国际军事安全讨论",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "iRobot 欠中国代工厂 25 亿元",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "企业债务",
+      "reason": "国际企业拖欠中国工厂大额款项可能引发商业纠纷讨论",
+      "further_investigate": true,
+      "title": "iRobot 欠中国代工厂 25 亿元"
+    },
+    {
+      "topic": "中方不接受日方交涉已当场驳回",
+      "platform": "头条",
+      "hotness": "3576.7万",
+      "risk_level": 7,
+      "category": "国际关系",
+      "reason": "涉及中日外交争议，可能引发民族情绪和国际舆论关注",
+      "further_investigate": true,
+      "title": "中方不接受日方交涉已当场驳回"
+    },
+    {
+      "topic": "台湾当局被曝妄图与日军事勾连",
+      "platform": "头条",
+      "hotness": "1607.1万",
+      "risk_level": 8,
+      "category": "国际关系",
+      "reason": "涉及台湾问题和中日关系，可能引发两岸关系紧张和国际关注",
+      "further_investigate": true,
+      "title": "台湾当局被曝妄图与日军事勾连"
+    },
+    {
+      "topic": "1818名包括明星网红在内双高人员被查",
+      "platform": "头条",
+      "hotness": "1962.9万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "涉及公众人物被查，可能引发社会讨论和舆论关注",
+      "further_investigate": true,
+      "title": "1818名包括明星网红在内双高人员被查"
+    },
+    {
+      "topic": "安徽一新能源车突然起火伴有爆炸声",
+      "platform": "头条",
+      "hotness": "438.0万",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "涉及新能源汽车安全问题，可能引发消费者担忧和行业讨论",
+      "further_investigate": true,
+      "title": "安徽一新能源车突然起火伴有爆炸声"
+    },
+    {
+      "topic": "女子遭75岁丈夫殴打 村民发声",
+      "platform": "头条",
+      "hotness": "196.8万",
+      "risk_level": 4,
+      "category": "社会安全",
+      "reason": "涉及家庭暴力问题，可能引发社会讨论和舆论关注",
+      "further_investigate": true,
+      "title": "女子遭75岁丈夫殴打 村民发声"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 19,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜以娱乐、体育和生活类话题为主，整体舆情较为正面。榜单中出现了少量涉及国际关系和国内政策的话题，但无明显负面倾向。",
+    "content_summary": "侦察到的主要内容包括：环卫爷爷把落叶扫成打卡点、加快发展新质生产力、国乒战胜日本夺冠、泰柬边境再发冲突、国防部回应日称战机被雷达照射等。",
+    "content_analysis": "热点趋势显示，娱乐和生活类话题占据主导地位，国际关系和国内政策类话题热度相对较低。话题关联性不强，情绪倾向以正面和中立为主。",
+    "potential_risks": [
+      "关注泰柬边境冲突的后续发展",
+      "监控贵州榕江荒野求生活动被叫停的公众反应",
+      "留意国防外交相关话题的舆论走向"
+    ],
+    "trend_prediction": "未来24-48小时内，娱乐和生活类话题可能继续保持高热，国际关系类话题可能随着事件发展出现波动。",
+    "recommendations": [
+      "持续监控国际关系类话题的舆论走向",
+      "关注娱乐和生活类话题的正面引导",
+      "留意突发事件的舆情反应"
+    ],
+    "risk_overview": {
+      "high_risk_count": 0,
+      "medium_risk_count": 5,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 19,
+    "risk_overview": {
+      "high_risk_count": 0,
+      "medium_risk_count": 5,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  }
+}

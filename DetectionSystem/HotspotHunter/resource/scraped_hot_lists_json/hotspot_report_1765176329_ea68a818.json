@@ -1,0 +1,297 @@
+{
+  "summary": "本次热点榜整体以娱乐、体育和生活类话题为主，其中大部分内容为正面或中性，无明显负面舆情风险。榜单中涉及国际关系和体育赛事的话题热度较高，但未发现明显的负面或争议性内容。需要关注的是泰柬边境冲突和贵州榕江荒野求生事件，这两个话题可能存在一定的潜在风险。\n本次热点榜主要涵盖了娱乐、社会新闻和国际事件等多个领域。娱乐类话题如星光大赏阵容官宣、王一博大魔王品牌全球代言人等占据了榜单前列，显示出较高的关注度。社会新闻和国际事件如泰国对柬埔寨发动空袭、日军被爆引导美军轰炸平民等话题也引发了广泛讨论。整体来看，榜单中大部分话题为普通热点，但存在少数具有潜在风险的话题。\n本次热点榜主要涉及国际访问、科技应用、体育赛事等多个领域，整体舆情较为平稳。榜单中出现了关于APP禁用和手机涨价等可能引发讨论的话题，但无明显负面倾向。大部分内容为中性或正面报道，未发现高风险舆情。\n本次热点榜涵盖了多个领域的热点话题，包括社会事件、经济政策、娱乐新闻和国际关系等。其中，部分话题涉及负面事件和争议，需要特别关注。整体来看，热点分布较为广泛，热度较高的主要集中在社会事件和经济政策方面。",
+  "topics": [
+    {
+      "topic": "泰柬边境再发冲突",
+      "platform": "抖音",
+      "hotness": "835.5万",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "涉及国际冲突，可能引发舆论关注和讨论",
+      "further_investigate": true,
+      "title": "泰柬边境再发冲突"
+    },
+    {
+      "topic": "贵州榕江荒野求生选手就谣言道歉",
+      "platform": "抖音",
+      "hotness": "834.3万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及谣言和道歉，可能引发公众讨论",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生选手就谣言道歉"
+    },
+    {
+      "topic": "贵州榕江荒野求生开赛4天被叫停",
+      "platform": "抖音",
+      "hotness": "776.4万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "活动被叫停，可能引发公众质疑和讨论",
+      "further_investigate": true,
+      "title": "贵州榕江荒野求生开赛4天被叫停"
+    },
+    {
+      "topic": "泰国对柬埔寨发动空袭",
+      "platform": "微博",
+      "hotness": "65万",
+      "risk_level": 8,
+      "category": "国际冲突",
+      "reason": "该话题涉及国家间的军事冲突，可能引发国际关注和舆论争议，具有较高的负面倾向。",
+      "further_investigate": true,
+      "title": "泰国对柬埔寨发动空袭"
+    },
+    {
+      "topic": "日军被爆引导美军轰炸平民",
+      "platform": "微博",
+      "hotness": "65万",
+      "risk_level": 9,
+      "category": "历史争议",
+      "reason": "该话题涉及历史敏感事件，可能引发民族情绪和国际舆论争议，具有极高的负面倾向。",
+      "further_investigate": true,
+      "title": "日军被爆引导美军轰炸平民"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "43万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "该话题涉及恶性犯罪事件，可能引发社会恐慌和舆论关注，具有较高的负面倾向。",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "日本婴儿残尸有刀具切割痕迹",
+      "platform": "微博",
+      "hotness": "30万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "该话题涉及恶性犯罪事件，可能引发社会恐慌和舆论关注，具有较高的负面倾向。",
+      "further_investigate": true,
+      "title": "日本婴儿残尸有刀具切割痕迹"
+    },
+    {
+      "topic": "郭德纲相声被举报内容低俗",
+      "platform": "微博",
+      "hotness": "47万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "该话题涉及文化内容的争议，可能引发公众讨论和舆论分歧，负面倾向不明确。",
+      "further_investigate": true,
+      "title": "郭德纲相声被举报内容低俗"
+    },
+    {
+      "topic": "3人疑在鄱阳湖湿地投毒被抓",
+      "platform": "微博",
+      "hotness": "11万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "该话题涉及环境破坏和违法行为，可能引发公众关注和舆论讨论，具有潜在的负面倾向。",
+      "further_investigate": true,
+      "title": "3人疑在鄱阳湖湿地投毒被抓"
+    },
+    {
+      "topic": "任前公示中县委副书记年龄打架",
+      "platform": "微博",
+      "hotness": "11万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "该话题涉及政府官员的公示信息不一致，可能引发公众质疑和舆论讨论，负面倾向不明确。",
+      "further_investigate": true,
+      "title": "任前公示中县委副书记年龄打架"
+    },
+    {
+      "topic": "商家故意不打包让骑手干等",
+      "platform": "微博",
+      "hotness": "11万",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "该话题涉及商家与骑手之间的矛盾，可能引发公众讨论和舆论关注，负面倾向不明确。",
+      "further_investigate": true,
+      "title": "商家故意不打包让骑手干等"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "涉及多家APP对特定手机的禁用，可能引发用户不满或讨论",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "涉及大型企业APP对特定手机的禁用，可能引发用户不满或讨论",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及军事事件，可能引发国际关注和讨论",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "1818名包括明星网红在内双高人员被查",
+      "platform": "头条",
+      "hotness": "3153.8万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及大量公众人物被查，可能引发社会广泛关注和讨论，存在负面舆情风险。",
+      "further_investigate": true,
+      "title": "1818名包括明星网红在内双高人员被查"
+    },
+    {
+      "topic": "工资必须发钱没有“平替”",
+      "platform": "头条",
+      "hotness": "2853.7万",
+      "risk_level": 5,
+      "category": "舆论争议",
+      "reason": "涉及工资发放问题，可能引发劳动者权益讨论，存在潜在争议。",
+      "further_investigate": true,
+      "title": "工资必须发钱没有“平替”"
+    },
+    {
+      "topic": "净网|网警查处编造汽车造成8杀谣言案",
+      "platform": "头条",
+      "hotness": "2582.1万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "涉及网络谣言和公共安全，可能引发社会不安，存在负面舆情风险。",
+      "further_investigate": true,
+      "title": "净网|网警查处编造汽车造成8杀谣言案"
+    },
+    {
+      "topic": "郭德纲被约谈？文旅局回应",
+      "platform": "头条",
+      "hotness": "3852.1万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "涉及公众人物被约谈，可能引发公众讨论和猜测，存在潜在争议。",
+      "further_investigate": true,
+      "title": "郭德纲被约谈？文旅局回应"
+    },
+    {
+      "topic": "安徽一新能源车突然起火伴有爆炸声",
+      "platform": "头条",
+      "hotness": "2114.1万",
+      "risk_level": 6,
+      "category": "潜在风险",
+      "reason": "涉及新能源汽车安全问题，可能引发消费者担忧和行业讨论，存在负面舆情风险。",
+      "further_investigate": true,
+      "title": "安徽一新能源车突然起火伴有爆炸声"
+    },
+    {
+      "topic": "台湾当局被曝妄图与日军事勾连",
+      "platform": "头条",
+      "hotness": "1282.2万",
+      "risk_level": 8,
+      "category": "国际关系",
+      "reason": "涉及敏感的国际关系和领土问题，可能引发外交争议和公众情绪波动，存在高风险。",
+      "further_investigate": true,
+      "title": "台湾当局被曝妄图与日军事勾连"
+    },
+    {
+      "topic": "父亲工资打孩子账户致儿子无法考公",
+      "platform": "头条",
+      "hotness": "1160.2万",
+      "risk_level": 5,
+      "category": "社会安全",
+      "reason": "涉及家庭财务和公务员考试问题，可能引发公众讨论和争议，存在潜在风险。",
+      "further_investigate": true,
+      "title": "父亲工资打孩子账户致儿子无法考公"
+    },
+    {
+      "topic": "旺旺集团市值缩水1100亿",
+      "platform": "头条",
+      "hotness": "949.9万",
+      "risk_level": 4,
+      "category": "经济风险",
+      "reason": "涉及大型企业市值大幅缩水，可能引发投资者和公众关注，存在潜在风险。",
+      "further_investigate": true,
+      "title": "旺旺集团市值缩水1100亿"
+    },
+    {
+      "topic": "4500万养牛场立项两年多未见一头牛",
+      "platform": "头条",
+      "hotness": "316.2万",
+      "risk_level": 5,
+      "category": "经济风险",
+      "reason": "涉及项目资金使用和成效问题，可能引发公众质疑和讨论，存在潜在风险。",
+      "further_investigate": true,
+      "title": "4500万养牛场立项两年多未见一头牛"
+    },
+    {
+      "topic": "护士患癌请病假遭拒？卫健委介入调查",
+      "platform": "头条",
+      "hotness": "258.9万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "涉及医护人员权益和健康问题，可能引发公众关注和讨论，存在负面舆情风险。",
+      "further_investigate": true,
+      "title": "护士患癌请病假遭拒？卫健委介入调查"
+    },
+    {
+      "topic": "男子在公园搂抱女童被刑拘",
+      "platform": "头条",
+      "hotness": "212.0万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及儿童安全和公共治安问题，可能引发公众愤怒和讨论，存在高风险。",
+      "further_investigate": true,
+      "title": "男子在公园搂抱女童被刑拘"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 25,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜以娱乐、体育和生活类话题为主，国际关系和体育赛事话题热度较高。榜单中大部分内容为正面或中性，无明显负面舆情风险。",
+    "content_summary": "侦察到了多个娱乐、体育和生活类热点话题，如环卫爷爷把落叶扫成打卡点、加快发展新质生产力、湖人险胜76人等。此外，还涉及国际关系和体育赛事的话题，如泰柬边境再发冲突、国乒战胜日本夺冠等。",
+    "content_analysis": "热点趋势显示娱乐和生活类话题占据主导地位，国际关系和体育赛事话题热度较高。话题情绪倾向以正面和中性为主，无明显负面情绪。",
+    "potential_risks": [
+      "需要关注泰柬边境冲突的进一步发展",
+      "贵州榕江荒野求生事件的舆论反应",
+      "国际关系话题可能引发的舆论讨论"
+    ],
+    "trend_prediction": "未来24-48小时内，娱乐和生活类话题可能继续保持热度，国际关系和体育赛事话题可能引发更多讨论。",
+    "recommendations": [
+      "持续监控泰柬边境冲突的舆论反应",
+      "关注贵州榕江荒野求生事件的后续发展",
+      "留意国际关系话题的舆论走向"
+    ],
+    "risk_overview": {
+      "high_risk_count": 1,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 3
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 25,
+    "risk_overview": {
+      "high_risk_count": 1,
+      "medium_risk_count": 2,
+      "low_risk_count": 0,
+      "total_count": 3
+    }
+  }
+}

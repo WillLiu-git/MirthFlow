@@ -31,7 +31,8 @@ except ImportError:
 def hotlist_crawler(
         url: str,
         save_to_file: bool = False,
-        output_dir: str = 'scraped_hot_lists_json'
+        output_dir: str = 'scraped_hot_lists_json',
+        verbose: bool = True
 ) -> str | None:
     """
     爬取 Tophub 榜单数据，返回 JSON 字符串并可选择保存为文件。
@@ -41,7 +42,6 @@ def hotlist_crawler(
     """
 
     board_id = url.split('/')[-1]
-    print(f"[Tool] 开始爬取 URL: {url} (ID: {board_id})")
 
     # 记录当前时间
     scraped_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -50,24 +50,23 @@ def hotlist_crawler(
     time.sleep(2)
 
     try:
-        # 1. 发送请求
-        response = requests.get(url, headers=REQUEST_HEADERS, timeout=15)
-        response.raise_for_status()
+        # 1. 获取网页内容
+        response = requests.get(url, headers=REQUEST_HEADERS, timeout=20)
+        response.raise_for_status()  # 检查请求是否成功
 
-        soup = BeautifulSoup(response.text, 'html.parser')
-
-        # 2. 找所有榜单项
-        list_items = soup.select("table.table tbody tr")
-
-        if not list_items:
-            print("[Tool] 没有找到榜单项，可能需要更换选择器。")
-            return None
-
+        # 2. 解析网页内容
+        soup = BeautifulSoup(response.text, "html.parser")
         hot_topics_data = []
 
-        # 3. 遍历
-        for index, item in enumerate(list_items):
+        # 查找所有热门话题条目
+        items = soup.select("tr")
 
+        # 打印爬取URL和ID（仅当verbose为True时）
+        if verbose:
+            print(f"[Tool] 开始爬取 URL: {url} (ID: {board_id})")
+
+        # 跳过表头，从第2行开始
+        for index, item in enumerate(items[1:], start=0):
             # 排名
             rank_cell = item.select_one("td:nth-child(1)")
             rank = rank_cell.get_text(strip=True).replace('.', '') if rank_cell else str(index + 1)
@@ -100,8 +99,6 @@ def hotlist_crawler(
                 "scraped_at": scraped_at   # 时间字段
             })
 
-        print(f"✔ [Tool] 提取成功，共 {len(hot_topics_data)} 条数据。")
-
         # 4. 转为 JSON 字符串
         df = pd.DataFrame(hot_topics_data)
         json_result = df.to_json(orient="records", force_ascii=False)
@@ -114,7 +111,11 @@ def hotlist_crawler(
             with open(output_path, "w", encoding="utf-8") as f:
                 json.dump(hot_topics_data, f, ensure_ascii=False, indent=4)
 
-            print(f"[Tool] 数据已保存至: {output_path}")
+        # 仅当verbose为True时打印详细信息
+        if verbose:
+            print(f" [Tool] 提取成功，共 {len(hot_topics_data)} 条数据。")
+            if save_to_file:
+                print(f"[Tool] 数据已保存至: {output_path}")
 
         return json_result
 

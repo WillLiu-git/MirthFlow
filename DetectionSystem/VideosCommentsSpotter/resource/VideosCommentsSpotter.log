@@ -1,0 +1,819 @@
+2025-12-08 15:49:14,882 - INFO - 开始处理话题: 俄罗斯 盗版疯狂动物城上映
+2025-12-08 15:49:14,882 - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 15:49:15,291 - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:15,291 - INFO - 成功生成 1 个关键词: 俄罗斯 盗版疯狂动物城上映
+2025-12-08 15:49:15,291 - INFO - 目标平台: dy
+2025-12-08 15:49:15,291 - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 15:49:15,291 - INFO - 处理关键词: 俄罗斯 盗版疯狂动物城上映，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 15:49:15,291 - INFO - 开始爬取关键词: 俄罗斯 盗版疯狂动物城上映，平台: dy
+2025-12-08 15:49:15,291 - INFO - ✅ dy平台关键词 俄罗斯 盗版疯狂动物城上映 爬取完成
+2025-12-08 15:49:15,291 - INFO - 📊 爬取结果统计:
+2025-12-08 15:49:15,291 - INFO -    实际获取内容数: 5 条
+2025-12-08 15:49:15,291 - INFO -    实际获取评论数: 44 条
+2025-12-08 15:49:15,291 - INFO - dy平台关键词 俄罗斯 盗版疯狂动物城上映 爬取完成，获取 5 条内容，44 条评论
+2025-12-08 15:49:15,291 - INFO - 开始分析关键词 俄罗斯 盗版疯狂动物城上映 的爬取结果
+2025-12-08 15:49:15,291 - INFO - 开始分析内容，主题: 俄罗斯 盗版疯狂动物城上映，爬取平台数: 1
+2025-12-08 15:49:15,291 - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 15:49:15,291 - INFO - 调用LLM进行内容分析
+2025-12-08 15:49:15,345 - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:15,346 - WARNING - 生成错误报告，主题: 俄罗斯 盗版疯狂动物城上映
+2025-12-08 15:49:15,346 - INFO - 
+关键词 俄罗斯 盗版疯狂动物城上映 分析结果:
+2025-12-08 15:49:15,346 - INFO - 风险等级: unknown
+2025-12-08 15:49:15,346 - INFO - 置信度: 0.00
+2025-12-08 15:49:15,346 - INFO - 关键发现: 1 项
+2025-12-08 15:49:15,346 - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 15:49:15,346 - INFO - 关键词 俄罗斯 盗版疯狂动物城上映 分析完成，风险等级: unknown
+2025-12-08 15:49:15,346 - INFO - 所有平台爬取完成，总耗时: 0.06 秒，总计 5 条内容，44 条评论
+2025-12-08 15:49:15,353 - INFO - 原始重要视频数量: 5
+2025-12-08 15:49:15,353 - INFO - 去重后重要视频数量: 5
+2025-12-08 15:49:15,353 - INFO - 排序和限制后重要视频数量: 5
+2025-12-08 15:49:15,353 - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 15:49:15,353 - INFO - 开始汇总 1 个小报告
+2025-12-08 15:49:15,400 - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:15,400 - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 15:49:15,400 - INFO - 最终汇总报告: 话题-俄罗斯 盗版疯狂动物城上映, 处理时间-0.52秒, 风险等级-unknown
+2025-12-08 15:49:15,400 - INFO - 总爬取内容-5条, 总评论数-44条
+2025-12-08 15:49:15,400 - INFO - 平台爬取统计: dy: 5 条内容, 44 条评论
+2025-12-08 15:49:15,400 - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 15:49:15,400 - INFO - 风险因素: 1 项
+2025-12-08 15:49:15,400 - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:15,400 - INFO - 情感分析: 情感打分-0/100
+2025-12-08 15:49:15,400 - INFO - 关键发现: 1 项
+2025-12-08 15:49:15,400 - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 15:49:15,400 - INFO - 趋势预测: 无法预测
+2025-12-08 15:49:15,400 - INFO - 建议: 1 条
+2025-12-08 15:49:15,400 - INFO - 重要视频来源: 5 个
+2025-12-08 15:49:15,400 - INFO - 重要视频 1: 俄罗斯 盗版疯狂动物城上映现场实拍：俄罗斯 盗版疯狂动物城上映训练情况..., 平台-dy
+2025-12-08 15:49:15,400 - INFO - 重要视频 2: 直击俄罗斯 盗版疯狂动物城上映现场，精彩瞬间..., 平台-dy
+2025-12-08 15:49:15,416 - INFO - 重要视频 3: 俄罗斯 盗版疯狂动物城上映现场实拍：俄罗斯 盗版疯狂动物城上映训练情况..., 平台-dy
+2025-12-08 15:49:15,416 - INFO - 步骤4: 更新记忆
+2025-12-08 15:49:15,416 - INFO - 步骤5: 保存分析报告
+2025-12-08 15:49:15,416 - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_154915.json
+2025-12-08 15:49:15,416 - INFO - 话题 '俄罗斯 盗版疯狂动物城上映' 处理完成，总耗时 0.53 秒
+2025-12-08 15:49:15,432 - INFO - 开始处理话题: 尔滨雪人先生即将上线
+2025-12-08 15:49:15,432 - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 15:49:15,480 - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:15,480 - INFO - 成功生成 1 个关键词: 尔滨雪人先生即将上线
+2025-12-08 15:49:15,483 - INFO - 目标平台: dy
+2025-12-08 15:49:15,483 - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 15:49:15,484 - INFO - 处理关键词: 尔滨雪人先生即将上线，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 15:49:15,484 - INFO - 开始爬取关键词: 尔滨雪人先生即将上线，平台: dy
+2025-12-08 15:49:15,484 - INFO - ✅ dy平台关键词 尔滨雪人先生即将上线 爬取完成
+2025-12-08 15:49:15,484 - INFO - 📊 爬取结果统计:
+2025-12-08 15:49:15,484 - INFO -    实际获取内容数: 5 条
+2025-12-08 15:49:15,484 - INFO -    实际获取评论数: 50 条
+2025-12-08 15:49:15,490 - INFO - dy平台关键词 尔滨雪人先生即将上线 爬取完成，获取 5 条内容，50 条评论
+2025-12-08 15:49:15,490 - INFO - 开始分析关键词 尔滨雪人先生即将上线 的爬取结果
+2025-12-08 15:49:15,490 - INFO - 开始分析内容，主题: 尔滨雪人先生即将上线，爬取平台数: 1
+2025-12-08 15:49:15,490 - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 15:49:15,490 - INFO - 调用LLM进行内容分析
+2025-12-08 15:49:15,542 - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:15,542 - WARNING - 生成错误报告，主题: 尔滨雪人先生即将上线
+2025-12-08 15:49:15,542 - INFO - 
+关键词 尔滨雪人先生即将上线 分析结果:
+2025-12-08 15:49:15,542 - INFO - 风险等级: unknown
+2025-12-08 15:49:15,542 - INFO - 置信度: 0.00
+2025-12-08 15:49:15,542 - INFO - 关键发现: 1 项
+2025-12-08 15:49:15,542 - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 15:49:15,542 - INFO - 关键词 尔滨雪人先生即将上线 分析完成，风险等级: unknown
+2025-12-08 15:49:15,542 - INFO - 所有平台爬取完成，总耗时: 0.06 秒，总计 5 条内容，50 条评论
+2025-12-08 15:49:15,542 - INFO - 原始重要视频数量: 5
+2025-12-08 15:49:15,542 - INFO - 去重后重要视频数量: 5
+2025-12-08 15:49:15,542 - INFO - 排序和限制后重要视频数量: 5
+2025-12-08 15:49:15,542 - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 15:49:15,542 - INFO - 开始汇总 1 个小报告
+2025-12-08 15:49:16,100 - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:16,100 - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 15:49:16,100 - INFO - 最终汇总报告: 话题-尔滨雪人先生即将上线, 处理时间-0.67秒, 风险等级-unknown
+2025-12-08 15:49:16,100 - INFO - 总爬取内容-5条, 总评论数-50条
+2025-12-08 15:49:16,100 - INFO - 平台爬取统计: dy: 5 条内容, 50 条评论
+2025-12-08 15:49:16,100 - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 15:49:16,100 - INFO - 风险因素: 1 项
+2025-12-08 15:49:16,100 - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:16,100 - INFO - 情感分析: 情感打分-0/100
+2025-12-08 15:49:16,100 - INFO - 关键发现: 1 项
+2025-12-08 15:49:16,107 - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 15:49:16,107 - INFO - 趋势预测: 无法预测
+2025-12-08 15:49:16,107 - INFO - 建议: 1 条
+2025-12-08 15:49:16,107 - INFO - 重要视频来源: 5 个
+2025-12-08 15:49:16,107 - INFO - 重要视频 1: 震撼！尔滨雪人先生即将上线最新动态曝光..., 平台-dy
+2025-12-08 15:49:16,107 - INFO - 重要视频 2: 深度解析：尔滨雪人先生即将上线背后的故事..., 平台-dy
+2025-12-08 15:49:16,107 - INFO - 重要视频 3: 深度解析：尔滨雪人先生即将上线背后的故事..., 平台-dy
+2025-12-08 15:49:16,107 - INFO - 步骤4: 更新记忆
+2025-12-08 15:49:16,107 - INFO - 步骤5: 保存分析报告
+2025-12-08 15:49:16,107 - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_154916.json
+2025-12-08 15:49:16,107 - INFO - 话题 '尔滨雪人先生即将上线' 处理完成，总耗时 0.68 秒
+2025-12-08 15:49:16,107 - INFO - 开始处理话题: 人人都是中国智驾合伙人
+2025-12-08 15:49:16,107 - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 15:49:16,482 - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:16,484 - INFO - 成功生成 1 个关键词: 人人都是中国智驾合伙人
+2025-12-08 15:49:16,485 - INFO - 目标平台: dy
+2025-12-08 15:49:16,485 - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 15:49:16,485 - INFO - 处理关键词: 人人都是中国智驾合伙人，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 15:49:16,485 - INFO - 开始爬取关键词: 人人都是中国智驾合伙人，平台: dy
+2025-12-08 15:49:16,493 - INFO - ✅ dy平台关键词 人人都是中国智驾合伙人 爬取完成
+2025-12-08 15:49:16,493 - INFO - 📊 爬取结果统计:
+2025-12-08 15:49:16,493 - INFO -    实际获取内容数: 5 条
+2025-12-08 15:49:16,496 - INFO -    实际获取评论数: 64 条
+2025-12-08 15:49:16,496 - INFO - dy平台关键词 人人都是中国智驾合伙人 爬取完成，获取 5 条内容，64 条评论
+2025-12-08 15:49:16,496 - INFO - 开始分析关键词 人人都是中国智驾合伙人 的爬取结果
+2025-12-08 15:49:16,496 - INFO - 开始分析内容，主题: 人人都是中国智驾合伙人，爬取平台数: 1
+2025-12-08 15:49:16,496 - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 15:49:16,501 - INFO - 调用LLM进行内容分析
+2025-12-08 15:49:16,630 - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:16,634 - WARNING - 生成错误报告，主题: 人人都是中国智驾合伙人
+2025-12-08 15:49:16,634 - INFO - 
+关键词 人人都是中国智驾合伙人 分析结果:
+2025-12-08 15:49:16,634 - INFO - 风险等级: unknown
+2025-12-08 15:49:16,639 - INFO - 置信度: 0.00
+2025-12-08 15:49:16,642 - INFO - 关键发现: 1 项
+2025-12-08 15:49:16,642 - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 15:49:16,642 - INFO - 关键词 人人都是中国智驾合伙人 分析完成，风险等级: unknown
+2025-12-08 15:49:16,647 - INFO - 所有平台爬取完成，总耗时: 0.16 秒，总计 5 条内容，64 条评论
+2025-12-08 15:49:16,647 - INFO - 原始重要视频数量: 5
+2025-12-08 15:49:16,647 - INFO - 去重后重要视频数量: 5
+2025-12-08 15:49:16,647 - INFO - 排序和限制后重要视频数量: 5
+2025-12-08 15:49:16,650 - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 15:49:16,650 - INFO - 开始汇总 1 个小报告
+2025-12-08 15:49:16,751 - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:16,754 - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 15:49:16,754 - INFO - 最终汇总报告: 话题-人人都是中国智驾合伙人, 处理时间-0.65秒, 风险等级-unknown
+2025-12-08 15:49:16,754 - INFO - 总爬取内容-5条, 总评论数-64条
+2025-12-08 15:49:16,754 - INFO - 平台爬取统计: dy: 5 条内容, 64 条评论
+2025-12-08 15:49:16,756 - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 15:49:16,756 - INFO - 风险因素: 1 项
+2025-12-08 15:49:16,756 - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:16,756 - INFO - 情感分析: 情感打分-0/100
+2025-12-08 15:49:16,756 - INFO - 关键发现: 1 项
+2025-12-08 15:49:16,758 - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 15:49:16,758 - INFO - 趋势预测: 无法预测
+2025-12-08 15:49:16,758 - INFO - 建议: 1 条
+2025-12-08 15:49:16,758 - INFO - 重要视频来源: 5 个
+2025-12-08 15:49:16,758 - INFO - 重要视频 1: 直击人人都是中国智驾合伙人现场，精彩瞬间..., 平台-dy
+2025-12-08 15:49:16,759 - INFO - 重要视频 2: 人人都是中国智驾合伙人最新训练视频出炉..., 平台-dy
+2025-12-08 15:49:16,759 - INFO - 重要视频 3: 深度解析：人人都是中国智驾合伙人背后的故事..., 平台-dy
+2025-12-08 15:49:16,759 - INFO - 步骤4: 更新记忆
+2025-12-08 15:49:16,763 - INFO - 步骤5: 保存分析报告
+2025-12-08 15:49:16,764 - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_154916.json
+2025-12-08 15:49:16,764 - INFO - 话题 '人人都是中国智驾合伙人' 处理完成，总耗时 0.66 秒
+2025-12-08 15:49:18,323 - INFO - 开始处理话题: 多家APP对豆包手机禁用
+2025-12-08 15:49:18,323 - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 15:49:18,571 - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,571 - INFO - 成功生成 1 个关键词: 多家APP对豆包手机禁用
+2025-12-08 15:49:18,571 - INFO - 目标平台: dy
+2025-12-08 15:49:18,571 - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 15:49:18,571 - INFO - 处理关键词: 多家APP对豆包手机禁用，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 15:49:18,576 - INFO - 开始爬取关键词: 多家APP对豆包手机禁用，平台: dy
+2025-12-08 15:49:18,578 - INFO - ✅ dy平台关键词 多家APP对豆包手机禁用 爬取完成
+2025-12-08 15:49:18,578 - INFO - 📊 爬取结果统计:
+2025-12-08 15:49:18,578 - INFO -    实际获取内容数: 5 条
+2025-12-08 15:49:18,578 - INFO -    实际获取评论数: 52 条
+2025-12-08 15:49:18,578 - INFO - dy平台关键词 多家APP对豆包手机禁用 爬取完成，获取 5 条内容，52 条评论
+2025-12-08 15:49:18,578 - INFO - 开始分析关键词 多家APP对豆包手机禁用 的爬取结果
+2025-12-08 15:49:18,578 - INFO - 开始分析内容，主题: 多家APP对豆包手机禁用，爬取平台数: 1
+2025-12-08 15:49:18,578 - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 15:49:18,578 - INFO - 调用LLM进行内容分析
+2025-12-08 15:49:18,673 - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,673 - WARNING - 生成错误报告，主题: 多家APP对豆包手机禁用
+2025-12-08 15:49:18,673 - INFO - 
+关键词 多家APP对豆包手机禁用 分析结果:
+2025-12-08 15:49:18,673 - INFO - 风险等级: unknown
+2025-12-08 15:49:18,673 - INFO - 置信度: 0.00
+2025-12-08 15:49:18,673 - INFO - 关键发现: 1 项
+2025-12-08 15:49:18,673 - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 15:49:18,673 - INFO - 关键词 多家APP对豆包手机禁用 分析完成，风险等级: unknown
+2025-12-08 15:49:18,673 - INFO - 所有平台爬取完成，总耗时: 0.1 秒，总计 5 条内容，52 条评论
+2025-12-08 15:49:18,673 - INFO - 原始重要视频数量: 4
+2025-12-08 15:49:18,673 - INFO - 去重后重要视频数量: 4
+2025-12-08 15:49:18,673 - INFO - 排序和限制后重要视频数量: 4
+2025-12-08 15:49:18,673 - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 15:49:18,673 - INFO - 开始汇总 1 个小报告
+2025-12-08 15:49:18,737 - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,742 - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 15:49:18,742 - INFO - 最终汇总报告: 话题-多家APP对豆包手机禁用, 处理时间-0.42秒, 风险等级-unknown
+2025-12-08 15:49:18,742 - INFO - 总爬取内容-5条, 总评论数-52条
+2025-12-08 15:49:18,742 - INFO - 平台爬取统计: dy: 5 条内容, 52 条评论
+2025-12-08 15:49:18,742 - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 15:49:18,742 - INFO - 风险因素: 1 项
+2025-12-08 15:49:18,742 - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,742 - INFO - 情感分析: 情感打分-0/100
+2025-12-08 15:49:18,742 - INFO - 关键发现: 1 项
+2025-12-08 15:49:18,742 - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 15:49:18,742 - INFO - 趋势预测: 无法预测
+2025-12-08 15:49:18,742 - INFO - 建议: 1 条
+2025-12-08 15:49:18,742 - INFO - 重要视频来源: 4 个
+2025-12-08 15:49:18,742 - INFO - 重要视频 1: 直击多家APP对豆包手机禁用现场，精彩瞬间..., 平台-dy
+2025-12-08 15:49:18,742 - INFO - 重要视频 2: 直击多家APP对豆包手机禁用现场，精彩瞬间..., 平台-dy
+2025-12-08 15:49:18,752 - INFO - 重要视频 3: 直击多家APP对豆包手机禁用现场，精彩瞬间..., 平台-dy
+2025-12-08 15:49:18,752 - INFO - 步骤4: 更新记忆
+2025-12-08 15:49:18,752 - INFO - 步骤5: 保存分析报告
+2025-12-08 15:49:18,762 - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_154918.json
+2025-12-08 15:49:18,762 - INFO - 话题 '多家APP对豆包手机禁用' 处理完成，总耗时 0.44 秒
+2025-12-08 15:49:18,762 - INFO - 开始处理话题: 美军承认:击落美军战机
+2025-12-08 15:49:18,762 - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 15:49:18,818 - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,818 - INFO - 成功生成 1 个关键词: 美军承认:击落美军战机
+2025-12-08 15:49:18,818 - INFO - 目标平台: dy
+2025-12-08 15:49:18,818 - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 15:49:18,818 - INFO - 处理关键词: 美军承认:击落美军战机，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 15:49:18,818 - INFO - 开始爬取关键词: 美军承认:击落美军战机，平台: dy
+2025-12-08 15:49:18,818 - INFO - ✅ dy平台关键词 美军承认:击落美军战机 爬取完成
+2025-12-08 15:49:18,818 - INFO - 📊 爬取结果统计:
+2025-12-08 15:49:18,818 - INFO -    实际获取内容数: 5 条
+2025-12-08 15:49:18,818 - INFO -    实际获取评论数: 52 条
+2025-12-08 15:49:18,831 - INFO - dy平台关键词 美军承认:击落美军战机 爬取完成，获取 5 条内容，52 条评论
+2025-12-08 15:49:18,832 - INFO - 开始分析关键词 美军承认:击落美军战机 的爬取结果
+2025-12-08 15:49:18,832 - INFO - 开始分析内容，主题: 美军承认:击落美军战机，爬取平台数: 1
+2025-12-08 15:49:18,832 - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 15:49:18,834 - INFO - 调用LLM进行内容分析
+2025-12-08 15:49:18,917 - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,920 - WARNING - 生成错误报告，主题: 美军承认:击落美军战机
+2025-12-08 15:49:18,920 - INFO - 
+关键词 美军承认:击落美军战机 分析结果:
+2025-12-08 15:49:18,920 - INFO - 风险等级: unknown
+2025-12-08 15:49:18,920 - INFO - 置信度: 0.00
+2025-12-08 15:49:18,920 - INFO - 关键发现: 1 项
+2025-12-08 15:49:18,920 - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 15:49:18,922 - INFO - 关键词 美军承认:击落美军战机 分析完成，风险等级: unknown
+2025-12-08 15:49:18,922 - INFO - 所有平台爬取完成，总耗时: 0.1 秒，总计 5 条内容，52 条评论
+2025-12-08 15:49:18,922 - INFO - 原始重要视频数量: 5
+2025-12-08 15:49:18,922 - INFO - 去重后重要视频数量: 5
+2025-12-08 15:49:18,922 - INFO - 排序和限制后重要视频数量: 5
+2025-12-08 15:49:18,922 - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 15:49:18,924 - INFO - 开始汇总 1 个小报告
+2025-12-08 15:49:18,981 - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,981 - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 15:49:18,981 - INFO - 最终汇总报告: 话题-美军承认:击落美军战机, 处理时间-0.22秒, 风险等级-unknown
+2025-12-08 15:49:18,981 - INFO - 总爬取内容-5条, 总评论数-52条
+2025-12-08 15:49:18,981 - INFO - 平台爬取统计: dy: 5 条内容, 52 条评论
+2025-12-08 15:49:18,981 - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 15:49:18,986 - INFO - 风险因素: 1 项
+2025-12-08 15:49:18,986 - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:18,986 - INFO - 情感分析: 情感打分-0/100
+2025-12-08 15:49:18,986 - INFO - 关键发现: 1 项
+2025-12-08 15:49:18,986 - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 15:49:18,986 - INFO - 趋势预测: 无法预测
+2025-12-08 15:49:18,986 - INFO - 建议: 1 条
+2025-12-08 15:49:18,986 - INFO - 重要视频来源: 5 个
+2025-12-08 15:49:18,986 - INFO - 重要视频 1: 震撼！美军承认:击落美军战机最新动态曝光..., 平台-dy
+2025-12-08 15:49:18,986 - INFO - 重要视频 2: 深度解析：美军承认:击落美军战机背后的故事..., 平台-dy
+2025-12-08 15:49:18,986 - INFO - 重要视频 3: 震撼！美军承认:击落美军战机最新动态曝光..., 平台-dy
+2025-12-08 15:49:18,990 - INFO - 步骤4: 更新记忆
+2025-12-08 15:49:18,992 - INFO - 步骤5: 保存分析报告
+2025-12-08 15:49:18,992 - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_154918.json
+2025-12-08 15:49:18,992 - INFO - 话题 '美军承认:击落美军战机' 处理完成，总耗时 0.23 秒
+2025-12-08 15:49:18,992 - INFO - 开始处理话题: 坏死的肢体必须截掉吗
+2025-12-08 15:49:18,992 - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 15:49:19,055 - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:19,055 - INFO - 成功生成 1 个关键词: 坏死的肢体必须截掉吗
+2025-12-08 15:49:19,055 - INFO - 目标平台: dy
+2025-12-08 15:49:19,063 - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 15:49:19,063 - INFO - 处理关键词: 坏死的肢体必须截掉吗，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 15:49:19,063 - INFO - 开始爬取关键词: 坏死的肢体必须截掉吗，平台: dy
+2025-12-08 15:49:19,065 - INFO - ✅ dy平台关键词 坏死的肢体必须截掉吗 爬取完成
+2025-12-08 15:49:19,070 - INFO - 📊 爬取结果统计:
+2025-12-08 15:49:19,070 - INFO -    实际获取内容数: 5 条
+2025-12-08 15:49:19,070 - INFO -    实际获取评论数: 42 条
+2025-12-08 15:49:19,070 - INFO - dy平台关键词 坏死的肢体必须截掉吗 爬取完成，获取 5 条内容，42 条评论
+2025-12-08 15:49:19,070 - INFO - 开始分析关键词 坏死的肢体必须截掉吗 的爬取结果
+2025-12-08 15:49:19,070 - INFO - 开始分析内容，主题: 坏死的肢体必须截掉吗，爬取平台数: 1
+2025-12-08 15:49:19,070 - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 15:49:19,070 - INFO - 调用LLM进行内容分析
+2025-12-08 15:49:19,397 - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:19,399 - WARNING - 生成错误报告，主题: 坏死的肢体必须截掉吗
+2025-12-08 15:49:19,399 - INFO - 
+关键词 坏死的肢体必须截掉吗 分析结果:
+2025-12-08 15:49:19,401 - INFO - 风险等级: unknown
+2025-12-08 15:49:19,401 - INFO - 置信度: 0.00
+2025-12-08 15:49:19,401 - INFO - 关键发现: 1 项
+2025-12-08 15:49:19,401 - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 15:49:19,401 - INFO - 关键词 坏死的肢体必须截掉吗 分析完成，风险等级: unknown
+2025-12-08 15:49:19,401 - INFO - 所有平台爬取完成，总耗时: 0.34 秒，总计 5 条内容，42 条评论
+2025-12-08 15:49:19,401 - INFO - 原始重要视频数量: 4
+2025-12-08 15:49:19,401 - INFO - 去重后重要视频数量: 4
+2025-12-08 15:49:19,401 - INFO - 排序和限制后重要视频数量: 4
+2025-12-08 15:49:19,401 - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 15:49:19,401 - INFO - 开始汇总 1 个小报告
+2025-12-08 15:49:19,451 - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:19,456 - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 15:49:19,456 - INFO - 最终汇总报告: 话题-坏死的肢体必须截掉吗, 处理时间-0.46秒, 风险等级-unknown
+2025-12-08 15:49:19,456 - INFO - 总爬取内容-5条, 总评论数-42条
+2025-12-08 15:49:19,456 - INFO - 平台爬取统计: dy: 5 条内容, 42 条评论
+2025-12-08 15:49:19,456 - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 15:49:19,456 - INFO - 风险因素: 1 项
+2025-12-08 15:49:19,456 - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 15:49:19,463 - INFO - 情感分析: 情感打分-0/100
+2025-12-08 15:49:19,463 - INFO - 关键发现: 1 项
+2025-12-08 15:49:19,463 - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 15:49:19,465 - INFO - 趋势预测: 无法预测
+2025-12-08 15:49:19,465 - INFO - 建议: 1 条
+2025-12-08 15:49:19,465 - INFO - 重要视频来源: 4 个
+2025-12-08 15:49:19,465 - INFO - 重要视频 1: 坏死的肢体必须截掉吗现场实拍：坏死的肢体必须截掉吗训练情况..., 平台-dy
+2025-12-08 15:49:19,465 - INFO - 重要视频 2: 震撼！坏死的肢体必须截掉吗最新动态曝光..., 平台-dy
+2025-12-08 15:49:19,465 - INFO - 重要视频 3: 坏死的肢体必须截掉吗最新训练视频出炉..., 平台-dy
+2025-12-08 15:49:19,465 - INFO - 步骤4: 更新记忆
+2025-12-08 15:49:19,465 - INFO - 步骤5: 保存分析报告
+2025-12-08 15:49:19,465 - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_154919.json
+2025-12-08 15:49:19,465 - INFO - 话题 '坏死的肢体必须截掉吗' 处理完成，总耗时 0.47 秒
+2025-12-08 16:00:42,387 - INFO - 开始处理话题: 谁来看下这女生什么球风
+2025-12-08 16:00:42,387 - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 16:00:43,576 - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:43,581 - INFO - 成功生成 1 个关键词: 谁来看下这女生什么球风
+2025-12-08 16:00:43,581 - INFO - 目标平台: dy
+2025-12-08 16:00:43,581 - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 16:00:43,581 - INFO - 处理关键词: 谁来看下这女生什么球风，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 16:00:43,581 - INFO - 开始爬取关键词: 谁来看下这女生什么球风，平台: dy
+2025-12-08 16:00:43,581 - INFO - ✅ dy平台关键词 谁来看下这女生什么球风 爬取完成
+2025-12-08 16:00:43,586 - INFO - 📊 爬取结果统计:
+2025-12-08 16:00:43,586 - INFO -    实际获取内容数: 5 条
+2025-12-08 16:00:43,586 - INFO -    实际获取评论数: 31 条
+2025-12-08 16:00:43,586 - INFO - dy平台关键词 谁来看下这女生什么球风 爬取完成，获取 5 条内容，31 条评论
+2025-12-08 16:00:43,586 - INFO - 开始分析关键词 谁来看下这女生什么球风 的爬取结果
+2025-12-08 16:00:43,586 - INFO - 开始分析内容，主题: 谁来看下这女生什么球风，爬取平台数: 1
+2025-12-08 16:00:43,586 - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 16:00:43,586 - INFO - 调用LLM进行内容分析
+2025-12-08 16:00:43,623 - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:43,662 - WARNING - 生成错误报告，主题: 谁来看下这女生什么球风
+2025-12-08 16:00:43,662 - INFO - 
+关键词 谁来看下这女生什么球风 分析结果:
+2025-12-08 16:00:43,662 - INFO - 风险等级: unknown
+2025-12-08 16:00:43,662 - INFO - 置信度: 0.00
+2025-12-08 16:00:43,662 - INFO - 关键发现: 1 项
+2025-12-08 16:00:43,662 - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 16:00:43,662 - INFO - 关键词 谁来看下这女生什么球风 分析完成，风险等级: unknown
+2025-12-08 16:00:43,662 - INFO - 所有平台爬取完成，总耗时: 0.08 秒，总计 5 条内容，31 条评论
+2025-12-08 16:00:43,662 - INFO - 原始重要视频数量: 5
+2025-12-08 16:00:43,662 - INFO - 去重后重要视频数量: 5
+2025-12-08 16:00:43,662 - INFO - 排序和限制后重要视频数量: 5
+2025-12-08 16:00:43,662 - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 16:00:43,662 - INFO - 开始汇总 1 个小报告
+2025-12-08 16:00:43,720 - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:43,726 - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 16:00:43,726 - INFO - 最终汇总报告: 话题-谁来看下这女生什么球风, 处理时间-1.34秒, 风险等级-unknown
+2025-12-08 16:00:43,726 - INFO - 总爬取内容-5条, 总评论数-31条
+2025-12-08 16:00:43,726 - INFO - 平台爬取统计: dy: 5 条内容, 31 条评论
+2025-12-08 16:00:43,726 - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 16:00:43,726 - INFO - 风险因素: 1 项
+2025-12-08 16:00:43,731 - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:43,731 - INFO - 情感分析: 情感打分-0/100
+2025-12-08 16:00:43,731 - INFO - 关键发现: 1 项
+2025-12-08 16:00:43,731 - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 16:00:43,731 - INFO - 趋势预测: 无法预测
+2025-12-08 16:00:43,731 - INFO - 建议: 1 条
+2025-12-08 16:00:43,731 - INFO - 重要视频来源: 5 个
+2025-12-08 16:00:43,735 - INFO - 重要视频 1: 谁来看下这女生什么球风最新训练视频出炉..., 平台-dy
+2025-12-08 16:00:43,736 - INFO - 重要视频 2: 谁来看下这女生什么球风现场实拍：谁来看下这女生什么球风训练情况..., 平台-dy
+2025-12-08 16:00:43,736 - INFO - 重要视频 3: 谁来看下这女生什么球风最新训练视频出炉..., 平台-dy
+2025-12-08 16:00:43,736 - INFO - 步骤4: 更新记忆
+2025-12-08 16:00:43,741 - INFO - 步骤5: 保存分析报告
+2025-12-08 16:00:43,745 - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_160043.json
+2025-12-08 16:00:43,745 - INFO - 话题 '谁来看下这女生什么球风' 处理完成，总耗时 1.36 秒
+2025-12-08 16:00:43,746 - INFO - 开始处理话题: 加快发展新质生产力
+2025-12-08 16:00:43,746 - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 16:00:44,092 - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,097 - INFO - 成功生成 1 个关键词: 加快发展新质生产力
+2025-12-08 16:00:44,097 - INFO - 目标平台: dy
+2025-12-08 16:00:44,097 - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 16:00:44,097 - INFO - 处理关键词: 加快发展新质生产力，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 16:00:44,097 - INFO - 开始爬取关键词: 加快发展新质生产力，平台: dy
+2025-12-08 16:00:44,102 - INFO - ✅ dy平台关键词 加快发展新质生产力 爬取完成
+2025-12-08 16:00:44,102 - INFO - 📊 爬取结果统计:
+2025-12-08 16:00:44,102 - INFO -    实际获取内容数: 5 条
+2025-12-08 16:00:44,102 - INFO -    实际获取评论数: 48 条
+2025-12-08 16:00:44,107 - INFO - dy平台关键词 加快发展新质生产力 爬取完成，获取 5 条内容，48 条评论
+2025-12-08 16:00:44,107 - INFO - 开始分析关键词 加快发展新质生产力 的爬取结果
+2025-12-08 16:00:44,107 - INFO - 开始分析内容，主题: 加快发展新质生产力，爬取平台数: 1
+2025-12-08 16:00:44,107 - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 16:00:44,107 - INFO - 调用LLM进行内容分析
+2025-12-08 16:00:44,160 - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,165 - WARNING - 生成错误报告，主题: 加快发展新质生产力
+2025-12-08 16:00:44,165 - INFO - 
+关键词 加快发展新质生产力 分析结果:
+2025-12-08 16:00:44,165 - INFO - 风险等级: unknown
+2025-12-08 16:00:44,165 - INFO - 置信度: 0.00
+2025-12-08 16:00:44,165 - INFO - 关键发现: 1 项
+2025-12-08 16:00:44,170 - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 16:00:44,170 - INFO - 关键词 加快发展新质生产力 分析完成，风险等级: unknown
+2025-12-08 16:00:44,170 - INFO - 所有平台爬取完成，总耗时: 0.07 秒，总计 5 条内容，48 条评论
+2025-12-08 16:00:44,170 - INFO - 原始重要视频数量: 5
+2025-12-08 16:00:44,170 - INFO - 去重后重要视频数量: 5
+2025-12-08 16:00:44,170 - INFO - 排序和限制后重要视频数量: 5
+2025-12-08 16:00:44,170 - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 16:00:44,170 - INFO - 开始汇总 1 个小报告
+2025-12-08 16:00:44,214 - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,217 - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 16:00:44,217 - INFO - 最终汇总报告: 话题-加快发展新质生产力, 处理时间-0.47秒, 风险等级-unknown
+2025-12-08 16:00:44,217 - INFO - 总爬取内容-5条, 总评论数-48条
+2025-12-08 16:00:44,217 - INFO - 平台爬取统计: dy: 5 条内容, 48 条评论
+2025-12-08 16:00:44,221 - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 16:00:44,221 - INFO - 风险因素: 1 项
+2025-12-08 16:00:44,221 - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,221 - INFO - 情感分析: 情感打分-0/100
+2025-12-08 16:00:44,221 - INFO - 关键发现: 1 项
+2025-12-08 16:00:44,221 - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 16:00:44,221 - INFO - 趋势预测: 无法预测
+2025-12-08 16:00:44,221 - INFO - 建议: 1 条
+2025-12-08 16:00:44,221 - INFO - 重要视频来源: 5 个
+2025-12-08 16:00:44,221 - INFO - 重要视频 1: 加快发展新质生产力现场实拍：加快发展新质生产力训练情况..., 平台-dy
+2025-12-08 16:00:44,221 - INFO - 重要视频 2: 加快发展新质生产力现场实拍：加快发展新质生产力训练情况..., 平台-dy
+2025-12-08 16:00:44,221 - INFO - 重要视频 3: 加快发展新质生产力现场实拍：加快发展新质生产力训练情况..., 平台-dy
+2025-12-08 16:00:44,226 - INFO - 步骤4: 更新记忆
+2025-12-08 16:00:44,227 - INFO - 步骤5: 保存分析报告
+2025-12-08 16:00:44,231 - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_160044.json
+2025-12-08 16:00:44,231 - INFO - 话题 '加快发展新质生产力' 处理完成，总耗时 0.48 秒
+2025-12-08 16:00:44,231 - INFO - 开始处理话题: 东方美学被明制汉服拿捏了
+2025-12-08 16:00:44,231 - INFO - 步骤1: 生成关键词和爬取配置
+2025-12-08 16:00:44,275 - ERROR - 生成关键词失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,275 - INFO - 成功生成 1 个关键词: 东方美学被明制汉服拿捏了
+2025-12-08 16:00:44,275 - INFO - 目标平台: dy
+2025-12-08 16:00:44,278 - INFO - 步骤2: 开始边爬取边分析
+2025-12-08 16:00:44,278 - INFO - 处理关键词: 东方美学被明制汉服拿捏了，计划爬取 8 个视频/帖子，每条内容 20 条评论
+2025-12-08 16:00:44,279 - INFO - 开始爬取关键词: 东方美学被明制汉服拿捏了，平台: dy
+2025-12-08 16:00:44,283 - INFO - ✅ dy平台关键词 东方美学被明制汉服拿捏了 爬取完成
+2025-12-08 16:00:44,283 - INFO - 📊 爬取结果统计:
+2025-12-08 16:00:44,285 - INFO -    实际获取内容数: 5 条
+2025-12-08 16:00:44,285 - INFO -    实际获取评论数: 37 条
+2025-12-08 16:00:44,285 - INFO - dy平台关键词 东方美学被明制汉服拿捏了 爬取完成，获取 5 条内容，37 条评论
+2025-12-08 16:00:44,287 - INFO - 开始分析关键词 东方美学被明制汉服拿捏了 的爬取结果
+2025-12-08 16:00:44,287 - INFO - 开始分析内容，主题: 东方美学被明制汉服拿捏了，爬取平台数: 1
+2025-12-08 16:00:44,289 - INFO - 数据预处理完成，处理后的内容数: 5
+2025-12-08 16:00:44,289 - INFO - 调用LLM进行内容分析
+2025-12-08 16:00:44,323 - ERROR - 分析内容失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 354, in analyze_content
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,327 - WARNING - 生成错误报告，主题: 东方美学被明制汉服拿捏了
+2025-12-08 16:00:44,327 - INFO - 
+关键词 东方美学被明制汉服拿捏了 分析结果:
+2025-12-08 16:00:44,327 - INFO - 风险等级: unknown
+2025-12-08 16:00:44,329 - INFO - 置信度: 0.00
+2025-12-08 16:00:44,330 - INFO - 关键发现: 1 项
+2025-12-08 16:00:44,330 - INFO - 发现 1: 分析过程中出现错误...
+2025-12-08 16:00:44,330 - INFO - 关键词 东方美学被明制汉服拿捏了 分析完成，风险等级: unknown
+2025-12-08 16:00:44,330 - INFO - 所有平台爬取完成，总耗时: 0.05 秒，总计 5 条内容，37 条评论
+2025-12-08 16:00:44,330 - INFO - 原始重要视频数量: 5
+2025-12-08 16:00:44,330 - INFO - 去重后重要视频数量: 5
+2025-12-08 16:00:44,332 - INFO - 排序和限制后重要视频数量: 5
+2025-12-08 16:00:44,332 - INFO - 步骤3: 汇总所有小报告，生成最终报告
+2025-12-08 16:00:44,332 - INFO - 开始汇总 1 个小报告
+2025-12-08 16:00:44,368 - ERROR - 汇总小报告失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\agent.py", line 649, in _summarize_sub_reports
+    response = self.llm.invoke(
+               ^^^^^^^^^^^^^^^^
+  File "E:\mirthflow\DetectionSystem\VideosCommentsSpotter\llm\llm.py", line 88, in invoke
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1189, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Will\.conda\envs\mirthflow\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,368 - INFO - 最终报告生成完成，风险等级: unknown
+2025-12-08 16:00:44,368 - INFO - 最终汇总报告: 话题-东方美学被明制汉服拿捏了, 处理时间-0.14秒, 风险等级-unknown
+2025-12-08 16:00:44,368 - INFO - 总爬取内容-5条, 总评论数-37条
+2025-12-08 16:00:44,368 - INFO - 平台爬取统计: dy: 5 条内容, 37 条评论
+2025-12-08 16:00:44,368 - INFO - 风险评估结果: 风险等级-unknown, 置信度-0.00
+2025-12-08 16:00:44,368 - INFO - 风险因素: 1 项
+2025-12-08 16:00:44,368 - INFO - 风险因素 1: 汇总报告生成失败: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-12-08 16:00:44,373 - INFO - 情感分析: 情感打分-0/100
+2025-12-08 16:00:44,373 - INFO - 关键发现: 1 项
+2025-12-08 16:00:44,373 - INFO - 关键发现 1: 分析过程中出现错误...
+2025-12-08 16:00:44,373 - INFO - 趋势预测: 无法预测
+2025-12-08 16:00:44,373 - INFO - 建议: 1 条
+2025-12-08 16:00:44,373 - INFO - 重要视频来源: 5 个
+2025-12-08 16:00:44,373 - INFO - 重要视频 1: 东方美学被明制汉服拿捏了现场实拍：东方美学被明制汉服拿捏了训练情况..., 平台-dy
+2025-12-08 16:00:44,373 - INFO - 重要视频 2: 东方美学被明制汉服拿捏了现场实拍：东方美学被明制汉服拿捏了训练情况..., 平台-dy
+2025-12-08 16:00:44,373 - INFO - 重要视频 3: 深度解析：东方美学被明制汉服拿捏了背后的故事..., 平台-dy
+2025-12-08 16:00:44,373 - INFO - 步骤4: 更新记忆
+2025-12-08 16:00:44,379 - INFO - 步骤5: 保存分析报告
+2025-12-08 16:00:44,384 - INFO - 分析报告已成功保存到: E:\mirthflow\DetectionSystem\VideosCommentsSpotter\output\vcs_report_20251208_160044.json
+2025-12-08 16:00:44,384 - INFO - 话题 '东方美学被明制汉服拿捏了' 处理完成，总耗时 0.15 秒

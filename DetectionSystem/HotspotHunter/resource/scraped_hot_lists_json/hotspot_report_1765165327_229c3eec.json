@@ -1,0 +1,247 @@
+{
+  "summary": "本次热点榜整体以娱乐、社会正能量和国际关系为主，其中娱乐话题占据较大比例，社会正能量内容如环卫爷爷和宁夏冰窟救童小姑娘受到广泛关注。国际关系方面涉及中日、中美关系的讨论热度较高。整体风险较低，但需关注国际关系话题的潜在争议。\n本次热点榜主要涵盖了体育、娱乐、社会新闻和国际关系等多个领域的热点话题。其中，体育和娱乐类话题占据了榜单的大部分位置，显示出公众对这些领域的持续关注。虽然大部分话题为中性或正面内容，但仍有个别话题涉及负面事件或潜在争议，需要特别关注。\n本次热点榜主要涉及国际访问、科技应用限制、体育赛事和国际关系等多个领域。榜单中没有出现明显的负面舆情风险话题，大多数内容为中性或正面报道。需要关注的是多家APP对豆包手机禁用的相关话题，可能存在一定的商业竞争或技术兼容性问题。\n本次热点榜主要涉及国际关系、社会事件、体育赛事和文化娱乐等多个领域。其中，中日关系相关话题热度较高，同时也有一些社会事件和体育赛事的热点。整体来看，榜单中负面舆情风险较低，但仍需关注部分话题的潜在争议。",
+  "topics": [
+    {
+      "topic": "国防部回应日称战机被雷达照射",
+      "platform": "抖音",
+      "hotness": "874.0万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及中日军事关系，可能引发争议或讨论",
+      "further_investigate": true,
+      "title": "国防部回应日称战机被雷达照射"
+    },
+    {
+      "topic": "美防长不点名“警告”日本",
+      "platform": "抖音",
+      "hotness": "780.8万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "涉及美日关系，可能引发国际舆论关注",
+      "further_investigate": true,
+      "title": "美防长不点名“警告”日本"
+    },
+    {
+      "topic": "洪秀柱警告日本别惹事",
+      "platform": "抖音",
+      "hotness": "772.7万",
+      "risk_level": 5,
+      "category": "国际关系",
+      "reason": "涉及中日关系，可能引发争议或讨论",
+      "further_investigate": true,
+      "title": "洪秀柱警告日本别惹事"
+    },
+    {
+      "topic": "美国将调整与中国经济关系",
+      "platform": "抖音",
+      "hotness": "772.7万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及中美经济关系，可能引发争议或讨论",
+      "further_investigate": true,
+      "title": "美国将调整与中国经济关系"
+    },
+    {
+      "topic": "德国外长访华前表态",
+      "platform": "抖音",
+      "hotness": "767.1万",
+      "risk_level": 4,
+      "category": "国际关系",
+      "reason": "涉及中德关系，可能引发国际舆论关注",
+      "further_investigate": true,
+      "title": "德国外长访华前表态"
+    },
+    {
+      "topic": "网警查处编造汽车造成8杀网络谣言案",
+      "platform": "微博",
+      "hotness": "25万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "该话题涉及网络谣言的传播和查处，可能引发公众对网络安全的关注和讨论，具有一定的社会负面影响。",
+      "further_investigate": true,
+      "title": "网警查处编造汽车造成8杀网络谣言案"
+    },
+    {
+      "topic": "1818名包括明星网红在内双高人员被查",
+      "platform": "微博",
+      "hotness": "24万",
+      "risk_level": 6,
+      "category": "舆论争议",
+      "reason": "该话题涉及明星和网红等高关注度人员的负面事件，可能引发公众对这些群体的质疑和讨论。",
+      "further_investigate": true,
+      "title": "1818名包括明星网红在内双高人员被查"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "20万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "该话题涉及严重的刑事案件，可能引发公众对社会治安和国际形象的担忧，具有较高的负面影响。",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "警方通报44岁男子公园搂抱女童",
+      "platform": "微博",
+      "hotness": "20万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "该话题涉及未成年人安全和公共治安问题，可能引发公众对儿童保护的关注和讨论。",
+      "further_investigate": true,
+      "title": "警方通报44岁男子公园搂抱女童"
+    },
+    {
+      "topic": "女子遭75岁丈夫殴打村民发声",
+      "platform": "微博",
+      "hotness": "14万",
+      "risk_level": 6,
+      "category": "社会安全",
+      "reason": "该话题涉及家庭暴力问题，可能引发公众对家庭关系和老年人行为的讨论。",
+      "further_investigate": true,
+      "title": "女子遭75岁丈夫殴打村民发声"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "多家APP对豆包手机禁用可能引发用户不满或商业竞争争议",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "阿里系APP禁止豆包手机登陆可能涉及商业竞争或技术兼容性问题",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "美军承认:击落美军战机",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 5,
+      "category": "潜在风险",
+      "reason": "美军承认击落美军战机可能引发国际关注和讨论",
+      "further_investigate": true,
+      "title": "美军承认:击落美军战机"
+    },
+    {
+      "topic": "中方不接受日方交涉已当场驳回",
+      "platform": "头条",
+      "hotness": "3977.3万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及中日外交交涉，可能引发国际舆论关注和争议",
+      "further_investigate": true,
+      "title": "中方不接受日方交涉已当场驳回"
+    },
+    {
+      "topic": "朱元璋“鞋拔子脸”教材换图",
+      "platform": "头条",
+      "hotness": "3598.8万",
+      "risk_level": 4,
+      "category": "文化争议",
+      "reason": "涉及历史人物形象修改，可能引发文化认同和历史解读的讨论",
+      "further_investigate": true,
+      "title": "朱元璋“鞋拔子脸”教材换图"
+    },
+    {
+      "topic": "孩子被褥印不雅英文字母",
+      "platform": "头条",
+      "hotness": "980.8万",
+      "risk_level": 5,
+      "category": "社会安全",
+      "reason": "涉及儿童用品安全问题，可能引发家长和社会对产品质量监管的关注",
+      "further_investigate": true,
+      "title": "孩子被褥印不雅英文字母"
+    },
+    {
+      "topic": "博主：《得闲谨制》的幽默是带血的",
+      "platform": "头条",
+      "hotness": "1083.9万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "涉及内容创作的道德边界讨论，可能引发公众对幽默尺度的争议",
+      "further_investigate": true,
+      "title": "博主：《得闲谨制》的幽默是带血的"
+    },
+    {
+      "topic": "人贩子扬言出狱报复能否加刑",
+      "platform": "头条",
+      "hotness": "657.4万",
+      "risk_level": 5,
+      "category": "社会安全",
+      "reason": "涉及犯罪分子的威胁言论，可能引发公众对司法惩戒力度的讨论",
+      "further_investigate": true,
+      "title": "人贩子扬言出狱报复能否加刑"
+    },
+    {
+      "topic": "女子婚后出轨伴郎并生娃 双双获刑",
+      "platform": "头条",
+      "hotness": "80.5万",
+      "risk_level": 4,
+      "category": "社会道德",
+      "reason": "涉及婚姻伦理和法律判决，可能引发公众对婚姻忠诚度和法律惩戒的讨论",
+      "further_investigate": true,
+      "title": "女子婚后出轨伴郎并生娃 双双获刑"
+    },
+    {
+      "topic": "滋扰中国海军训练 日本“贼喊捉贼”",
+      "platform": "头条",
+      "hotness": "89.0万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及中日军事互动，可能引发国际舆论关注和争议",
+      "further_investigate": true,
+      "title": "滋扰中国海军训练 日本“贼喊捉贼”"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 20,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "本次热点榜以娱乐和社会正能量内容为主，国际关系话题也占据一定比例。娱乐话题如明星动态、综艺节目等热度较高，社会正能量内容如环卫爷爷和宁夏冰窟救童小姑娘受到广泛关注。国际关系方面涉及中日、中美关系的讨论热度较高。",
+    "content_summary": "侦察到的主要内容包括娱乐明星动态、社会正能量事件和国际关系讨论。娱乐话题如EXO入驻、刘亦菲观赛F1等热度较高；社会正能量事件如环卫爷爷扫落叶成打卡点和宁夏冰窟救童小姑娘受到广泛关注；国际关系方面涉及中日、中美关系的讨论热度较高。",
+    "content_analysis": "娱乐话题占据较大比例，显示出用户对明星动态和综艺节目的高度关注。社会正能量内容如环卫爷爷和宁夏冰窟救童小姑娘受到广泛关注，反映出公众对正能量的需求。国际关系话题如中日、中美关系的讨论热度较高，可能引发争议或讨论。",
+    "potential_risks": [
+      "国际关系话题可能引发争议或讨论，需密切关注舆论动向",
+      "社会正能量内容需确保真实性，避免后续出现反转",
+      "娱乐话题需关注是否有不当言论或行为引发争议"
+    ],
+    "trend_prediction": "未来24-48小时内，娱乐话题和社会正能量内容的热度可能持续，国际关系话题的讨论可能进一步升温，需密切关注相关舆论动向。",
+    "recommendations": [
+      "加强对国际关系话题的监控，及时应对可能的舆论争议",
+      "确保社会正能量内容的真实性，避免后续出现反转",
+      "关注娱乐话题中是否有不当言论或行为引发争议"
+    ],
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 3,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 20,
+    "risk_overview": {
+      "high_risk_count": 2,
+      "medium_risk_count": 3,
+      "low_risk_count": 0,
+      "total_count": 5
+    }
+  }
+}

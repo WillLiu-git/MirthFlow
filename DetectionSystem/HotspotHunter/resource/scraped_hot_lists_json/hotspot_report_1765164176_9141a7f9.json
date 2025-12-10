@@ -1,0 +1,167 @@
+{
+  "summary": "本次热点榜以娱乐、体育和社会正能量内容为主，整体舆情较为正面。榜单中出现了多个体育赛事相关话题和国际关系动态，但无明显负面舆情风险。热点类型分布均匀，涵盖了娱乐、体育、社会和国际等多个领域。\n本次热点榜涵盖了娱乐、社会新闻、体育等多个领域的热点话题。榜单中出现了几起社会负面事件，如警方通报的男子公园搂抱女童案件和日本成人商店惊现婴儿残尸事件。整体来看，娱乐类话题占据较大比例，但社会新闻类话题的热度也不容忽视。\n本次热点榜主要涵盖了国际访问、科技应用限制、体育赛事、国际关系等多个领域。榜单中没有明显的负面舆情风险话题，大多数内容为中性或正面报道。需要关注的是多家APP对豆包手机禁用的相关话题，可能存在一定的商业竞争风险。\n本次热点榜主要涉及国际关系、社会事件、体育赛事和娱乐新闻等多个领域。其中，国际关系类话题热度较高，涉及中日、中美关系等敏感议题。整体来看，榜单中负面舆情风险较低，但仍需关注部分可能引发争议的话题。",
+  "topics": [
+    {
+      "topic": "警方通报44岁男子公园搂抱女童",
+      "platform": "微博",
+      "hotness": "28万",
+      "risk_level": 8,
+      "category": "社会安全",
+      "reason": "标题明确提及警方通报的男子搂抱女童事件，涉及未成年人安全问题，具有明确的负面倾向和社会安全隐患。",
+      "further_investigate": true,
+      "title": "警方通报44岁男子公园搂抱女童"
+    },
+    {
+      "topic": "日本一成人商店惊现婴儿残尸",
+      "platform": "微博",
+      "hotness": "20万",
+      "risk_level": 9,
+      "category": "社会安全",
+      "reason": "标题提及成人商店惊现婴儿残尸，涉及严重的刑事案件和社会道德问题，具有极高的负面性和社会影响。",
+      "further_investigate": true,
+      "title": "日本一成人商店惊现婴儿残尸"
+    },
+    {
+      "topic": "女子遭75岁丈夫殴打村民发声",
+      "platform": "微博",
+      "hotness": "13万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "标题提及女子遭丈夫殴打事件，涉及家庭暴力问题，具有明确的负面倾向和社会安全隐患。",
+      "further_investigate": true,
+      "title": "女子遭75岁丈夫殴打村民发声"
+    },
+    {
+      "topic": "印度警察为逃避工作深夜抛尸",
+      "platform": "微博",
+      "hotness": "7万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "标题提及印度警察逃避工作并抛尸的行为，涉及公职人员渎职和道德问题，具有明确的负面倾向。",
+      "further_investigate": true,
+      "title": "印度警察为逃避工作深夜抛尸"
+    },
+    {
+      "topic": "多家APP对豆包手机禁用",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "多家APP对豆包手机禁用可能涉及商业竞争或用户权益问题，需要进一步观察是否存在负面影响",
+      "further_investigate": true,
+      "title": "多家APP对豆包手机禁用"
+    },
+    {
+      "topic": "阿里系APP禁止豆包手机登陆",
+      "platform": "知乎",
+      "hotness": "0",
+      "risk_level": 4,
+      "category": "潜在风险",
+      "reason": "阿里系APP禁止豆包手机登陆可能与商业竞争有关，存在一定的潜在风险",
+      "further_investigate": true,
+      "title": "阿里系APP禁止豆包手机登陆"
+    },
+    {
+      "topic": "中方不接受日方交涉已当场驳回",
+      "platform": "头条",
+      "hotness": "3927.9万",
+      "risk_level": 6,
+      "category": "国际关系",
+      "reason": "涉及中日外交关系，可能引发民族情绪和国际舆论关注",
+      "further_investigate": true,
+      "title": "中方不接受日方交涉已当场驳回"
+    },
+    {
+      "topic": "净网|网警查处编造汽车造成8杀谣言案",
+      "platform": "头条",
+      "hotness": "2633.0万",
+      "risk_level": 5,
+      "category": "社会安全",
+      "reason": "涉及网络谣言和公共安全事件，可能引发社会不安",
+      "further_investigate": true,
+      "title": "净网|网警查处编造汽车造成8杀谣言案"
+    },
+    {
+      "topic": "人贩子扬言出狱报复能否加刑",
+      "platform": "头条",
+      "hotness": "1183.1万",
+      "risk_level": 7,
+      "category": "社会安全",
+      "reason": "涉及犯罪分子的威胁言论，可能引发公众对司法安全的担忧",
+      "further_investigate": true,
+      "title": "人贩子扬言出狱报复能否加刑"
+    },
+    {
+      "topic": "孩子被褥印不雅英文字母",
+      "platform": "头条",
+      "hotness": "968.6万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "涉及儿童用品质量问题，可能引发家长群体的不满和讨论",
+      "further_investigate": true,
+      "title": "孩子被褥印不雅英文字母"
+    },
+    {
+      "topic": "西藏贡嘎捣毁一卖淫窝点 10人被抓",
+      "platform": "头条",
+      "hotness": "435.2万",
+      "risk_level": 5,
+      "category": "社会安全",
+      "reason": "涉及违法犯罪活动，可能引发对社会治安的关注",
+      "further_investigate": true,
+      "title": "西藏贡嘎捣毁一卖淫窝点 10人被抓"
+    },
+    {
+      "topic": "女子婚后出轨伴郎并生娃 双双获刑",
+      "platform": "头条",
+      "hotness": "264.0万",
+      "risk_level": 4,
+      "category": "舆论争议",
+      "reason": "涉及婚姻伦理问题，可能引发社会道德讨论",
+      "further_investigate": true,
+      "title": "女子婚后出轨伴郎并生娃 双双获刑"
+    }
+  ],
+  "report_count": 4,
+  "total_risk_items": 12,
+  "overall_sentiment": {
+    "negative": 0.7,
+    "neutral": 0.2,
+    "positive": 0.1
+  },
+  "risk_signals": [
+    "新发现的风险话题"
+  ],
+  "scout_summary": {
+    "overall_observation": "热点榜内容多样，以娱乐和社会正能量话题为主，体育赛事和国际关系动态也有所体现。热度分布均匀，无明显负面舆情风险。",
+    "content_summary": "侦察到的主要内容包括：环卫爷爷把落叶扫成打卡点、我国外汇储备创十年来新高、国乒战胜日本夺冠、国防部回应日称战机被雷达照射等。热点领域涵盖娱乐、体育、社会和国际关系。",
+    "content_analysis": "娱乐和社会正能量话题占据榜单前列，体育赛事和国际关系动态也有较高热度。整体情绪倾向正面，无明显负面或争议性内容。",
+    "potential_risks": [
+      "国际关系话题可能引发讨论，需关注后续发展",
+      "体育赛事结果可能引发粉丝情绪波动",
+      "社会正能量话题需确保内容真实性"
+    ],
+    "trend_prediction": "未来24-48小时内，娱乐和社会正能量话题可能继续保持热度，国际关系动态可能引发更多讨论。",
+    "recommendations": [
+      "持续监控国际关系话题的讨论情况",
+      "关注体育赛事相关话题的粉丝情绪",
+      "确保社会正能量话题的真实性和准确性"
+    ],
+    "risk_overview": {
+      "high_risk_count": 0,
+      "medium_risk_count": 0,
+      "low_risk_count": 0,
+      "total_count": 0
+    }
+  },
+  "detailed_report": {
+    "scan_url_count": 4,
+    "total_risk_items": 12,
+    "risk_overview": {
+      "high_risk_count": 0,
+      "medium_risk_count": 0,
+      "low_risk_count": 0,
+      "total_count": 0
+    }
+  }
+}

@@ -1,0 +1,582 @@
+2025-12-07 21:44:17,922 - SystemManager - INFO - 日志系统已初始化
+2025-12-07 21:44:17,923 - SystemManager - INFO - 日志级别: INFO
+2025-12-07 21:44:17,925 - SystemManager - INFO - 系统日志: E:\mirthflow\logs\system.log
+2025-12-07 21:44:17,925 - SystemManager - INFO - 错误日志: E:\mirthflow\logs\error.log
+2025-12-07 21:44:17,925 - SystemManager - INFO - 启动舆情监测系统 - MirthFlow v1.0.0
+2025-12-07 21:44:17,925 - SystemManager - INFO - 配置: {
+  "system_name": "舆情监测系统 - MirthFlow",
+  "version": "1.0.0",
+  "debug_mode": false,
+  "run_interval": 60,
+  "hotspot_hunter_interval": 600,
+  "risk_analyzer_interval": 300,
+  "vcs_interval": 1200,
+  "max_concurrent_tasks": 3,
+  "output_dir": "E:\\mirthflow\\output",
+  "intelligence_file": "E:\\mirthflow\\DetectionSystem\\HotspotHunter\\resource\\intelligence_feed.json",
+  "alerts_file": "E:\\mirthflow\\DetectionSystem\\RiskAnalyzer\\resource\\system_alerts.json",
+  "system_log_file": "E:\\mirthflow\\logs\\system.log",
+  "log_level": "INFO",
+  "config_file": "E:\\mirthflow\\config.json"
+}
+2025-12-07 21:44:18,293 - RiskAnalyzer - INFO - RiskAnalyzer初始化完成
+2025-12-07 21:44:18,458 - SystemManager - INFO - 所有组件初始化完成
+2025-12-07 21:44:18,459 - SystemManager - INFO - HotspotHunter开始运行
+2025-12-07 21:44:18,459 - SystemManager - INFO - HotspotHunter开始扫描...
+2025-12-07 21:44:18,459 - SystemManager - INFO - HotspotHunter线程启动成功
+2025-12-07 21:44:18,460 - HotspotHunter - INFO - 🚀 开始热点侦察，共扫描 4 个榜单
+2025-12-07 21:44:18,461 - SystemManager - INFO - RiskAnalyzer开始运行
+2025-12-07 21:44:18,461 - SystemManager - INFO - RiskAnalyzer线程启动成功
+2025-12-07 21:44:18,463 - SystemManager - INFO - VideosCommentsSpotter组件初始化成功
+2025-12-07 21:44:18,463 - SystemManager - INFO - 系统启动成功！正在运行...
+2025-12-07 21:44:18,463 - SystemManager - INFO - [系统状态] 运行时长: 0秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 21:44:21,284 - SystemManager - ERROR - HotspotHunter扫描失败: 'gbk' codec can't encode character '\u2714' in position 1: illegal multibyte sequence
+2025-12-07 21:45:18,464 - SystemManager - INFO - [系统状态] 运行时长: 60秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:01:44,948 - SystemManager - INFO - 日志系统已初始化
+2025-12-07 22:01:44,948 - SystemManager - INFO - 日志级别: INFO
+2025-12-07 22:01:44,948 - SystemManager - INFO - 系统日志: E:\mirthflow\logs\system.log
+2025-12-07 22:01:44,948 - SystemManager - INFO - 错误日志: E:\mirthflow\logs\error.log
+2025-12-07 22:01:44,948 - SystemManager - INFO - 启动舆情监测系统 - MirthFlow v1.0.0
+2025-12-07 22:01:44,949 - SystemManager - INFO - 配置: {
+  "system_name": "舆情监测系统 - MirthFlow",
+  "version": "1.0.0",
+  "debug_mode": false,
+  "run_interval": 60,
+  "hotspot_hunter_interval": 600,
+  "risk_analyzer_interval": 300,
+  "vcs_interval": 1200,
+  "max_concurrent_tasks": 3,
+  "output_dir": "E:\\mirthflow\\output",
+  "intelligence_file": "E:\\mirthflow\\DetectionSystem\\HotspotHunter\\resource\\intelligence_feed.json",
+  "alerts_file": "E:\\mirthflow\\DetectionSystem\\RiskAnalyzer\\resource\\system_alerts.json",
+  "system_log_file": "E:\\mirthflow\\logs\\system.log",
+  "log_level": "INFO",
+  "config_file": "E:\\mirthflow\\config.json"
+}
+2025-12-07 22:01:45,288 - RiskAnalyzer - INFO - RiskAnalyzer初始化完成
+2025-12-07 22:01:45,439 - SystemManager - INFO - 所有组件初始化完成
+2025-12-07 22:01:45,439 - SystemManager - INFO - HotspotHunter开始运行
+2025-12-07 22:01:45,439 - SystemManager - INFO - HotspotHunter线程启动成功
+2025-12-07 22:01:45,439 - SystemManager - INFO - HotspotHunter开始扫描...
+2025-12-07 22:01:45,440 - SystemManager - INFO - RiskAnalyzer开始运行
+2025-12-07 22:01:45,440 - HotspotHunter - INFO - 🚀 开始热点侦察，共扫描 4 个榜单
+2025-12-07 22:01:45,440 - SystemManager - INFO - RiskAnalyzer线程启动成功
+2025-12-07 22:01:45,440 - SystemManager - INFO - VideosCommentsSpotter组件初始化成功
+2025-12-07 22:01:45,440 - SystemManager - INFO - 系统启动成功！正在运行...
+2025-12-07 22:01:45,440 - SystemManager - INFO - [系统状态] 运行时长: 0秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:01:49,859 - SystemManager - INFO - 日志系统已初始化
+2025-12-07 22:01:49,860 - SystemManager - INFO - 日志级别: INFO
+2025-12-07 22:01:49,860 - SystemManager - INFO - 系统日志: E:\mirthflow\logs\system.log
+2025-12-07 22:01:49,860 - SystemManager - INFO - 错误日志: E:\mirthflow\logs\error.log
+2025-12-07 22:01:49,860 - SystemManager - INFO - 启动舆情监测系统 - MirthFlow v1.0.0
+2025-12-07 22:01:49,860 - SystemManager - INFO - 配置: {
+  "system_name": "舆情监测系统 - MirthFlow",
+  "version": "1.0.0",
+  "debug_mode": false,
+  "run_interval": 60,
+  "hotspot_hunter_interval": 600,
+  "risk_analyzer_interval": 300,
+  "vcs_interval": 1200,
+  "max_concurrent_tasks": 3,
+  "output_dir": "E:\\mirthflow\\output",
+  "intelligence_file": "E:\\mirthflow\\DetectionSystem\\HotspotHunter\\resource\\intelligence_feed.json",
+  "alerts_file": "E:\\mirthflow\\DetectionSystem\\RiskAnalyzer\\resource\\system_alerts.json",
+  "system_log_file": "E:\\mirthflow\\logs\\system.log",
+  "log_level": "INFO",
+  "config_file": "E:\\mirthflow\\config.json"
+}
+2025-12-07 22:01:50,186 - SystemManager - ERROR - HotspotHunter扫描失败: 'gbk' codec can't encode character '\u2714' in position 1: illegal multibyte sequence
+2025-12-07 22:01:50,187 - SystemManager - ERROR - HotspotHunter线程异常: [Errno 22] Invalid argument
+2025-12-07 22:01:50,201 - RiskAnalyzer - INFO - RiskAnalyzer初始化完成
+2025-12-07 22:01:50,222 - SystemManager - INFO - HotspotHunter已停止
+2025-12-07 22:01:50,350 - SystemManager - INFO - 所有组件初始化完成
+2025-12-07 22:01:50,350 - SystemManager - INFO - HotspotHunter开始运行
+2025-12-07 22:01:50,350 - SystemManager - INFO - HotspotHunter线程启动成功
+2025-12-07 22:01:50,350 - SystemManager - INFO - HotspotHunter开始扫描...
+2025-12-07 22:01:50,350 - SystemManager - INFO - RiskAnalyzer开始运行
+2025-12-07 22:01:50,350 - HotspotHunter - INFO - 🚀 开始热点侦察，共扫描 4 个榜单
+2025-12-07 22:01:50,350 - SystemManager - INFO - RiskAnalyzer线程启动成功
+2025-12-07 22:01:50,351 - SystemManager - INFO - VideosCommentsSpotter组件初始化成功
+2025-12-07 22:01:50,351 - SystemManager - INFO - 系统启动成功！正在运行...
+2025-12-07 22:01:50,351 - SystemManager - INFO - [系统状态] 运行时长: 0秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:01:53,251 - SystemManager - ERROR - HotspotHunter扫描失败: 'gbk' codec can't encode character '\u2714' in position 1: illegal multibyte sequence
+2025-12-07 22:01:53,252 - SystemManager - ERROR - HotspotHunter线程异常: [Errno 22] Invalid argument
+2025-12-07 22:01:53,253 - SystemManager - INFO - HotspotHunter已停止
+2025-12-07 22:01:57,514 - SystemManager - INFO - 日志系统已初始化
+2025-12-07 22:01:57,514 - SystemManager - INFO - 日志级别: INFO
+2025-12-07 22:01:57,514 - SystemManager - INFO - 系统日志: E:\mirthflow\logs\system.log
+2025-12-07 22:01:57,515 - SystemManager - INFO - 错误日志: E:\mirthflow\logs\error.log
+2025-12-07 22:01:57,515 - SystemManager - INFO - 启动舆情监测系统 - MirthFlow v1.0.0
+2025-12-07 22:01:57,515 - SystemManager - INFO - 配置: {
+  "system_name": "舆情监测系统 - MirthFlow",
+  "version": "1.0.0",
+  "debug_mode": false,
+  "run_interval": 60,
+  "hotspot_hunter_interval": 600,
+  "risk_analyzer_interval": 300,
+  "vcs_interval": 1200,
+  "max_concurrent_tasks": 3,
+  "output_dir": "E:\\mirthflow\\output",
+  "intelligence_file": "E:\\mirthflow\\DetectionSystem\\HotspotHunter\\resource\\intelligence_feed.json",
+  "alerts_file": "E:\\mirthflow\\DetectionSystem\\RiskAnalyzer\\resource\\system_alerts.json",
+  "system_log_file": "E:\\mirthflow\\logs\\system.log",
+  "log_level": "INFO",
+  "config_file": "E:\\mirthflow\\config.json"
+}
+2025-12-07 22:01:57,854 - RiskAnalyzer - INFO - RiskAnalyzer初始化完成
+2025-12-07 22:01:58,012 - SystemManager - INFO - 所有组件初始化完成
+2025-12-07 22:01:58,012 - SystemManager - INFO - HotspotHunter开始运行
+2025-12-07 22:01:58,012 - SystemManager - INFO - HotspotHunter线程启动成功
+2025-12-07 22:01:58,012 - SystemManager - INFO - HotspotHunter开始扫描...
+2025-12-07 22:01:58,014 - SystemManager - INFO - RiskAnalyzer开始运行
+2025-12-07 22:01:58,014 - SystemManager - INFO - RiskAnalyzer线程启动成功
+2025-12-07 22:01:58,014 - HotspotHunter - INFO - 🚀 开始热点侦察，共扫描 4 个榜单
+2025-12-07 22:01:58,014 - SystemManager - INFO - VideosCommentsSpotter组件初始化成功
+2025-12-07 22:01:58,014 - SystemManager - INFO - 系统启动成功！正在运行...
+2025-12-07 22:01:58,014 - SystemManager - INFO - [系统状态] 运行时长: 0秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:02:00,870 - SystemManager - ERROR - HotspotHunter扫描失败: 'gbk' codec can't encode character '\u2714' in position 1: illegal multibyte sequence
+2025-12-07 22:02:45,441 - SystemManager - INFO - [系统状态] 运行时长: 0秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:02:50,351 - SystemManager - INFO - [系统状态] 运行时长: 0秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:02:58,015 - SystemManager - INFO - [系统状态] 运行时长: 0秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:03:45,442 - SystemManager - INFO - [系统状态] 运行时长: 120秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:03:50,352 - SystemManager - INFO - [系统状态] 运行时长: 60秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:03:58,015 - SystemManager - INFO - [系统状态] 运行时长: 60秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:04:45,443 - SystemManager - INFO - [系统状态] 运行时长: 180秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:04:50,353 - SystemManager - INFO - [系统状态] 运行时长: 180秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:04:58,016 - SystemManager - INFO - [系统状态] 运行时长: 120秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:05:45,443 - SystemManager - INFO - [系统状态] 运行时长: 240秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:05:50,354 - SystemManager - INFO - [系统状态] 运行时长: 240秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:05:58,017 - SystemManager - INFO - [系统状态] 运行时长: 180秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:06:45,445 - SystemManager - INFO - [系统状态] 运行时长: 300秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:06:50,355 - SystemManager - INFO - [系统状态] 运行时长: 300秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:06:58,019 - SystemManager - INFO - [系统状态] 运行时长: 300秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:07:45,446 - SystemManager - INFO - [系统状态] 运行时长: 360秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:07:50,356 - SystemManager - INFO - [系统状态] 运行时长: 360秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:07:58,020 - SystemManager - INFO - [系统状态] 运行时长: 360秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:08:45,446 - SystemManager - INFO - [系统状态] 运行时长: 420秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:08:50,357 - SystemManager - INFO - [系统状态] 运行时长: 420秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:08:58,021 - SystemManager - INFO - [系统状态] 运行时长: 420秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:09:45,447 - SystemManager - INFO - [系统状态] 运行时长: 480秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:09:50,359 - SystemManager - INFO - [系统状态] 运行时长: 480秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:09:58,022 - SystemManager - INFO - [系统状态] 运行时长: 480秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:10:45,448 - SystemManager - INFO - [系统状态] 运行时长: 540秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:10:50,360 - SystemManager - INFO - [系统状态] 运行时长: 540秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:10:58,022 - SystemManager - INFO - [系统状态] 运行时长: 540秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:11:45,449 - SystemManager - INFO - [系统状态] 运行时长: 600秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:11:50,360 - SystemManager - INFO - [系统状态] 运行时长: 600秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:11:58,013 - SystemManager - INFO - HotspotHunter开始扫描...
+2025-12-07 22:11:58,013 - HotspotHunter - INFO - 🚀 开始热点侦察，共扫描 4 个榜单
+2025-12-07 22:11:58,023 - SystemManager - INFO - [系统状态] 运行时长: 600秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:12:01,345 - SystemManager - ERROR - HotspotHunter扫描失败: 'gbk' codec can't encode character '\u2714' in position 1: illegal multibyte sequence
+2025-12-07 22:12:01,346 - SystemManager - ERROR - HotspotHunter线程异常: [Errno 22] Invalid argument
+2025-12-07 22:12:01,347 - SystemManager - INFO - HotspotHunter已停止
+2025-12-07 22:12:45,450 - SystemManager - INFO - [系统状态] 运行时长: 660秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:12:48,482 - SystemManager - INFO - 日志系统已初始化
+2025-12-07 22:12:48,483 - SystemManager - INFO - 日志级别: INFO
+2025-12-07 22:12:48,484 - SystemManager - INFO - 系统日志: E:\mirthflow\logs\system.log
+2025-12-07 22:12:48,484 - SystemManager - INFO - 错误日志: E:\mirthflow\logs\error.log
+2025-12-07 22:12:48,487 - SystemManager - INFO - 启动舆情监测系统 - MirthFlow v1.0.0
+2025-12-07 22:12:48,487 - SystemManager - INFO - 配置: {
+  "system_name": "舆情监测系统 - MirthFlow",
+  "version": "1.0.0",
+  "debug_mode": false,
+  "run_interval": 60,
+  "hotspot_hunter_interval": 600,
+  "risk_analyzer_interval": 300,
+  "vcs_interval": 1200,
+  "max_concurrent_tasks": 3,
+  "output_dir": "E:\\mirthflow\\output",
+  "intelligence_file": "E:\\mirthflow\\DetectionSystem\\HotspotHunter\\resource\\intelligence_feed.json",
+  "alerts_file": "E:\\mirthflow\\DetectionSystem\\RiskAnalyzer\\resource\\system_alerts.json",
+  "system_log_file": "E:\\mirthflow\\logs\\system.log",
+  "log_level": "INFO",
+  "config_file": "E:\\mirthflow\\config.json"
+}
+2025-12-07 22:12:48,827 - RiskAnalyzer - INFO - RiskAnalyzer初始化完成
+2025-12-07 22:12:48,986 - SystemManager - INFO - 所有组件初始化完成
+2025-12-07 22:12:48,988 - SystemManager - INFO - HotspotHunter开始运行
+2025-12-07 22:12:48,988 - SystemManager - INFO - HotspotHunter线程启动成功
+2025-12-07 22:12:48,990 - SystemManager - INFO - HotspotHunter开始扫描...
+2025-12-07 22:12:48,992 - SystemManager - INFO - RiskAnalyzer开始运行
+2025-12-07 22:12:48,992 - HotspotHunter - INFO - 🚀 开始热点侦察，共扫描 4 个榜单
+2025-12-07 22:12:48,992 - SystemManager - INFO - RiskAnalyzer线程启动成功
+2025-12-07 22:12:48,994 - SystemManager - INFO - VideosCommentsSpotter组件初始化成功
+2025-12-07 22:12:48,994 - SystemManager - INFO - 系统启动成功！正在运行...
+2025-12-07 22:12:48,997 - SystemManager - INFO - [系统状态] 运行时长: 0秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:12:50,361 - SystemManager - INFO - [系统状态] 运行时长: 660秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:12:58,024 - SystemManager - INFO - [系统状态] 运行时长: 660秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:13:24,480 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 22:13:24,495 - HotspotHunter - INFO - 成功写入 5 条有效风险数据到情报站
+2025-12-07 22:13:45,451 - SystemManager - INFO - [系统状态] 运行时长: 720秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:13:48,999 - SystemManager - INFO - [系统状态] 运行时长: 60秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:13:50,362 - SystemManager - INFO - [系统状态] 运行时长: 720秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:13:58,024 - SystemManager - INFO - [系统状态] 运行时长: 720秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:14:36,011 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 22:14:36,018 - HotspotHunter - INFO - 成功写入 5 条有效风险数据到情报站
+2025-12-07 22:14:45,452 - SystemManager - INFO - [系统状态] 运行时长: 780秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:14:49,000 - SystemManager - INFO - [系统状态] 运行时长: 120秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:14:50,362 - SystemManager - INFO - [系统状态] 运行时长: 780秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:14:58,025 - SystemManager - INFO - [系统状态] 运行时长: 780秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:15:11,103 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 22:15:11,107 - HotspotHunter - INFO - 成功写入 5 条有效风险数据到情报站
+2025-12-07 22:15:44,927 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 22:15:44,937 - HotspotHunter - INFO - 成功写入 5 条有效风险数据到情报站
+2025-12-07 22:15:44,941 - SystemManager - INFO - HotspotHunter扫描完成
+2025-12-07 22:15:44,941 - SystemManager - INFO - 开始分析热点报告: HH-1765116768
+2025-12-07 22:15:44,941 - RiskAnalyzer - INFO - 开始完整分析流程
+2025-12-07 22:15:44,942 - RiskAnalyzer - INFO - 热点报告未包含任何话题，跳过风险分析
+2025-12-07 22:15:45,453 - SystemManager - INFO - [系统状态] 运行时长: 840秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:15:49,001 - SystemManager - INFO - [系统状态] 运行时长: 180秒 | 扫描: 1 | 分析: 0 | 预警: 0
+2025-12-07 22:15:50,363 - SystemManager - INFO - [系统状态] 运行时长: 840秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:15:58,026 - SystemManager - INFO - [系统状态] 运行时长: 840秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:16:45,454 - SystemManager - INFO - [系统状态] 运行时长: 900秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:16:49,004 - SystemManager - INFO - [系统状态] 运行时长: 240秒 | 扫描: 1 | 分析: 0 | 预警: 0
+2025-12-07 22:16:50,364 - SystemManager - INFO - [系统状态] 运行时长: 900秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:16:58,027 - SystemManager - INFO - [系统状态] 运行时长: 900秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:17:45,454 - SystemManager - INFO - [系统状态] 运行时长: 960秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:17:49,007 - SystemManager - INFO - [系统状态] 运行时长: 300秒 | 扫描: 1 | 分析: 0 | 预警: 0
+2025-12-07 22:17:50,365 - SystemManager - INFO - [系统状态] 运行时长: 960秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:17:58,028 - SystemManager - INFO - [系统状态] 运行时长: 960秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:18:45,455 - SystemManager - INFO - [系统状态] 运行时长: 1020秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:18:49,010 - SystemManager - INFO - [系统状态] 运行时长: 360秒 | 扫描: 1 | 分析: 0 | 预警: 0
+2025-12-07 22:18:50,365 - SystemManager - INFO - [系统状态] 运行时长: 1020秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:18:58,028 - SystemManager - INFO - [系统状态] 运行时长: 1020秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:19:45,456 - SystemManager - INFO - [系统状态] 运行时长: 1080秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:19:49,011 - SystemManager - INFO - [系统状态] 运行时长: 420秒 | 扫描: 1 | 分析: 0 | 预警: 0
+2025-12-07 22:19:50,366 - SystemManager - INFO - [系统状态] 运行时长: 1080秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:19:58,029 - SystemManager - INFO - [系统状态] 运行时长: 1080秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:20:45,457 - SystemManager - INFO - [系统状态] 运行时长: 1140秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:20:49,013 - SystemManager - INFO - [系统状态] 运行时长: 480秒 | 扫描: 1 | 分析: 0 | 预警: 0
+2025-12-07 22:20:50,368 - SystemManager - INFO - [系统状态] 运行时长: 1140秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:20:58,030 - SystemManager - INFO - [系统状态] 运行时长: 1140秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:21:45,458 - SystemManager - INFO - [系统状态] 运行时长: 1200秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:21:49,014 - SystemManager - INFO - [系统状态] 运行时长: 540秒 | 扫描: 1 | 分析: 0 | 预警: 0
+2025-12-07 22:21:50,368 - SystemManager - INFO - [系统状态] 运行时长: 1200秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:21:58,031 - SystemManager - INFO - [系统状态] 运行时长: 1200秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:22:45,459 - SystemManager - INFO - [系统状态] 运行时长: 1260秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:22:48,991 - SystemManager - INFO - HotspotHunter开始扫描...
+2025-12-07 22:22:48,992 - HotspotHunter - INFO - 🚀 开始热点侦察，共扫描 4 个榜单
+2025-12-07 22:22:49,017 - SystemManager - INFO - [系统状态] 运行时长: 600秒 | 扫描: 1 | 分析: 0 | 预警: 0
+2025-12-07 22:22:50,369 - SystemManager - INFO - [系统状态] 运行时长: 1260秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:22:58,032 - SystemManager - INFO - [系统状态] 运行时长: 1260秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:23:19,215 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 22:23:19,219 - HotspotHunter - INFO - 成功写入 5 条有效风险数据到情报站
+2025-12-07 22:23:45,459 - SystemManager - INFO - [系统状态] 运行时长: 1320秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:23:49,018 - SystemManager - INFO - [系统状态] 运行时长: 660秒 | 扫描: 1 | 分析: 0 | 预警: 0
+2025-12-07 22:23:50,370 - SystemManager - INFO - [系统状态] 运行时长: 1320秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:23:51,394 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 22:23:51,401 - HotspotHunter - INFO - 成功写入 5 条有效风险数据到情报站
+2025-12-07 22:23:58,032 - SystemManager - INFO - [系统状态] 运行时长: 1320秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:24:27,732 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 22:24:27,737 - HotspotHunter - INFO - 成功写入 5 条有效风险数据到情报站
+2025-12-07 22:24:45,460 - SystemManager - INFO - [系统状态] 运行时长: 1380秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:24:49,021 - SystemManager - INFO - [系统状态] 运行时长: 720秒 | 扫描: 1 | 分析: 0 | 预警: 0
+2025-12-07 22:24:50,371 - SystemManager - INFO - [系统状态] 运行时长: 1380秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:24:58,033 - SystemManager - INFO - [系统状态] 运行时长: 1380秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:25:45,461 - SystemManager - INFO - [系统状态] 运行时长: 1440秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:25:49,023 - SystemManager - INFO - [系统状态] 运行时长: 780秒 | 扫描: 1 | 分析: 0 | 预警: 0
+2025-12-07 22:25:50,372 - SystemManager - INFO - [系统状态] 运行时长: 1440秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:25:58,034 - SystemManager - INFO - [系统状态] 运行时长: 1440秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:25:58,424 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 22:25:58,430 - HotspotHunter - INFO - 成功写入 6 条有效风险数据到情报站
+2025-12-07 22:25:58,437 - SystemManager - INFO - HotspotHunter扫描完成
+2025-12-07 22:25:58,437 - SystemManager - INFO - 开始分析热点报告: HH-1765117368
+2025-12-07 22:25:58,437 - RiskAnalyzer - INFO - 开始完整分析流程
+2025-12-07 22:25:58,437 - RiskAnalyzer - INFO - 热点报告未包含任何话题，跳过风险分析
+2025-12-07 22:26:45,462 - SystemManager - INFO - [系统状态] 运行时长: 1500秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:26:49,025 - SystemManager - INFO - [系统状态] 运行时长: 840秒 | 扫描: 2 | 分析: 0 | 预警: 0
+2025-12-07 22:26:50,373 - SystemManager - INFO - [系统状态] 运行时长: 1500秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:26:58,035 - SystemManager - INFO - [系统状态] 运行时长: 1500秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:27:45,464 - SystemManager - INFO - [系统状态] 运行时长: 1560秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:27:49,028 - SystemManager - INFO - [系统状态] 运行时长: 900秒 | 扫描: 2 | 分析: 0 | 预警: 0
+2025-12-07 22:27:50,374 - SystemManager - INFO - [系统状态] 运行时长: 1560秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:27:58,036 - SystemManager - INFO - [系统状态] 运行时长: 1560秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:28:45,465 - SystemManager - INFO - [系统状态] 运行时长: 1620秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:28:49,029 - SystemManager - INFO - [系统状态] 运行时长: 960秒 | 扫描: 2 | 分析: 0 | 预警: 0
+2025-12-07 22:28:50,375 - SystemManager - INFO - [系统状态] 运行时长: 1620秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:28:58,036 - SystemManager - INFO - [系统状态] 运行时长: 1620秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:29:45,466 - SystemManager - INFO - [系统状态] 运行时长: 1680秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:29:49,031 - SystemManager - INFO - [系统状态] 运行时长: 1020秒 | 扫描: 2 | 分析: 0 | 预警: 0
+2025-12-07 22:29:50,376 - SystemManager - INFO - [系统状态] 运行时长: 1680秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:29:58,037 - SystemManager - INFO - [系统状态] 运行时长: 1680秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:30:02,239 - SystemManager - INFO - 接收到信号 2，正在优雅关闭系统...
+2025-12-07 22:30:02,240 - SystemManager - INFO - 正在停止系统...
+2025-12-07 22:30:12,243 - SystemManager - INFO - 系统已停止
+2025-12-07 22:30:12,243 - SystemManager - INFO - 正在停止系统...
+2025-12-07 22:30:22,245 - SystemManager - INFO - 系统已停止
+2025-12-07 22:30:45,466 - SystemManager - INFO - [系统状态] 运行时长: 1740秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:30:50,377 - SystemManager - INFO - [系统状态] 运行时长: 1740秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:30:58,038 - SystemManager - INFO - [系统状态] 运行时长: 1740秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:31:45,467 - SystemManager - INFO - [系统状态] 运行时长: 1800秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:31:50,378 - SystemManager - INFO - [系统状态] 运行时长: 1800秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:31:58,038 - SystemManager - INFO - [系统状态] 运行时长: 1800秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:32:12,914 - SystemManager - INFO - 日志系统已初始化
+2025-12-07 22:32:12,914 - SystemManager - INFO - 日志级别: INFO
+2025-12-07 22:32:12,914 - SystemManager - INFO - 系统日志: E:\mirthflow\logs\system.log
+2025-12-07 22:32:12,914 - SystemManager - INFO - 错误日志: E:\mirthflow\logs\error.log
+2025-12-07 22:32:12,914 - SystemManager - INFO - 启动舆情监测系统 - MirthFlow v1.0.0
+2025-12-07 22:32:12,914 - SystemManager - INFO - 配置: {
+  "system_name": "舆情监测系统 - MirthFlow",
+  "version": "1.0.0",
+  "debug_mode": false,
+  "run_interval": 60,
+  "hotspot_hunter_interval": 600,
+  "risk_analyzer_interval": 300,
+  "vcs_interval": 1200,
+  "max_concurrent_tasks": 3,
+  "output_dir": "E:\\mirthflow\\output",
+  "intelligence_file": "E:\\mirthflow\\DetectionSystem\\HotspotHunter\\resource\\intelligence_feed.json",
+  "alerts_file": "E:\\mirthflow\\DetectionSystem\\RiskAnalyzer\\resource\\system_alerts.json",
+  "system_log_file": "E:\\mirthflow\\logs\\system.log",
+  "log_level": "INFO",
+  "config_file": "E:\\mirthflow\\config.json"
+}
+2025-12-07 22:32:13,236 - RiskAnalyzer - INFO - RiskAnalyzer初始化完成
+2025-12-07 22:32:13,380 - SystemManager - INFO - 所有组件初始化完成
+2025-12-07 22:32:13,381 - SystemManager - INFO - HotspotHunter开始运行
+2025-12-07 22:32:13,381 - SystemManager - INFO - HotspotHunter线程启动成功
+2025-12-07 22:32:13,381 - SystemManager - INFO - HotspotHunter开始扫描...
+2025-12-07 22:32:13,381 - HotspotHunter - INFO - 开始热点侦察，共扫描 4 个榜单
+2025-12-07 22:32:13,381 - SystemManager - INFO - RiskAnalyzer开始运行
+2025-12-07 22:32:13,381 - SystemManager - INFO - RiskAnalyzer线程启动成功
+2025-12-07 22:32:13,381 - SystemManager - INFO - [系统状态] 运行时长: 0秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:32:16,298 - HotspotHunter - INFO - 爬取 https://tophub.today/n/K7GdaMgdQy 成功，提取 49 条数据
+2025-12-07 22:32:45,468 - SystemManager - INFO - [系统状态] 运行时长: 1860秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:32:50,379 - SystemManager - INFO - [系统状态] 运行时长: 1860秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:32:58,039 - SystemManager - INFO - [系统状态] 运行时长: 1860秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:33:13,382 - SystemManager - INFO - [系统状态] 运行时长: 60秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:33:33,264 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 22:33:33,276 - HotspotHunter - INFO - 成功写入 4 条有效风险数据到情报站
+2025-12-07 22:33:36,151 - HotspotHunter - INFO - 爬取 https://tophub.today/n/KqndgxeLl9 成功，提取 49 条数据
+2025-12-07 22:33:45,469 - SystemManager - INFO - [系统状态] 运行时长: 1920秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:33:50,380 - SystemManager - INFO - [系统状态] 运行时长: 1920秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:33:58,039 - SystemManager - INFO - [系统状态] 运行时长: 1920秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:34:07,049 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 22:34:07,051 - HotspotHunter - INFO - 成功写入 4 条有效风险数据到情报站
+2025-12-07 22:34:09,839 - HotspotHunter - INFO - 爬取 https://tophub.today/n/rx9oz6oXbq 成功，提取 11 条数据
+2025-12-07 22:34:13,383 - SystemManager - INFO - [系统状态] 运行时长: 120秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:34:45,470 - SystemManager - INFO - [系统状态] 运行时长: 1980秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:34:50,381 - SystemManager - INFO - [系统状态] 运行时长: 1980秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:34:58,040 - SystemManager - INFO - [系统状态] 运行时长: 1980秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:35:13,384 - SystemManager - INFO - [系统状态] 运行时长: 180秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:35:29,539 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 22:35:29,542 - HotspotHunter - INFO - 成功写入 5 条有效风险数据到情报站
+2025-12-07 22:35:32,328 - HotspotHunter - INFO - 爬取 https://tophub.today/n/x9ozB4KoXb 成功，提取 49 条数据
+2025-12-07 22:35:45,471 - SystemManager - INFO - [系统状态] 运行时长: 2040秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:35:50,382 - SystemManager - INFO - [系统状态] 运行时长: 2040秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:35:58,041 - SystemManager - INFO - [系统状态] 运行时长: 2040秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:36:07,210 - httpx - INFO - HTTP Request: POST https://api.siliconflow.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 22:36:07,214 - HotspotHunter - INFO - 成功写入 7 条有效风险数据到情报站
+2025-12-07 22:36:07,219 - SystemManager - INFO - HotspotHunter扫描完成
+2025-12-07 22:36:07,219 - SystemManager - INFO - 开始分析热点报告: HH-1765117933
+2025-12-07 22:36:07,219 - RiskAnalyzer - INFO - 开始完整分析流程
+2025-12-07 22:36:07,219 - RiskAnalyzer - INFO - 热点报告未包含任何话题，跳过风险分析
+2025-12-07 22:36:13,385 - SystemManager - INFO - [系统状态] 运行时长: 240秒 | 扫描: 1 | 分析: 0 | 预警: 0
+2025-12-07 22:36:45,472 - SystemManager - INFO - [系统状态] 运行时长: 2100秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:36:50,383 - SystemManager - INFO - [系统状态] 运行时长: 2100秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:36:58,041 - SystemManager - INFO - [系统状态] 运行时长: 2100秒 | 扫描: 0 | 分析: 0 | 预警: 0
+INFO - 日志系统已初始化
+INFO - 日志级别: INFO
+INFO - 系统日志: E:\mirthflow\logs\system.log
+INFO - 错误日志: E:\mirthflow\logs\error.log
+INFO - 启动舆情监测系统 - MirthFlow v1.0.0
+INFO - 配置: {
+  "system_name": "舆情监测系统 - MirthFlow",
+  "version": "1.0.0",
+  "debug_mode": false,
+  "run_interval": 60,
+  "hotspot_hunter_interval": 600,
+  "risk_analyzer_interval": 300,
+  "vcs_interval": 1200,
+  "max_concurrent_tasks": 3,
+  "output_dir": "E:\\mirthflow\\output",
+  "intelligence_file": "E:\\mirthflow\\DetectionSystem\\HotspotHunter\\resource\\intelligence_feed.json",
+  "alerts_file": "E:\\mirthflow\\DetectionSystem\\RiskAnalyzer\\resource\\system_alerts.json",
+  "system_log_file": "E:\\mirthflow\\logs\\system.log",
+  "log_level": "INFO",
+  "config_file": "E:\\mirthflow\\config.json"
+}
+INFO - RiskAnalyzer初始化完成
+INFO - 所有组件初始化完成
+INFO - HotspotHunter开始运行
+INFO - HotspotHunter开始扫描...
+INFO - 开始热点侦察，共扫描 4 个榜单
+INFO - HotspotHunter线程启动成功
+INFO - RiskAnalyzer开始运行
+INFO - RiskAnalyzer线程启动成功
+INFO - [系统状态] 运行时长: 0秒 | 扫描: 0 | 分析: 0 | 预警: 0
+INFO - 爬取 https://tophub.today/n/K7GdaMgdQy 成功，提取 49 条数据
+2025-12-07 22:37:13,385 - SystemManager - INFO - [系统状态] 运行时长: 300秒 | 扫描: 1 | 分析: 0 | 预警: 0
+2025-12-07 22:37:45,473 - SystemManager - INFO - [系统状态] 运行时长: 2160秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:37:50,384 - SystemManager - INFO - [系统状态] 运行时长: 2160秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:37:58,042 - SystemManager - INFO - [系统状态] 运行时长: 2160秒 | 扫描: 0 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 0秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:38:13,387 - SystemManager - INFO - [系统状态] 运行时长: 360秒 | 扫描: 1 | 分析: 0 | 预警: 0
+INFO - 成功写入 4 条有效风险数据到情报站
+INFO - 爬取 https://tophub.today/n/KqndgxeLl9 成功，提取 49 条数据
+2025-12-07 22:38:45,474 - SystemManager - INFO - [系统状态] 运行时长: 2220秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:38:50,385 - SystemManager - INFO - [系统状态] 运行时长: 2220秒 | 扫描: 0 | 分析: 0 | 预警: 0
+INFO - 成功写入 6 条有效风险数据到情报站
+INFO - 爬取 https://tophub.today/n/rx9oz6oXbq 成功，提取 11 条数据
+2025-12-07 22:38:58,043 - SystemManager - INFO - [系统状态] 运行时长: 2220秒 | 扫描: 0 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 120秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:39:13,388 - SystemManager - INFO - [系统状态] 运行时长: 420秒 | 扫描: 1 | 分析: 0 | 预警: 0
+INFO - 成功写入 6 条有效风险数据到情报站
+INFO - 爬取 https://tophub.today/n/x9ozB4KoXb 成功，提取 49 条数据
+2025-12-07 22:39:45,474 - SystemManager - INFO - [系统状态] 运行时长: 2280秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:39:50,386 - SystemManager - INFO - [系统状态] 运行时长: 2280秒 | 扫描: 0 | 分析: 0 | 预警: 0
+2025-12-07 22:39:58,043 - SystemManager - INFO - [系统状态] 运行时长: 2280秒 | 扫描: 0 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 180秒 | 扫描: 0 | 分析: 0 | 预警: 0
+INFO - 日志系统已初始化
+INFO - 日志级别: INFO
+INFO - 系统日志: E:\mirthflow\logs\system.log
+INFO - 错误日志: E:\mirthflow\logs\error.log
+INFO - 启动舆情监测系统 - MirthFlow v1.0.0
+INFO - 配置: {
+  "system_name": "舆情监测系统 - MirthFlow",
+  "version": "1.0.0",
+  "debug_mode": false,
+  "run_interval": 60,
+  "hotspot_hunter_interval": 600,
+  "risk_analyzer_interval": 300,
+  "vcs_interval": 1200,
+  "max_concurrent_tasks": 3,
+  "output_dir": "E:\\mirthflow\\output",
+  "intelligence_file": "E:\\mirthflow\\DetectionSystem\\HotspotHunter\\resource\\intelligence_feed.json",
+  "alerts_file": "E:\\mirthflow\\DetectionSystem\\RiskAnalyzer\\resource\\system_alerts.json",
+  "system_log_file": "E:\\mirthflow\\logs\\system.log",
+  "log_level": "INFO",
+  "config_file": "E:\\mirthflow\\config.json"
+}
+INFO - RiskAnalyzer初始化完成
+INFO - 所有组件初始化完成
+INFO - HotspotHunter开始运行
+INFO - HotspotHunter线程启动成功
+INFO - HotspotHunter开始扫描...
+INFO - 开始热点侦察，共扫描 4 个榜单
+INFO - RiskAnalyzer开始运行
+INFO - RiskAnalyzer线程启动成功
+INFO - [系统状态] 运行时长: 0秒 | 扫描: 0 | 分析: 0 | 预警: 0
+INFO - 爬取 https://tophub.today/n/K7GdaMgdQy 成功，提取 49 条数据
+INFO - [系统状态] 运行时长: 60秒 | 扫描: 0 | 分析: 0 | 预警: 0
+INFO - 成功写入 4 条有效风险数据到情报站
+INFO - 爬取 https://tophub.today/n/KqndgxeLl9 成功，提取 49 条数据
+INFO - [系统状态] 运行时长: 120秒 | 扫描: 0 | 分析: 0 | 预警: 0
+INFO - 成功写入 5 条有效风险数据到情报站
+INFO - 爬取 https://tophub.today/n/rx9oz6oXbq 成功，提取 11 条数据
+INFO - [系统状态] 运行时长: 180秒 | 扫描: 0 | 分析: 0 | 预警: 0
+INFO - 成功写入 5 条有效风险数据到情报站
+INFO - 爬取 https://tophub.today/n/x9ozB4KoXb 成功，提取 49 条数据
+INFO - 接收到信号 2，正在优雅关闭系统...
+INFO - 正在停止系统...
+INFO - RiskAnalyzer已停止
+INFO - 系统已停止
+INFO - 正在停止系统...
+INFO - 系统已停止
+INFO - 日志系统已初始化
+INFO - 日志级别: INFO
+INFO - 系统日志: E:\mirthflow\logs\system.log
+INFO - 错误日志: E:\mirthflow\logs\error.log
+INFO - 启动舆情监测系统 - MirthFlow v1.0.0
+INFO - 配置: {
+  "system_name": "舆情监测系统 - MirthFlow",
+  "version": "1.0.0",
+  "debug_mode": false,
+  "run_interval": 60,
+  "hotspot_hunter_interval": 600,
+  "risk_analyzer_interval": 300,
+  "vcs_interval": 1200,
+  "max_concurrent_tasks": 3,
+  "output_dir": "E:\\mirthflow\\output",
+  "intelligence_file": "E:\\mirthflow\\DetectionSystem\\HotspotHunter\\resource\\intelligence_feed.json",
+  "alerts_file": "E:\\mirthflow\\DetectionSystem\\RiskAnalyzer\\resource\\system_alerts.json",
+  "system_log_file": "E:\\mirthflow\\logs\\system.log",
+  "log_level": "INFO",
+  "config_file": "E:\\mirthflow\\config.json"
+}
+INFO - RiskAnalyzer初始化完成
+INFO - 所有组件初始化完成
+INFO - HotspotHunter开始运行
+INFO - HotspotHunter开始扫描...
+INFO - 开始热点侦察，共扫描 4 个榜单
+INFO - HotspotHunter线程启动成功
+INFO - RiskAnalyzer开始运行
+INFO - RiskAnalyzer线程启动成功
+INFO - [系统状态] 运行时长: 0秒 | 扫描: 0 | 分析: 0 | 预警: 0
+INFO - 爬取 https://tophub.today/n/K7GdaMgdQy 成功，提取 49 条数据
+INFO - 成功写入 4 条有效风险数据到情报站
+INFO - 爬取 https://tophub.today/n/KqndgxeLl9 成功，提取 49 条数据
+INFO - [系统状态] 运行时长: 60秒 | 扫描: 0 | 分析: 0 | 预警: 0
+INFO - 成功写入 4 条有效风险数据到情报站
+INFO - 爬取 https://tophub.today/n/rx9oz6oXbq 成功，提取 11 条数据
+INFO - [系统状态] 运行时长: 120秒 | 扫描: 0 | 分析: 0 | 预警: 0
+INFO - 成功写入 5 条有效风险数据到情报站
+INFO - 爬取 https://tophub.today/n/x9ozB4KoXb 成功，提取 49 条数据
+INFO - 成功写入 5 条有效风险数据到情报站
+INFO - HotspotHunter扫描完成
+INFO - 开始分析热点报告: HH-1765118764
+INFO - 开始完整分析流程
+INFO - 热点报告未包含任何话题，跳过风险分析
+INFO - [系统状态] 运行时长: 180秒 | 扫描: 1 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 240秒 | 扫描: 1 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 300秒 | 扫描: 1 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 360秒 | 扫描: 1 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 420秒 | 扫描: 1 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 480秒 | 扫描: 1 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 540秒 | 扫描: 1 | 分析: 0 | 预警: 0
+INFO - HotspotHunter开始扫描...
+INFO - 开始热点侦察，共扫描 4 个榜单
+INFO - [系统状态] 运行时长: 600秒 | 扫描: 1 | 分析: 0 | 预警: 0
+INFO - 爬取 https://tophub.today/n/K7GdaMgdQy 成功，提取 49 条数据
+INFO - 成功写入 4 条有效风险数据到情报站
+INFO - 爬取 https://tophub.today/n/KqndgxeLl9 成功，提取 49 条数据
+INFO - [系统状态] 运行时长: 660秒 | 扫描: 1 | 分析: 0 | 预警: 0
+INFO - 成功写入 5 条有效风险数据到情报站
+INFO - 爬取 https://tophub.today/n/rx9oz6oXbq 成功，提取 11 条数据
+INFO - 成功写入 5 条有效风险数据到情报站
+INFO - 爬取 https://tophub.today/n/x9ozB4KoXb 成功，提取 49 条数据
+INFO - [系统状态] 运行时长: 720秒 | 扫描: 1 | 分析: 0 | 预警: 0
+INFO - 成功写入 5 条有效风险数据到情报站
+INFO - HotspotHunter扫描完成
+INFO - 开始分析热点报告: HH-1765119364
+INFO - 开始完整分析流程
+INFO - 热点报告未包含任何话题，跳过风险分析
+INFO - [系统状态] 运行时长: 780秒 | 扫描: 2 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 840秒 | 扫描: 2 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 900秒 | 扫描: 2 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 960秒 | 扫描: 2 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 1020秒 | 扫描: 2 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 1080秒 | 扫描: 2 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 1140秒 | 扫描: 2 | 分析: 0 | 预警: 0
+INFO - HotspotHunter开始扫描...
+INFO - 开始热点侦察，共扫描 4 个榜单
+INFO - [系统状态] 运行时长: 1200秒 | 扫描: 2 | 分析: 0 | 预警: 0
+INFO - 爬取 https://tophub.today/n/K7GdaMgdQy 成功，提取 49 条数据
+INFO - [系统状态] 运行时长: 1260秒 | 扫描: 2 | 分析: 0 | 预警: 0
+INFO - 成功写入 4 条有效风险数据到情报站
+INFO - 爬取 https://tophub.today/n/KqndgxeLl9 成功，提取 49 条数据
+INFO - [系统状态] 运行时长: 1320秒 | 扫描: 2 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 1380秒 | 扫描: 2 | 分析: 0 | 预警: 0
+INFO - 成功写入 5 条有效风险数据到情报站
+INFO - 爬取 https://tophub.today/n/rx9oz6oXbq 成功，提取 11 条数据
+INFO - [系统状态] 运行时长: 1440秒 | 扫描: 2 | 分析: 0 | 预警: 0
+INFO - 成功写入 6 条有效风险数据到情报站
+INFO - 爬取 https://tophub.today/n/x9ozB4KoXb 成功，提取 49 条数据
+INFO - [系统状态] 运行时长: 1500秒 | 扫描: 2 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 1560秒 | 扫描: 2 | 分析: 0 | 预警: 0
+INFO - 成功写入 10 条有效风险数据到情报站
+INFO - HotspotHunter扫描完成
+INFO - 开始分析热点报告: HH-1765119964
+INFO - 开始完整分析流程
+INFO - 热点报告未包含任何话题，跳过风险分析
+INFO - [系统状态] 运行时长: 1620秒 | 扫描: 3 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 1680秒 | 扫描: 3 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 1740秒 | 扫描: 3 | 分析: 0 | 预警: 0
+INFO - HotspotHunter开始扫描...
+INFO - 开始热点侦察，共扫描 4 个榜单
+INFO - [系统状态] 运行时长: 1800秒 | 扫描: 3 | 分析: 0 | 预警: 0
+INFO - 爬取 https://tophub.today/n/K7GdaMgdQy 成功，提取 49 条数据
+INFO - [系统状态] 运行时长: 1860秒 | 扫描: 3 | 分析: 0 | 预警: 0
+INFO - [系统状态] 运行时长: 1920秒 | 扫描: 3 | 分析: 0 | 预警: 0
+INFO - 成功写入 5 条有效风险数据到情报站
+INFO - 爬取 https://tophub.today/n/KqndgxeLl9 成功，提取 50 条数据

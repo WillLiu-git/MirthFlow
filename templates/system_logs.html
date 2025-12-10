@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>系统日志 - Mirthflow</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        /* 导航栏样式 */
+        .nav-bar {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .nav-bar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .nav-bar a:hover {
+            background-color: #34495e;
+        }
+        .card {
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .logs-container {
+            background-color: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 5px;
+            max-height: 800px;
+            overflow-y: auto;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 14px;
+        }
+        .log-line {
+            margin-bottom: 5px;
+            white-space: pre-wrap;
+        }
+        .nav-link {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div class="nav-bar">
+        <a href="/">返回首页</a>
+        <a href="/alerts">查看预警</a>
+        <a href="/system_logs">系统日志</a>
+    </div>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-5">舆情监测系统 - 系统日志</h1>
+        
+        <div class="row">
+            <!-- 左侧导航 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5>系统导航</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a href="/" class="nav-link text-dark">系统状态</a>
+                        </li>
+                        {% for agent in ['HotspotHunter', 'RiskAnalyzer', 'VideosCommentsSpotter'] %}
+                        <li class="list-group-item">
+                            <a href="/logs/{{ agent }}" class="nav-link text-dark">{{ agent }} 日志</a>
+                        </li>
+                        {% endfor %}
+                        <li class="list-group-item active">
+                            <a href="/system_logs" class="nav-link text-dark">系统日志</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="/alerts" class="nav-link text-dark">最终预警报告</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- 右侧内容 -->
+            <div class="col-md-9">
+                <div class="row">
+                    <!-- 左侧LLM报告 -->
+                    <div class="col-md-6">
+                        <div class="card mb-3">
+                            <div class="card-header bg-primary text-white">
+                                <h5>系统报告</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <button id="refresh-report-btn" class="btn btn-primary">刷新报告</button>
+                                </div>
+                                <div id="report-container" style="max-height: 800px; overflow-y: auto;">
+                                    <div class="report-content" id="report-content">
+                                        <!-- 系统报告内容将通过JavaScript动态加载 -->
+                                        <h6>报告基本信息</h6>
+                                        <div class="table-responsive">
+                                            <table class="table table-sm table-bordered">
+                                                <tbody>
+                                                    <tr>
+                                                        <th>报告源</th>
+                                                        <td>System</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>系统时间</th>
+                                                        <td>{{ datetime.now().strftime('%Y-%m-%d %H:%M:%S') }}</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <h6>系统概述</h6>
+                                        <p>舆情监测系统运行状态概览，包括组件运行情况、风险统计等。</p>
+                                        <h6>组件状态</h6>
+                                        <div class="table-responsive">
+                                            <table class="table table-sm table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>组件名称</th>
+                                                        <th>状态</th>
+                                                        <th>日志大小</th>
+                                                        <th>最后更新</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>HotspotHunter</td>
+                                                        <td><span class="badge bg-warning">未知</span></td>
+                                                        <td>N/A</td>
+                                                        <td>N/A</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>RiskAnalyzer</td>
+                                                        <td><span class="badge bg-warning">未知</span></td>
+                                                        <td>N/A</td>
+                                                        <td>N/A</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>VideosCommentsSpotter</td>
+                                                        <td><span class="badge bg-warning">未知</span></td>
+                                                        <td>N/A</td>
+                                                        <td>N/A</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <h6>风险统计</h6>
+                                        <div class="table-responsive">
+                                            <table class="table table-sm table-bordered">
+                                                <tbody>
+                                                    <tr>
+                                                        <th>总预警数</th>
+                                                        <td>0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>紧急预警</th>
+                                                        <td>0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>重要预警</th>
+                                                        <td>0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>信息预警</th>
+                                                        <td>0</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 右侧系统日志 -->
+                    <div class="col-md-6">
+                        <div class="card mb-3">
+                            <div class="card-header bg-secondary text-white">
+                                <h5>系统日志</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <button id="refresh-logs-btn" class="btn btn-primary">刷新日志</button>
+                                    <span id="last-updated" class="ms-3">最后更新: {{ datetime.now().strftime('%Y-%m-%d %H:%M:%S') }}</span>
+                                </div>
+                                <div class="logs-container" id="logs-container">
+                                    {% for log in logs %}
+                                    <div class="log-line">{{ log.strip() }}</div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // 自动刷新日志
+        function refreshLogs() {
+            // 显示加载状态
+            const lastUpdated = document.getElementById('last-updated');
+            const originalText = lastUpdated.textContent;
+            lastUpdated.textContent = `最后更新: ${new Date().toLocaleString()} (正在刷新...)`;
+            
+            fetch('/api/logs/System')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('网络响应失败');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const logsContainer = document.getElementById('logs-container');
+                    
+                    // 检查数据格式是否正确
+                    if (data && Array.isArray(data.logs)) {
+                        // 确保我们只在获取到有效日志数据时才更新容器
+                        // 即使日志数组为空，也要保留原有日志，避免清空
+                        if (data.logs.length > 0) {
+                            // 只在有新日志数据时才更新
+                            let hasValidLogs = false;
+                            let logHtml = '';
+                            
+                            data.logs.forEach(log => {
+                                if (log && typeof log === 'string' && log.trim()) {
+                                    hasValidLogs = true;
+                                    logHtml += `<div class="log-line">${log.trim()}</div>`;
+                                }
+                            });
+                            
+                            if (hasValidLogs) {
+                                logsContainer.innerHTML = logHtml;
+                                // 滚动到底部
+                                logsContainer.scrollTop = logsContainer.scrollHeight;
+                            }
+                        }
+                        
+                        // 更新最后更新时间
+                        lastUpdated.textContent = `最后更新: ${new Date().toLocaleString()}`;
+                    } else {
+                        throw new Error('无效的日志数据格式');
+                    }
+                })
+                .catch(error => {
+                    console.error('刷新日志失败:', error);
+                    // 刷新失败时，恢复原有更新时间，保留原有日志
+                    lastUpdated.textContent = originalText;
+                });
+        }
+        
+        // 刷新系统报告
+        function refreshReport() {
+            const refreshBtn = document.getElementById('refresh-report-btn');
+            const originalText = refreshBtn.textContent;
+            refreshBtn.textContent = '正在刷新...';
+            refreshBtn.disabled = true;
+            
+            fetch('/api/report/System')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('网络响应失败');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const reportContent = document.getElementById('report-content');
+                    
+                    if (data.report) {
+                        const report = data.report;
+                        let html = '';
+                        
+                        // 报告基本信息
+                        html += '<h6>报告基本信息</h6>';
+                        html += '<div class="table-responsive">';
+                        html += '<table class="table table-sm table-bordered">';
+                        html += '<tbody>';
+                        html += `<tr><th>报告源</th><td>${report.report_source || '未知'}</td></tr>`;
+                        html += `<tr><th>生成时间</th><td>${report.system_time || '未知'}</td></tr>`;
+                        html += '</tbody></table></div>';
+                        
+                        // 系统概述
+                        html += '<h6>系统概述</h6>';
+                        html += `<p>${report.summary || '舆情监测系统运行状态概览，包括组件运行情况、风险统计等。'}</p>`;
+                        
+                        // 组件状态
+                        html += '<h6>组件状态</h6>';
+                        html += '<div class="table-responsive">';
+                        html += '<table class="table table-sm table-bordered">';
+                        html += '<thead><tr><th>组件名称</th><th>状态</th><th>日志大小</th><th>最后更新</th></tr></thead>';
+                        html += '<tbody>';
+                        
+                        if (report.components) {
+                            report.components.forEach(component => {
+                                const statusBadge = component.status === '运行中' 
+                                    ? `<span class="badge bg-success">运行中</span>` 
+                                    : `<span class="badge bg-danger">${component.status}</span>`;
+                                html += `<tr>`;
+                                html += `<td>${component.name}</td>`;
+                                html += `<td>${statusBadge}</td>`;
+                                html += `<td>${component.log_size}</td>`;
+                                html += `<td>${component.last_log_update}</td>`;
+                                html += `</tr>`;
+                            });
+                        } else {
+                            // 默认组件状态
+                            const components = ['HotspotHunter', 'RiskAnalyzer', 'VideosCommentsSpotter', 'System'];
+                            components.forEach(comp => {
+                                html += `<tr>`;
+                                html += `<td>${comp}</td>`;
+                                html += `<td><span class="badge bg-warning">未知</span></td>`;
+                                html += `<td>N/A</td>`;
+                                html += `<td>N/A</td>`;
+                                html += `</tr>`;
+                            });
+                        }
+                        
+                        html += '</tbody></table></div>';
+                        
+                        // 风险统计
+                        html += '<h6>风险统计</h6>';
+                        html += '<div class="table-responsive">';
+                        html += '<table class="table table-sm table-bordered">';
+                        html += '<tbody>';
+                        
+                        if (report.alert_statistics) {
+                            html += `<tr><th>总预警数</th><td>${report.alert_statistics.total_alerts || 0}</td></tr>`;
+                            html += `<tr><th>紧急预警</th><td>${report.alert_statistics.critical || 0}</td></tr>`;
+                            html += `<tr><th>重要预警</th><td>${report.alert_statistics.important || 0}</td></tr>`;
+                            html += `<tr><th>信息预警</th><td>${report.alert_statistics.info || 0}</td></tr>`;
+                        } else {
+                            html += `<tr><th>总预警数</th><td>0</td></tr>`;
+                            html += `<tr><th>紧急预警</th><td>0</td></tr>`;
+                            html += `<tr><th>重要预警</th><td>0</td></tr>`;
+                            html += `<tr><th>信息预警</th><td>0</td></tr>`;
+                        }
+                        
+                        html += '</tbody></table></div>';
+                        
+                        // 预警和风险等级
+                        html += '<h6>预警等级</h6>';
+                        html += `<p><span class="badge bg-danger">${report.alert_level || '正常'}</span></p>`;
+                        
+                        html += '<h6>风险等级</h6>';
+                        html += `<p><span class="badge bg-warning">${report.risk_level || '低'}</span></p>`;
+                        
+                        // 风险因素
+                        if (report.risk_factors && report.risk_factors.length > 0) {
+                            html += '<h6>风险因素</h6>';
+                            html += '<ul>';
+                            report.risk_factors.forEach(factor => {
+                                html += `<li>${factor}</li>`;
+                            });
+                            html += '</ul>';
+                        }
+                        
+                        // 建议措施
+                        if (report.recommendations && report.recommendations.length > 0) {
+                            html += '<h6>建议措施</h6>';
+                            html += '<ul>';
+                            report.recommendations.forEach(recommendation => {
+                                html += `<li>${recommendation}</li>`;
+                            });
+                            html += '</ul>';
+                        }
+                        
+                        reportContent.innerHTML = html;
+                    }
+                })
+                .catch(error => {
+                    console.error('刷新报告失败:', error);
+                })
+                .finally(() => {
+                    refreshBtn.textContent = originalText;
+                    refreshBtn.disabled = false;
+                });
+        }
+        
+        // 点击刷新按钮
+        document.getElementById('refresh-logs-btn').addEventListener('click', refreshLogs);
+        document.getElementById('refresh-report-btn').addEventListener('click', refreshReport);
+        
+        // 自动刷新（每5秒刷新日志，每10秒刷新报告）
+        setInterval(refreshLogs, 5000);
+        setInterval(refreshReport, 10000);
+        
+        // 初始加载时滚动到底部
+        window.addEventListener('load', () => {
+            const logsContainer = document.getElementById('logs-container');
+            logsContainer.scrollTop = logsContainer.scrollHeight;
+            // 初始加载时刷新报告
+            refreshReport();
+        });
+    </script>
+</body>
+</html>
